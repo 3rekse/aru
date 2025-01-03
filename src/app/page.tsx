@@ -77,7 +77,7 @@ export default function Home() {
     doc.text(`Date: ${dateString} Time: ${timeString} TEST:`, 10, 35);
     doc.setFontSize(8);
     prove.forEach((item, index) => {
-      doc.text(`${index + 1}. \t#1:.${item.num1}.\t#2:.${item.num2}.\t+:.${item.sum}.\t-:.${item.dif}.\t*:.${item.prod}.\t÷:.${item.quot} \tR:.${item.ratio}`,  10, 45 + index * 5);
+      doc.text(`${index + 1}. \t#1:.${item.num1}.\t#2:.${item.num2}.\t+:.${item.sum}.\t-:.${item.dif}.\t*:.${item.prod}.\t÷:.${item.quot} r.${item.ratio}`,  10, 45 + index * 5);
     });
     doc.save(`certificate_${name}_${last}.pdf`);
 
