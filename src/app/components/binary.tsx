@@ -100,7 +100,8 @@ const BinaryArithmetic: React.FC<BinaryProps> = ({onSet, num1, num2, bit, prova}
                     onChange={(e) => {
                         const value = e.target.value;
                         if (/^[01]*$/.test(value)) {
-                            setAdd1(value);
+                            setAdd1(isNaN(parseInt(value, 2))? "":
+                            parseInt(value, 2).toString(2));
                         }
                     }} 
                     placeholder="Enter first binary term "
@@ -116,7 +117,8 @@ const BinaryArithmetic: React.FC<BinaryProps> = ({onSet, num1, num2, bit, prova}
                     onChange={(e) => {
                         const value = e.target.value;
                         if (/^[01]*$/.test(value)) {
-                            setAdd2(value);
+                            setAdd2(isNaN(parseInt(value, 2))? "":
+                            parseInt(value, 2).toString(2));
                         }
                     }} 
                     placeholder="Enter second binary term" 
@@ -130,7 +132,8 @@ const BinaryArithmetic: React.FC<BinaryProps> = ({onSet, num1, num2, bit, prova}
                     onChange={(e) => {
                         const value = e.target.value;
                         if (/^[01]*$/.test(value)) {
-                            setSum(value);
+                            setSum(isNaN(parseInt(value, 2))? "":
+                                parseInt(value, 2).toString(2));
                         }
                     }} 
                     placeholder="Enter binary sum" 
@@ -140,14 +143,15 @@ const BinaryArithmetic: React.FC<BinaryProps> = ({onSet, num1, num2, bit, prova}
             </div>
             <div>
 
-            <p>Enter your binary numbers and <b>subtract</b> them : 
+            <p>Enter your binary numbers and <b>subtract</b> (larger one first) : 
                 <input 
                     type="text" 
                     value={min} 
                     onChange={(e) => {
                         const value = e.target.value;
                         if (/^[01]*$/.test(value)) {
-                            setMin(value);
+                            setMin(isNaN(parseInt(value, 2))? "":
+                            parseInt(value, 2).toString(2));
                         }
                     }} 
                     placeholder="Enter minuend term "  
@@ -163,7 +167,8 @@ const BinaryArithmetic: React.FC<BinaryProps> = ({onSet, num1, num2, bit, prova}
                     onChange={(e) => {
                         const value = e.target.value;
                         if (/^[01]*$/.test(value)) {
-                            setSub(value);
+                            setSub(isNaN(parseInt(value, 2))? "":
+                            parseInt(value, 2).toString(2));
                         }
                     }}
                     placeholder="Enter subtrahend term"
@@ -177,7 +182,8 @@ const BinaryArithmetic: React.FC<BinaryProps> = ({onSet, num1, num2, bit, prova}
                     onChange={(e) => {
                         const value = e.target.value;
                         if (/^[01]*$/.test(value)) {
-                            setDif(value);
+                            setDif(isNaN(parseInt(value, 2))? "":
+                            parseInt(value, 2).toString(2));
                         }
                     }} 
                     placeholder="Enter binary difference"
@@ -193,7 +199,8 @@ const BinaryArithmetic: React.FC<BinaryProps> = ({onSet, num1, num2, bit, prova}
                         onChange={(e) => {
                             const value = e.target.value;
                             if (/^[01]*$/.test(value)) {
-                                setMul1(value);
+                                setMul1(isNaN(parseInt(value, 2))? "":
+                                parseInt(value, 2).toString(2));
                             }
                         }} 
                         placeholder="Enter binary multilier term "
@@ -209,7 +216,8 @@ const BinaryArithmetic: React.FC<BinaryProps> = ({onSet, num1, num2, bit, prova}
                         onChange={(e) => {
                             const value = e.target.value;
                             if (/^[01]*$/.test(value)) {
-                                setMul2(value);
+                                setMul2(isNaN(parseInt(value, 2))? "":
+                                parseInt(value, 2).toString(2));
                             }
                         }} 
                         placeholder="Enter binary multiplicand term"
@@ -223,7 +231,8 @@ const BinaryArithmetic: React.FC<BinaryProps> = ({onSet, num1, num2, bit, prova}
                         onChange={(e) => {
                             const value = e.target.value;
                             if (/^[01]*$/.test(value)) {
-                                setProd(value);
+                                setProd(isNaN(parseInt(value, 2))? "":
+                                parseInt(value, 2).toString(2));
                             }
                         }} 
                         placeholder="Enter binary product"
@@ -232,14 +241,15 @@ const BinaryArithmetic: React.FC<BinaryProps> = ({onSet, num1, num2, bit, prova}
                     /> {resultp} </p>
             </div>
             <div>    
-            <p>Enter your two binary numbers and <b>divide</b> them :
+            <p>Enter your two binary numbers and <b>divide</b> (larger one first) :<br/>
                 <input 
                     type="text" 
                     value={div1} 
                     onChange={(e) => {
                         const value = e.target.value;
                         if (/^[01]*$/.test(value)) {
-                            setDiv1(value);
+                            setDiv1(isNaN(parseInt(value, 2))? "":
+                            parseInt(value, 2).toString(2));
                         }
                     }} 
                     placeholder="Enter binary dividend term "
@@ -255,7 +265,8 @@ const BinaryArithmetic: React.FC<BinaryProps> = ({onSet, num1, num2, bit, prova}
                     onChange={(e) => {
                         const value = e.target.value;
                         if (/^[01]*$/.test(value)) {
-                            setDiv2(value);
+                            setDiv2(isNaN(parseInt(value, 2))? "":
+                            parseInt(value, 2).toString(2));
                         }
                     }} 
                     placeholder="Enter binary divisor term"
@@ -269,7 +280,8 @@ const BinaryArithmetic: React.FC<BinaryProps> = ({onSet, num1, num2, bit, prova}
                     onChange={(e) => {
                         const value = e.target.value;
                         if (/^[01]*$/.test(value)) {
-                            setQuot(value);
+                            setQuot(isNaN(parseInt(value, 2))? "":
+                            parseInt(value, 2).toString(2));
                         }
                     }} 
                     placeholder="Enter binary quotient"
@@ -282,7 +294,8 @@ const BinaryArithmetic: React.FC<BinaryProps> = ({onSet, num1, num2, bit, prova}
                     onChange={(e) => {
                         const value = e.target.value;
                         if (/^[01]*$/.test(value)) {
-                            setRatio(value);
+                            setRatio(isNaN(parseInt(value, 2))? "":
+                            parseInt(value, 2).toString(2));
                         }
                     }} 
                     placeholder="Enter binary ratio"
