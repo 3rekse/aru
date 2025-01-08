@@ -5,6 +5,7 @@ import styles from "./page.module.css";
 import Binary from "./components/binary";
 import { Bitter, Lexend_Zetta } from 'next/font/google';
 import jsPDF from 'jspdf';
+import { svg2pdf } from 'svg2pdf.js';
 
 const prove: any[] = [];
 
@@ -21,7 +22,7 @@ export default function Home() {
   const [last, setLast] = useState('');
   const [classe, setClasse] = useState('');
   const [inputsDisabled, setInputsDisabled] = useState(false);
-
+  const [inputsExtra, setInputsExtra] = useState(false);
   const handleBinarySet = () => {
     setIsBinarySet(true);
     setNum1(randomBinary(bit + 1));
@@ -74,13 +75,19 @@ export default function Home() {
     const currentDate = new Date();
     const dateString = currentDate.toLocaleDateString();
     const timeString = currentDate.toLocaleTimeString();
-    doc.text(`Date: ${dateString} Time: ${timeString} TEST:`, 10, 35);
+    doc.text(`Date: ${dateString} Time: ${timeString} TEST  :`, 10, 35);
+    if (inputsExtra) {
+      doc.text('Extra Time: Granted',180, 35);
+    }
     doc.setFontSize(8);
     prove.forEach((item, index) => {
       doc.text(`${index + 1}. \t#1:.${item.num1}.\t#2:.${item.num2}.\t+:.${item.sum}.\t-:.${item.dif}.\t*:.${item.prod}.\t÷:.${item.quot} r.${item.ratio}`,  10, 45 + index * 5);
     });
-    doc.save(`certificate_${name}_${last}.pdf`);
+         // Carica l'immagine SVG
+  
+    doc.save(`BinaryArithmeticCertificate_${name}_${last}_${classe}.pdf`);
 
+    
   };
 
   const next = () => {
@@ -142,7 +149,15 @@ export default function Home() {
                     placeholder="Enter your class" 
                     disabled={inputsDisabled}
                 />
+                
 <button onClick={handleAccept} disabled={inputsDisabled}>Accept Mission</button>
+              <br/> <input 
+                  type="checkbox" 
+                  checked={inputsExtra} 
+                  onChange={(e) => setInputsExtra(e.target.checked)} 
+                  disabled={inputsDisabled}
+                />
+                <label>Extra Time</label>
               </div>
               {inputsDisabled ?(           
 <Binary onSet={handleBinarySet} num1={num1} num2={num2} bit={bit} prova={prove} />
