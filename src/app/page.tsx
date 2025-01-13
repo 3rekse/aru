@@ -159,7 +159,7 @@ export default function Home() {
                 />
                 <label>Extra Time</label>
               </div>
-              {inputsDisabled ?(           
+              {inputsDisabled ?(          
 <Binary onSet={handleBinarySet} num1={num1} num2={num2} bit={bit} prova={prove} />
 ) :( <div>Insert your identity to start the test</div>)}
 {isBinarySet && 
