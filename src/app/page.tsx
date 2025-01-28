@@ -1,25 +1,22 @@
 'use client'; 
 import Aru from './Aru'
-
+import React, { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 
-export default function HomePage() {
+function CallAru() {
   const searchParams = useSearchParams();
+  // ... codice che utilizza searchParams...
   const mission = searchParams.get('mission') || 'ARU'; // Accesso sicuro
   const page = searchParams.get('page')  || 'PG';
-  
-    return (
-      <div>
 
-        {/*mission  ? (
-          <>
-            <h1>Current mission: {mission}</h1>
-            <Quiz />
-          </>
-        ) : (<Aru />)}
-        {page  && (<h1>Page: {page}</h1>)}
-     {/* Client Component can be nested */}
-      <Aru mission={mission} page={page}/>
-    </div>
+  return <div> 
+          <Aru mission={mission} page={page}/>
+        </div>;
+}
+export default function HomePage() {
+     return (
+         <Suspense fallback={<div>Loading...</div>}>
+            <CallAru />
+        </Suspense>
   )
 }
