@@ -30,9 +30,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="it">
+       
       <head>
-        <link rel="icon" href="/ccla.svg" type="image/svg+xml" />
+        <link rel="icon" href="/ccla.svg" type="image/svg+xml"/>
       </head>
+      
       <body className={`${doto.variable} ${geistMono.variable}`}>
         {children}
       </body>

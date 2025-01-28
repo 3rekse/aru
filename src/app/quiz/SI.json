@@ -1,0 +1,244 @@
+{
+    "quiz": [
+      {
+        "id": 41,
+        "domanda": "Cosa fa la crittografia?",
+        "risposte": [
+          "Protegge i dati rendendoli leggibili solo con una chiave specifica.",
+          "Blocca traffico di rete non autorizzato.",
+          "Cattura informazioni personali tramite siti falsi.",
+          "Cripta dati per richiedere un riscatto."
+        ],
+        "risposta_corretta": "Protegge i dati rendendoli leggibili solo con una chiave specifica.",
+        "svg": ""
+      },
+      {
+        "id": 42,
+        "domanda": "Qual è la funzione di un firewall?",
+        "risposte": [
+          "Blocca traffico di rete non autorizzato e protegge da accessi indesiderati.",
+          "Rileva e rimuove minacce dal computer.",
+          "Aggiunge un livello extra di sicurezza agli account.",
+          "Protegge la comunicazione tra browser e siti web."
+        ],
+        "risposta_corretta": "Blocca traffico di rete non autorizzato e protegge da accessi indesiderati.",
+        "svg": ""
+       },
+      {
+        "id": 43,
+        "domanda": "Cos'è il phishing?",
+        "risposte": [
+          "Un attacco che mira a rubare informazioni personali tramite e-mail o siti falsi.",
+          "Un software dannoso progettato per danneggiare un sistema.",
+          "Un attacco che cripta i dati di un sistema.",
+          "Una tecnica per proteggere i dati con una chiave specifica."
+        ],
+        "risposta_corretta": "Un attacco che mira a rubare informazioni personali tramite e-mail o siti falsi.",
+        "svg": ""
+      },
+      {
+        "id": 44,
+        "domanda": "Cos'è un malware?",
+        "risposte": [
+          "Un software dannoso progettato per danneggiare o accedere non autorizzato a un sistema.",
+          "Un sistema trappola per attirare e studiare gli attaccanti.",
+          "Un attacco informatico che sovraccarica i server con traffico.",
+          "Una tecnica per manipolare le persone e ottenere informazioni sensibili."
+        ],
+        "risposta_corretta": "Un software dannoso progettato per danneggiare o accedere non autorizzato a un sistema.",
+        "svg": ""
+      },
+      {
+        "id": 45,
+        "domanda": "Perché sono importanti gli aggiornamenti software regolari?",
+        "risposte": [
+          "Per correggere vulnerabilità di sicurezza.",
+          "Per aggiungere un livello extra di sicurezza agli account.",
+          "Per proteggere la comunicazione tra browser e siti web.",
+          "Per memorizzare dati sensibili in modo sicuro."
+        ],
+        "risposta_corretta": "Per correggere vulnerabilità di sicurezza.",
+        "svg": ""
+      },
+      {
+        "id": 46,
+        "domanda": "Cosa fa un attacco ransomware?",
+        "risposte": [
+          "Cripta i dati di un sistema, richiedendo un riscatto per sbloccarli.",
+          "Blocca traffico di rete non autorizzato.",
+          "Manipola le persone per ottenere informazioni sensibili.",
+          "Rileva e rimuove minacce dal computer."
+        ],
+        "risposta_corretta": "Cripta i dati di un sistema, richiedendo un riscatto per sbloccarli.",
+        "svg": ""
+      },
+      {
+        "id": 47,
+        "domanda": "Cos'è l'autenticazione a due fattori?",
+        "risposte": [
+          "Un livello extra di sicurezza all'accesso agli account.",
+          "Una scansione per rilevare minacce dal computer.",
+          "Un sistema per monitorare attività sospette nella rete.",
+          "Una tecnica per manipolare persone e ottenere dati."
+        ],
+        "risposta_corretta": "Un livello extra di sicurezza all'accesso agli account.",
+        "svg": ""
+      },
+      {
+        "id": 48,
+        "domanda": "Cosa fa una scansione antivirus?",
+        "risposte": [
+          "Rileva e rimuove minacce informatiche dal computer.",
+          "Protegge i dati con crittografia.",
+          "Blocca traffico di rete non autorizzato.",
+          "Trova vulnerabilità nei sistemi informatici."
+        ],
+        "risposta_corretta": "Rileva e rimuove minacce informatiche dal computer.",
+        "svg": ""
+      },
+      {        
+            "id": 49,
+            "domanda": "A cosa servono i certificati SSL/TLS?",
+            "risposte": [
+              "Proteggono la comunicazione tra browser e siti web.",
+              "Criptano la connessione Internet per migliorare la privacy.",
+              "Monitorano il traffico di rete per identificare attività sospette.",
+              "Proteggono le reti Wi-Fi con crittografia."
+            ],
+            "risposta_corretta": "Proteggono la comunicazione tra browser e siti web.",
+            "svg": ""
+          },
+          {
+            "id": 50,
+            "domanda": "Perché sono importanti le password forti e uniche?",
+            "risposte": [
+              "Per proteggere gli account online.",
+              "Per correggere vulnerabilità di sicurezza.",
+              "Per aggiungere un livello extra di sicurezza agli account.",
+              "Per identificare punti deboli nei sistemi."
+            ],
+            "risposta_corretta": "Per proteggere gli account online.",
+            "svg": ""
+          },
+          {
+            "id": 51,
+            "domanda": "Cosa fanno gli attacchi <a href='quiz/DDoS.md'>DDoS</a>?",
+            "risposte": [
+              "Sovraccaricano i server con traffico, rendendoli inutilizzabili.",
+              "Bloccano traffico di rete non autorizzato.",
+              "Criptano la connessione Internet.",
+              "Rilevano e rimuovono minacce informatiche."
+            ],
+            "risposta_corretta": "Sovraccaricano i server con traffico, rendendoli inutilizzabili.",
+            "svg": ""
+         },
+          {
+            "id": 52,
+            "domanda": "Qual è un aspetto della sicurezza delle reti Wi-Fi?",
+            "risposte": [
+              "Crittografia e accesso protetto da password.",
+              "Blocco del traffico non autorizzato.",
+              "Protezione dei dati con backup regolari.",
+              "Aggiunta di un livello extra di sicurezza agli account."
+            ],
+            "risposta_corretta": "Crittografia e accesso protetto da password.",
+            "svg": ""
+          },
+      {
+        "id": 53,
+        "domanda": "Cos'è l'ingegneria sociale?",
+        "risposte": [
+          "Una tecnica per manipolare le persone e ottenere informazioni sensibili.",
+          "Un attacco che mira a rubare dati di rete.",
+          "Un sistema per monitorare traffico sospetto.",
+          "Un attacco per sovraccaricare i server con traffico."
+        ],
+        "risposta_corretta": "Una tecnica per manipolare le persone e ottenere informazioni sensibili.",
+        "svg": ""
+      },    
+      {
+        "id": 54,
+        "domanda": "A cosa serve il monitoraggio del traffico di rete?",
+        "risposte": [
+          "A identificare attività sospette.",
+          "A proteggere gli account con autenticazione a due fattori.",
+          "A bloccare traffico non autorizzato.",
+          "A crittografare connessioni per migliorare la privacy."
+        ],
+        "risposta_corretta": "A identificare attività sospette.",
+        "svg": ""
+     },
+      {
+        "id": 55,
+        "domanda": "Cosa sono gli honeypot?",
+        "risposte": [
+          "Sistemi trappola progettati per attirare e studiare gli attaccanti.",
+          "Strumenti per crittografare connessioni.",
+          "Software per rilevare vulnerabilità nei sistemi.",
+          "Un tipo di attacco ransomware."
+        ],
+        "risposta_corretta": "Sistemi trappola progettati per attirare e studiare gli attaccanti.",
+        "svg": ""
+       },
+      {
+        "id": 56,
+        "domanda": "Cosa fanno le politiche di sicurezza IT?",
+        "risposte": [
+          "Definiscono come proteggere dati e sistemi aziendali.",
+          "Rimuovono minacce dal computer.",
+          "Proteggono la comunicazione tra browser e siti.",
+          "Aggiungono un livello di autenticazione."
+        ],
+        "risposta_corretta": "Definiscono come proteggere dati e sistemi aziendali.",
+        "svg": ""
+      },
+      {
+            "id": 57,
+            "domanda": "Qual è una misura fondamentale per proteggere i dati sensibili?",
+            "risposte": [
+              "Backup regolari e crittografia.",
+              "Blocco del traffico non autorizzato.",
+              "Aggiunta di un livello extra di sicurezza agli account.",
+              "Identificazione di attività sospette nel traffico di rete."
+            ],
+            "risposta_corretta": "Backup regolari e crittografia.",
+            "svg": ""          },
+          {
+            "id": 58,
+            "domanda": "Cosa fa l'analisi delle vulnerabilità?",
+            "risposte": [
+              "Identifica punti deboli nei sistemi informatici.",
+              "Cripta la connessione Internet.",
+              "Blocca il traffico di rete non autorizzato.",
+              "Aggiunge un livello extra di sicurezza agli account."
+            ],
+            "risposta_corretta": "Identifica punti deboli nei sistemi informatici.",
+            "svg": ""          },
+          {
+            "id": 59,
+            "domanda": "A cosa servono le VPN?",
+            "risposte": [
+              "Criptano la connessione Internet per migliorare la privacy.",
+              "Proteggono le reti Wi-Fi con crittografia.",
+              "Monitorano il traffico di rete per identificare attività sospette.",
+              "Bloccano traffico di rete non autorizzato."
+            ],
+            "risposta_corretta": "Criptano la connessione Internet per migliorare la privacy.",
+            "svg": ""
+          },
+      
+      {
+        "id": 60,
+        "domanda": "Perché l'educazione degli utenti è importante?",
+        "risposte": [
+          "Per prevenire attacchi informatici.",
+          "Per crittografare le connessioni.",
+          "Per rilevare malware.",
+          "Per aggiungere autenticazione a due fattori."
+        ],
+        "risposta_corretta": "Per prevenire attacchi informatici.",
+        "svg": ""
+      }
+    ]
+  }
+  

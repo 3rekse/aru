@@ -1,0 +1,223 @@
+[
+    {
+      "id": 61,
+      "domanda": "Cos'è una rete informatica?",
+      "risposte": [
+        "Un insieme di dispositivi interconnessi per condividere dati e risorse.",
+        "Un dispositivo che traduce i nomi di dominio in indirizzi IP.",
+        "Una tecnologia per utilizzare onde radio per la connessione senza fili.",
+        "Un sistema che instrada pacchetti tra reti diverse."
+      ],
+      "risposta_corretta": "Un insieme di dispositivi interconnessi per condividere dati e risorse."
+    },
+    {
+      "id": 62,
+      "domanda": "Qual è la base delle comunicazioni su Internet?",
+      "risposte": [
+        "Il protocollo TCP/IP.",
+        "Il protocollo DNS.",
+        "Le reti VPN.",
+        "Le topologie di rete."
+      ],
+      "risposta_corretta": "Il protocollo TCP/IP."
+    },
+    {
+      "id": 63,
+      "domanda": "Qual è la funzione degli switch in una rete?",
+      "risposte": [
+        "Gestiscono la comunicazione tra dispositivi all'interno di una rete locale.",
+        "Collegano reti diverse e instradano i pacchetti di dati.",
+        "Tradurre i nomi di dominio in indirizzi IP.",
+        "Monitorare e analizzare il traffico di rete."
+      ],
+      "risposta_corretta": "Gestiscono la comunicazione tra dispositivi all'interno di una rete locale."
+    },
+    {
+      "id": 64,
+      "domanda": "Qual è il compito di un router?",
+      "risposte": [
+        "Collegare reti diverse e instradare i pacchetti di dati.",
+        "Gestire la comunicazione tra dispositivi in una rete locale.",
+        "Identificare dispositivi hardware in una rete.",
+        "Creare connessioni private su Internet pubblico."
+      ],
+      "risposta_corretta": "Collegare reti diverse e instradare i pacchetti di dati."
+    },
+    {
+      "id": 65,
+      "domanda": "A cosa serve un indirizzo IP?",
+      "risposte": [
+        "A identificare un dispositivo all'interno di una rete.",
+        "A crittografare le connessioni Internet.",
+        "A definire l'organizzazione logica dei dispositivi in rete.",
+        "A trasferire file tra dispositivi."
+      ],
+      "risposta_corretta": "A identificare un dispositivo all'interno di una rete."
+    },
+    {
+      "id": 66,
+      "domanda": "Quali reti coprono piccole aree geografiche come uffici?",
+      "risposte": [
+        "Le reti LAN (Local Area Network).",
+        "Le reti WAN (Wide Area Network).",
+        "Le reti mesh.",
+        "Le reti peer-to-peer."
+      ],
+      "risposta_corretta": "Le reti LAN (Local Area Network)."
+    },
+    {
+      "id": 67,
+      "domanda": "Quali reti collegano dispositivi su aree geografiche estese?",
+      "risposte": [
+        "Le reti WAN (Wide Area Network).",
+        "Le reti LAN (Local Area Network).",
+        "Le reti VPN.",
+        "Le reti peer-to-peer."
+      ],
+      "risposta_corretta": "Le reti WAN (Wide Area Network)."
+    },
+    {
+      "id": 68,
+      "domanda": "Cosa fanno i protocolli DNS?",
+      "risposte": [
+        "Traducono i nomi di dominio in indirizzi IP.",
+        "Criptano la connessione Internet.",
+        "Creano connessioni private e sicure.",
+        "Definiscono l'organizzazione logica dei dispositivi."
+      ],
+      "risposta_corretta": "Traducono i nomi di dominio in indirizzi IP."
+    },
+    {
+      "id": 69,
+      "domanda": "Cos'è il Wi-Fi?",
+      "risposte": [
+        "Una tecnologia che utilizza onde radio per connettere dispositivi alla rete senza fili.",
+        "Un dispositivo per instradare i pacchetti tra reti diverse.",
+        "Un comando per testare la connettività tra dispositivi.",
+        "Un mezzo per trasmettere dati nelle reti cablate."
+      ],
+      "risposta_corretta": "Una tecnologia che utilizza onde radio per connettere dispositivi alla rete senza fili."
+    },
+    {
+      "id": 70,
+      "domanda": "Qual è lo scopo delle reti VPN?",
+      "risposte": [
+        "Creare connessioni private e sicure su Internet pubblico.",
+        "Gestire la comunicazione tra dispositivi in una rete locale.",
+        "Tradurre i nomi di dominio in indirizzi IP.",
+        "Monitorare e analizzare il traffico di rete."
+      ],
+      "risposta_corretta": "Creare connessioni private e sicure su Internet pubblico."
+    },
+    {
+        "id": 71,
+        "domanda": "Qual è la funzione dei server proxy?",
+        "risposte": [
+          "Fungono da intermediari per le richieste di rete.",
+          "Collegano reti diverse e instradano i pacchetti di dati.",
+          "Gestiscono la comunicazione tra dispositivi in una rete locale.",
+          "Criptano le connessioni per la sicurezza."
+        ],
+        "risposta_corretta": "Fungono da intermediari per le richieste di rete."
+      },
+      {
+        "id": 72,
+        "domanda": "Cosa definiscono le topologie di rete?",
+        "risposte": [
+          "Come sono organizzati fisicamente e logicamente i dispositivi.",
+          "Come tradurre i nomi di dominio in indirizzi IP.",
+          "Come collegare dispositivi senza fili.",
+          "Come testare la connettività tra due dispositivi."
+        ],
+        "risposta_corretta": "Come sono organizzati fisicamente e logicamente i dispositivi."
+      },
+      {
+        "id": 73,
+        "domanda": "Cos'è un ping?",
+        "risposte": [
+          "Un comando per testare la connettività tra due dispositivi di rete.",
+          "Una tecnologia per instradare pacchetti in una rete.",
+          "Un protocollo per crittografare i dati.",
+          "Un sistema per gestire gli indirizzi IP."
+        ],
+        "risposta_corretta": "Un comando per testare la connettività tra due dispositivi di rete."
+      },
+      {
+        "id": 74,
+        "domanda": "A cosa servono gli indirizzi MAC?",
+        "risposte": [
+          "A identificare univocamente i dispositivi hardware in una rete.",
+          "A testare la connettività tra due dispositivi.",
+          "A definire l'organizzazione logica dei dispositivi in rete.",
+          "A monitorare e analizzare il traffico di rete."
+        ],
+        "risposta_corretta": "A identificare univocamente i dispositivi hardware in una rete."
+      },
+      {
+        "id": 75,
+        "domanda": "Qual è il ruolo dei cavi Ethernet?",
+        "risposte": [
+          "Sono un mezzo comune per trasmettere dati nelle reti cablate.",
+          "Collegano reti diverse e instradano pacchetti.",
+          "Distribuiscono la connettività tra più nodi.",
+          "Permettono la connessione senza fili."
+        ],
+        "risposta_corretta": "Sono un mezzo comune per trasmettere dati nelle reti cablate."
+      },
+      {
+        "id": 76,
+        "domanda": "A cosa serve il protocollo FTP?",
+        "risposte": [
+          "A trasferire file tra dispositivi in rete.",
+          "A criptare la connessione Internet.",
+          "A definire l'organizzazione logica dei dispositivi.",
+          "A creare connessioni sicure su Internet pubblico."
+        ],
+        "risposta_corretta": "A trasferire file tra dispositivi in rete."
+      },
+      {
+        "id": 77,
+        "domanda": "Qual è il vantaggio delle reti mesh?",
+        "risposte": [
+          "Distribuiscono la connettività tra più nodi per una maggiore affidabilità.",
+          "Collegano reti diverse e instradano i pacchetti di dati.",
+          "Gestiscono la comunicazione tra dispositivi in una rete locale.",
+          "Criptano la connessione per garantire la sicurezza."
+        ],
+        "risposta_corretta": "Distribuiscono la connettività tra più nodi per una maggiore affidabilità."
+      },
+      {
+        "id": 78,
+        "domanda": "Cosa permettono di fare gli hotspot?",
+        "risposte": [
+          "Consentono ai dispositivi di connettersi a Internet in aree pubbliche.",
+          "Criptano le connessioni per la privacy.",
+          "Testano la connettività tra due dispositivi.",
+          "Monitorano il traffico di rete."
+        ],
+        "risposta_corretta": "Consentono ai dispositivi di connettersi a Internet in aree pubbliche."
+      },
+      {
+        "id": 79,
+        "domanda": "Qual è la funzione di strumenti come Wireshark?",
+        "risposte": [
+          "Monitorare e analizzare il traffico di rete.",
+          "Criptare le connessioni Internet.",
+          "Gestire la comunicazione tra dispositivi in una rete locale.",
+          "Collegare reti diverse e instradare pacchetti di dati."
+        ],
+        "risposta_corretta": "Monitorare e analizzare il traffico di rete."
+      },
+      {
+        "id": 80,
+        "domanda": "Come funzionano le reti peer-to-peer?",
+        "risposte": [
+          "Collegano dispositivi direttamente senza un server centrale.",
+          "Distribuiscono la connettività tra più nodi.",
+          "Collegano reti diverse e instradano pacchetti.",
+          "Permettono la connessione a Internet in aree pubbliche."
+        ],
+        "risposta_corretta": "Collegano dispositivi direttamente senza un server centrale."
+      }
+    ]
+  

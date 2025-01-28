@@ -1,0 +1,116 @@
+[
+  {
+    "mission": "SI",
+    "nome": "l",
+    "cognome": "l",
+    "classe": "l",
+    "voto": 0,
+    "dataorainizio": "2025-01-28T12:10:43.804Z",
+    "inizio": "28/01/2025, 13:10:43",
+    "durata": 3005,
+    "giuste": 0,
+    "sbagliate": 0,
+    "quiz": [
+      {
+        "id": 43,
+        "domanda": "Cos'è il phishing?",
+        "svg": ""
+      },
+      {
+        "id": 54,
+        "domanda": "A cosa serve il monitoraggio del traffico di rete?",
+        "svg": ""
+      },
+      {
+        "id": 52,
+        "domanda": "Qual è un aspetto della sicurezza delle reti Wi-Fi?",
+        "svg": ""
+      },
+      {
+        "id": 49,
+        "domanda": "A cosa servono i certificati SSL/TLS?",
+        "svg": ""
+      },
+      {
+        "id": 48,
+        "domanda": "Cosa fa una scansione antivirus?",
+        "svg": ""
+      },
+      {
+        "id": 44,
+        "domanda": "Cos'è un malware?",
+        "svg": ""
+      },
+      {
+        "id": 51,
+        "domanda": "Cosa fanno gli attacchi <a href='quiz/DDoS.md'>DDoS</a>?",
+        "svg": ""
+      },
+      {
+        "id": 50,
+        "domanda": "Perché sono importanti le password forti e uniche?",
+        "svg": ""
+      },
+      {
+        "id": 47,
+        "domanda": "Cos'è l'autenticazione a due fattori?",
+        "svg": ""
+      },
+      {
+        "id": 60,
+        "domanda": "Perché l'educazione degli utenti è importante?",
+        "svg": ""
+      },
+      {
+        "id": 59,
+        "domanda": "A cosa servono le VPN?",
+        "svg": ""
+      },
+      {
+        "id": 46,
+        "domanda": "Cosa fa un attacco ransomware?",
+        "svg": ""
+      },
+      {
+        "id": 42,
+        "domanda": "Qual è la funzione di un firewall?",
+        "svg": ""
+      },
+      {
+        "id": 41,
+        "domanda": "Cosa fa la crittografia?",
+        "svg": ""
+      },
+      {
+        "id": 55,
+        "domanda": "Cosa sono gli honeypot?",
+        "svg": ""
+      },
+      {
+        "id": 57,
+        "domanda": "Qual è una misura fondamentale per proteggere i dati sensibili?",
+        "svg": ""
+      },
+      {
+        "id": 53,
+        "domanda": "Cos'è l'ingegneria sociale?",
+        "svg": ""
+      },
+      {
+        "id": 45,
+        "domanda": "Perché sono importanti gli aggiornamenti software regolari?",
+        "svg": ""
+      },
+      {
+        "id": 58,
+        "domanda": "Cosa fa l'analisi delle vulnerabilità?",
+        "svg": ""
+      },
+      {
+        "id": 56,
+        "domanda": "Cosa fanno le politiche di sicurezza IT?",
+        "svg": ""
+      }
+    ]
+  }
+]

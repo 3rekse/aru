@@ -1,0 +1,27 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definizione della maschera -->
+  <defs>
+    <mask id="planchette-mask">
+      <!-- Sfondo della planchette (bianco visibile) -->
+      <rect width="100%" height="100%" fill="white" />
+      <!-- Foro trasparente (nero invisibile) -->
+      <circle cx="100" cy="120" r="40" fill="black" />
+    </mask>
+  </defs>
+
+  <!-- Planchette con maschera -->
+  <path
+    d="M100,20 
+       C40,20 20,80 50,200 
+       C80,260 120,260 150,200 
+       C180,80 160,20 100,20 Z"
+    fill="#d0a477"
+    stroke="#8b4513"
+    stroke-width="5"
+    mask="url(#planchette-mask)"
+  />
+
+  <!-- Fori decorativi -->
+  <circle cx="70" cy="180" r="10" fill="#8b4513" />
+  <circle cx="130" cy="180" r="10" fill="#8b4513" />
+</svg>

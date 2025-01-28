@@ -1,0 +1,233 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Cos'è un algoritmo?",
+      "risposte": [
+        "Una sequenza di istruzioni finite e ben definite per risolvere un problema",
+        "Un linguaggio di programmazione",
+        "Un dispositivo hardware",
+        "Un database per la memorizzazione dei dati"
+      ],
+      "risposta_corretta": "Una sequenza di istruzioni finite e ben definite per risolvere un problema",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><rect x='10' y='10' width='180' height='50' rx='10' fill='#00aaff'/><text x='20' y='40' font-family='Arial' font-size='16' fill='white'>Algoritmo</text><circle cx='100' cy='130' r='30' fill='#ffaa00'/><text x='85' y='137' font-family='Arial' font-size='14' fill='white'>Start</text></svg>"
+    },
+    {
+      "id": 2,
+      "domanda": "Quale degli algoritmi seguenti è usato per ordinare dati?",
+      "risposte": [
+        "Bubble sort",
+        "DFS (Depth-First Search)",
+        "Dijkstra",
+        "Backtracking"
+      ],
+      "risposta_corretta": "Bubble sort",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><rect x='10' y='50' width='60' height='40' fill='#ff5722'/><rect x='80' y='30' width='60' height='60' fill='#ffcc00'/><rect x='150' y='10' width='40' height='80' fill='#00aaff'/></svg>"
+    },
+    {
+      "id": 3,
+      "domanda": "Qual è un algoritmo efficiente per trovare un elemento in un array ordinato?",
+      "risposte": [
+        "Ricerca binaria",
+        "Ricerca lineare",
+        "Algoritmo di Kruskal",
+        "Algoritmo di Bellman-Ford"
+      ],
+      "risposta_corretta": "Ricerca binaria",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><line x1='10' y1='100' x2='190' y2='100' stroke='#4caf50' stroke-width='5'/><circle cx='100' cy='100' r='15' fill='#ff5722'/><text x='80' y='140' font-family='Arial' font-size='14' fill='black'>Binary Search</text></svg>"
+    },
+    {
+      "id": 4,
+      "domanda": "Quale tecnica algoritmica suddivide un problema complesso in sottoproblemi più piccoli?",
+      "risposte": [
+        "Programmazione dinamica",
+        "Greedy",
+        "Backtracking",
+        "DFS"
+      ],
+      "risposta_corretta": "Programmazione dinamica",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path d='M50,100 L100,50 L150,100' fill='none' stroke='#673ab7' stroke-width='5'/><circle cx='100' cy='50' r='10' fill='#e91e63'/><circle cx='50' cy='100' r='10' fill='#03a9f4'/><circle cx='150' cy='100' r='10' fill='#03a9f4'/></svg>"
+    },
+    {
+      "id": 5,
+      "domanda": "Quale algoritmo trova il percorso più breve in un grafo pesato connesso?",
+      "risposte": [
+        "Dijkstra",
+        "Ricerca binaria",
+        "Merge sort",
+        "Algoritmo di Euclide"
+      ],
+      "risposta_corretta": "Dijkstra",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><circle cx='50' cy='50' r='10' fill='#ff9800'/><circle cx='150' cy='50' r='10' fill='#ff9800'/><circle cx='100' cy='150' r='10' fill='#ff9800'/><line x1='50' y1='50' x2='150' y2='50' stroke='#9c27b0' stroke-width='5'/><line x1='50' y1='50' x2='100' y2='150' stroke='#4caf50' stroke-width='5'/><line x1='150' y1='50' x2='100' y2='150' stroke='#2196f3' stroke-width='5'/></svg>"
+    },
+    {
+      "id": 6,
+      "domanda": "Qual è un esempio di algoritmo greedy?",
+      "risposte": [
+        "Algoritmo di Kruskal",
+        "Ricerca binaria",
+        "Merge sort",
+        "Bubble sort"
+      ],
+      "risposta_corretta": "Algoritmo di Kruskal",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><circle cx='50' cy='50' r='10' fill='#ff5722'/><circle cx='150' cy='50' r='10' fill='#ff5722'/><circle cx='100' cy='150' r='10' fill='#ff5722'/><path d='M50,50 L150,50 L100,150 Z' fill='none' stroke='#03a9f4' stroke-width='5'/></svg>"
+    },
+    {
+      "id": 7,
+      "domanda": "Quale algoritmo esplora tutti i nodi di un grafo?",
+      "risposte": [
+        "DFS e BFS",
+        "Ricerca binaria",
+        "Algoritmo di Dijkstra",
+        "Bubble sort"
+      ],
+      "risposta_corretta": "DFS e BFS",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><circle cx='50' cy='50' r='10' fill='#8bc34a'/><circle cx='150' cy='50' r='10' fill='#8bc34a'/><circle cx='100' cy='150' r='10' fill='#8bc34a'/><path d='M50,50 L100,150 M150,50 L100,150' stroke='#f44336' stroke-width='5'/></svg>"
+    },
+    {
+      "id": 8,
+      "domanda": "Cos'è la complessità temporale di un algoritmo?",
+      "risposte": [
+        "Il numero di operazioni necessarie per eseguirlo",
+        "La memoria occupata da un algoritmo",
+        "Il numero di passaggi ricorsivi",
+        "La dimensione dell'array"
+      ],
+      "risposta_corretta": "Il numero di operazioni necessarie per eseguirlo",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><circle cx='100' cy='100' r='80' fill='none' stroke='#ff5722' stroke-width='5'/><text x='50' y='110' font-family='Arial' font-size='18' fill='black'>O(n)</text></svg>"
+    },
+    {
+      "id": 9,
+      "domanda": "Qual è la notazione usata per descrivere la complessità di un algoritmo?",
+      "risposte": [
+        "Big O",
+        "Small O",
+        "Grande Omega",
+        "Piccola Omega"
+      ],
+      "risposta_corretta": "Big O",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><text x='50' y='100' font-family='Arial' font-size='50' fill='#4caf50'>O</text></svg>"
+    },
+    {
+      "id": 10,
+      "domanda": "Qual è l'algoritmo usato per trovare il GCD?",
+      "risposte": [
+        "Algoritmo di Euclide",
+        "Ricerca binaria",
+        "Merge sort",
+        "Bubble sort"
+      ],
+      "risposta_corretta": "Algoritmo di Euclide",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><circle cx='100' cy='100' r='50' fill='#ff5722'/><text x='60' y='110' font-family='Arial' font-size='18' fill='white'>GCD</text></svg>"
+    },
+    {
+        "id": 11,
+        "domanda": "Quale algoritmo calcola il massimo comune divisore (GCD) di due numeri?",
+        "risposte": [
+          "Algoritmo di Euclide",
+          "Algoritmo di Kruskal",
+          "Ricerca binaria",
+          "Backtracking"
+        ],
+        "risposta_corretta": "Algoritmo di Euclide",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><circle cx='100' cy='100' r='80' fill='#4caf50'/><text x='50' y='110' font-family='Arial' font-size='20' fill='white'>GCD</text></svg>"
+      },
+      {
+        "id": 12,
+        "domanda": "Cosa caratterizza un algoritmo di ordinamento stabile?",
+        "risposte": [
+          "Mantiene l'ordine relativo degli elementi uguali",
+          "Ordina sempre i dati in tempo lineare",
+          "Non utilizza memoria aggiuntiva",
+          "Funziona solo con array di grandi dimensioni"
+        ],
+        "risposta_corretta": "Mantiene l'ordine relativo degli elementi uguali",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><rect x='40' y='50' width='120' height='20' fill='#03a9f4'/><rect x='40' y='80' width='120' height='20' fill='#03a9f4'/><text x='50' y='75' font-family='Arial' font-size='12' fill='white'>Elementi uguali</text></svg>"
+      },
+      {
+        "id": 13,
+        "domanda": "Quale algoritmo trova l'albero di copertura minimo in un grafo connesso?",
+        "risposte": [
+          "Algoritmo di Kruskal",
+          "Bubble sort",
+          "Ricerca ternaria",
+          "Algoritmo di Bellman-Ford"
+        ],
+        "risposta_corretta": "Algoritmo di Kruskal",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><circle cx='50' cy='50' r='10' fill='#ff9800'/><circle cx='150' cy='50' r='10' fill='#ff9800'/><circle cx='100' cy='150' r='10' fill='#ff9800'/><line x1='50' y1='50' x2='150' y2='50' stroke='#9c27b0' stroke-width='5'/><line x1='50' y1='50' x2='100' y2='150' stroke='#4caf50' stroke-width='5'/><line x1='150' y1='50' x2='100' y2='150' stroke='#2196f3' stroke-width='5'/></svg>"
+      },
+      {
+        "id": 14,
+        "domanda": "Quale algoritmo è in grado di gestire grafi con archi di peso negativo?",
+        "risposte": [
+          "Algoritmo di Bellman-Ford",
+          "Algoritmo di Dijkstra",
+          "Ricerca binaria",
+          "Backtracking"
+        ],
+        "risposta_corretta": "Algoritmo di Bellman-Ford",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><circle cx='50' cy='50' r='10' fill='#673ab7'/><circle cx='150' cy='50' r='10' fill='#673ab7'/><line x1='50' y1='50' x2='150' y2='50' stroke='#f44336' stroke-dasharray='5,5' stroke-width='4'/></svg>"
+      },
+      {
+        "id": 15,
+        "domanda": "Cos'è la ricerca ternaria?",
+        "risposte": [
+          "Un algoritmo che divide un array in tre parti",
+          "Un algoritmo per trovare il GCD",
+          "Un algoritmo per il calcolo del LCM",
+          "Un metodo per esplorare grafi"
+        ],
+        "risposta_corretta": "Un algoritmo che divide un array in tre parti",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><rect x='20' y='80' width='40' height='40' fill='#03a9f4'/><rect x='80' y='80' width='40' height='40' fill='#8bc34a'/><rect x='140' y='80' width='40' height='40' fill='#ff5722'/></svg>"
+      },
+      {
+        "id": 16,
+        "domanda": "Quale tecnica algoritmica esplora tutte le possibili soluzioni tornando indietro quando necessario?",
+        "risposte": [
+          "Backtracking",
+          "Ricorsione",
+          "Greedy",
+          "DFS"
+        ],
+        "risposta_corretta": "Backtracking",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path d='M50,150 Q100,50 150,150' stroke='#673ab7' fill='none' stroke-width='5'/><circle cx='50' cy='150' r='10' fill='#03a9f4'/><circle cx='150' cy='150' r='10' fill='#03a9f4'/><text x='90' y='120' font-family='Arial' font-size='12' fill='black'>Backtracking</text></svg>"
+      },
+      {
+        "id": 17,
+        "domanda": "Quali algoritmi di ordinamento hanno una complessità media di O(n log n)?",
+        "risposte": [
+          "Merge sort e Quick sort",
+          "Bubble sort e Insertion sort",
+          "Ricerca binaria e Ricerca lineare",
+          "DFS e BFS"
+        ],
+        "risposta_corretta": "Merge sort e Quick sort",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><text x='50' y='100' font-family='Arial' font-size='20' fill='#4caf50'>O(n log n)</text><rect x='20' y='120' width='160' height='10' fill='#9c27b0'/></svg>"
+      },
+      {
+        "id": 18,
+        "domanda": "Qual è lo scopo degli algoritmi di compressione?",
+        "risposte": [
+          "Ridurre la quantità di spazio necessaria per memorizzare i dati",
+          "Ordinare un array di dati",
+          "Trovare il GCD di due numeri",
+          "Calcolare il percorso più breve in un grafo"
+        ],
+        "risposta_corretta": "Ridurre la quantità di spazio necessaria per memorizzare i dati",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><rect x='30' y='50' width='140' height='40' fill='#03a9f4'/><rect x='70' y='110' width='60' height='40' fill='#4caf50'/><text x='60' y='140' font-family='Arial' font-size='12' fill='white'>Compressione</text></svg>"
+      },
+      {
+        "id": 19,
+        "domanda": "Qual è un esempio di algoritmo di compressione?",
+        "risposte": [
+          "Huffman",
+          "Dijkstra",
+          "Bubble sort",
+          "Ricerca ternaria"
+        ],
+        "risposta_corretta": "Huffman",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><text x='50' y='100' font-family='Arial' font-size='20' fill='#ff5722'>Compressione</text><circle cx='100' cy='130' r='30' fill='#4caf50'/><circle cx='100' cy='130' r='15' fill='#ccff55'/></svg>"
+      }
+    ]
+  }
+  

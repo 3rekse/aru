@@ -118,6 +118,7 @@ a.secondary {
   a.secondary:hover {
     background: var(--button-secondary-hover);
     border-color: transparent;
+    font-weight: bold;
   }
 
   .footer a:hover {

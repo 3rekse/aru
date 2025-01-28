@@ -1,0 +1,116 @@
+[
+  {
+    "mission": "SI",
+    "nome": "ok",
+    "cognome": "ko",
+    "classe": "oko",
+    "voto": 2,
+    "dataorainizio": "2025-01-28T10:28:58.518Z",
+    "inizio": "28/01/2025, 11:28:58",
+    "durata": 857,
+    "giuste": 4,
+    "sbagliate": 16,
+    "quiz": [
+      {
+        "id": 41,
+        "domanda": "Cosa fa la crittografia?",
+        "svg": " ❌ Cripta dati per richiedere un riscatto."
+      },
+      {
+        "id": 46,
+        "domanda": "Cosa fa un attacco ransomware?",
+        "svg": " ❌ Manipola le persone per ottenere informazioni sensibili."
+      },
+      {
+        "id": 58,
+        "domanda": "Cosa fa l'analisi delle vulnerabilità?",
+        "svg": " ❌ Cripta la connessione Internet."
+      },
+      {
+        "id": 48,
+        "domanda": "Cosa fa una scansione antivirus?",
+        "svg": " ❌ Blocca traffico di rete non autorizzato."
+      },
+      {
+        "id": 44,
+        "domanda": "Cos'è un malware?",
+        "svg": " ❌ Una tecnica per manipolare le persone e ottenere informazioni sensibili."
+      },
+      {
+        "id": 59,
+        "domanda": "A cosa servono le VPN?",
+        "svg": " ❌ Monitorano il traffico di rete per identificare attività sospette."
+      },
+      {
+        "id": 43,
+        "domanda": "Cos'è il phishing?",
+        "svg": " ❌ Una tecnica per proteggere i dati con una chiave specifica."
+      },
+      {
+        "id": 52,
+        "domanda": "Qual è un aspetto della sicurezza delle reti Wi-Fi?",
+        "svg": " ❌ Aggiunta di un livello extra di sicurezza agli account."
+      },
+      {
+        "id": 50,
+        "domanda": "Perché sono importanti le password forti e uniche?",
+        "svg": " ❌ Per aggiungere un livello extra di sicurezza agli account."
+      },
+      {
+        "id": 57,
+        "domanda": "Qual è una misura fondamentale per proteggere i dati sensibili?",
+        "svg": " ❌ Blocco del traffico non autorizzato."
+      },
+      {
+        "id": 53,
+        "domanda": "Cos'è l'ingegneria sociale?",
+        "svg": " ✅ Una tecnica per manipolare le persone e ottenere informazioni sensibili."
+      },
+      {
+        "id": 42,
+        "domanda": "Qual è la funzione di un firewall?",
+        "svg": " ✅ Blocca traffico di rete non autorizzato e protegge da accessi indesiderati."
+      },
+      {
+        "id": 51,
+        "domanda": "Cosa fanno gli attacchi <a href='quiz/DDoS.md'>DDoS</a>?",
+        "svg": " ❌ Bloccano traffico di rete non autorizzato."
+      },
+      {
+        "id": 49,
+        "domanda": "A cosa servono i certificati SSL/TLS?",
+        "svg": " ❌ Criptano la connessione Internet per migliorare la privacy."
+      },
+      {
+        "id": 45,
+        "domanda": "Perché sono importanti gli aggiornamenti software regolari?",
+        "svg": " ❌ Per memorizzare dati sensibili in modo sicuro."
+      },
+      {
+        "id": 60,
+        "domanda": "Perché l'educazione degli utenti è importante?",
+        "svg": " ❌ Per rilevare malware."
+      },
+      {
+        "id": 47,
+        "domanda": "Cos'è l'autenticazione a due fattori?",
+        "svg": " ✅ Un livello extra di sicurezza all'accesso agli account."
+      },
+      {
+        "id": 54,
+        "domanda": "A cosa serve il monitoraggio del traffico di rete?",
+        "svg": " ❌ A crittografare connessioni per migliorare la privacy."
+      },
+      {
+        "id": 55,
+        "domanda": "Cosa sono gli honeypot?",
+        "svg": " ❌ Strumenti per crittografare connessioni."
+      },
+      {
+        "id": 56,
+        "domanda": "Cosa fanno le politiche di sicurezza IT?",
+        "svg": " ✅ Definiscono come proteggere dati e sistemi aziendali."
+      }
+    ]
+  }
+]
