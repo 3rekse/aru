@@ -14,14 +14,14 @@ export async function POST(request: Request) {
   const currentDate = new Date().toLocaleString('it-IT', { timeZone: 'Europe/Rome' }).replace(/\//g, '_');
 
   const filePath = path.join(process.cwd(), `public/quiz/${mission}/${classe}`, `${currentDate}.json`);
-
+  
   try {
     // Verifica se il file esiste
     let existingQuestions = [];
     try {
       const fileContent = await fs.readFile(filePath, 'utf-8');
-      existingQuestions = JSON.parse(fileContent); // Leggi e analizza il contenuto del file
-    } catch (err) {
+      existingQuestions = JSON.parse(fileContent);
+      } catch (err) {
       if ((err as NodeJS.ErrnoException).code !== 'ENOENT') {
         // Gestione di errori diversi dal "file non trovato"
         throw err;

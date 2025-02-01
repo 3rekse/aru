@@ -12,11 +12,13 @@ const shuffleArray = <T,>(array: T[]): T[] => {
   export const loadQuiz = (mission: string): Question[] => {
     let algorithms: QuizData;
     if (mission === "AL") {
-        algorithms = require('./Algoritmi.json') as QuizData;
+        algorithms = require('./AL.json') as QuizData;
     } else if (mission === "SI") {
         algorithms = require('./SI.json') as QuizData;
     } else if (mission === "AI") {
         algorithms = require('./AI.json') as QuizData;
+    } else if (mission === "Reti") {
+        algorithms = require('./Reti.json') as QuizData;
     } else {
         throw new Error("Invalid mission type");
     }

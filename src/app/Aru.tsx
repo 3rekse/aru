@@ -186,7 +186,7 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
                 />
                 <label>Extra Time</label>
               </div>
-                {inputsDisabled ?( mission  ? ( <Quiz mission={mission} domande={loadQuiz(mission)} classe={classe} nome={name} cognome={last} extaT={inputsExtra}/>  ) : 
+                {inputsDisabled ?( mission!=="ARU"  ? ( <Quiz mission={mission} domande={loadQuiz(mission)} classe={classe} nome={name} cognome={last} extaT={inputsExtra}/>  ) : 
                     ( <Binary onSet={handleBinarySet} num1={num1} num2={num2} bit={bit} prova={prove} />) 
                      ):( <div>Insert your identity to start the test</div>)}
               {isBinarySet && 
@@ -220,7 +220,7 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
           Learn
         </a>
         <a
-          href="https://kb-competition.vercel.app/aritmetica"
+          href="/?mission=SI"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -231,10 +231,10 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
             width={16}
             height={16}
           />
-          Examples
+          Sicurrezza→
         </a>
         <a
-          href="https://3rekse.github.io/257"
+          href="/?mission=Reti"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -245,7 +245,35 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
             width={16}
             height={16}
           />
-          Go to Binary Arithmetic →
+          Reti→
+        </a>
+        <a
+          href="/?mission=AI"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden
+            src="/ai.svg"
+            alt="Globe icon"
+            width={16}
+            height={16}
+          />
+          AI →
+        </a>
+        <a
+          href="/?mission=AL"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden
+            src="/al.svg"
+            alt="Globe icon"
+            width={16}
+            height={16}
+          />
+          Algoritmi →
         </a>
       </footer>
     </div>

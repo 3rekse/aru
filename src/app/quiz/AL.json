@@ -38,7 +38,7 @@
     },
     {
       "id": 4,
-      "domanda": "Quale tecnica algoritmica suddivide un problema complesso in sottoproblemi più piccoli?",
+      "domanda": "Quale tecnica ?",
       "risposte": [
         "Programmazione dinamica",
         "Greedy",

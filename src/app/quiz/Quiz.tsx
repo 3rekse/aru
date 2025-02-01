@@ -224,7 +224,7 @@ const Quiz: React.FC<QuizProps> = ({ mission, domande, classe, nome, cognome, ex
     timerRef.current = setTimeout(() => {
       handleNextQuestion('');
       console.log('Timer scaduto');
-    }, 3000 * (extaT ? 1.5 : 1));
+    }, 30000 * (extaT ? 1.5 : 1));
 
     // Pulisci il timer quando il componente si smonta o IDomanda cambia
     return () => stopTimer();
