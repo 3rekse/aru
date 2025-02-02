@@ -1,12 +1,14 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
+import nodemailer from 'nodemailer';
+
 
 
 // Gestore POST
 export async function POST(request: Request) {
   const newQuestions = await request.json();
-
+ 
   // Percorso del file
   const { searchParams } = new URL(request.url);
   const mission = searchParams.get('mission');
@@ -34,7 +36,18 @@ export async function POST(request: Request) {
     // Scrivi il contenuto aggiornato nel file
     await fs.mkdir(path.dirname(filePath), { recursive: true }); // Crea la directory, se necessario
     await fs.writeFile(filePath, JSON.stringify(mergedQuestions, null, 2));
-
+    // Invia il file per email
+   /* await sendEmailWithAttachment({
+      to: 'itdictionarytest@gmail.com',
+      subject: filePath,
+      text: 'Please find the updated questions attached.',
+      attachments: [
+      {
+        filename: `${currentDate}.json`,
+        path: filePath,
+      },
+      ],
+    });*/
     return NextResponse.json(
       { message: 'Questions updated successfully.' },
       { status: 200 }
@@ -46,3 +59,34 @@ export async function POST(request: Request) {
     );
   }
 }
+/*
+async function sendEmailWithAttachment({ to, subject, text, attachments }: { to: string; subject: string; text: string; attachments: { filename: string; path: string; }[]; }) {
+  // Configura il trasportatore SMTP
+
+
+  const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASSWORD,
+    },
+  });
+
+  // Opzioni dell'email
+  const mailOptions = {
+    from: process.env.EMAIL_USER,
+    to,
+    subject,
+    text,
+    attachments,
+  };
+
+  // Invia l'email
+  try {
+    await transporter.sendMail(mailOptions);
+    console.log('Email sent successfully');
+  } catch (error) {
+    console.error('Error sending email:', error);
+    throw new Error('Error sending email');
+  }
+} */

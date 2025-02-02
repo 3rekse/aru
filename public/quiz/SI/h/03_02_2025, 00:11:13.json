@@ -1,0 +1,116 @@
+[
+  {
+    "mission": "SI",
+    "nome": "h",
+    "cognome": "h",
+    "classe": "h",
+    "voto": 2.5,
+    "dataorainizio": "2025-02-02T23:11:11.977Z",
+    "inizio": "03/02/2025, 00:11:11",
+    "durata": 343,
+    "giuste": 5,
+    "sbagliate": 15,
+    "quiz": [
+      {
+        "id": 41,
+        "domanda": "Cosa fa la crittografia?",
+        "svg": " ❌ Cripta dati per richiedere un riscatto."
+      },
+      {
+        "id": 45,
+        "domanda": "Perché sono importanti gli aggiornamenti software regolari?",
+        "svg": " ❌ Per proteggere la comunicazione tra browser e siti web."
+      },
+      {
+        "id": 54,
+        "domanda": "A cosa serve il monitoraggio del traffico di rete?",
+        "svg": " ❌ A crittografare connessioni per migliorare la privacy."
+      },
+      {
+        "id": 44,
+        "domanda": "Cos'è un malware?",
+        "svg": " ❌ Un attacco informatico che sovraccarica i server con traffico."
+      },
+      {
+        "id": 42,
+        "domanda": "Qual è la funzione di un firewall?",
+        "svg": " ❌ Rileva e rimuove minacce dal computer."
+      },
+      {
+        "id": 48,
+        "domanda": "Cosa fa una scansione antivirus?",
+        "svg": " ❌ Blocca traffico di rete non autorizzato."
+      },
+      {
+        "id": 43,
+        "domanda": "Cos'è il phishing?",
+        "svg": " ❌ Una tecnica per proteggere i dati con una chiave specifica."
+      },
+      {
+        "id": 55,
+        "domanda": "Cosa sono gli honeypot?",
+        "svg": " ✅ Sistemi trappola progettati per attirare e studiare gli attaccanti."
+      },
+      {
+        "id": 46,
+        "domanda": "Cosa fa un attacco ransomware?",
+        "svg": " ✅ Cripta i dati di un sistema, richiedendo un riscatto per sbloccarli."
+      },
+      {
+        "id": 47,
+        "domanda": "Cos'è l'autenticazione a due fattori?",
+        "svg": " ❌ Una scansione per rilevare minacce dal computer."
+      },
+      {
+        "id": 59,
+        "domanda": "A cosa servono le VPN?",
+        "svg": " ❌ Proteggono le reti Wi-Fi con crittografia."
+      },
+      {
+        "id": 56,
+        "domanda": "Cosa fanno le politiche di sicurezza IT?",
+        "svg": " ✅ Definiscono come proteggere dati e sistemi aziendali."
+      },
+      {
+        "id": 58,
+        "domanda": "Cosa fa l'analisi delle vulnerabilità?",
+        "svg": " ❌ Blocca il traffico di rete non autorizzato."
+      },
+      {
+        "id": 51,
+        "domanda": "Cosa fanno gli attacchi <a href='quiz/DDoS.md'>DDoS</a>?",
+        "svg": " ✅ Sovraccaricano i server con traffico, rendendoli inutilizzabili."
+      },
+      {
+        "id": 57,
+        "domanda": "Qual è una misura fondamentale per proteggere i dati sensibili?",
+        "svg": " ❌ Aggiunta di un livello extra di sicurezza agli account."
+      },
+      {
+        "id": 60,
+        "domanda": "Perché l'educazione degli utenti è importante?",
+        "svg": " ❌ Per crittografare le connessioni."
+      },
+      {
+        "id": 52,
+        "domanda": "Qual è un aspetto della sicurezza delle reti Wi-Fi?",
+        "svg": " ❌ Blocco del traffico non autorizzato."
+      },
+      {
+        "id": 53,
+        "domanda": "Cos'è l'ingegneria sociale?",
+        "svg": " ✅ Una tecnica per manipolare le persone e ottenere informazioni sensibili."
+      },
+      {
+        "id": 50,
+        "domanda": "Perché sono importanti le password forti e uniche?",
+        "svg": " ❌ Per correggere vulnerabilità di sicurezza."
+      },
+      {
+        "id": 49,
+        "domanda": "A cosa servono i certificati SSL/TLS?",
+        "svg": " ❌ Monitorano il traffico di rete per identificare attività sospette."
+      }
+    ]
+  }
+]

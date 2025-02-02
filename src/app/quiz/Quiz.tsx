@@ -96,6 +96,8 @@ const Quiz: React.FC<QuizProps> = ({ mission, domande, classe, nome, cognome, ex
       }]
       try {
       const response = await fetch(`/api/registro?mission=${mission}&classe=${classe}`, {
+      //const response = await fetch(`/api/dropbox/registro?mission=${mission}&classe=${classe}`, {
+
         method: 'POST',
         headers: {
         'Content-Type': 'application/json',
