@@ -270,10 +270,10 @@ const Quiz: React.FC<QuizProps> = ({ mission, domande, classe, nome, cognome, ex
                 <br />
                
             </div>
-            {/* <div style={{ flex: '0 0 200px', marginLeft: '20px' }}>
+           { /** <div style={{ flex: '0 0 200px', marginLeft: '20px' }}>
                 <div dangerouslySetInnerHTML={{ __html: domanda.svg }} />
             </div> */}
-            
+             
             </div>
             ) : (  
                 <div className={styles.ctas}>

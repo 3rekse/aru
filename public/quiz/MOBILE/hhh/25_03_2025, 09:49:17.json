@@ -1,0 +1,116 @@
+[
+  {
+    "mission": "MOBILE",
+    "nome": "hhh",
+    "cognome": "hhh",
+    "classe": "hhh",
+    "voto": 2,
+    "dataorainizio": "2025-03-25T08:48:47.144Z",
+    "inizio": "25/03/2025, 09:48:47",
+    "durata": 30004,
+    "giuste": 4,
+    "sbagliate": 2,
+    "quiz": [
+      {
+        "id": 136,
+        "domanda": "[Mobile] Gli algoritmi di handover servono a:",
+        "svg": ""
+      },
+      {
+        "id": 132,
+        "domanda": "[Mobile] Gli eSIM offrono la possibilità di:",
+        "svg": ""
+      },
+      {
+        "id": 131,
+        "domanda": "[Mobile] I satelliti LEO stanno migliorando:",
+        "svg": ""
+      },
+      {
+        "id": 123,
+        "domanda": "[Mobile] La tecnologia LTE ha principalmente contribuito a:",
+        "svg": ""
+      },
+      {
+        "id": 137,
+        "domanda": "[Mobile] La tecnologia MIMO aumenta:",
+        "svg": ""
+      },
+      {
+        "id": 128,
+        "domanda": "[Mobile] Gli smartphone moderni utilizzano:",
+        "svg": ""
+      },
+      {
+        "id": 122,
+        "domanda": "[Mobile] Il 5G si distingue per:",
+        "svg": ""
+      },
+      {
+        "id": 127,
+        "domanda": "[Mobile] La tecnologia NFC permette:",
+        "svg": ""
+      },
+      {
+        "id": 138,
+        "domanda": "[Mobile] Il carrier aggregation serve a:",
+        "svg": ""
+      },
+      {
+        "id": 139,
+        "domanda": "[Mobile] Il roaming permette agli utenti di:",
+        "svg": ""
+      },
+      {
+        "id": 126,
+        "domanda": "[Mobile] Il Wi-Fi offload serve a:",
+        "svg": ""
+      },
+      {
+        "id": 135,
+        "domanda": "[Mobile] La rete 6G promette:",
+        "svg": ""
+      },
+      {
+        "id": 124,
+        "domanda": "[Mobile] L'introduzione delle reti 3G ha permesso:",
+        "svg": ""
+      },
+      {
+        "id": 133,
+        "domanda": "[Mobile] La crittografia end-to-end garantisce:",
+        "svg": ""
+      },
+      {
+        "id": 125,
+        "domanda": "[Mobile] Il protocollo VoLTE è caratterizzato da:",
+        "svg": ""
+      },
+      {
+        "id": 129,
+        "domanda": "[Mobile] WPA3 è un protocollo che:",
+        "svg": ""
+      },
+      {
+        "id": 140,
+        "domanda": "[Mobile] Gli operatori mobili offrono servizi IoT:",
+        "svg": ""
+      },
+      {
+        "id": 130,
+        "domanda": "[Mobile] Il beamforming nel 5G serve a:",
+        "svg": ""
+      },
+      {
+        "id": 134,
+        "domanda": "[Mobile] Le reti mesh migliorano:",
+        "svg": ""
+      },
+      {
+        "id": 121,
+        "domanda": "[Mobile] Le reti 4G hanno rivoluzionato la comunicazione mobile.",
+        "svg": ""
+      }
+    ]
+  }
+]

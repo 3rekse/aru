@@ -217,7 +217,7 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
             width={16}
             height={16}
           />
-          Learn
+          Learn→
         </a>
         <a
           href="/?mission=SI"
@@ -259,7 +259,7 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
             width={16}
             height={16}
           />
-          AI →
+          AI→
         </a>
         <a
           href="/?mission=AL"
@@ -273,7 +273,35 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
             width={16}
             height={16}
           />
-          Algoritmi →
+          Algoritmi→
+        </a>
+        <a
+          href="/?mission=WEB"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden
+            src="/web.svg"
+            alt="Globe icon"
+            width={16}
+            height={16}
+          />
+          WEB→
+        </a>
+        <a
+          href="/?mission=MOBILE"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden
+            src="/mobile.svg"
+            alt="Globe icon"
+            width={16}
+            height={16}
+          />
+          Mobile→
         </a>
       </footer>
     </div>

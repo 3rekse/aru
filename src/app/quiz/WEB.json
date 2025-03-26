@@ -1,0 +1,233 @@
+{
+    "quiz": [
+      {
+        "id": 101,
+        "domanda": "[Web] Cosa rappresenta l'HTML?",
+        "risposte": [
+          "Il linguaggio per creare la struttura delle pagine web",
+          "Un database relazionale",
+          "Un framework CSS",
+          "Un protocollo di sicurezza web"
+        ],
+        "risposta_corretta": "Il linguaggio per creare la struttura delle pagine web",
+        "svg": ""
+      },
+      {
+        "id": 102,
+        "domanda": "[Web] A cosa serve il CSS?",
+        "risposte": [
+          "Definire lo stile e il layout delle pagine web",
+          "Memorizzare dati strutturati",
+          "Eseguire script lato server",
+          "Gestire le richieste HTTP"
+        ],
+        "risposta_corretta": "Definire lo stile e il layout delle pagine web",
+        "svg": ""
+      },
+      {
+        "id": 103,
+        "domanda": "[Web] Qual è lo scopo di JavaScript?",
+        "risposte": [
+          "Rendere le pagine web interattive",
+          "Memorizzare dati su un database",
+          "Gestire il versionamento del codice",
+          "Definire lo stile visivo di una pagina"
+        ],
+        "risposta_corretta": "Rendere le pagine web interattive",
+        "svg": ""
+      },
+      {
+        "id": 104,
+        "domanda": "[Web] A cosa servono i framework CSS come Bootstrap?",
+        "risposte": [
+          "Semplificare la creazione di design responsive",
+          "Gestire la logica lato server",
+          "Memorizzare dati in tabelle",
+          "Proteggere le connessioni web"
+        ],
+        "risposta_corretta": "Semplificare la creazione di design responsive",
+        "svg": ""
+      },
+      {
+        "id": 105,
+        "domanda": "[Web] Quali sono alcuni framework JavaScript popolari?",
+        "risposte": [
+          "React, Angular e Vue.js",
+          "Django, Flask e Spring",
+          "Bootstrap, Tailwind e Foundation",
+          "MySQL, PostgreSQL e MongoDB"
+        ],
+        "risposta_corretta": "React, Angular e Vue.js",
+        "svg": ""
+      },
+      {
+        "id": 106,
+        "domanda": "[Web] Cos'è il DOM?",
+        "risposte": [
+          "La rappresentazione della struttura di una pagina web",
+          "Un database di documenti",
+          "Un server web per gestire richieste HTTP",
+          "Un sistema per proteggere le connessioni internet"
+        ],
+        "risposta_corretta": "La rappresentazione della struttura di una pagina web",
+        "svg": ""
+      },
+      {
+        "id": 107,
+        "domanda": "[Web] Quali sono alcuni server web comuni?",
+        "risposte": [
+          "Apache e Nginx",
+          "MySQL e MongoDB",
+          "Bootstrap e Tailwind",
+          "React e Angular"
+        ],
+        "risposta_corretta": "Apache e Nginx",
+        "svg": ""
+      },
+      {
+        "id": 108,
+        "domanda": "[Web] Quali linguaggi server-side vengono usati per creare contenuti dinamici?",
+        "risposte": [
+          "PHP, Python e Node.js",
+          "HTML, CSS e JavaScript",
+          "MySQL, MongoDB e PostgreSQL",
+          "Apache, Nginx e Tomcat"
+        ],
+        "risposta_corretta": "PHP, Python e Node.js",
+        "svg": ""
+      },
+      {
+        "id": 109,
+        "domanda": "[Web] A cosa servono i database come MySQL e MongoDB?",
+        "risposte": [
+          "Memorizzare e gestire i dati delle applicazioni web",
+          "Definire il layout delle pagine",
+          "Proteggere le connessioni web",
+          "Eseguire il rendering di pagine web"
+        ],
+        "risposta_corretta": "Memorizzare e gestire i dati delle applicazioni web",
+        "svg": ""
+      },
+      {
+        "id": 110,
+        "domanda": "[Web] Cosa fanno le API?",
+        "risposte": [
+          "Consentono la comunicazione tra diverse applicazioni",
+          "Gestiscono il versionamento del codice",
+          "Definiscono lo stile delle pagine web",
+          "Migliorano la sicurezza delle connessioni"
+        ],
+        "risposta_corretta": "Consentono la comunicazione tra diverse applicazioni",
+        "svg": ""
+      },
+      {
+        "id": 111,
+        "domanda": "[Web] A cosa serve il responsive design?",
+        "risposte": [
+          "Garantire che i siti siano utilizzabili su dispositivi di diverse dimensioni",
+          "Proteggere i dati degli utenti",
+          "Creare connessioni più veloci tra client e server",
+          "Aggiungere effetti visivi alle pagine web"
+        ],
+        "risposta_corretta": "Garantire che i siti siano utilizzabili su dispositivi di diverse dimensioni",
+        "svg": ""
+      },
+      {
+        "id": 112,
+        "domanda": "[Web] Cosa garantisce il protocollo HTTPS?",
+        "risposte": [
+          "Una connessione sicura tra client e server",
+          "Un caricamento più veloce delle pagine",
+          "Un design più accattivante",
+          "La gestione delle richieste HTTP"
+        ],
+        "risposta_corretta": "Una connessione sicura tra client e server",
+        "svg": ""
+      },
+      {
+        "id": 113,
+        "domanda": "[Web] Quale CMS è molto usato per creare siti web?",
+        "risposte": [
+          "WordPress",
+          "MongoDB",
+          "React",
+          "Apache"
+        ],
+        "risposta_corretta": "WordPress",
+        "svg": ""
+      },
+      {
+        "id": 114,
+        "domanda": "[Web] A cosa servono strumenti di versionamento come Git?",
+        "risposte": [
+          "Tenere traccia delle modifiche al codice",
+          "Proteggere le connessioni",
+          "Ottimizzare i database",
+          "Eseguire test automatizzati"
+        ],
+        "risposta_corretta": "Tenere traccia delle modifiche al codice",
+        "svg": ""
+      },
+      {
+        "id": 115,
+        "domanda": "[Web] Cosa caratterizza le Single Page Applications (SPA)?",
+        "risposte": [
+          "Caricano dinamicamente i contenuti senza ricaricare l'intera pagina",
+          "Richiedono sempre un server dedicato",
+          "Usano solo PHP per funzionare",
+          "Non supportano l'interattività"
+        ],
+        "risposta_corretta": "Caricano dinamicamente i contenuti senza ricaricare l'intera pagina",
+        "svg": ""
+      },
+      {
+        "id": 116,
+        "domanda": "[Web] A cosa serve la SEO?",
+        "risposte": [
+          "Migliorare la visibilità nei motori di ricerca",
+          "Gestire il traffico di rete",
+          "Proteggere le connessioni HTTPS",
+          "Migliorare la sicurezza dei siti web"
+        ],
+        "risposta_corretta": "Migliorare la visibilità nei motori di ricerca",
+        "svg": ""
+      },
+      {
+        "id": 117,
+        "domanda": "[Web] Qual è la funzione del backend?",
+        "risposte": [
+          "Gestire la logica e l'interazione con il database",
+          "Mostrare l'interfaccia utente",
+          "Aggiungere effetti visivi alla pagina",
+          "Migliorare la SEO"
+        ],
+        "risposta_corretta": "Gestire la logica e l'interazione con il database",
+        "svg": ""
+      },
+      {
+        "id": 118,
+        "domanda": "[Web] Cos'è il frontend?",
+        "risposte": [
+          "L'aspetto visivo e l'interazione utente",
+          "La logica lato server",
+          "La gestione dei database",
+          "L'ottimizzazione SEO"
+        ],
+        "risposta_corretta": "L'aspetto visivo e l'interazione utente",
+        "svg": ""
+      },
+      {
+        "id": 119,
+        "domanda": "[Web] A cosa servono i test automatizzati?",
+        "risposte": [
+          "Verificare che il codice funzioni correttamente",
+          "Aggiungere nuovi design alle pagine",
+          "Proteggere i dati degli utenti",
+          "Ottimizzare le connessioni internet"
+        ],
+        "risposta_corretta": "Verificare che il codice funzioni correttamente",
+        "svg": ""
+      }
+    ]
+  }
+  

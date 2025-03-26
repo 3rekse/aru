@@ -1,0 +1,111 @@
+[
+  {
+    "mission": "WEB",
+    "nome": "h",
+    "cognome": "h",
+    "classe": "h",
+    "voto": 1.5,
+    "dataorainizio": "2025-03-25T08:41:55.781Z",
+    "inizio": "25/03/2025, 09:41:55",
+    "durata": 625,
+    "giuste": 3,
+    "sbagliate": 1,
+    "quiz": [
+      {
+        "id": 106,
+        "domanda": "[Web] Cos'è il DOM?",
+        "svg": " ✅ La rappresentazione della struttura di una pagina web"
+      },
+      {
+        "id": 104,
+        "domanda": "[Web] A cosa servono i framework CSS come Bootstrap?",
+        "svg": " ✅ Semplificare la creazione di design responsive"
+      },
+      {
+        "id": 116,
+        "domanda": "[Web] A cosa serve la SEO?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 108,
+        "domanda": "[Web] Quali linguaggi server-side vengono usati per creare contenuti dinamici?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 113,
+        "domanda": "[Web] Quale CMS è molto usato per creare siti web?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 103,
+        "domanda": "[Web] Qual è lo scopo di JavaScript?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 119,
+        "domanda": "[Web] A cosa servono i test automatizzati?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 110,
+        "domanda": "[Web] Cosa fanno le API?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 101,
+        "domanda": "[Web] Cosa rappresenta l'HTML?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 102,
+        "domanda": "[Web] A cosa serve il CSS?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 107,
+        "domanda": "[Web] Quali sono alcuni server web comuni?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 114,
+        "domanda": "[Web] A cosa servono strumenti di versionamento come Git?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 118,
+        "domanda": "[Web] Cos'è il frontend?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 117,
+        "domanda": "[Web] Qual è la funzione del backend?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 105,
+        "domanda": "[Web] Quali sono alcuni framework JavaScript popolari?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 112,
+        "domanda": "[Web] Cosa garantisce il protocollo HTTPS?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 115,
+        "domanda": "[Web] Cosa caratterizza le Single Page Applications (SPA)?",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path fill='#E34F26' d='M25 0h150l-15 172l-60 18l-60-18L25 0zm122 61l-1 8l-3 33l-1 11H79l4 35l28 7h2l28-7l2-17h-19l-2 10l-10 3h-2l-11-3l-2-18H76l2 21l42 12l42-12l5-53l2-21H56l3 21h88z'/></svg>"
+      },
+      {
+        "id": 109,
+        "domanda": "[Web] A cosa servono i database come MySQL e MongoDB?",
+        "svg": " ❌ Proteggere le connessioni web"
+      },
+      {
+        "id": 111,
+        "domanda": "[Web] A cosa serve il responsive design?",
+        "svg": " ✅ Garantire che i siti siano utilizzabili su dispositivi di diverse dimensioni"
+      }
+    ]
+  }
+]

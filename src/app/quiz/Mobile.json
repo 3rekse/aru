@@ -1,0 +1,245 @@
+{
+    "quiz": [
+      {
+        "id": 121,
+        "domanda": "[Mobile] Le reti 4G hanno rivoluzionato la comunicazione mobile.",
+        "risposte": [
+          "Offrendo velocità di trasferimento dati molto più elevate rispetto alle generazioni precedenti.",
+          "Introducendo la possibilità di effettuare chiamate vocali tramite internet.",
+          "Migliorando la sicurezza delle comunicazioni mobili.",
+          "Semplificando la gestione delle reti cellulari."
+        ],
+        "risposta_corretta": "Offrendo velocità di trasferimento dati molto più elevate rispetto alle generazioni precedenti.",
+        "svg": ""
+      },
+      {
+        "id": 122,
+        "domanda": "[Mobile] Il 5G si distingue per:",
+        "risposte": [
+          "Tempi di latenza estremamente bassi, ideali per applicazioni in tempo reale.",
+          "Un'ampia copertura geografica già disponibile a livello globale.",
+          "Un consumo energetico inferiore rispetto alle reti 4G.",
+          "Una maggiore semplicità di implementazione rispetto alle reti precedenti."
+        ],
+        "risposta_corretta": "Tempi di latenza estremamente bassi, ideali per applicazioni in tempo reale.",
+        "svg": ""
+      },
+      {
+        "id": 123,
+        "domanda": "[Mobile] La tecnologia LTE ha principalmente contribuito a:",
+        "risposte": [
+          "Aumentare la capacità delle reti mobili.",
+          "Ridurre il costo delle chiamate internazionali.",
+          "Migliorare la qualità del segnale in aree rurali.",
+          "Semplificare la configurazione degli smartphone."
+        ],
+        "risposta_corretta": "Aumentare la capacità delle reti mobili.",
+        "svg": ""
+      },
+      {
+        "id": 124,
+        "domanda": "[Mobile] L'introduzione delle reti 3G ha permesso:",
+        "risposte": [
+          "La navigazione internet e l'utilizzo di applicazioni mobili su scala globale.",
+          "L'utilizzo di dispositivi mobili più piccoli e leggeri.",
+          "Una maggiore sicurezza nelle comunicazioni wireless.",
+          "Una riduzione significativa dei costi di produzione degli smartphone."
+        ],
+        "risposta_corretta": "La navigazione internet e l'utilizzo di applicazioni mobili su scala globale.",
+        "svg": ""
+      },
+      {
+        "id": 125,
+        "domanda": "[Mobile] Il protocollo VoLTE è caratterizzato da:",
+        "risposte": [
+          "Chiamate vocali di alta qualità su reti 4G.",
+          "Una maggiore durata della batteria degli smartphone.",
+          "Una migliore gestione del traffico dati.",
+          "Una maggiore semplicità di configurazione delle chiamate."
+        ],
+        "risposta_corretta": "Chiamate vocali di alta qualità su reti 4G.",
+        "svg": ""
+      },
+      {
+        "id": 126,
+        "domanda": "[Mobile] Il Wi-Fi offload serve a:",
+        "risposte": [
+          "Alleggerire il traffico delle reti mobili utilizzando reti Wi-Fi.",
+          "Aumentare la velocità di download degli smartphone.",
+          "Migliorare la sicurezza delle connessioni wireless.",
+          "Ridurre il consumo energetico degli smartphone."
+        ],
+        "risposta_corretta": "Alleggerire il traffico delle reti mobili utilizzando reti Wi-Fi.",
+        "svg": ""
+      },
+      {
+        "id": 127,
+        "domanda": "[Mobile] La tecnologia NFC permette:",
+        "risposte": [
+          "Pagamenti contactless e scambio di dati a breve distanza.",
+          "Una maggiore velocità di connessione internet.",
+          "Una migliore gestione della batteria.",
+          "Una maggiore sicurezza nelle comunicazioni a lunga distanza."
+        ],
+        "risposta_corretta": "Pagamenti contactless e scambio di dati a breve distanza.",
+        "svg": ""
+      },
+      {
+        "id": 128,
+        "domanda": "[Mobile] Gli smartphone moderni utilizzano:",
+        "risposte": [
+          "Reti Wi-Fi, Bluetooth e cellulare per una connettività continua.",
+          "Solo reti cellulari per la connessione a internet.",
+          "Principalmente reti Wi-Fi per la connessione a internet.",
+          "Solo tecnologia Bluetooth per la connessione a dispositivi vicini."
+        ],
+        "risposta_corretta": "Reti Wi-Fi, Bluetooth e cellulare per una connettività continua.",
+        "svg": ""
+      },
+      {
+        "id": 129,
+        "domanda": "[Mobile] WPA3 è un protocollo che:",
+        "risposte": [
+          "Protegge le comunicazioni nelle reti Wi-Fi.",
+          "Gestisce la connessione tra dispositivi Bluetooth.",
+          "Migliora la velocità di connessione cellulare.",
+          "Consente pagamenti contactless."
+        ],
+        "risposta_corretta": "Protegge le comunicazioni nelle reti Wi-Fi.",
+        "svg": ""
+      },
+      {
+        "id": 130,
+        "domanda": "[Mobile] Il beamforming nel 5G serve a:",
+        "risposte": [
+          "Ottimizzare la trasmissione dei segnali verso dispositivi specifici.",
+          "Aumentare la portata del segnale.",
+          "Ridurre il consumo energetico.",
+          "Semplificare la configurazione della rete."
+        ],
+        "risposta_corretta": "Ottimizzare la trasmissione dei segnali verso dispositivi specifici.",
+        "svg": ""
+      },
+      {
+        "id": 131,
+        "domanda": "[Mobile] I satelliti LEO stanno migliorando:",
+        "risposte": [
+          "L'accesso alla rete mobile in aree remote.",
+          "La velocità di connessione internet in città.",
+          "La sicurezza delle comunicazioni mobili.",
+          "La durata della batteria degli smartphone."
+        ],
+        "risposta_corretta": "L'accesso alla rete mobile in aree remote.",
+        "svg": ""
+      },
+      {
+        "id": 132,
+        "domanda": "[Mobile] Gli eSIM offrono la possibilità di:",
+        "risposte": [
+          "Cambiare operatore senza inserire una nuova SIM fisica.",
+          "Aumentare la velocità di connessione internet.",
+          "Migliorare la sicurezza delle comunicazioni.",
+          "Ridurre il costo delle chiamate internazionali."
+        ],
+        "risposta_corretta": "Cambiare operatore senza inserire una nuova SIM fisica.",
+        "svg": ""
+      },
+      {
+        "id": 133,
+        "domanda": "[Mobile] La crittografia end-to-end garantisce:",
+        "risposte": [
+          "La protezione delle comunicazioni mobili da intercettazioni.",
+          "Una maggiore velocità di connessione.",
+          "Una migliore gestione della batteria.",
+          "Una maggiore compatibilità tra dispositivi."
+        ],
+        "risposta_corretta": "La protezione delle comunicazioni mobili da intercettazioni.",
+        "svg": ""
+      },
+      {
+        "id": 134,
+        "domanda": "[Mobile] Le reti mesh migliorano:",
+        "risposte": [
+          "La copertura mobile creando connessioni tra più dispositivi vicini.",
+          "La velocità di connessione internet.",
+          "La sicurezza delle comunicazioni wireless.",
+          "La durata della batteria degli smartphone."
+        ],
+        "risposta_corretta": "La copertura mobile creando connessioni tra più dispositivi vicini.",
+        "svg": ""
+      },
+      {
+        "id": 135,
+        "domanda": "[Mobile] La rete 6G promette:",
+        "risposte": [
+          "Velocità senza precedenti e nuove possibilità per l'Internet delle Cose.",
+          "Una maggiore semplicità di implementazione.",
+          "Un consumo energetico inferiore rispetto al 5G.",
+          "Una maggiore compatibilità con le reti precedenti."
+        ],
+        "risposta_corretta": "Velocità senza precedenti e nuove possibilità per l'Internet delle Cose.",
+        "svg": ""
+      },
+      {
+        "id": 136,
+        "domanda": "[Mobile] Gli algoritmi di handover servono a:",
+        "risposte": [
+          "Permettere ai dispositivi mobili di passare da una cella a un'altra senza interrompere la connessione.",
+          "Aumentare la velocità di connessione internet.",
+          "Migliorare la sicurezza delle comunicazioni mobili.",
+          "Ridurre il consumo energetico degli smartphone."
+        ],
+        "risposta_corretta": "Permettere ai dispositivi mobili di passare da una cella a un'altra senza interrompere la connessione.",
+        "svg": ""
+      },
+      {
+        "id": 137,
+        "domanda": "[Mobile] La tecnologia MIMO aumenta:",
+        "risposte": [
+          "L'efficienza delle reti mobili utilizzando più antenne.",
+          "La portata del segnale.",
+          "La sicurezza delle comunicazioni.",
+          "La durata della batteria degli smartphone."
+        ],
+        "risposta_corretta": "L'efficienza delle reti mobili utilizzando più antenne.",
+        "svg": ""
+      },
+      {
+        "id": 138,
+        "domanda": "[Mobile] Il carrier aggregation serve a:",
+        "risposte": [
+          "Combinare più frequenze per migliorare la velocità di download.",
+          "Aumentare la portata del segnale.",
+          "Migliorare la sicurezza delle comunicazioni.",
+          "Ridurre il consumo energetico."
+        ],
+        "risposta_corretta": "Combinare più frequenze per migliorare la velocità di download.",
+        "svg": ""
+      },
+      {
+        "id": 139,
+        "domanda": "[Mobile] Il roaming permette agli utenti di:",
+        "risposte": [
+          "Utilizzare le reti mobili in paesi diversi dal proprio.",
+          "Aumentare la velocità di connessione internet.",
+          "Migliorare la sicurezza delle comunicazioni.",
+          "Ridurre il costo delle chiamate internazionali."
+        ],
+        "risposta_corretta": "Utilizzare le reti mobili in paesi diversi dal proprio.",
+        "svg": ""
+      },
+      {
+        "id": 140,
+        "domanda": "[Mobile] Gli operatori mobili offrono servizi IoT:",
+        "risposte": [
+          "Come la connettività NB-IoT per dispositivi a bassa potenza.",
+          "Principalmente per dispositivi ad alta potenza.",
+          "Solo per dispositivi di ultima generazione.",
+          "Solo per dispositivi di grandi dimensioni."
+        ],
+        "risposta_corretta": "Come la connettività NB-IoT per dispositivi a bassa potenza.",
+        "svg": ""
+      }
+    ]
+  }
+  
