@@ -21,6 +21,8 @@ const shuffleArray = <T,>(array: T[]): T[] => {
         algorithms = require('./Mobile.json') as QuizData;
     } else if (mission === "WEB") {
         algorithms = require('./WEB.json') as QuizData;
+    } else if (mission === "Reti") {
+        algorithms = require('./Reti.json') as QuizData;
     } else {
         throw new Error("Invalid mission type");
     }
