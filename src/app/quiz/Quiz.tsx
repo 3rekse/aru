@@ -285,7 +285,17 @@ const Quiz: React.FC<QuizProps> = ({ mission, domande, classe, nome, cognome, ex
                 >
                   {responseMessage}
                    
-                </a></div>
+                </a>
+                <a
+                    onClick={rivedi}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.secondary}
+                >
+                  Rivedi
+                   
+                </a>
+                </div>
             )}
             
             {/*domande.map((domanda, index) => (
