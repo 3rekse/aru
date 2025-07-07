@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "domanda": "Cos'è una rete informatica?",
+    "risposte": [
+      "Un insieme di dispositivi interconnessi per condividere dati e risorse.",
+      "Una connessione tra due router.",
+      "Una rete cablata per la stampa.",
+      "Un protocollo di trasmissione dati."
+    ],
+    "risposta_corretta": "Un insieme di dispositivi interconnessi per condividere dati e risorse.",
+    "svg": ""
+  },
+  {
+    "id": 2,
+    "domanda": "Cosa sono le reti LAN?",
+    "risposte": [
+      "Reti che collegano città diverse.",
+      "Reti locali che coprono spazi limitati come uffici o abitazioni.",
+      "Reti virtuali attraverso Internet.",
+      "Reti tra dispositivi Bluetooth."
+    ],
+    "risposta_corretta": "Reti locali che coprono spazi limitati come uffici o abitazioni.",
+    "svg": ""
+  },
+  {
+    "id": 3,
+    "domanda": "Qual è la caratteristica principale di una rete WAN?",
+    "risposte": [
+      "Coprire piccole aree geografiche.",
+      "Utilizzare solo connessioni wireless.",
+      "Estendersi su grandi aree geografiche.",
+      "Essere sempre peer-to-peer."
+    ],
+    "risposta_corretta": "Estendersi su grandi aree geografiche.",
+    "svg": ""
+  },
+  {
+    "id": 4,
+    "domanda": "Cos'è una rete mesh?",
+    "risposte": [
+      "Una rete a stella cablata.",
+      "Una rete con un nodo centrale unico.",
+      "Una rete dove ogni nodo è connesso a più altri nodi.",
+      "Una rete che utilizza il protocollo FTP."
+    ],
+    "risposta_corretta": "Una rete dove ogni nodo è connesso a più altri nodi.",
+    "svg": ""
+  },
+  {
+    "id": 5,
+    "domanda": "Come funzionano le reti peer-to-peer?",
+    "risposte": [
+      "Collegano dispositivi direttamente senza un server centrale.",
+      "Distribuiscono la connettività tra più nodi.",
+      "Collegano reti diverse e instradano pacchetti.",
+      "Permettono la connessione a Internet in aree pubbliche."
+    ],
+    "risposta_corretta": "Collegano dispositivi direttamente senza un server centrale.",
+    "svg": ""
+  },
+  {
+    "id": 6,
+    "domanda": "Qual è il compito di uno switch?",
+    "risposte": [
+      "Collegare più dispositivi all’interno di una rete locale.",
+      "Tradurre nomi di dominio in IP.",
+      "Analizzare pacchetti in uscita.",
+      "Collegare una rete LAN a Internet."
+    ],
+    "risposta_corretta": "Collegare più dispositivi all’interno di una rete locale.",
+    "svg": ""
+  },
+  {
+    "id": 7,
+    "domanda": "Che funzione svolge un router?",
+    "risposte": [
+      "Gestisce le connessioni wireless tra nodi.",
+      "Analizza il traffico tra client e server.",
+      "Collega reti diverse e instrada pacchetti.",
+      "Rileva dispositivi sconosciuti in rete."
+    ],
+    "risposta_corretta": "Collega reti diverse e instrada pacchetti.",
+    "svg": ""
+  },
+  {
+    "id": 8,
+    "domanda": "Cos'è un proxy?",
+    "risposte": [
+      "Un tipo di router connesso via VPN.",
+      "Un dispositivo per analizzare reti mesh.",
+      "Un intermediario tra utente e Internet.",
+      "Un server di backup dei dati."
+    ],
+    "risposta_corretta": "Un intermediario tra utente e Internet.",
+    "svg": ""
+  },
+  {
+    "id": 9,
+    "domanda": "Cos'è un hotspot?",
+    "risposte": [
+      "Un sistema di cablaggio Ethernet diretto.",
+      "Un punto d’accesso Wi-Fi per connettersi a Internet.",
+      "Un software per testare router.",
+      "Un tipo di cavo di rete."
+    ],
+    "risposta_corretta": "Un punto d’accesso Wi-Fi per connettersi a Internet.",
+    "svg": ""
+  },
+  {
+    "id": 10,
+    "domanda": "Cos'è l'Ethernet?",
+    "risposte": [
+      "Un protocollo per email aziendali.",
+      "Un tipo di VPN avanzata.",
+      "Una tecnologia cablata per la trasmissione dati.",
+      "Un sistema operativo di rete."
+    ],
+    "risposta_corretta": "Una tecnologia cablata per la trasmissione dati.",
+    "svg": ""
+  },
+  {
+    "id": 11,
+    "domanda": "Cos'è il Wi-Fi?",
+    "risposte": [
+      "Un tipo di router.",
+      "Una tecnologia wireless che usa onde radio.",
+      "Una rete cablata protetta.",
+      "Un firewall per reti mesh."
+    ],
+    "risposta_corretta": "Una tecnologia wireless che usa onde radio.",
+    "svg": ""
+  },
+  {
+    "id": 12,
+    "domanda": "A cosa serve TCP/IP?",
+    "risposte": [
+      "A trasferire file da server FTP.",
+      "A configurare nomi di dominio.",
+      "A garantire trasporto e indirizzamento dei dati in rete.",
+      "A criptare dati personali su reti Wi-Fi."
+    ],
+    "risposta_corretta": "A garantire trasporto e indirizzamento dei dati in rete.",
+    "svg": ""
+  },
+  {
+    "id": 13,
+    "domanda": "Cosa fa il protocollo DNS?",
+    "risposte": [
+      "Gestisce l’invio dei pacchetti IP.",
+      "Traduce nomi di dominio in indirizzi IP.",
+      "Analizza pacchetti in entrata.",
+      "Fornisce indirizzi MAC ai dispositivi."
+    ],
+    "risposta_corretta": "Traduce nomi di dominio in indirizzi IP.",
+    "svg": ""
+  },
+  {
+    "id": 14,
+    "domanda": "Qual è lo scopo del protocollo FTP?",
+    "risposte": [
+      "Gestire router e switch.",
+      "Tracciare nomi DNS.",
+      "Trasferire file tra dispositivi.",
+      "Monitorare traffico internet."
+    ],
+    "risposta_corretta": "Trasferire file tra dispositivi.",
+    "svg": ""
+  },
+  {
+    "id": 15,
+    "domanda": "Cos'è un indirizzo IP?",
+    "risposte": [
+      "Un identificativo fisico di una rete.",
+      "Un’etichetta logica per identificare un dispositivo in rete.",
+      "Un protocollo di backup dei dati.",
+      "Un sistema di protezione crittografica."
+    ],
+    "risposta_corretta": "Un’etichetta logica per identificare un dispositivo in rete.",
+    "svg": ""
+  },
+  {
+    "id": 16,
+    "domanda": "Cos'è un indirizzo MAC?",
+    "risposte": [
+      "Un sistema di memorizzazione cloud.",
+      "Un indirizzo virtuale assegnato via software.",
+      "Un identificativo fisico univoco della scheda di rete.",
+      "Una chiave crittografica di accesso alla rete."
+    ],
+    "risposta_corretta": "Un identificativo fisico univoco della scheda di rete.",
+    "svg": ""
+  },
+  {
+    "id": 17,
+    "domanda": "Cosa fa una VPN?",
+    "risposte": [
+      "Accelera la connessione Wi-Fi.",
+      "Monitora i pacchetti in rete.",
+      "Crea una connessione sicura attraverso Internet pubblico.",
+      "Controlla la validità degli indirizzi IP."
+    ],
+    "risposta_corretta": "Crea una connessione sicura attraverso Internet pubblico.",
+    "svg": ""
+  },
+  {
+    "id": 18,
+    "domanda": "Cosa fa il comando ping?",
+    "risposte": [
+      "Cripta la rete Wi-Fi.",
+      "Verifica la connettività tra due dispositivi.",
+      "Analizza i pacchetti DNS.",
+      "Modifica l’indirizzo IP del dispositivo."
+    ],
+    "risposta_corretta": "Verifica la connettività tra due dispositivi.",
+    "svg": ""
+  },
+  {
+    "id": 19,
+    "domanda": "A cosa serve Wireshark?",
+    "risposte": [
+      "A criptare pacchetti in uscita.",
+      "A filtrare contenuti in rete.",
+      "A monitorare e analizzare pacchetti di rete.",
+      "A creare VPN sicure."
+    ],
+    "risposta_corretta": "A monitorare e analizzare pacchetti di rete.",
+    "svg": ""
+  },
+  {
+    "id": 20,
+    "domanda": "Cosa rappresentano le topologie di rete?",
+    "risposte": [
+      "Le regole per gestire VPN.",
+      "L’organizzazione fisica e logica dei dispositivi in rete.",
+      "I livelli di accesso ai file condivisi.",
+      "Il numero di utenti connessi simultaneamente."
+    ],
+    "risposta_corretta": "L’organizzazione fisica e logica dei dispositivi in rete.",
+    "svg": ""
+  },
+  {
+    "id": 21,
+    "domanda": "Qual è un vantaggio delle reti mesh?",
+    "risposte": [
+      "Meno dispositivi richiesti",
+      "Facile configurazione",
+      "Affidabilità grazie a connessioni ridondanti",
+      "Costi molto bassi"
+    ],
+    "risposta_corretta": "Affidabilità grazie a connessioni ridondanti",
+    "svg": ""
+  },
+  {
+    "id": 22,
+    "domanda": "Cosa permette di fare un indirizzo IP statico?",
+    "risposte": [
+      "Nascondere il traffico di rete",
+      "Assegnare automaticamente indirizzi IP",
+      "Identificare un dispositivo sempre con lo stesso indirizzo",
+      "Cambiare indirizzo IP ogni volta"
+    ],
+    "risposta_corretta": "Identificare un dispositivo sempre con lo stesso indirizzo",
+    "svg": ""
+  },
+  {
+    "id": 23,
+    "domanda": "A cosa serve il DHCP?",
+    "risposte": [
+      "A inviare pacchetti crittografati",
+      "A gestire l’accesso alla rete Wi-Fi",
+      "Ad assegnare automaticamente indirizzi IP",
+      "A tradurre i nomi di dominio"
+    ],
+    "risposta_corretta": "Ad assegnare automaticamente indirizzi IP",
+    "svg": ""
+  },
+  {
+    "id": 24,
+    "domanda": "Cosa significa che il MAC è 'univoco'?",
+    "risposte": [
+      "Varia ogni connessione",
+      "È uguale in dispositivi della stessa marca",
+      "È assegnato unicamente a ogni dispositivo",
+      "Serve solo per dispositivi mobili"
+    ],
+    "risposta_corretta": "È assegnato unicamente a ogni dispositivo",
+    "svg": ""
+  },
+  {
+    "id": 25,
+    "domanda": "Cosa consente un server proxy?",
+    "risposte": [
+      "Una connessione diretta a Internet",
+      "Un indirizzamento DNS veloce",
+      "Un’intermediazione tra utente e risorse online",
+      "Un sistema di backup in cloud"
+    ],
+    "risposta_corretta": "Un’intermediazione tra utente e risorse online",
+    "svg": ""
+  },
+  {
+    "id": 26,
+    "domanda": "Come avviene la trasmissione dei dati in una rete Ethernet?",
+    "risposte": [
+      "Via onde radio",
+      "Via segnali ottici",
+      "Via cavo in rame o fibra",
+      "Via satellite"
+    ],
+    "risposta_corretta": "Via cavo in rame o fibra",
+    "svg": ""
+  },
+  {
+    "id": 27,
+    "domanda": "Qual è la funzione primaria di un router domestico?",
+    "risposte": [
+      "Fornire accesso a file condivisi",
+      "Connettere più dispositivi a un monitor",
+      "Collegare la rete locale a Internet",
+      "Gestire le stampanti in rete"
+    ],
+    "risposta_corretta": "Collegare la rete locale a Internet",
+    "svg": ""
+  },
+  {
+    "id": 28,
+    "domanda": "Quale tra questi è un indirizzo IP privato?",
+    "risposte": [
+      "8.8.8.8",
+      "192.168.1.1",
+      "172.217.0.46",
+      "142.250.184.14"
+    ],
+    "risposta_corretta": "192.168.1.1",
+    "svg": ""
+  },
+  {
+    "id": 29,
+    "domanda": "Come si distingue una rete Wi-Fi pubblica?",
+    "risposte": [
+      "Richiede una VPN obbligatoria",
+      "Ha una password molto complessa",
+      "È accessibile liberamente in luoghi pubblici",
+      "Utilizza cavi Ethernet condivisi"
+    ],
+    "risposta_corretta": "È accessibile liberamente in luoghi pubblici",
+    "svg": ""
+  },
+  {
+    "id": 30,
+    "domanda": "Cosa rappresenta l’acronimo DNS?",
+    "risposte": [
+      "Digital Network Signal",
+      "Domain Name System",
+      "Data Network Service",
+      "Dynamic Network Setup"
+    ],
+    "risposta_corretta": "Domain Name System",
+    "svg": ""
+  },
+  {
+    "id": 31,
+    "domanda": "Qual è una funzione del comando ping?",
+    "risposte": [
+      "Configurare router",
+      "Controllare la connettività tra dispositivi",
+      "Cancellare i dati DNS",
+      "Bloccare un sito web"
+    ],
+    "risposta_corretta": "Controllare la connettività tra dispositivi",
+    "svg": ""
+  },
+  {
+    "id": 32,
+    "domanda": "Cosa caratterizza un indirizzo MAC?",
+    "risposte": [
+      "È assegnato da un server DHCP",
+      "Cambia ogni sessione",
+      "È fisso e identificativo della scheda di rete",
+      "Indica la posizione geografica"
+    ],
+    "risposta_corretta": "È fisso e identificativo della scheda di rete",
+    "svg": ""
+  },
+  {
+    "id": 33,
+    "domanda": "Qual è lo scopo principale di Wireshark?",
+    "risposte": [
+      "Proteggere la rete con firewall",
+      "Monitorare e analizzare i pacchetti di rete",
+      "Configurare indirizzi IP statici",
+      "Tradurre nomi di dominio"
+    ],
+    "risposta_corretta": "Monitorare e analizzare i pacchetti di rete",
+    "svg": ""
+  },
+  {
+    "id": 34,
+    "domanda": "Quale tecnologia consente connessioni wireless su brevi distanze?",
+    "risposte": [
+      "Ethernet",
+      "Fiber Channel",
+      "Wi-Fi",
+      "Bluetooth"
+    ],
+    "risposta_corretta": "Bluetooth",
+    "svg": ""
+  },
+  {
+    "id": 35,
+    "domanda": "Cosa indica il termine 'topologia di rete'?",
+    "risposte": [
+      "Il numero di pacchetti trasmessi",
+      "La configurazione fisica e logica della rete",
+      "Il tipo di cavo utilizzato",
+      "La velocità di trasferimento"
+    ],
+    "risposta_corretta": "La configurazione fisica e logica della rete",
+    "svg": ""
+  },
+  {
+    "id": 36,
+    "domanda": "Quale tipo di topologia collega tutti i dispositivi a un nodo centrale?",
+    "risposte": [
+      "Anello",
+      "Maglia",
+      "Stella",
+      "Bus"
+    ],
+    "risposta_corretta": "Stella",
+    "svg": ""
+  },
+  {
+    "id": 37,
+    "domanda": "Che ruolo ha un firewall in una rete?",
+    "risposte": [
+      "Analizza pacchetti ICMP",
+      "Assegna IP ai client",
+      "Filtra e protegge il traffico di rete",
+      "Gestisce i nodi della topologia mesh"
+    ],
+    "risposta_corretta": "Filtra e protegge il traffico di rete",
+    "svg": ""
+  },
+  {
+    "id": 38,
+    "domanda": "Come si chiama la tecnologia che consente di accedere a Internet usando la rete mobile?",
+    "risposte": [
+      "Wi-Fi",
+      "Bluetooth",
+      "Hotspot",
+      "4G/5G"
+    ],
+    "risposta_corretta": "4G/5G",
+    "svg": ""
+  },
+  {
+    "id": 39,
+    "domanda": "A cosa serve un cavo RJ-45?",
+    "risposte": [
+      "Connettere dispositivi a una rete Ethernet",
+      "Alimentare i router",
+      "Trasferire file via USB",
+      "Collegare stampanti wireless"
+    ],
+    "risposta_corretta": "Connettere dispositivi a una rete Ethernet",
+    "svg": ""
+  },
+  {
+    "id": 40,
+    "domanda": "Quale dei seguenti protocolli è usato per il trasferimento di file?",
+    "risposte": [
+      "FTP",
+      "HTTP",
+      "SMTP",
+      "SNMP"
+    ],
+    "risposta_corretta": "FTP",
+    "svg": ""
+  }
+]

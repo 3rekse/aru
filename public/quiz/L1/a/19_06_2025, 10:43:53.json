@@ -1,0 +1,15 @@
+[
+  {
+    "mission": "L1",
+    "nome": "a",
+    "cognome": "a",
+    "classe": "a",
+    "voto": null,
+    "dataorainizio": "2025-06-19T08:43:15.349Z",
+    "inizio": "19/06/2025, 10:43:15",
+    "durata": 37533,
+    "giuste": 0,
+    "sbagliate": 0,
+    "quiz": []
+  }
+]

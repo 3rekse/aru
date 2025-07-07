@@ -1,0 +1,364 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "domanda": "Quale comando viene utilizzato per configurare un indirizzo IP su un'interfaccia di un router Cisco?",
+        "risposte": [
+          "ip address",
+          "set ip",
+          "config ip",
+          "assign ip"
+        ],
+        "risposta_corretta": "ip address",
+        "svg": ""
+      },
+      {
+        "id": 2,
+        "domanda": "Quale comando viene utilizzato per salvare la configurazione corrente su un router Cisco?",
+        "risposte": [
+          "write memory",
+          "save config",
+          "copy running-config startup-config",
+          "store config"
+        ],
+        "risposta_corretta": "copy running-config startup-config",
+        "svg": ""
+      },
+      {
+        "id": 3,
+        "domanda": "Qual è la funzione principale di un access point?",
+        "risposte": [
+          "Fornire connettività wireless ai dispositivi",
+          "Instradare pacchetti tra reti diverse",
+          "Gestire il traffico VLAN",
+          "Assegnare indirizzi IP ai dispositivi"
+        ],
+        "risposta_corretta": "Fornire connettività wireless ai dispositivi",
+        "svg": ""
+      },
+      {
+        "id": 4,
+        "domanda": "Quale comando viene utilizzato per configurare una VLAN su uno switch Cisco?",
+        "risposte": [
+          "vlan",
+          "switchport mode access",
+          "interface vlan",
+          "create vlan"
+        ],
+        "risposta_corretta": "vlan",
+        "svg": ""
+      },
+      {
+        "id": 5,
+        "domanda": "Quale protocollo viene utilizzato per assegnare automaticamente indirizzi IP ai dispositivi in rete?",
+        "risposte": [
+          "DHCP",
+          "DNS",
+          "NAT",
+          "ARP"
+        ],
+        "risposta_corretta": "DHCP",
+        "svg": ""
+      },
+      {
+        "id": 6,
+        "domanda": "Quale comando viene utilizzato per verificare la tabella di routing su un router Cisco?",
+        "risposte": [
+          "show ip route",
+          "show routing",
+          "display routes",
+          "ip route table"
+        ],
+        "risposta_corretta": "show ip route",
+        "svg": ""
+      },
+      {
+        "id": 7,
+        "domanda": "Quale tecnologia consente di creare più reti virtuali su uno stesso switch fisico?",
+        "risposte": [
+          "VLAN",
+          "VPN",
+          "NAT",
+          "STP"
+        ],
+        "risposta_corretta": "VLAN",
+        "svg": ""
+      },
+      {
+        "id": 8,
+        "domanda": "Quale comando viene utilizzato per configurare una password di accesso su un router Cisco?",
+        "risposte": [
+          "enable secret",
+          "set password",
+          "password enable",
+          "config password"
+        ],
+        "risposta_corretta": "enable secret",
+        "svg": ""
+      },
+      {
+        "id": 9,
+        "domanda": "Quale comando viene utilizzato per verificare le interfacce attive su uno switch Cisco?",
+        "risposte": [
+          "show interfaces",
+          "show ip interfaces",
+          "display interfaces",
+          "check interfaces"
+        ],
+        "risposta_corretta": "show interfaces",
+        "svg": ""
+      },
+      {
+        "id": 10,
+        "domanda": "Quale tecnologia viene utilizzata per evitare loop in una rete con switch?",
+        "risposte": [
+          "STP",
+          "VLAN",
+          "NAT",
+          "DHCP"
+        ],
+        "risposta_corretta": "STP",
+        "svg": ""
+      },
+      {
+        "id": 11,
+        "domanda": "Quale comando viene utilizzato per configurare un gateway predefinito su un router Cisco?",
+        "risposte": [
+          "ip default-gateway",
+          "set gateway",
+          "default route",
+          "gateway config"
+        ],
+        "risposta_corretta": "ip default-gateway",
+        "svg": ""
+      },
+      {
+        "id": 12,
+        "domanda": "Quale comando viene utilizzato per abilitare un'interfaccia su uno switch Cisco?",
+        "risposte": [
+          "no shutdown",
+          "enable interface",
+          "interface up",
+          "activate interface"
+        ],
+        "risposta_corretta": "no shutdown",
+        "svg": ""
+      },
+      {
+        "id": 13,
+        "domanda": "Quale protocollo viene utilizzato per gestire dispositivi di rete in remoto?",
+        "risposte": [
+          "SNMP",
+          "DHCP",
+          "NAT",
+          "STP"
+        ],
+        "risposta_corretta": "SNMP",
+        "svg": ""
+      },
+      {
+        "id": 14,
+        "domanda": "Quale comando viene utilizzato per configurare una porta di uno switch Cisco in modalità access?",
+        "risposte": [
+          "switchport mode access",
+          "interface access",
+          "port access enable",
+          "vlan access"
+        ],
+        "risposta_corretta": "switchport mode access",
+        "svg": ""
+      },
+      {
+        "id": 15,
+        "domanda": "Quale comando viene utilizzato per verificare la configurazione corrente su un router Cisco?",
+        "risposte": [
+          "show running-config",
+          "show config",
+          "display config",
+          "view running-config"
+        ],
+        "risposta_corretta": "show running-config",
+        "svg": ""
+      },
+      {
+        "id": 16,
+        "domanda": "Quale tecnologia consente di aggregare più connessioni fisiche in un'unica connessione logica?",
+        "risposte": [
+          "EtherChannel",
+          "VLAN",
+          "STP",
+          "NAT"
+        ],
+        "risposta_corretta": "EtherChannel",
+        "svg": ""
+      },
+      {
+        "id": 17,
+        "domanda": "Quale comando viene utilizzato per configurare un indirizzo IP su un'interfaccia VLAN?",
+        "risposte": [
+          "interface vlan",
+          "ip address vlan",
+          "vlan ip config",
+          "set vlan ip"
+        ],
+        "risposta_corretta": "interface vlan",
+        "svg": ""
+      },
+      {
+        "id": 18,
+        "domanda": "Quale comando viene utilizzato per verificare lo stato delle VLAN su uno switch Cisco?",
+        "risposte": [
+          "show vlan brief",
+          "show vlan",
+          "vlan status",
+          "display vlan"
+        ],
+        "risposta_corretta": "show vlan brief",
+        "svg": ""
+      },
+      {
+        "id": 19,
+        "domanda": "Quale protocollo viene utilizzato per sincronizzare l'orario tra dispositivi di rete?",
+        "risposte": [
+          "NTP",
+          "SNMP",
+          "DHCP",
+          "STP"
+        ],
+        "risposta_corretta": "NTP",
+        "svg": ""
+      },
+      {
+        "id": 20,
+        "domanda": "Quale comando viene utilizzato per configurare una route statica su un router Cisco?",
+        "risposte": [
+          "ip route",
+          "set route",
+          "static route",
+          "route add"
+        ],
+        "risposta_corretta": "ip route",
+        "svg": ""
+      },
+      {
+        "id": 11,
+        "domanda": "Quale comando viene utilizzato per configurare un gateway predefinito su un router Cisco?",
+        "risposte": [
+          "ip default-gateway",
+          "set gateway",
+          "default route",
+          "gateway config"
+        ],
+        "risposta_corretta": "ip default-gateway",
+        "svg": ""
+      },
+      {
+        "id": 12,
+        "domanda": "Quale comando viene utilizzato per abilitare un'interfaccia su uno switch Cisco?",
+        "risposte": [
+          "no shutdown",
+          "enable interface",
+          "interface up",
+          "activate interface"
+        ],
+        "risposta_corretta": "no shutdown",
+        "svg": ""
+      },
+      {
+        "id": 13,
+        "domanda": "Quale protocollo viene utilizzato per gestire dispositivi di rete in remoto?",
+        "risposte": [
+          "SNMP",
+          "DHCP",
+          "NAT",
+          "STP"
+        ],
+        "risposta_corretta": "SNMP",
+        "svg": ""
+      },
+      {
+        "id": 14,
+        "domanda": "Quale comando viene utilizzato per configurare una porta di uno switch Cisco in modalità access?",
+        "risposte": [
+          "switchport mode access",
+          "interface access",
+          "port access enable",
+          "vlan access"
+        ],
+        "risposta_corretta": "switchport mode access",
+        "svg": ""
+      },
+      {
+        "id": 15,
+        "domanda": "Quale comando viene utilizzato per verificare la configurazione corrente su un router Cisco?",
+        "risposte": [
+          "show running-config",
+          "show config",
+          "display config",
+          "view running-config"
+        ],
+        "risposta_corretta": "show running-config",
+        "svg": ""
+      },
+      {
+        "id": 16,
+        "domanda": "Quale tecnologia consente di aggregare più connessioni fisiche in un'unica connessione logica?",
+        "risposte": [
+          "EtherChannel",
+          "VLAN",
+          "STP",
+          "NAT"
+        ],
+        "risposta_corretta": "EtherChannel",
+        "svg": ""
+      },
+      {
+        "id": 17,
+        "domanda": "Quale comando viene utilizzato per configurare un indirizzo IP su un'interfaccia VLAN?",
+        "risposte": [
+          "interface vlan",
+          "ip address vlan",
+          "vlan ip config",
+          "set vlan ip"
+        ],
+        "risposta_corretta": "interface vlan",
+        "svg": ""
+      },
+      {
+        "id": 18,
+        "domanda": "Quale comando viene utilizzato per verificare lo stato delle VLAN su uno switch Cisco?",
+        "risposte": [
+          "show vlan brief",
+          "show vlan",
+          "vlan status",
+          "display vlan"
+        ],
+        "risposta_corretta": "show vlan brief",
+        "svg": ""
+      },
+      {
+        "id": 19,
+        "domanda": "Quale protocollo viene utilizzato per sincronizzare l'orario tra dispositivi di rete?",
+        "risposte": [
+          "NTP",
+          "SNMP",
+          "DHCP",
+          "STP"
+        ],
+        "risposta_corretta": "NTP",
+        "svg": ""
+      },
+      {
+        "id": 20,
+        "domanda": "Quale comando viene utilizzato per configurare una route statica su un router Cisco?",
+        "risposte": [
+          "ip route",
+          "set route",
+          "static route",
+          "route add"
+        ],
+        "risposta_corretta": "ip route",
+        "svg": ""
+      }
+    ]
+  }

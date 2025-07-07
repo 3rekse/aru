@@ -1,0 +1,365 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "domanda": "Che cosa rappresenta l'acronimo USB?",
+        "risposte": [
+          "Universal Serial Bus",
+          "Ultra Speed Bus",
+          "Universal System Bridge",
+          "User Serial Bus"
+        ],
+        "risposta_corretta": "Universal Serial Bus",
+        "svg": ""
+      },
+      {
+        "id": 2,
+        "domanda": "Cos'è l'overclocking in un computer?",
+        "risposte": [
+          "Ridurre il consumo energetico del processore",
+          "Aumentare la frequenza operativa della CPU oltre le specifiche di fabbrica",
+          "Aggiornare il firmware della scheda madre",
+          "Ottimizzare il software di sistema"
+        ],
+        "risposta_corretta": "Aumentare la frequenza operativa della CPU oltre le specifiche di fabbrica",
+        "svg": ""
+      },
+      {
+        "id": 3,
+        "domanda": "Quale interfaccia è comunemente utilizzata per collegare un disco rigido esterno?",
+        "risposte": [
+          "HDMI",
+          "Ethernet",
+          "USB",
+          "VGA"
+        ],
+        "risposta_corretta": "USB",
+        "svg": ""
+      },
+      {
+        "id": 4,
+        "domanda": "A cosa serve una scheda di rete Ethernet?",
+        "risposte": [
+          "Collegare periferiche audio",
+          "Permettere la connessione a una rete cablata",
+          "Gestire il backup dei dati",
+          "Elaborare le immagini"
+        ],
+        "risposta_corretta": "Permettere la connessione a una rete cablata",
+        "svg": ""
+      },
+      {
+        "id": 5,
+        "domanda": "Quale componente contribuisce a rendere un computer portatile particolarmente silenzioso?",
+        "risposte": [
+          "SSD, per assenza di parti meccaniche",
+          "Ventola ad alta velocità",
+          "Dissipatore rumoroso",
+          "HDD"
+        ],
+        "risposta_corretta": "SSD, per assenza di parti meccaniche",
+        "svg": ""
+      },
+      {
+        "id": 6,
+        "domanda": "Cos'è il chipset di una scheda madre?",
+        "risposte": [
+          "Un processore secondario dedicato alla grafica",
+          "Una serie di circuiti che gestiscono il traffico di dati tra i componenti",
+          "Un modulo di memoria integrato",
+          "Un'alimentatore dedicato"
+        ],
+        "risposta_corretta": "Una serie di circuiti che gestiscono il traffico di dati tra i componenti",
+        "svg": ""
+      },
+      {
+        "id": 7,
+        "domanda": "Qual è il principale vantaggio dei dischi a stato solido (SSD) rispetto agli HDD tradizionali?",
+        "risposte": [
+          "Maggiore capacità di memorizzazione",
+          "Tempi di accesso e trasferimento dati più rapidi",
+          "Costo inferiore",
+          "Minore consumo energetico"
+        ],
+        "risposta_corretta": "Tempi di accesso e trasferimento dati più rapidi",
+        "svg": ""
+      },
+      {
+        "id": 8,
+        "domanda": "Cos'è una porta Thunderbolt?",
+        "risposte": [
+          "Un connettore per alimentazione",
+          "Un'interfaccia ad alta velocità per dati, video e alimentazione",
+          "Una porta esclusivamente per dispositivi audio",
+          "Una vecchia interfaccia di rete"
+        ],
+        "risposta_corretta": "Un'interfaccia ad alta velocità per dati, video e alimentazione",
+        "svg": ""
+      },
+      {
+        "id": 9,
+        "domanda": "A cosa serve una scheda audio in un computer?",
+        "risposte": [
+          "Elaborare i segnali video",
+          "Elaborare e gestire i suoni",
+          "Gestire la sicurezza della rete",
+          "Controllare la potenza elettrica"
+        ],
+        "risposta_corretta": "Elaborare e gestire i suoni",
+        "svg": ""
+      },
+      {
+        "id": 10,
+        "domanda": "Che tipo di memoria è rappresentata dalla DDR?",
+        "risposte": [
+          "Memoria statica ad alta velocità",
+          "Memoria dinamica con doppio canale",
+          "Memoria flash",
+          "ROM"
+        ],
+        "risposta_corretta": "Memoria dinamica con doppio canale",
+        "svg": ""
+      },
+      {
+        "id": 11,
+        "domanda": "Qual è il ruolo principale di un dissipatore in un computer?",
+        "risposte": [
+          "Aumentare la velocità di clock",
+          "Assorbire e disperdere il calore dai componenti",
+          "Ridurre il consumo energetico",
+          "Amplificare i segnali elettrici"
+        ],
+        "risposta_corretta": "Assorbire e disperdere il calore dai componenti",
+        "svg": ""
+      },
+      {
+        "id": 12,
+        "domanda": "Quale componente si occupa della codifica e decodifica dei segnali video?",
+        "risposte": [
+          "Processore (CPU)",
+          "Scheda audio",
+          "GPU",
+          "Memoria RAM"
+        ],
+        "risposta_corretta": "GPU",
+        "svg": ""
+      },
+      {
+        "id": 13,
+        "domanda": "Che cos'è una configurazione RAID?",
+        "risposte": [
+          "Una tecnologia di rete per la sicurezza",
+          "Un tipo di alimentatore avanzato",
+          "Una tecnica di accorpamento di dischi per migliorare prestazioni o sicurezza dei dati",
+          "Un software di ottimizzazione della CPU"
+        ],
+        "risposta_corretta": "Una tecnica di accorpamento di dischi per migliorare prestazioni o sicurezza dei dati",
+        "svg": ""
+      },
+      {
+        "id": 14,
+        "domanda": "Quale interfaccia video è spesso utilizzata insieme a HDMI nei monitor moderni?",
+        "risposte": [
+          "DisplayPort",
+          "DVI",
+          "VGA",
+          "S-Video"
+        ],
+        "risposta_corretta": "DisplayPort",
+        "svg": ""
+      },
+      {
+        "id": 15,
+        "domanda": "Qual è il vantaggio principale della memoria ECC rispetto a quella non ECC?",
+        "risposte": [
+          "Minore latenza",
+          "Maggiore capacità di memorizzazione",
+          "Capacità di rilevare e correggere errori",
+          "Costo ridotto"
+        ],
+        "risposta_corretta": "Capacità di rilevare e correggere errori",
+        "svg": ""
+      },
+      {
+        "id": 16,
+        "domanda": "Che cosa indica la frequenza di clock di un processore?",
+        "risposte": [
+          "La quantità di dati che può memorizzare",
+          "La velocità alla quale la CPU esegue le operazioni",
+          "Il numero di core presenti",
+          "La dimensione della cache"
+        ],
+        "risposta_corretta": "La velocità alla quale la CPU esegue le operazioni",
+        "svg": ""
+      },
+      {
+        "id": 17,
+        "domanda": "A cosa serve il connettore ATX in un computer?",
+        "risposte": [
+          "A collegare le ventole al dissipatore",
+          "A collegare l'alimentatore alla scheda madre",
+          "A connettere il monitor alla CPU",
+          "A espandere la memoria RAM"
+        ],
+        "risposta_corretta": "A collegare l'alimentatore alla scheda madre",
+        "svg": ""
+      },
+      {
+        "id": 18,
+        "domanda": "Quale componente permette di espandere le porte e le funzionalità di un PC tramite slot di espansione?",
+        "risposte": [
+          "La scheda PCIe",
+          "La memoria SSD",
+          "Il dissipatore",
+          "Il processore"
+        ],
+        "risposta_corretta": "La scheda PCIe",
+        "svg": ""
+      },
+      {
+        "id": 19,
+        "domanda": "Quale standard wireless rappresenta l'ultima evoluzione per connessioni più veloci e stabili?",
+        "risposte": [
+          "Wi-Fi 4",
+          "Wi-Fi 5",
+          "Wi-Fi 6",
+          "Wi-Fi 3"
+        ],
+        "risposta_corretta": "Wi-Fi 6",
+        "svg": ""
+      },
+      {
+        "id": 20,
+        "domanda": "Che funzione svolge il socket della CPU sulla scheda madre?",
+        "risposte": [
+          "Collega la memoria RAM",
+          "Permette l'installazione e la comunicazione della CPU con la scheda madre",
+          "Gestisce la connessione ai dischi",
+          "Alimenta la ventola"
+        ],
+        "risposta_corretta": "Permette l'installazione e la comunicazione della CPU con la scheda madre",
+        "svg": ""
+      },
+      {
+        "id": 21,
+        "domanda": "Cos'è una ventola a flusso d'aria in un PC?",
+        "risposte": [
+          "Un dispositivo di archiviazione",
+          "Un sistema di alimentazione",
+          "Un componente per il raffreddamento mediante la circolazione dell'aria",
+          "Un tipo di scheda grafica"
+        ],
+        "risposta_corretta": "Un componente per il raffreddamento mediante la circolazione dell'aria",
+        "svg": ""
+      },
+      {
+        "id": 22,
+        "domanda": "A cosa serve l'acronimo NVMe?",
+        "risposte": [
+          "New Virtual Memory extension",
+          "Non Volatile Memory Express",
+          "Network Video Media",
+          "Next Version Memory Engine"
+        ],
+        "risposta_corretta": "Non Volatile Memory Express",
+        "svg": ""
+      },
+      {
+        "id": 23,
+        "domanda": "Quale dispositivo è utilizzato per memorizzare il firmware in un computer?",
+        "risposte": [
+          "La RAM",
+          "Il disco SSD",
+          "La ROM",
+          "La cache"
+        ],
+        "risposta_corretta": "La ROM",
+        "svg": ""
+      },
+      {
+        "id": 24,
+        "domanda": "Quale parte del computer si occupa principalmente del rendering delle immagini per il monitor?",
+        "risposte": [
+          "La CPU",
+          "La GPU",
+          "La memoria RAM",
+          "Il chipset"
+        ],
+        "risposta_corretta": "La GPU",
+        "svg": ""
+      },
+      {
+        "id": 25,
+        "domanda": "Cos'è il BIOS/UEFI in un sistema informatico?",
+        "risposte": [
+          "Un software per l'elaborazione testi",
+          "Il firmware che inizializza e configura l'hardware all'avvio",
+          "Un sistema operativo alternativo",
+          "Un programma antivirus"
+        ],
+        "risposta_corretta": "Il firmware che inizializza e configura l'hardware all'avvio",
+        "svg": ""
+      },
+      {
+        "id": 26,
+        "domanda": "Come si chiama il bus che collega la CPU alla memoria principale nei sistemi tradizionali?",
+        "risposte": [
+          "Back Side Bus",
+          "Front Side Bus",
+          "Memory Channel",
+          "Data Path"
+        ],
+        "risposta_corretta": "Front Side Bus",
+        "svg": ""
+      },
+      {
+        "id": 27,
+        "domanda": "Qual è lo scopo principale della cache L1 in una CPU?",
+        "risposte": [
+          "Memorizzare dati ad accesso ultra-rapido per migliorare le prestazioni",
+          "Conservare backup dei file",
+          "Gestire la grafica",
+          "Eseguire il sistema operativo"
+        ],
+        "risposta_corretta": "Memorizzare dati ad accesso ultra-rapido per migliorare le prestazioni",
+        "svg": ""
+      },
+      {
+        "id": 28,
+        "domanda": "Cosa significa 'multithreading' in un processore?",
+        "risposte": [
+          "La capacità di gestire più operazioni simultaneamente",
+          "L'uso di thread per comunicare con la GPU",
+          "Una forma di memorizzazione dati",
+          "Un metodo di raffreddamento del processore"
+        ],
+        "risposta_corretta": "La capacità di gestire più operazioni simultaneamente",
+        "svg": ""
+      },
+      {
+        "id": 29,
+        "domanda": "Quale tecnologia sfrutta la ventilazione a liquido per raffreddare un computer?",
+        "risposte": [
+          "Air-cooling",
+          "Water-cooling",
+          "Heat-pipe cooling",
+          "Liquid-metal cooling"
+        ],
+        "risposta_corretta": "Water-cooling",
+        "svg": ""
+      },
+      {
+        "id": 30,
+        "domanda": "Cos'è una SSD NVMe?",
+        "risposte": [
+          "Un SSD che utilizza il protocollo NVMe per prestazioni superiori",
+          "Un disco meccanico di ultima generazione",
+          "Un tipo di memoria volatile",
+          "Un sistema di raffreddamento per dischi"
+        ],
+        "risposta_corretta": "Un SSD che utilizza il protocollo NVMe per prestazioni superiori",
+        "svg": ""
+      }
+    ]
+  }
+  

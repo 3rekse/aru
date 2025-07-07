@@ -1,0 +1,364 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "domanda": "Qual è la metrica di routing utilizzata dal protocollo <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/RIP.md\" target=\"_blank\">RIP</a>?",
+        "risposte": [
+          "Larghezza di banda",
+          "Costo",
+          "Hop Count",
+          "Ritardo"
+        ],
+        "risposta_corretta": "Hop Count",
+        "svg": ""
+      },
+      {
+        "id": 2,
+        "domanda": "Qual è il valore massimo di hop count in <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/RIP.md\" target=\"_blank\">RIP</a> che indica una rotta raggiungibile?",
+        "risposte": [
+          "10",
+          "15",
+          "20",
+          "255"
+        ],
+        "risposta_corretta": "15",
+        "svg": ""
+      },
+      {
+        "id": 3,
+        "domanda": "Qual è il tipo di algoritmo di routing utilizzato da <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/RIP.md\" target=\"_blank\">RIP</a>?",
+        "risposte": [
+          "Link-State",
+          "Distance Vector",
+          "Path Vector",
+          "Hybrid"
+        ],
+        "risposta_corretta": "Distance Vector",
+        "svg": ""
+      },
+      {
+        "id": 4,
+        "domanda": "Qual è il protocollo di trasporto utilizzato da <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/RIP.md\" target=\"_blank\">RIP</a> per inviare aggiornamenti di routing?",
+        "risposte": [
+          "TCP",
+          "UDP",
+          "ICMP",
+          "IP"
+        ],
+        "risposta_corretta": "UDP",
+        "svg": ""
+      },
+      {
+        "id": 5,
+        "domanda": "Qual è la metrica di routing utilizzata dal protocollo <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a>?",
+        "risposte": [
+          "Hop Count",
+          "Costo",
+          "Ritardo",
+          "Affidabilità"
+        ],
+        "risposta_corretta": "Costo",
+        "svg": ""
+      },
+      {
+        "id": 6,
+        "domanda": "Qual è il tipo di algoritmo di routing utilizzato da <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a><a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a>?",
+        "risposte": [
+          "Distance Vector",
+          "Path Vector",
+          "Link-State",
+          "Hybrid"
+        ],
+        "risposta_corretta": "Link-State",
+        "svg": ""
+      },
+      {
+        "id": 7,
+        "domanda": "Qual è l'Area 0 in <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a><a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a>?",
+        "risposte": [
+          "Un'area opzionale",
+          "L'area backbone",
+          "Un'area stub",
+          "Un'area totalmente stub"
+        ],
+        "risposta_corretta": "L'area backbone",
+        "svg": ""
+      },
+      {
+        "id": 8,
+        "domanda": "Qual è il ruolo del DR (Designated Router) in <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a>?",
+        "risposte": [
+          "Instradare tutto il traffico nell'area",
+          "Inviare aggiornamenti di routing solo ai vicini DR",
+          "Ridurre il numero di adiacenze full tra i router broadcast",
+          "Fornire un backup per il BDR"
+        ],
+        "risposta_corretta": "Ridurre il numero di adiacenze full tra i router broadcast",
+        "svg": ""
+      },
+      {
+        "id": 9,
+        "domanda": "Qual è il ruolo del <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/BDR.md\" target=\"_blank\">BDR (Backup Designated Router) in <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a><a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a>?",
+        "risposte": [
+          "Instradare il traffico in caso di guasto del DR",
+          "Inviare aggiornamenti di routing a tutti i router",
+          "Assumere il ruolo di DR in caso di guasto del DR",
+          "Ottimizzare le rotte nell'area"
+        ],
+        "risposta_corretta": "Assumere il ruolo di DR in caso di guasto del DR",
+        "svg": ""
+      },
+      {
+        "id": 10,
+        "domanda": "Qual è la metrica di routing utilizzata dal protocollo BGP?",
+        "risposte": [
+          "Hop Count",
+          "Costo",
+          "Path Attributes",
+          "Ritardo"
+        ],
+        "risposta_corretta": "Path Attributes",
+        "svg": ""
+      },
+      {
+        "id": 11,
+        "domanda": "Qual è il tipo di algoritmo di routing utilizzato da BGP?",
+        "risposte": [
+          "Link-State",
+          "Distance Vector",
+          "Path Vector",
+          "Hybrid"
+        ],
+        "risposta_corretta": "Path Vector",
+        "svg": ""
+      },
+      {
+        "id": 12,
+        "domanda": "BGP è un protocollo di routing...",
+        "risposte": [
+          "Intra-dominio",
+          "Link-State",
+          "Inter-dominio",
+          "Distance Vector"
+        ],
+        "risposta_corretta": "Inter-dominio",
+        "svg": ""
+      },
+      {
+        "id": 13,
+        "domanda": "Qual è la differenza principale tra i protocolli class=\"qlink\" href=\"md.html?file=quiz/RetiD2/firewall.md\" target=\"_blank\">IGP e EGP </a>?",
+        "risposte": [
+          "Gli IGP sono più sicuri degli EGP",
+          "Gli IGP sono utilizzati all'interno di un Autonomous System, gli EGP tra Autonomous Systems",
+          "Gli EGP convergono più rapidamente degli IGP",
+          "Gli IGP supportano un numero maggiore di router rispetto agli EGP"
+        ],
+        "risposta_corretta": "Gli IGP sono utilizzati all'interno di un Autonomous System, gli EGP tra Autonomous Systems",
+        "svg": ""
+      },
+      {
+        "id": 14,
+        "domanda": "Cos'è VRF (Virtual Routing and Forwarding)?",
+        "risposte": [
+          "Un modo per virtualizzare i router fisici",
+          "Una tecnologia per creare reti locali virtuali",
+          "Un modo per creare più istanze di tabelle di routing all'interno di un singolo router",
+          "Un protocollo per la gestione remota dei router"
+        ],
+        "risposta_corretta": "Un modo per creare più istanze di tabelle di routing all'interno di un singolo router",
+        "svg": ""
+      },
+      {
+        "id": 15,
+        "domanda": "Qual è uno scenario d'uso tipico per VRF?",
+        "risposte": [
+          "Connettere due reti completamente separate attraverso lo stesso router fisico mantenendole logicamente isolate",
+          "Aumentare la velocità di convergenza del routing",
+          "Semplificare la configurazione di <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a><a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a>",
+          "Implementare il Quality of Service"
+        ],
+        "risposta_corretta": "Connettere due reti completamente separate attraverso lo stesso router fisico mantenendole logicamente isolate",
+        "svg": ""
+      },
+      {
+        "id": 16,
+        "domanda": "Qual è il comando di base per abilitare <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a><a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a> su un'interfaccia in un router Cisco?",
+        "risposte": [
+          "router ospf 1",
+          "network 192.168.1.0 0.0.0.255 area 0",
+          "ip ospf 1 area 0",
+          "interface GigabitEthernet0/0\nip address 10.0.0.1 255.255.255.0\nospf area 0"
+        ],
+        "risposta_corretta": "ip ospf 1 area 0",
+        "svg": ""
+      },
+      {
+        "id": 17,
+        "domanda": "Qual è il comando per visualizzare le adiacenze <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a><a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a> in un router Cisco?",
+        "risposte": [
+          "show ip route ospf",
+          "show ip ospf neighbor",
+          "show running-config ospf",
+          "ping ospf"
+        ],
+        "risposta_corretta": "show ip ospf neighbor",
+        "svg": ""
+      },
+      {
+        "id": 18,
+        "domanda": "Qual è il comando per visualizzare le rotte <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a><a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a> nella tabella di routing di un router Cisco?",
+        "risposte": [
+          "show ip neighbor ospf",
+          "show running-config | include ospf",
+          "show ip route ospf",
+          "show ospf interface"
+        ],
+        "risposta_corretta": "show ip route ospf",
+        "svg": ""
+      },
+      {
+        "id": 19,
+        "domanda": "Quale stato indica che un router <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a><a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a> ha stabilito una piena adiacenza con un vicino?",
+        "risposte": [
+          "Down",
+          "Init",
+          "Two-Way",
+          "Full"
+        ],
+        "risposta_corretta": "Full",
+        "svg": ""
+      },
+      {
+        "id": 20,
+        "domanda": "Un mancato stabilimento di adiacenza <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a><a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a> potrebbe essere causato da...",
+        "risposte": [
+          "Indirizzi IP configurati correttamente",
+          "Maschere di sottorete corrispondenti",
+          "Router ID OSPF diversi nella stessa area",
+          "Interfacce attive"
+        ],
+        "risposta_corretta": "Router ID OSPF diversi nella stessa area",
+        "svg": ""
+      },
+      {
+        "id": 21,
+        "domanda": "Qual è il comando di base per configurare un router BGP in un router Cisco?",
+        "risposte": [
+          "enable bgp 65001",
+          "router bgp 65001",
+          "ip bgp 65001",
+          "bgp router 65001"
+        ],
+        "risposta_corretta": "router bgp 65001",
+        "svg": ""
+      },
+      {
+        "id": 22,
+        "domanda": "Cos'è un Autonomous System Number (ASN) in BGP?",
+        "risposte": [
+          "Un indirizzo IP univoco per ogni router BGP",
+          "Un identificatore univoco per un gruppo di reti sotto un'unica amministrazione",
+          "Un numero di porta utilizzato da BGP",
+          "Una metrica di routing BGP"
+        ],
+        "risposta_corretta": "Un identificatore univoco per un gruppo di reti sotto un'unica amministrazione",
+        "svg": ""
+      },
+      {
+        "id": 23,
+        "domanda": "Qual è il comando per visualizzare la tabella dei vicini BGP in un router Cisco?",
+        "risposte": [
+          "show ip route bgp",
+          "show bgp neighbors",
+          "show ip bgp summary",
+          "show running-config bgp"
+        ],
+        "risposta_corretta": "show bgp neighbors",
+        "svg": ""
+      },
+      {
+        "id": 24,
+        "domanda": "Qual è il comando per configurare un VRF in un router Cisco?",
+        "risposte": [
+          "ip vrf create RED",
+          "vrf definition RED",
+          "interface GigabitEthernet0/1\nvrf forwarding RED",
+          "route vrf RED 0.0.0.0 0.0.0.0 Null0"
+        ],
+        "risposta_corretta": "vrf definition RED",
+        "svg": ""
+      },
+      {
+        "id": 25,
+        "domanda": "Quale comando associa un'interfaccia a un VRF in un router Cisco?",
+        "risposte": [
+          "ip route vrf RED 10.1.1.0 255.255.255.0 GigabitEthernet0/1",
+          "vrf interface GigabitEthernet0/1 RED",
+          "interface GigabitEthernet0/1\nip vrf forwarding RED",
+          "ip address vrf RED 10.1.1.1 255.255.255.0"
+        ],
+        "risposta_corretta": "interface GigabitEthernet0/1\nip vrf forwarding RED",
+        "svg": ""
+      },
+      {
+        "id": 26,
+        "domanda": "Qual è il comando per visualizzare le informazioni di routing per un VRF specifico in un router Cisco?",
+        "risposte": [
+          "show ip route",
+          "show vrf RED routes",
+          "show ip route vrf RED",
+          "show running-config vrf RED"
+        ],
+        "risposta_corretta": "show ip route vrf RED",
+        "svg": ""
+      },
+      {
+        "id": 27,
+        "domanda": "Quale comando mostra le interfacce associate a un VRF specifico in un router Cisco?",
+        "risposte": [
+          "show vrf interfaces",
+          "show ip interface brief vrf RED",
+          "show running-config interface | include vrf",
+          "show ip vrf detail RED"
+        ],
+        "risposta_corretta": "show ip vrf detail RED",
+        "svg": ""
+      },
+      {
+        "id": 28,
+        "domanda": "Qual è un potenziale problema di routing in una rete <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/RIP.md\" target=\"_blank\">RIP</a>?",
+        "risposte": [
+          "Convergenza rapida",
+          "Supporto per reti di grandi dimensioni",
+          "Loop di routing",
+          "Utilizzo efficiente della banda"
+        ],
+        "risposta_corretta": "Loop di routing",
+        "svg": ""
+      },
+      {
+        "id": 29,
+        "domanda": "Qual è un vantaggio di <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/OSPF.md\" target=\"_blank\">OSPF</a> rispetto a <a class=\"qlink\" href=\"md.html?file=quiz/RetiD2/RIP.md\" target=\"_blank\">RIP</a>?",
+        "risposte": [
+          "Implementazione più semplice",
+          "Minor overhead di CPU",
+          "Convergenza più rapida",
+          "Supporto nativo per VLSM"
+        ],
+        "risposta_corretta": "Convergenza più rapida",
+        "svg": ""
+      },
+      {
+        "id": 30,
+        "domanda": "Qual è una considerazione importante nella configurazione di BGP tra Autonomous Systems?",
+        "risposte": [
+          "Utilizzare lo stesso ASN per tutti i router",
+          "Configurare la stessa metrica per tutti i percorsi",
+          "Stabilire sessioni di peering tra router di AS diversi",
+          "Disabilitare il keepalive"
+        ],
+        "risposta_corretta": "Stabilire sessioni di peering tra router di AS diversi",
+        "svg": ""
+      }
+    ]
+  }

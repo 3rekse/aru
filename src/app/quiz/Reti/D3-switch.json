@@ -1,0 +1,364 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Qual è lo scopo principale dello Spanning Tree Protocol (STP)?",
+      "risposte": [
+        "Aumentare la larghezza di banda",
+        "Prevenire loop di bridging",
+        "Fornire routing tra VLAN",
+        "Implementare la sicurezza della porta"
+      ],
+      "risposta_corretta": "Prevenire loop di bridging",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Quale stato di porta STP inoltra il traffico e partecipa alla topologia STP?",
+      "risposte": [
+        "Blocking",
+        "Listening",
+        "Learning",
+        "Forwarding"
+      ],
+      "risposta_corretta": "Forwarding",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Quale miglioramento offre Rapid Spanning Tree Protocol (RSTP) rispetto a STP?",
+      "risposte": [
+        "Maggiore larghezza di banda",
+        "Convergenza più rapida",
+        "Supporto per più VLAN",
+        "Maggiore sicurezza"
+      ],
+      "risposta_corretta": "Convergenza più rapida",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Qual è lo scopo di Multiple Spanning Tree Protocol (MSTP)?",
+      "risposte": [
+        "Fornire ridondanza",
+        "Supportare più istanze STP per VLAN",
+        "Aumentare la velocità di inoltro",
+        "Implementare la sicurezza della porta"
+      ],
+      "risposta_corretta": "Supportare più istanze STP per VLAN",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Qual è il Bridge Protocol Data Unit (BPDU) utilizzato da STP?",
+      "risposte": [
+        "Frame Ethernet",
+        "Pacchetto IP",
+        "Messaggio ICMP",
+        "Frame speciale di livello 2"
+      ],
+      "risposta_corretta": "Frame speciale di livello 2",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Qual è lo scopo di BPDU Guard?",
+      "risposte": [
+        "Proteggere contro loop causati da BPDU illegittimi",
+        "Fornire crittografia per le BPDU",
+        "Accelerare la convergenza STP",
+        "Prevenire attacchi Denial of Service"
+      ],
+      "risposta_corretta": "Proteggere contro loop causati da BPDU illegittimi",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Qual è lo scopo di Root Guard?",
+      "risposte": [
+        "Proteggere il root bridge",
+        "Prevenire che una porta diventi root port",
+        "Filtrare le BPDU",
+        "Aumentare la priorità del root bridge"
+      ],
+      "risposta_corretta": "Prevenire che una porta diventi root port",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "Qual è lo scopo di EtherChannel?",
+      "risposte": [
+        "Aumentare la larghezza di banda e fornire ridondanza",
+        "Segmentare la rete in VLAN",
+        "Implementare il routing tra VLAN",
+        "Fornire alimentazione ai dispositivi di rete"
+      ],
+      "risposta_corretta": "Aumentare la larghezza di banda e fornire ridondanza",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Quali protocolli possono essere utilizzati per implementare EtherChannel?",
+      "risposte": [
+        "STP e RSTP",
+        "LACP e PAgP",
+        "TCP e UDP",
+        "IP e ICMP"
+      ],
+      "risposta_corretta": "LACP e PAgP",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Qual è l'acronimo di Link Aggregation Control Protocol?",
+      "risposte": [
+        "LACP",
+        "PAGP",
+        "STP",
+        "RSTP"
+      ],
+      "risposta_corretta": "LACP",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Qual è la differenza tra LACP e PAgP?",
+      "risposte": [
+        "LACP è uno standard IEEE, PAgP è proprietario Cisco",
+        "PAgP è uno standard IEEE, LACP è proprietario Cisco",
+        "LACP supporta solo 4 porte, PAgP supporta 8",
+        "PAgP è più veloce di LACP"
+      ],
+      "risposta_corretta": "LACP è uno standard IEEE, PAgP è proprietario Cisco",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Qual è il numero massimo di porte che possono essere incluse in un EtherChannel?",
+      "risposte": [
+        "4",
+        "6",
+        "8",
+        "16"
+      ],
+      "risposta_corretta": "8",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Qual è lo scopo di QoS (Quality of Service)?",
+      "risposte": [
+        "Aumentare la larghezza di banda",
+        "Garantire la consegna affidabile dei pacchetti",
+        "Dare priorità a specifici tipi di traffico",
+        "Segmentare la rete in VLAN"
+      ],
+      "risposta_corretta": "Dare priorità a specifici tipi di traffico",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Quali sono alcuni meccanismi QoS comunemente utilizzati?",
+      "risposte": [
+        "STP, RSTP, MSTP",
+        "TCP, UDP, IP",
+        "Classificazione, marcatura, accodamento, shaping/policing",
+        "VLAN, VPN, WLAN"
+      ],
+      "risposta_corretta": "Classificazione, marcatura, accodamento, shaping/policing",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Qual è il campo nell'intestazione IP utilizzato per la classificazione QoS?",
+      "risposte": [
+        "Indirizzo IP di origine",
+        "Indirizzo IP di destinazione",
+        "Tipo di Servizio (ToS) / DSCP",
+        "Numero di porta"
+      ],
+      "risposta_corretta": "Tipo di Servizio (ToS) / DSCP",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Qual è lo scopo di accodamento (queuing) in QoS?",
+      "risposte": [
+        "Classificare il traffico",
+        "Marcare i pacchetti",
+        "Gestire la congestione del traffico",
+        "Modellare il traffico"
+      ],
+      "risposta_corretta": "Gestire la congestione del traffico",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Qual è la differenza tra shaping e policing in QoS?",
+      "risposte": [
+        "Shaping scarta il traffico in eccesso, policing lo mette in buffer",
+        "Policing scarta il traffico in eccesso, shaping lo mette in buffer",
+        "Shaping applica QoS in ingresso, policing in uscita",
+        "Policing applica QoS in ingresso, shaping in uscita"
+      ],
+      "risposta_corretta": "Policing scarta il traffico in eccesso, shaping lo mette in buffer",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "Qual è lo scopo dello stacking degli switch?",
+      "risposte": [
+        "Aumentare il numero di porte e semplificare la gestione",
+        "Ridurre il consumo energetico",
+        "Aumentare la velocità di inoltro dei pacchetti",
+        "Implementare il routing tra VLAN"
+      ],
+      "risposta_corretta": "Aumentare il numero di porte e semplificare la gestione",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "Qual è la differenza tra stacking e chassis virtuale?",
+      "risposte": [
+        "Sono la stessa cosa",
+        "Stacking utilizza cavi dedicati, chassis virtuale software",
+        "Chassis virtuale utilizza cavi dedicati, stacking software",
+        "Stacking è proprietario, chassis virtuale è standard"
+      ],
+      "risposta_corretta": "Stacking utilizza cavi dedicati, chassis virtuale software",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "Quali sono i vantaggi dello stacking degli switch?",
+      "risposte": [
+        "Single point of management, maggiore larghezza di banda, ridondanza",
+        "Costo inferiore, minor consumo energetico, maggiore sicurezza",
+        "Implementazione più semplice, supporto per più protocolli, scalabilità limitata",
+        "Maggiore distanza di trasmissione, supporto per più VLAN, minor latenza"
+      ],
+      "risposta_corretta": "Single point of management, maggiore larghezza di banda, ridondanza",
+      "svg": ""
+    },
+    {
+      "id": 21,
+      "domanda": "In un ambiente MSTP, cosa rappresenta una 'Region'?",
+      "risposte": [
+        "Un gruppo di VLAN",
+        "Un gruppo di switch che condividono la stessa configurazione MSTP",
+        "Un'area geografica",
+        "Un livello gerarchico nella rete"
+      ],
+      "risposta_corretta": "Un gruppo di switch che condividono la stessa configurazione MSTP",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "Quale parametro influenza l'elezione del Root Bridge in STP?",
+      "risposte": [
+        "Indirizzo MAC",
+        "Priorità del bridge",
+        "Costo del percorso",
+        "ID della porta"
+      ],
+      "risposta_corretta": "Priorità del bridge",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "Qual è il vantaggio principale di utilizzare EtherChannel con LACP?",
+      "risposte": [
+        "Configurazione automatica e negoziazione",
+        "Supporto per un maggior numero di porte",
+        "Maggiore sicurezza",
+        "Minor overhead di protocollo"
+      ],
+      "risposta_corretta": "Configurazione automatica e negoziazione",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "Quale meccanismo QoS previene che una singola classe di traffico monopolizzi la larghezza di banda?",
+      "risposte": [
+        "Classificazione",
+        "Marcatura",
+        "Shaping/Policing",
+        "Accodamento"
+      ],
+      "risposta_corretta": "Shaping/Policing",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "Qual è un potenziale svantaggio dello stacking degli switch?",
+      "risposte": [
+        "Aumento della complessità della gestione",
+        "Costo iniziale elevato",
+        "Singolo punto di guasto se lo stack master fallisce",
+        "Limitata scalabilità"
+      ],
+      "risposta_corretta": "Singolo punto di guasto se lo stack master fallisce",
+      "svg": ""
+    },
+    {
+      "id": 26,
+      "domanda": "Quale comando viene utilizzato per configurare un EtherChannel su switch Cisco utilizzando LACP?",
+      "risposte": [
+        "channel-group 1 mode on",
+        "channel-group 1 mode desirable",
+        "channel-group 1 mode auto",
+        "channel-group 1 mode active"
+      ],
+      "risposta_corretta": "channel-group 1 mode active",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "Quale comando visualizza lo stato di un EtherChannel su uno switch Cisco?",
+      "risposte": [
+        "show interface brief",
+        "show etherchannel summary",
+        "show lacp all",
+        "show spanning-tree"
+      ],
+      "risposta_corretta": "show etherchannel summary",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "Quale comando viene utilizzato per configurare QoS su un'interfaccia di switch Cisco?",
+      "risposte": [
+        "qos enable",
+        "mls qos",
+        "ip qos",
+        "service-policy input <policy-map-name>"
+      ],
+      "risposta_corretta": "service-policy input <policy-map-name>",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "Quale comando visualizza le informazioni sullo stacking degli switch Cisco?",
+      "risposte": [
+        "show switch stack",
+        "show stack",
+        "show switch",
+        "show stacking"
+      ],
+      "risposta_corretta": "show switch stack",
+      "svg": ""
+    },
+    {
+      "id": 30,
+      "domanda": "Qual è il vantaggio principale di uno chassis virtuale rispetto agli switch standalone?",
+      "risposte": [
+        "Costo inferiore",
+        "Maggiore flessibilità e scalabilità",
+        "Minor consumo energetico",
+        "Implementazione più semplice"
+      ],
+      "risposta_corretta": "Maggiore flessibilità e scalabilità",
+      "svg": ""
+    }
+  ]
+}

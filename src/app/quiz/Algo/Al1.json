@@ -1,0 +1,185 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Che cos'è un bug in informatica?",
+      "risposte": [
+        "Un errore in un programma.",
+        "Una funzione di sistema.",
+        "Una parte della CPU.",
+        "Un linguaggio di programmazione."
+      ],
+      "risposta_corretta": "Un errore in un programma.",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "A cosa serve la CPU in un computer?",
+      "risposte": [
+        "A eseguire il codice e gestire le istruzioni.",
+        "A memorizzare i dati permanentemente.",
+        "A visualizzare immagini sullo schermo.",
+        "A navigare su internet."
+      ],
+      "risposta_corretta": "A eseguire il codice e gestire le istruzioni.",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Cosa significa compilare un programma?",
+      "risposte": [
+        "Tradurre l'intero programma in codice macchina in una volta sola.",
+        "Scrivere il programma da zero.",
+        "Correggere gli errori grammaticali.",
+        "Eseguire il programma riga per riga."
+      ],
+      "risposta_corretta": "Tradurre l'intero programma in codice macchina in una volta sola.",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Cos'è un linguaggio di alto livello?",
+      "risposte": [
+        "Un linguaggio facilmente leggibile dagli umani.",
+        "Un linguaggio solo per esperti.",
+        "Un linguaggio incomprensibile al computer.",
+        "Un linguaggio usato solo per grafica."
+      ],
+      "risposta_corretta": "Un linguaggio facilmente leggibile dagli umani.",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Che cos'è la modalità interattiva?",
+      "risposte": [
+        "Un modo per eseguire comandi uno alla volta al prompt.",
+        "Un'app per interagire con utenti.",
+        "Un sistema operativo.",
+        "Un editor di testo per sviluppatori."
+      ],
+      "risposta_corretta": "Un modo per eseguire comandi uno alla volta al prompt.",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Come funziona un interprete?",
+      "risposte": [
+        "Traduce ed esegue il programma riga per riga.",
+        "Traduce tutto il codice in una sola volta.",
+        "Scrive automaticamente codice.",
+        "Disegna interfacce grafiche."
+      ],
+      "risposta_corretta": "Traduce ed esegue il programma riga per riga.",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Che cos'è un linguaggio di basso livello?",
+      "risposte": [
+        "Un linguaggio vicino al linguaggio macchina.",
+        "Un linguaggio semplice da leggere.",
+        "Un linguaggio obsoleto.",
+        "Un linguaggio usato per siti web."
+      ],
+      "risposta_corretta": "Un linguaggio vicino al linguaggio macchina.",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "Cos'è il codice macchina?",
+      "risposte": [
+        "Il linguaggio direttamente eseguito dalla CPU.",
+        "Il linguaggio parlato dai programmatori.",
+        "Un linguaggio grafico.",
+        "Una sequenza di numeri casuali."
+      ],
+      "risposta_corretta": "Il linguaggio direttamente eseguito dalla CPU.",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Cosa fa la memoria principale?",
+      "risposte": [
+        "Conserva programmi e dati temporaneamente.",
+        "Memorizza dati in modo permanente.",
+        "Controlla il traffico di rete.",
+        "Avvia il sistema operativo da remoto."
+      ],
+      "risposta_corretta": "Conserva programmi e dati temporaneamente.",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Cosa significa analizzare un programma?",
+      "risposte": [
+        "Esaminare la sua struttura sintattica.",
+        "Scriverlo da zero.",
+        "Creare una versione grafica.",
+        "Convertirlo in immagine."
+      ],
+      "risposta_corretta": "Esaminare la sua struttura sintattica.",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Cosa si intende per portabilità di un programma?",
+      "risposte": [
+        "La possibilità di eseguirlo su diversi tipi di computer.",
+        "La capacità di scriverlo in più linguaggi.",
+        "La sua installazione rapida.",
+        "La sua compatibilità solo con Windows."
+      ],
+      "risposta_corretta": "La possibilità di eseguirlo su diversi tipi di computer.",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Cosa fa la funzione di stampa in un programma?",
+      "risposte": [
+        "Visualizza un valore sullo schermo.",
+        "Stampa un documento.",
+        "Salva un file.",
+        "Apre un'applicazione."
+      ],
+      "risposta_corretta": "Visualizza un valore sullo schermo.",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Cos'è la risoluzione dei problemi in programmazione?",
+      "risposte": [
+        "Formulare, ricercare e risolvere un problema.",
+        "Stampare i risultati.",
+        "Compilare il codice.",
+        "Eseguire i comandi in loop."
+      ],
+      "risposta_corretta": "Formulare, ricercare e risolvere un problema.",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Cosa rappresenta un prompt in un programma?",
+      "risposte": [
+        "Un messaggio per ricevere input dall'utente.",
+        "Una funzione automatica.",
+        "Un errore nel codice.",
+        "Un linguaggio di programmazione."
+      ],
+      "risposta_corretta": "Un messaggio per ricevere input dall'utente.",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Cos'è un errore semantico?",
+      "risposte": [
+        "Quando un programma fa qualcosa di diverso da quello previsto.",
+        "Un errore di sintassi.",
+        "Un errore del compilatore.",
+        "Un errore hardware."
+      ],
+      "risposta_corretta": "Quando un programma fa qualcosa di diverso da quello previsto.",
+      "svg": ""
+    }
+  ]
+}
+

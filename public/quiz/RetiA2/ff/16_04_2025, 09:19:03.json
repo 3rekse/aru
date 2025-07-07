@@ -1,0 +1,166 @@
+[
+  {
+    "mission": "RetiA2",
+    "nome": "ff",
+    "cognome": "ff",
+    "classe": "ff",
+    "voto": 8.25,
+    "dataorainizio": "2025-04-16T07:18:54.411Z",
+    "inizio": "16/04/2025, 09:18:54",
+    "durata": 8313,
+    "giuste": 24,
+    "sbagliate": 5,
+    "quiz": [
+      {
+        "id": 6,
+        "domanda": "Quale protocollo viene utilizzato per ricevere email da un server?",
+        "svg": " ✅ POP3"
+      },
+      {
+        "id": 13,
+        "domanda": "Quale protocollo viene utilizzato per accedere a un server remoto in modo sicuro?",
+        "svg": " ✅ SSH"
+      },
+      {
+        "id": 30,
+        "domanda": "Quale protocollo viene utilizzato per garantire la consegna affidabile dei dati?",
+        "svg": " ✅ TCP"
+      },
+      {
+        "id": 8,
+        "domanda": "Quale protocollo viene utilizzato per sincronizzare l'orario tra dispositivi?",
+        "svg": " ✅ NTP"
+      },
+      {
+        "id": 4,
+        "domanda": "Quale protocollo assegna automaticamente indirizzi IP ai dispositivi?",
+        "svg": " ✅ DHCP"
+      },
+      {
+        "id": 7,
+        "domanda": "Quale protocollo viene utilizzato per trasferire file in modo sicuro?",
+        "svg": " ✅ SFTP"
+      },
+      {
+        "id": 26,
+        "domanda": "Quale protocollo viene utilizzato per il caricamento e il download di file su un server web?",
+        "svg": " ❌ FTP"
+      },
+      {
+        "id": 1,
+        "domanda": "Qual è la funzione principale del protocollo HTTP?",
+        "svg": " ✅ Gestire la navigazione web."
+      },
+      {
+        "id": 23,
+        "domanda": "Quale protocollo viene utilizzato per inviare dati in tempo reale, come chiamate VoIP?",
+        "svg": " ✅ RTP"
+      },
+      {
+        "id": 28,
+        "domanda": "Quale protocollo viene utilizzato per la trasmissione di dati crittografati su una rete?",
+        "svg": " ✅ HTTPS"
+      },
+      {
+        "id": 9,
+        "domanda": "Quale protocollo viene utilizzato per risolvere indirizzi IP in indirizzi MAC?",
+        "svg": " ❌ ICMP"
+      },
+      {
+        "id": 3,
+        "domanda": "Qual è la funzione principale del protocollo FTP?",
+        "svg": " ✅ Trasferire file tra client e server."
+      },
+      {
+        "id": 22,
+        "domanda": "Quale protocollo viene utilizzato per risolvere indirizzi MAC in indirizzi IP?",
+        "svg": " ❌ ARP"
+      },
+      {
+        "id": 24,
+        "domanda": "Quale protocollo viene utilizzato per la gestione remota di dispositivi di rete?",
+        "svg": " ✅ Telnet"
+      },
+      {
+        "id": 5,
+        "domanda": "Quale protocollo viene utilizzato per inviare email?",
+        "svg": " ✅ SMTP"
+      },
+      {
+        "id": 16,
+        "domanda": "Quale protocollo viene utilizzato per trasferire file tra due dispositivi senza sicurezza?",
+        "svg": " ✅ FTP"
+      },
+      {
+        "id": 10,
+        "domanda": "Quale protocollo viene utilizzato per verificare la raggiungibilità di un dispositivo?",
+        "svg": " ✅ ICMP"
+      },
+      {
+        "id": 15,
+        "domanda": "Quale protocollo viene utilizzato per accedere a una casella email da un client?",
+        "svg": " ✅ IMAP"
+      },
+      {
+        "id": 18,
+        "domanda": "Quale protocollo viene utilizzato per configurare automaticamente i parametri di rete?",
+        "svg": " ✅ DHCP"
+      },
+      {
+        "id": 2,
+        "domanda": "Quale protocollo viene utilizzato per tradurre i nomi di dominio in indirizzi IP?",
+        "svg": " ✅ DNS"
+      },
+      {
+        "id": 19,
+        "domanda": "Quale protocollo viene utilizzato per trasferire file in modo sicuro tramite SSH?",
+        "svg": ""
+      },
+      {
+        "id": 25,
+        "domanda": "Quale protocollo viene utilizzato per trasferire email in modo sicuro?",
+        "svg": " ❌ SMTP"
+      },
+      {
+        "id": 12,
+        "domanda": "Quale protocollo viene utilizzato per inviare messaggi di errore di rete?",
+        "svg": " ✅ ICMP"
+      },
+      {
+        "id": 29,
+        "domanda": "Quale protocollo viene utilizzato per inviare pacchetti senza connessione?",
+        "svg": " ✅ UDP"
+      },
+      {
+        "id": 21,
+        "domanda": "Quale protocollo viene utilizzato per trasferire file tra dispositivi in modo anonimo?",
+        "svg": " ❌ SMTP"
+      },
+      {
+        "id": 20,
+        "domanda": "Quale protocollo viene utilizzato per monitorare e gestire dispositivi di rete?",
+        "svg": " ✅ SNMP"
+      },
+      {
+        "id": 14,
+        "domanda": "Quale protocollo viene utilizzato per inviare email tra server?",
+        "svg": " ✅ SMTP"
+      },
+      {
+        "id": 17,
+        "domanda": "Quale protocollo viene utilizzato per ottenere informazioni sui nomi di dominio?",
+        "svg": " ✅ DNS"
+      },
+      {
+        "id": 27,
+        "domanda": "Quale protocollo viene utilizzato per la comunicazione tra browser e server web?",
+        "svg": " ✅ HTTP"
+      },
+      {
+        "id": 11,
+        "domanda": "Quale protocollo viene utilizzato per trasferire pagine web in modo sicuro?",
+        "svg": " ✅ HTTPS"
+      }
+    ]
+  }
+]

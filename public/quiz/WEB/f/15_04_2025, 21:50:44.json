@@ -1,0 +1,111 @@
+[
+  {
+    "mission": "WEB",
+    "nome": "f",
+    "cognome": "f",
+    "classe": "f",
+    "voto": 3.75,
+    "dataorainizio": "2025-04-15T19:50:42.569Z",
+    "inizio": "15/04/2025, 21:50:42",
+    "durata": 849,
+    "giuste": 7,
+    "sbagliate": 12,
+    "quiz": [
+      {
+        "id": 110,
+        "domanda": "[Web] Cosa fanno le API?",
+        "svg": " ❌ Migliorano la sicurezza delle connessioni"
+      },
+      {
+        "id": 116,
+        "domanda": "[Web] A cosa serve la SEO?",
+        "svg": " ❌ Proteggere le connessioni HTTPS"
+      },
+      {
+        "id": 106,
+        "domanda": "[Web] Cos'è il DOM?",
+        "svg": " ❌ Un server web per gestire richieste HTTP"
+      },
+      {
+        "id": 104,
+        "domanda": "[Web] A cosa servono i framework CSS come Bootstrap?",
+        "svg": " ✅ Semplificare la creazione di design responsive"
+      },
+      {
+        "id": 105,
+        "domanda": "[Web] Quali sono alcuni framework JavaScript popolari?",
+        "svg": " ❌ Bootstrap, Tailwind e Foundation"
+      },
+      {
+        "id": 108,
+        "domanda": "[Web] Quali linguaggi server-side vengono usati per creare contenuti dinamici?",
+        "svg": " ❌ MySQL, MongoDB e PostgreSQL"
+      },
+      {
+        "id": 114,
+        "domanda": "[Web] A cosa servono strumenti di versionamento come Git?",
+        "svg": " ✅ Tenere traccia delle modifiche al codice"
+      },
+      {
+        "id": 111,
+        "domanda": "[Web] A cosa serve il responsive design?",
+        "svg": " ❌ Aggiungere effetti visivi alle pagine web"
+      },
+      {
+        "id": 101,
+        "domanda": "[Web] Cosa rappresenta l'HTML?",
+        "svg": " ✅ Il linguaggio per creare la struttura delle pagine web"
+      },
+      {
+        "id": 102,
+        "domanda": "[Web] A cosa serve il CSS?",
+        "svg": " ❌ Gestire le richieste HTTP"
+      },
+      {
+        "id": 103,
+        "domanda": "[Web] Qual è lo scopo di JavaScript?",
+        "svg": " ❌ Definire lo stile visivo di una pagina"
+      },
+      {
+        "id": 119,
+        "domanda": "[Web] A cosa servono i test automatizzati?",
+        "svg": " ✅ Verificare che il codice funzioni correttamente"
+      },
+      {
+        "id": 113,
+        "domanda": "[Web] Quale CMS è molto usato per creare siti web?",
+        "svg": " ✅ WordPress"
+      },
+      {
+        "id": 112,
+        "domanda": "[Web] Cosa garantisce il protocollo HTTPS?",
+        "svg": " ❌ Un caricamento più veloce delle pagine"
+      },
+      {
+        "id": 117,
+        "domanda": "[Web] Qual è la funzione del backend?",
+        "svg": " ❌ Aggiungere effetti visivi alla pagina"
+      },
+      {
+        "id": 109,
+        "domanda": "[Web] A cosa servono i database come MySQL e MongoDB?",
+        "svg": " ❌ Proteggere le connessioni web"
+      },
+      {
+        "id": 118,
+        "domanda": "[Web] Cos'è il frontend?",
+        "svg": " ✅ L'aspetto visivo e l'interazione utente"
+      },
+      {
+        "id": 115,
+        "domanda": "[Web] Cosa caratterizza le Single Page Applications (SPA)?",
+        "svg": " ✅ Caricano dinamicamente i contenuti senza ricaricare l'intera pagina"
+      },
+      {
+        "id": 107,
+        "domanda": "[Web] Quali sono alcuni server web comuni?",
+        "svg": " ❌ Bootstrap e Tailwind"
+      }
+    ]
+  }
+]

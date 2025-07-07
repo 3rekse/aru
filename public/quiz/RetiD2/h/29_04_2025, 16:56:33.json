@@ -1,0 +1,166 @@
+[
+  {
+    "mission": "RetiD2",
+    "nome": "h",
+    "cognome": "h",
+    "classe": "h",
+    "voto": 2,
+    "dataorainizio": "2025-04-29T14:56:31.640Z",
+    "inizio": "29/04/2025, 16:56:31",
+    "durata": 666,
+    "giuste": 6,
+    "sbagliate": 24,
+    "quiz": [
+      {
+        "id": 16,
+        "domanda": "Qual è il comando di base per abilitare OSPF su un'interfaccia in un router Cisco?",
+        "svg": ""
+      },
+      {
+        "id": 26,
+        "domanda": "Qual è il comando per visualizzare le informazioni di routing per un VRF specifico in un router Cisco?",
+        "svg": ""
+      },
+      {
+        "id": 19,
+        "domanda": "Quale stato indica che un router OSPF ha stabilito una piena adiacenza con un vicino?",
+        "svg": ""
+      },
+      {
+        "id": 30,
+        "domanda": "Qual è una considerazione importante nella configurazione di BGP tra Autonomous Systems?",
+        "svg": ""
+      },
+      {
+        "id": 22,
+        "domanda": "Cos'è un Autonomous System Number (ASN) in BGP?",
+        "svg": ""
+      },
+      {
+        "id": 29,
+        "domanda": "Qual è un vantaggio di OSPF rispetto a RIP?",
+        "svg": ""
+      },
+      {
+        "id": 14,
+        "domanda": "Cos'è VRF (Virtual Routing and Forwarding)?",
+        "svg": ""
+      },
+      {
+        "id": 23,
+        "domanda": "Qual è il comando per visualizzare la tabella dei vicini BGP in un router Cisco?",
+        "svg": ""
+      },
+      {
+        "id": 4,
+        "domanda": "Qual è il protocollo di trasporto utilizzato da RIP per inviare aggiornamenti di routing?",
+        "svg": ""
+      },
+      {
+        "id": 12,
+        "domanda": "BGP è un protocollo di routing...",
+        "svg": ""
+      },
+      {
+        "id": 13,
+        "domanda": "Qual è la differenza principale tra i protocolli IGP e EGP?",
+        "svg": ""
+      },
+      {
+        "id": 27,
+        "domanda": "Quale comando mostra le interfacce associate a un VRF specifico in un router Cisco?",
+        "svg": ""
+      },
+      {
+        "id": 17,
+        "domanda": "Qual è il comando per visualizzare le adiacenze OSPF in un router Cisco?",
+        "svg": ""
+      },
+      {
+        "id": 1,
+        "domanda": "Qual è la metrica di routing utilizzata dal protocollo RIP?",
+        "svg": ""
+      },
+      {
+        "id": 15,
+        "domanda": "Qual è uno scenario d'uso tipico per VRF?",
+        "svg": ""
+      },
+      {
+        "id": 6,
+        "domanda": "Qual è il tipo di algoritmo di routing utilizzato da OSPF?",
+        "svg": ""
+      },
+      {
+        "id": 9,
+        "domanda": "Qual è il ruolo del BDR (Backup Designated Router) in OSPF?",
+        "svg": ""
+      },
+      {
+        "id": 10,
+        "domanda": "Qual è la metrica di routing utilizzata dal protocollo BGP?",
+        "svg": ""
+      },
+      {
+        "id": 3,
+        "domanda": "Qual è il tipo di algoritmo di routing utilizzato da RIP?",
+        "svg": ""
+      },
+      {
+        "id": 20,
+        "domanda": "Un mancato stabilimento di adiacenza OSPF potrebbe essere causato da...",
+        "svg": ""
+      },
+      {
+        "id": 8,
+        "domanda": "Qual è il ruolo del DR (Designated Router) in OSPF?",
+        "svg": " ❌ Fornire un backup per il BDR"
+      },
+      {
+        "id": 18,
+        "domanda": "Qual è il comando per visualizzare le rotte OSPF nella tabella di routing di un router Cisco?",
+        "svg": " ❌ show ip neighbor ospf"
+      },
+      {
+        "id": 7,
+        "domanda": "Qual è l'Area 0 in OSPF?",
+        "svg": " ❌ Un'area totalmente stub"
+      },
+      {
+        "id": 11,
+        "domanda": "Qual è il tipo di algoritmo di routing utilizzato da BGP?",
+        "svg": " ❌ Hybrid"
+      },
+      {
+        "id": 28,
+        "domanda": "Qual è un potenziale problema di routing in una rete RIP?",
+        "svg": " ❌ Convergenza rapida"
+      },
+      {
+        "id": 2,
+        "domanda": "Qual è il valore massimo di hop count in RIP che indica una rotta raggiungibile?",
+        "svg": " ✅ 15"
+      },
+      {
+        "id": 21,
+        "domanda": "Qual è il comando di base per configurare un router BGP in un router Cisco?",
+        "svg": " ✅ router bgp 65001"
+      },
+      {
+        "id": 25,
+        "domanda": "Quale comando associa un'interfaccia a un VRF in un router Cisco?",
+        "svg": " ❌ ip route vrf RED 10.1.1.0 255.255.255.0 GigabitEthernet0/1"
+      },
+      {
+        "id": 24,
+        "domanda": "Qual è il comando per configurare un VRF in un router Cisco?",
+        "svg": " ❌ interface GigabitEthernet0/1\nvrf forwarding RED"
+      },
+      {
+        "id": 5,
+        "domanda": "Qual è la metrica di routing utilizzata dal protocollo OSPF <a href=\"md.html\" target=\"_blank\">OSPG</a>?",
+        "svg": " ❌ Ritardo"
+      }
+    ]
+  }
+]

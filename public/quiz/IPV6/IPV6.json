@@ -1,0 +1,604 @@
+{
+  "quiz": [
+    {
+      "id": 51,
+      "domanda": "Qual è la rappresentazione standard di un indirizzo IPv6?",
+      "risposte": [
+        "Decimal-puntata",
+        "Esadecimale separato da due punti",
+        "Binario separato da punti",
+        "Decimale separato da virgole"
+      ],
+      "risposta_corretta": "Esadecimale separato da due punti",
+      "svg": ""
+    },
+    {
+      "id": 52,
+      "domanda": "Quale componente di un indirizzo IPv6 identifica la rete o la sottorete?",
+      "risposte": [
+        "Interface ID",
+        "Network Prefix",
+        "Subnet Mask",
+        "Broadcast Address"
+      ],
+      "risposta_corretta": "Network Prefix",
+      "svg": ""
+    },
+    {
+      "id": 53,
+      "domanda": "È possibile usare il doppio due punti (::) più di una volta in un indirizzo IPv6?",
+      "risposte": [
+        "Sì, per abbreviare più sequenze di zeri.",
+        "No, solo una volta per indirizzo.",
+        "Solo se l'indirizzo è molto lungo.",
+        "Dipende dal sistema operativo."
+      ],
+      "risposta_corretta": "No, solo una volta per indirizzo.",
+      "svg": ""
+    },
+    {
+      "id": 54,
+      "domanda": "Un router è un dispositivo che opera principalmente a quale livello del modello TCP/IP?",
+      "risposte": [
+        "Applicazione",
+        "Trasporto",
+        "Internet (o Rete)",
+        "Accesso alla Rete"
+      ],
+      "risposta_corretta": "Internet (o Rete)",
+      "svg": ""
+    },
+    {
+      "id": 55,
+      "domanda": "Il ruolo principale di un Gateway è:",
+      "risposte": [
+        "Bloccare il traffico malevolo.",
+        "Tradurre gli indirizzi IP.",
+        "Connettere reti diverse e agire come punto di uscita.",
+        "Assegnare indirizzi IP dinamici."
+      ],
+      "risposta_corretta": "Connettere reti diverse e agire come punto di uscita.",
+      "svg": ""
+    },
+    {
+      "id": 56,
+      "domanda": "Se un dispositivo nella tua LAN ha bisogno di inviare dati a un server su Internet, a chi li invia?",
+      "risposte": [
+        "Direttamente al server su Internet.",
+        "Al server DNS.",
+        "Al suo Default Gateway.",
+        "A un altro dispositivo sulla stessa LAN."
+      ],
+      "risposta_corretta": "Al suo Default Gateway.",
+      "svg": ""
+    },
+    {
+      "id": 57,
+      "domanda": "Quale problema principale del NAT impedisce la connessione diretta a un server web interno da Internet senza configurazioni speciali?",
+      "risposte": [
+        "La sua lentezza.",
+        "Il suo supporto solo per IPv6.",
+        "Maschera gli indirizzi IP interni.",
+        "Non supporta la crittografia."
+      ],
+      "risposta_corretta": "Maschera gli indirizzi IP interni.",
+      "svg": ""
+    },
+    {
+      "id": 58,
+      "domanda": "Quale tipo di NAT è più efficace per risparmiare indirizzi IP pubblici, permettendo a molti dispositivi di condividere un singolo IP pubblico?",
+      "risposte": [
+        "Static NAT",
+        "Dynamic NAT",
+        "PAT (Port Address Translation)",
+        "One-to-One NAT"
+      ],
+      "risposta_corretta": "PAT (Port Address Translation)",
+      "svg": ""
+    },
+    {
+      "id": 59,
+      "domanda": "Qual è l'indirizzo IPv6 di Unspecified Address (non specificato)?",
+      "risposte": [
+        "::1",
+        "FE80::",
+        "::",
+        "FF02::1"
+      ],
+      "risposta_corretta": "::",
+      "svg": ""
+    },
+    {
+      "id": 60,
+      "domanda": "Quale affermazione descrive meglio il ruolo di un router?",
+      "risposte": [
+        "Permette ai dispositivi di comunicare all'interno della stessa rete.",
+        "Connette diverse reti e inoltra il traffico tra di esse.",
+        "Assegna gli indirizzi IP ai dispositivi.",
+        "Gestisce le connessioni wireless."
+      ],
+      "risposta_corretta": "Connette diverse reti e inoltra il traffico tra di esse.",
+      "svg": ""
+    },
+    {
+      "id": 61,
+      "domanda": "Qual è il formato di rappresentazione di un indirizzo IPv6 completamente non compresso?",
+      "risposte": [
+        "Quattro numeri decimali separati da punti.",
+        "Otto gruppi di quattro cifre esadecimali separate da due punti.",
+        "Una singola stringa binaria di 128 caratteri.",
+        "Sei coppie di cifre esadecimali separate da trattini."
+      ],
+      "risposta_corretta": "Otto gruppi di quattro cifre esadecimali separate da due punti.",
+      "svg": ""
+    },
+    {
+      "id": 62,
+      "domanda": "Un indirizzo IPv6 di tipo Anycast è usato per inviare un pacchetto a:",
+      "risposte": [
+        "Tutti i dispositivi in una rete.",
+        "Un singolo dispositivo specifico.",
+        "Il dispositivo più vicino in un gruppo di dispositivi.",
+        "Tutti i dispositivi in un gruppo."
+      ],
+      "risposta_corretta": "Il dispositivo più vicino in un gruppo di dispositivi.",
+      "svg": ""
+    },
+    {
+      "id": 63,
+      "domanda": "Quale delle seguenti è una valida rappresentazione compressa di un indirizzo IPv6?",
+      "risposte": [
+        "192.168.0.1",
+        "2001:DB8:85a3::8a2e:370:7334",
+        "FE80:1:2:3:4:5:6:7::",
+        "127.0.0.1"
+      ],
+      "risposta_corretta": "2001:DB8:85a3::8a2e:370:7334",
+      "svg": ""
+    },
+    {
+      "id": 64,
+      "domanda": "Il NAT è una tecnologia associata principalmente a quale versione del protocollo IP?",
+      "risposte": [
+        "IPv6",
+        "IPv4",
+        "IPX",
+        "IPsec"
+      ],
+      "risposta_corretta": "IPv4",
+      "svg": ""
+    },
+    {
+      "id": 65,
+      "domanda": "Qual è un sinonimo comune per 'Default Gateway'?",
+      "risposte": [
+        "Server DNS",
+        "Router di bordo",
+        "Switch di rete",
+        "Server DHCP"
+      ],
+      "risposta_corretta": "Router di bordo",
+      "svg": ""
+    },
+    {
+      "id": 66,
+      "domanda": "La parte 'ID Interfaccia' di un indirizzo IPv6 è solitamente di quanti bit?",
+      "risposte": [
+        "32 bit",
+        "48 bit",
+        "64 bit",
+        "128 bit"
+      ],
+      "risposta_corretta": "64 bit",
+      "svg": ""
+    },
+    {
+      "id": 67,
+      "domanda": "Se un dispositivo interno con IP privato `192.168.1.5` invia un pacchetto via NAT, quale IP sorgente vedrà un server su Internet?",
+      "risposte": [
+        "`192.168.1.5`",
+        "L'indirizzo IP pubblico del router NAT.",
+        "L'indirizzo del server DNS.",
+        "Un indirizzo IPv6 casuale."
+      ],
+      "risposta_corretta": "L'indirizzo IP pubblico del router NAT.",
+      "svg": ""
+    },
+    {
+      "id": 68,
+      "domanda": "Quale delle seguenti non è una classe di indirizzi IPv4 privati che il NAT è progettato per gestire?",
+      "risposte": [
+        "`10.0.0.0/8`",
+        "`172.16.0.0/12`",
+        "`192.168.0.0/16`",
+        "`8.8.8.0/24`"
+      ],
+      "risposta_corretta": "`8.8.8.0/24`",
+      "svg": ""
+    },
+    {
+      "id": 69,
+      "domanda": "In un indirizzo IPv6, gli zeri iniziali di ogni blocco (hextet) possono essere omessi. Ad esempio, '0001' può essere scritto come:",
+      "risposte": [
+        "`1`",
+        "`01`",
+        "`001`",
+        "Tutte le precedenti"
+      ],
+      "risposta_corretta": "`1`",
+      "svg": ""
+    },
+    {
+      "id": 70,
+      "domanda": "Un router mantiene una 'tabella di routing' per:",
+      "risposte": [
+        "Memorizzare gli indirizzi MAC dei dispositivi connessi.",
+        "Mappare i nomi di dominio agli indirizzi IP.",
+        "Determinare il percorso migliore per inoltrare i pacchetti.",
+        "Gestire le connessioni Bluetooth."
+      ],
+      "risposta_corretta": "Determinare il percorso migliore per inoltrare i pacchetti.",
+      "svg": ""
+    },
+    {
+      "id": 71,
+      "domanda": "Quale funzione di rete è spesso integrata in un router domestico insieme al NAT e al gateway?",
+      "risposte": [
+        "Server DNS primario.",
+        "Server di posta elettronica.",
+        "Firewall.",
+        "Server web."
+      ],
+      "risposta_corretta": "Firewall.",
+      "svg": ""
+    },
+    {
+      "id": 72,
+      "domanda": "Qual è il principale vantaggio del NAT in termini di sicurezza?",
+      "risposte": [
+        "Crittografa tutte le comunicazioni.",
+        "Rende gli attacchi DDoS impossibili.",
+        "Nasconde gli indirizzi IP interni e la topologia della rete interna.",
+        "Garantisce l'anonimato completo."
+      ],
+      "risposta_corretta": "Nasconde gli indirizzi IP interni e la topologia della rete interna.",
+      "svg": ""
+    },
+    {
+      "id": 73,
+      "domanda": "Un indirizzo IPv6 che inizia con `FC00::/7` o `FD00::/8` è un:",
+      "risposte": [
+        "Global Unicast Address",
+        "Link-Local Address",
+        "Unique Local Address",
+        "Multicast Address"
+      ],
+      "risposta_corretta": "Unique Local Address",
+      "svg": ""
+    },
+    {
+      "id": 74,
+      "domanda": "Il NAT Overload è un altro nome per:",
+      "risposte": [
+        "Static NAT",
+        "Dynamic NAT",
+        "PAT",
+        "One-to-One NAT"
+      ],
+      "risposta_corretta": "PAT",
+      "svg": ""
+    },
+    {
+      "id": 75,
+      "domanda": "Quale concetto è simile alla subnetting in IPv4, ma con una notazione più flessibile in IPv6?",
+      "risposte": [
+        "Classi di indirizzi",
+        "CIDR (Classless Inter-Domain Routing)",
+        "Maschera di rete",
+        "Broadcast domain"
+      ],
+      "risposta_corretta": "CIDR (Classless Inter-Domain Routing)",
+      "svg": ""
+    },
+    {
+      "id": 76,
+      "domanda": "Qual è la differenza concettuale tra un router e un gateway nel contesto IP?",
+      "risposte": [
+        "Sono termini completamente diversi e non correlati.",
+        "Un router instrada pacchetti, un gateway è un punto di accesso tra reti diverse (spesso un router).",
+        "Un gateway instrada pacchetti, un router è un punto di accesso tra reti diverse.",
+        "Un router è solo per IPv4, un gateway solo per IPv6."
+      ],
+      "risposta_corretta": "Un router instrada pacchetti, un gateway è un punto di accesso tra reti diverse (spesso un router).",
+      "svg": ""
+    },
+    {
+      "id": 77,
+      "domanda": "Quale delle seguenti è una delle principali motivazioni per cui è stato creato IPv6?",
+      "risposte": [
+        "Per ridurre la velocità di Internet.",
+        "Per aumentare la complessità della configurazione di rete.",
+        "Per supportare un numero molto maggiore di dispositivi connessi.",
+        "Per eliminare completamente l'uso dei router."
+      ],
+      "risposta_corretta": "Per supportare un numero molto maggiore di dispositivi connessi.",
+      "svg": ""
+    },
+    {
+      "id": 78,
+      "domanda": "Se hai una connessione Internet con un solo indirizzo IP pubblico, come fanno più dispositivi nella tua rete domestica a navigare contemporaneamente?",
+      "risposte": [
+        "Ogni dispositivo ottiene un IP pubblico temporaneo.",
+        "Il router assegna un IP pubblico virtuale a ciascuno.",
+        "Tramite il NAT (PAT) che traduce gli IP privati e le porte.",
+        "Solo un dispositivo può navigare alla volta."
+      ],
+      "risposta_corretta": "Tramite il NAT (PAT) che traduce gli IP privati e le porte.",
+      "svg": ""
+    },
+    {
+      "id": 79,
+      "domanda": "Il Port Forwarding è una funzionalità del NAT che:",
+      "risposte": [
+        "Aumenta la sicurezza del router.",
+        "Permette a un server interno di essere raggiunto da Internet su una porta specifica.",
+        "Riduce il consumo di banda.",
+        "Bilancia il carico tra più server interni."
+      ],
+      "risposta_corretta": "Permette a un server interno di essere raggiunto da Internet su una porta specifica.",
+      "svg": ""
+    },
+    {
+      "id": 80,
+      "domanda": "Quale dei seguenti è un indirizzo di loopback in IPv6?",
+      "risposte": [
+        "FF02::1",
+        "FE80::1",
+        "2001:DB8::",
+        "::1"
+      ],
+      "risposta_corretta": "::1",
+      "svg": ""
+    },
+    {
+      "id": 81,
+      "domanda": "Qual è il significato di 'hextet' in IPv6?",
+      "risposte": [
+        "Un gruppo di 8 bit.",
+        "Un gruppo di 16 bit rappresentato da quattro cifre esadecimali.",
+        "Il numero totale di bit in un indirizzo IPv6.",
+        "Una regola di compressione degli zeri."
+      ],
+      "risposta_corretta": "Un gruppo di 16 bit rappresentato da quattro cifre esadecimali.",
+      "svg": ""
+    },
+    {
+      "id": 82,
+      "domanda": "Quale indirizzo IPv6 identifica un gruppo di interfacce e consegna un pacchetto a tutte le interfacce del gruppo?",
+      "risposte": [
+        "Unicast",
+        "Anycast",
+        "Multicast",
+        "Loopback"
+      ],
+      "risposta_corretta": "Multicast",
+      "svg": ""
+    },
+    {
+      "id": 83,
+      "domanda": "Un router utilizza una tabella di routing per:",
+      "risposte": [
+        "Memorizzare nomi utente e password.",
+        "Mantenere le informazioni sulla cache del browser.",
+        "Decidere dove inoltrare i pacchetti in base all'indirizzo di destinazione.",
+        "Gestire le connessioni a Internet del provider."
+      ],
+      "risposta_corretta": "Decidere dove inoltrare i pacchetti in base all'indirizzo di destinazione.",
+      "svg": ""
+    },
+    {
+      "id": 84,
+      "domanda": "Il termine 'default gateway' si riferisce all'indirizzo IP di quale dispositivo?",
+      "risposte": [
+        "Il server DNS.",
+        "Il firewall.",
+        "Il router nella tua rete locale.",
+        "Il provider di servizi Internet."
+      ],
+      "risposta_corretta": "Il router nella tua rete locale.",
+      "svg": ""
+    },
+    {
+      "id": 85,
+      "domanda": "Il NAT agisce principalmente su quale parte dell'indirizzo IP del pacchetto?",
+      "risposte": [
+        "Solo l'indirizzo di destinazione.",
+        "Solo l'indirizzo sorgente.",
+        "Sia l'indirizzo sorgente che quello di destinazione (a seconda della direzione).",
+        "Le informazioni sulla porta."
+      ],
+      "risposta_corretta": "Sia l'indirizzo sorgente che quello di destinazione (a seconda della direzione).",
+      "svg": ""
+    },
+    {
+      "id": 86,
+      "domanda": "Quale delle seguenti è una rappresentazione non valida di un indirizzo IPv6 a causa di una compressione errata?",
+      "risposte": [
+        "2001::DB8:0:0:1",
+        "FE80::1",
+        "FF02::1:2:3",
+        "2001::DB8::1"
+      ],
+      "risposta_corretta": "2001::DB8::1",
+      "svg": ""
+    },
+    {
+      "id": 87,
+      "domanda": "Il NAT è un meccanismo che supporta nativamente la crittografia dei dati?",
+      "risposte": [
+        "Sì, è integrato nella sua funzione.",
+        "No, il NAT si occupa solo della traduzione degli indirizzi.",
+        "Solo per il traffico web.",
+        "Dipende dalla versione del NAT."
+      ],
+      "risposta_corretta": "No, il NAT si occupa solo della traduzione degli indirizzi.",
+      "svg": ""
+    },
+    {
+      "id": 88,
+      "domanda": "Perché si dice che IPv6 è il 'futuro di Internet'?",
+      "risposte": [
+        "Perché è molto più veloce di IPv4.",
+        "Perché fornisce un numero enorme di indirizzi per la crescita futura.",
+        "Perché è l'unico protocollo supportato dai dispositivi moderni.",
+        "Perché non richiede una connessione internet."
+      ],
+      "risposta_corretta": "Perché fornisce un numero enorme di indirizzi per la crescita futura.",
+      "svg": ""
+    },
+    {
+      "id": 89,
+      "domanda": "Un router è considerato un dispositivo di Layer 3 perché:",
+      "risposte": [
+        "Gestisce le connessioni fisiche dei cavi.",
+        "Si occupa degli indirizzi IP e del routing.",
+        "Forma i frame per la trasmissione.",
+        "Gestisce le sessioni tra applicazioni."
+      ],
+      "risposta_corretta": "Si occupa degli indirizzi IP e del routing.",
+      "svg": ""
+    },
+    {
+      "id": 90,
+      "domanda": "Quale dei seguenti è un esempio di indirizzo IPv6 abbreviato correttamente?",
+      "risposte": [
+        "2001:0DB8:0:0:0:0:0:1",
+        "FF02:0:0:0:0:0:0:C3",
+        "2001:DB8::1",
+        "FE80::1:2:3:4:5:6"
+      ],
+      "risposta_corretta": "2001:DB8::1",
+      "svg": ""
+    },
+    {
+      "id": 91,
+      "domanda": "In quale caso il NAT richiede una configurazione aggiuntiva come il Port Forwarding?",
+      "risposte": [
+        "Quando un dispositivo interno naviga sul web.",
+        "Quando un dispositivo interno invia un'email.",
+        "Quando un servizio esterno deve connettersi a un server interno.",
+        "Quando si usa un indirizzo IPv6."
+      ],
+      "risposta_corretta": "Quando un servizio esterno deve connettersi a un server interno.",
+      "svg": ""
+    },
+    {
+      "id": 92,
+      "domanda": "Qual è il vantaggio principale dell'omissione degli zeri iniziali negli indirizzi IPv6?",
+      "risposte": [
+        "Rende gli indirizzi più lunghi.",
+        "Li rende più difficili da leggere.",
+        "Li rende più compatti e facili da leggere.",
+        "Non ha alcun impatto."
+      ],
+      "risposta_corretta": "Li rende più compatti e facili da leggere.",
+      "svg": ""
+    },
+    {
+      "id": 93,
+      "domanda": "Un router inoltra i pacchetti basandosi su:",
+      "risposte": [
+        "L'indirizzo MAC del destinatario.",
+        "Il nome host del destinatario.",
+        "L'indirizzo IP di destinazione del pacchetto.",
+        "La porta sorgente TCP/UDP."
+      ],
+      "risposta_corretta": "L'indirizzo IP di destinazione del pacchetto.",
+      "svg": ""
+    },
+    {
+      "id": 94,
+      "domanda": "Quale tipo di traduzione NAT coinvolge la modifica sia dell'indirizzo IP che della porta?",
+      "risposte": [
+        "Static NAT",
+        "Dynamic NAT",
+        "PAT (Port Address Translation)",
+        "One-to-One NAT"
+      ],
+      "risposta_corretta": "PAT (Port Address Translation)",
+      "svg": ""
+    },
+    {
+      "id": 95,
+      "domanda": "Il NAT risolve il problema dell'esaurimento degli indirizzi IPv4 permettendo a più dispositivi di utilizzare:",
+      "risposte": [
+        "Indirizzi IPv6.",
+        "Indirizzi IP privati.",
+        "Un singolo indirizzo IP pubblico condiviso.",
+        "Indirizzi IP di loopback."
+      ],
+      "risposta_corretta": "Un singolo indirizzo IP pubblico condiviso.",
+      "svg": ""
+    },
+    {
+      "id": 96,
+      "domanda": "Un indirizzo IPv6 come `FE80::C2B3:1234:5678:9ABC` è un esempio di:",
+      "risposte": [
+        "Global Unicast Address",
+        "Link-Local Address",
+        "Unique Local Address",
+        "Anycast Address"
+      ],
+      "risposta_corretta": "Link-Local Address",
+      "svg": ""
+    },
+    {
+      "id": 97,
+      "domanda": "Il concetto di 'gateway' è strettamente legato alla capacità di:",
+      "risposte": [
+        "Comunicare solo all'interno della stessa rete.",
+        "Accedere a risorse al di fuori della rete locale.",
+        "Ottenere un indirizzo IP dinamico.",
+        "Crittografare le comunicazioni."
+      ],
+      "risposta_corretta": "Accedere a risorse al di fuori della rete locale.",
+      "svg": ""
+    },
+    {
+      "id": 98,
+      "domanda": "Quale delle seguenti affermazioni è falsa riguardo a IPv6?",
+      "risposte": [
+        "Gli indirizzi sono composti da 128 bit.",
+        "Utilizza la notazione decimale puntata come IPv4.",
+        "Supporta la compressione degli zeri.",
+        "È progettato per un numero enorme di indirizzi."
+      ],
+      "risposta_corretta": "Utilizza la notazione decimale puntata come IPv4.",
+      "svg": ""
+    },
+    {
+      "id": 99,
+      "domanda": "In quale scenario è tipicamente utilizzato lo Static NAT?",
+      "risposte": [
+        "Per permettere a una LAN di navigare su Internet usando un solo IP pubblico.",
+        "Per rendere un server interno (es. web server) raggiungibile dall'esterno con un IP pubblico fisso.",
+        "Per bilanciare il carico su un gruppo di server.",
+        "Per assegnare automaticamente IP a nuovi dispositivi."
+      ],
+      "risposta_corretta": "Per rendere un server interno (es. web server) raggiungibile dall'esterno con un IP pubblico fisso.",
+      "svg": ""
+    },
+    {
+      "id": 100,
+      "domanda": "Qual è il ruolo principale di un router in un contesto di rete domestica?",
+      "risposte": [
+        "Tradurre le lingue dei siti web.",
+        "Connettere la tua rete locale a Internet.",
+        "Creare documenti e presentazioni.",
+        "Assegnare indirizzi email."
+      ],
+      "risposta_corretta": "Connettere la tua rete locale a Internet.",
+      "svg": ""
+    }
+  ]
+}

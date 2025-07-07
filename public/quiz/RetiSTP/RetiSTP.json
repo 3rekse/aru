@@ -1,0 +1,232 @@
+{
+  "quiz": [
+    {
+      "id": 21,
+      "domanda": "Qual è il vantaggio principale di RSTP (Rapid Spanning Tree Protocol) rispetto a STP 802.1D?",
+      "risposte": [
+        "Supporta più VLAN per istanza.",
+        "Maggiore velocità di convergenza della rete.",
+        "Non richiede la configurazione manuale.",
+        "Elimina completamente la necessità di switch."
+      ],
+      "risposta_corretta": "Maggiore velocità di convergenza della rete.",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "Quali sono i tre stati principali delle porte in RSTP?",
+      "risposte": [
+        "Blocking, Listening, Learning.",
+        "Disabled, Enabled, Active.",
+        "Discarding, Learning, Forwarding.",
+        "Idle, Pending, Ready."
+      ],
+      "risposta_corretta": "Discarding, Learning, Forwarding.",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "Quale meccanismo di RSTP permette una transizione rapida allo stato di forwarding su link punto-punto?",
+      "risposte": [
+        "Max Age Timer.",
+        "Proposal/Agreement (Proposta/Accordo).",
+        "BPDU Filter.",
+        "PortFast."
+      ],
+      "risposta_corretta": "Proposal/Agreement (Proposta/Accordo).",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "PVST+ (Per-VLAN Spanning Tree Plus) esegue quante istanze di Spanning Tree?",
+      "risposte": [
+        "Una singola istanza per l'intera rete.",
+        "Una istanza per ogni porta dello switch.",
+        "Una istanza separata per ogni VLAN.",
+        "Una istanza per ogni due switch."
+      ],
+      "risposta_corretta": "Una istanza separata per ogni VLAN.",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "Qual è il principale vantaggio del PVST+ in termini di utilizzo della rete?",
+      "risposte": [
+        "Riduzione drastica dell'overhead di BPDU.",
+        "Eliminazione dei loop su tutti i tipi di traffico.",
+        "Capacità di bilanciare il carico del traffico attraverso link ridondanti per VLAN diverse.",
+        "Semplificazione estrema della configurazione STP."
+      ],
+      "risposta_corretta": "Capacità di bilanciare il carico del traffico attraverso link ridondanti per VLAN diverse.",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Cosa succede se tutti gli switch hanno la stessa priorità STP durante l'elezione del Root Bridge?",
+      "risposte": [
+        "Non viene eletto nessun Root Bridge.",
+        "Lo switch con il MAC address più alto diventa Root Bridge.",
+        "Lo switch con il MAC address più basso diventa Root Bridge.",
+        "L'elezione si basa sul numero di porte attive."
+      ],
+      "risposta_corretta": "Lo switch con il MAC address più basso diventa Root Bridge.",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Quale ruolo di porta ha ogni switch non-Root Bridge per il percorso meno costoso verso il Root Bridge?",
+      "risposte": [
+        "Designated Port.",
+        "Blocking Port.",
+        "Root Port.",
+        "Disabled Port."
+      ],
+      "risposta_corretta": "Root Port.",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "Qual è il criterio principale per la selezione della Root Port?",
+      "risposte": [
+        "Il numero di VLAN configurate.",
+        "Il costo del percorso radice più basso.",
+        "Il Bridge ID del Root Bridge.",
+        "Il numero di porte del mittente."
+      ],
+      "risposta_corretta": "Il costo del percorso radice più basso.",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Quale ruolo di porta è presente una e una sola volta su ogni segmento di rete condiviso?",
+      "risposte": [
+        "Root Port.",
+        "Alternate Port.",
+        "Designated Port.",
+        "Disabled Port."
+      ],
+      "risposta_corretta": "Designated Port.",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Qual è lo stato di una porta che non inoltra traffico dati e non apprende indirizzi MAC in STP 802.1D, ma è in attesa di diventare attiva?",
+      "risposte": [
+        "Forwarding.",
+        "Learning.",
+        "Listening.",
+        "Blocking."
+      ],
+      "risposta_corretta": "Blocking.",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Tutte le porte del Root Bridge sono sempre in quale stato/ruolo (tranne se disabilitate)?",
+      "risposte": [
+        "Blocking Port.",
+        "Root Port.",
+        "Designated Port e Forwarding state.",
+        "Listening state."
+      ],
+      "risposta_corretta": "Designated Port e Forwarding state.",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Quale tipo di frame STP viene scambiato tra gli switch per eleggere il Root Bridge e determinare la topologia?",
+      "risposte": [
+        "ARP Request.",
+        "ICMP Echo Request.",
+        "BPDU (Bridge Protocol Data Unit).",
+        "DHCP Discover."
+      ],
+      "risposta_corretta": "BPDU (Bridge Protocol Data Unit).",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Il costo STP di un link Fast Ethernet (100 Mbps) secondo lo standard 802.1D è tipicamente:",
+      "risposte": [
+        "4",
+        "19",
+        "100",
+        "2"
+      ],
+      "risposta_corretta": "19",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Un link Ethernet Gigabit (1 Gbps) ha un costo STP inferiore o superiore a un link Fast Ethernet (100 Mbps)?",
+      "risposte": [
+        "Superiore.",
+        "Inferiore.",
+        "Uguale.",
+        "Non ha un costo STP."
+      ],
+      "risposta_corretta": "Inferiore.",
+      "svg": ""
+    },
+    {
+      "id": 36,
+      "domanda": "Quale standard IEEE definisce MSTP?",
+      "risposte": [
+        "802.1D.",
+        "802.1w.",
+        "802.1s.",
+        "802.3."
+      ],
+      "risposta_corretta": "802.1s.",
+      "svg": ""
+    },
+    {
+      "id": 37,
+      "domanda": "In MSTP, cosa si intende per 'regione MST'?",
+      "risposte": [
+        "Un singolo switch non configurato per STP.",
+        "Un gruppo di switch con configurazione MSTP compatibile (nome, revisione, mappatura VLAN-istanza).",
+        "L'area di una rete con un solo Root Bridge.",
+        "Una VLAN che non ha alcuna istanza MST associata."
+      ],
+      "risposta_corretta": "Un gruppo di switch con configurazione MSTP compatibile (nome, revisione, mappatura VLAN-istanza).",
+      "svg": ""
+    },
+    {
+      "id": 38,
+      "domanda": "Quale variante di STP è proprietaria di Cisco e si basa su STP 802.1D?",
+      "risposte": [
+        "RSTP.",
+        "PVST+.",
+        "MSTP.",
+        "STP-Fast."
+      ],
+      "risposta_corretta": "PVST+.",
+      "svg": ""
+    },
+    {
+      "id": 39,
+      "domanda": "Il traffico della Native VLAN viaggia taggato o non taggato sui link trunk che utilizzano 802.1Q?",
+      "risposte": [
+        "Sempre taggato.",
+        "Normalmente non taggato.",
+        "Solo se è traffico voce.",
+        "Dipende dalla priorità del Root Bridge."
+      ],
+      "risposta_corretta": "Normalmente non taggato.",
+      "svg": ""
+    },
+    {
+      "id": 40,
+      "domanda": "Quale delle seguenti opzioni NON è un beneficio delle VLAN?",
+      "risposte": [
+        "Riduzione del traffico di broadcast.",
+        "Miglioramento della sicurezza.",
+        "Aumento della complessità di configurazione.",
+        "Flessibilità nella gestione degli utenti."
+      ],
+      "risposta_corretta": "Aumento della complessità di configurazione.",
+      "svg": ""
+    }
+  ]
+}

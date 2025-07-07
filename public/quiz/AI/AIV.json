@@ -1,0 +1,244 @@
+{
+    "quiz": [
+      {
+        "id": 81,
+        "domanda": "L'intelligenza artificiale...",
+        "risposte": [
+          "simula l'intelligenza umana.",
+          "è una forma di hardware avanzato e di ultima generazione.",
+          "si concentra solo sui giochi da tavolo e strategici.",
+          "riguarda solo i calcoli matematici complessi e le equazioni."
+        ],
+        "risposta_corretta": "simula l'intelligenza umana.",
+        "svg": ""
+      },
+      {
+        "id": 82,
+        "domanda": "Gli algoritmi di machine learning per fare previsioni o decisioni...",
+        "risposte": [
+          "non sono coinvolti i dati di alcun tipo.",
+          "prendono decisioni casuali senza alcuna logica.",
+          "apprendono dai dati.",
+          "vengono addestrati con un supervisore umano che li guida passo dopo passo."
+        ],
+        "risposta_corretta": "apprendono dai dati.",
+        "svg": ""
+      },
+      {
+        "id": 83,
+        "domanda": "Le reti neurali artificiali...",
+        "risposte": [
+          "sono completamente diverse dal cervello umano e non hanno somiglianze.",
+          "in applicazioni limitate imitano il cervello umano, ma in modo basilare.",
+          "per calcoli matematici imitano il funzionamento del cervello umano in modo superficiale.",
+          "imitano il funzionamento del cervello umano."
+        ],
+        "risposta_corretta": "imitano il funzionamento del cervello umano.",
+        "svg": ""
+      },
+      {
+        "id": 84,
+        "domanda": "Il deep learning è una forma avanzata di machine learning che utilizza molteplici strati di rete neurale che...",
+        "risposte": [
+          "sono gli algoritmi base e semplici.",
+          "analizzano solo dati numerici e non testuali.",
+          "si basano su reti profonde.",
+          "è un metodo per il clustering di informazioni senza struttura."
+        ],
+        "risposta_corretta": "si basano su reti profonde.",
+        "svg": ""
+      },
+      {
+        "id": 85,
+        "domanda": "Il riconoscimento vocale permette ai computer di...",
+        "risposte": [
+          "tradurre il linguaggio parlato in testo.",
+          "classificare dati numerici complessi in tabelle.",
+          "analizzare immagini di alta qualità e video.",
+          "occuparsi solo di chatbot e assistenza clienti automatizzata."
+        ],
+        "risposta_corretta": "tradurre il linguaggio parlato in testo.",
+        "svg": ""
+      },
+      {
+        "id": 86,
+        "domanda": "I chatbot utilizzano tecniche di AI per simulare conversazioni umane...",
+        "risposte": [
+          "e si occupano solo di clustering di dati non correlati.",
+          "e analizzano immagini per identificare contenuti.",
+          "e rispondono a domande in modo autonomo.",
+          "ed eseguono solo traduzioni di testi da una lingua all'altra automaticamente."
+        ],
+        "risposta_corretta": "e rispondono a domande in modo autonomo.",
+        "svg": ""
+      },
+      {
+        "id": 87,
+        "domanda": "La computer vision consente ai computer di comprendere e interpretare...",
+        "risposte": [
+          "il riconoscimento vocale e le conversazioni.",
+          "il machine learning di base per semplici algoritmi.",
+          "immagini e video.",
+          "tradurre un testo in altre lingue senza errori di grammatica."
+        ],
+        "risposta_corretta": "immagini e video.",
+        "svg": ""
+      },
+      {
+        "id": 88,
+        "domanda": "Gli assistenti virtuali come Siri e Alexa utilizzano AI per rispondere...",
+        "risposte": [
+          "si occupano solo del clustering delle richieste vocali.",
+          "agli utenti, elaborando richieste e fornendo risposte.",
+          "alle richieste degli utenti, ma solo quelle semplici e dirette.",
+          "analizzano solo immagini in base alle richieste specifiche dell'utente."
+        ],
+        "risposta_corretta": "agli utenti, elaborando richieste e fornendo risposte.",
+        "svg": ""
+      },
+      {
+        "id": 89,
+        "domanda": "Gli algoritmi di clustering raggruppano dati simili in categorie...",
+        "risposte": [
+          "e si occupano di reti neurali complesse e profonde.",
+          "ed analizzano solo immagini statiche e non video.",
+          "e riguardano solo il deep learning e le sue applicazioni avanzate.",
+          "identificano gruppi di dati simili."
+        ],
+        "risposta_corretta": "identificano gruppi di dati simili.",
+        "svg": ""
+      },
+      {
+        "id": 90,
+        "domanda": "La classificazione è una tecnica di machine learning per...",
+        "risposte": [
+          "Generare nuovi dati e testi originali.",
+          "Simulare il linguaggio naturale in conversazioni.",
+          "Analizzare immagini senza etichette predefinite.",
+          "Organizzare i dati in categorie definite."
+        ],
+        "risposta_corretta": "Organizzare i dati in categorie definite.",
+        "svg": ""
+      },
+      {
+        "id": 91,
+        "domanda": "I sistemi di raccomandazione suggeriscono contenuti basati sulle preferenze degli utenti...",
+        "risposte": [
+          "Predicendo sempre contenuti identici per tutti gli utenti.",
+          "Utilizzando esclusivamente dati in tempo reale senza storico.",
+          "Generando contenuti casuali senza alcuna logica.",
+          "Basandosi sui dati di utilizzo passati."
+        ],
+        "risposta_corretta": "Basandosi sui dati di utilizzo passati.",
+        "svg": ""
+      },
+      {
+        "id": 92,
+        "domanda": "Il reinforcement learning insegna agli agenti a compiere azioni basate su...",
+        "risposte": [
+          "Ricompense e penalità.",
+          "Basandosi su dati storici e archiviati.",
+          "Utilizzando etichette predefinite e supervisionate.",
+          "Senza tener conto delle azioni precedenti o delle loro conseguenze."
+        ],
+        "risposta_corretta": "Ricompense e penalità.",
+        "svg": ""
+      },
+      {
+        "id": 93,
+        "domanda": "Gli algoritmi di AI possono essere supervisionati, non supervisionati o semi-supervisionati a seconda di...",
+        "risposte": [
+          "Sempre supervisionati da un esperto umano in ogni fase.",
+          "Non possono essere supervisionati in alcun modo.",
+          "Basandosi esclusivamente su reti neurali complesse.",
+          "La disponibilità di dati etichettati."
+        ],
+        "risposta_corretta": "La disponibilità di dati etichettati.",
+        "svg": ""
+      },
+      {
+        "id": 94,
+        "domanda": "La NLP (Natural Language Processing) analizza e comprende il linguaggio naturale per...",
+        "risposte": [
+          "Per migliorare le connessioni di rete e la velocità di internet.",
+          "Estrarre significato e contesto dai testi.",
+          "Crittografare le comunicazioni e renderle sicure.",
+          "Generare suoni sintetici e musica originale."
+        ],
+        "risposta_corretta": "Estrarre significato e contesto dai testi.",
+        "svg": ""
+      },
+      {
+        "id": 95,
+        "domanda": "La generazione di immagini è un'applicazione avanzata della AI che si avvale di...",
+        "risposte": [
+          "Elaborazione manuale da parte di grafici esperti.",
+          "Esclusivamente algoritmi di clustering per raggruppare immagini.",
+          "Dati sonori e audio per creare nuove forme visive.",
+          "Modelli come GAN e diffusion."
+        ],
+        "risposta_corretta": "Modelli come GAN e diffusion.",
+        "svg": ""
+      },
+      {
+        "id": 96,
+        "domanda": "I veicoli autonomi utilizzano AI per navigare e prendere decisioni attraverso...",
+        "risposte": [
+          "Segnali esclusivamente GPS e mappe precaricate.",
+          "Comandi manuali da un operatore remoto.",
+          "Sensori e algoritmi di analisi in tempo reale.",
+          "Navigando senza considerare l'ambiente circostante o il traffico."
+        ],
+        "risposta_corretta": "Sensori e algoritmi di analisi in tempo reale.",
+        "svg": ""
+      },
+      {
+        "id": 97,
+        "domanda": "I modelli di predizione aiutano a prevedere eventi futuri basati sui dati storici, identificando...",
+        "risposte": [
+          "Ignorando completamente i dati storici e le loro tendenze.",
+          "Solo dati in tempo reale e live streaming.",
+          "Eventi casuali senza alcuna logica o pattern.",
+          "Tendenze e schemi."
+        ],
+        "risposta_corretta": "Tendenze e schemi.",
+        "svg": ""
+      },
+      {
+        "id": 98,
+        "domanda": "La sentiment analysis analizza i testi per determinare l'emozione espressa attraverso...",
+        "risposte": [
+          "Solo interpretando le emoticon e i simboli grafici.",
+          "L'analisi semantica e sintattica.",
+          "Utilizzando esclusivamente dati numerici e statistiche.",
+          "Assegnando emozioni casuali a blocchi di testo."
+        ],
+        "risposta_corretta": "L'analisi semantica e sintattica.",
+        "svg": ""
+      },
+      {
+        "id": 99,
+        "domanda": "Gli agenti intelligenti prendono decisioni autonome in base a regole e dati, agendo in modo...",
+        "risposte": [
+          "Sempre con supervisione umana e controllo continuo.",
+          "Senza considerare i dati o le informazioni disponibili.",
+          "Autonomo e dinamico.",
+          "Seguendo solo ordini predefiniti senza alcuna flessibilità."
+        ],
+        "risposta_corretta": "Autonomo e dinamico.",
+        "svg": ""
+      },
+      {
+        "id": 100,
+        "domanda": "La supervisione umana è spesso necessaria per evitare bias nei modelli di AI e per...",
+        "risposte": [
+          "Solo per i modelli non supervisionati e sperimentali.",
+          "Introdurre volontariamente nuovi bias per scopi di ricerca.",
+          "Non è mai necessaria, l'AI si auto-corregge.",
+          "Migliorare l'equità e l'accuratezza."
+        ],
+        "risposta_corretta": "Migliorare l'equità e l'accuratezza.",
+        "svg": ""
+      }
+    ]
+  }

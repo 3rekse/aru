@@ -1,0 +1,604 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Qual è la dimensione in bit di un indirizzo IPv6?",
+      "risposte": [
+        "32 bit",
+        "64 bit",
+        "128 bit",
+        "256 bit"
+      ],
+      "risposta_corretta": "128 bit",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Come sono separati i gruppi esadecimali in un indirizzo IPv6?",
+      "risposte": [
+        "Punti (.)",
+        "Trattini (-)",
+        "Due punti (:)",
+        "Virgole (,)"
+      ],
+      "risposta_corretta": "Due punti (:)",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Quale regola di compressione di IPv6 permette di sostituire una singola sequenza contigua di blocchi di zeri?",
+      "risposte": [
+        "Omitting Leading Zeros",
+        "Single Colon",
+        "Double Colon (::)",
+        "Zero Suppression"
+      ],
+      "risposta_corretta": "Double Colon (::)",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Quale indirizzo IPv6 di loopback è l'equivalente di 127.0.0.1 in IPv4?",
+      "risposte": [
+        "FE80::1",
+        "::1",
+        "FF02::1",
+        "2001::1"
+      ],
+      "risposta_corretta": "::1",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Un indirizzo IPv6 che inizia con `FE80::/10` è tipicamente di quale tipo?",
+      "risposte": [
+        "Global Unicast Address",
+        "Unique Local Address",
+        "Link-Local Address",
+        "Multicast Address"
+      ],
+      "risposta_corretta": "Link-Local Address",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Qual è il ruolo principale di un Router?",
+      "risposte": [
+        "Assegnare indirizzi IP dinamici ai dispositivi.",
+        "Tradurre nomi di dominio in indirizzi IP.",
+        "Instradare pacchetti di dati tra reti diverse.",
+        "Filtrare il traffico indesiderato in base a regole di sicurezza."
+      ],
+      "risposta_corretta": "Instradare pacchetti di dati tra reti diverse.",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "A quale strato del modello OSI opera principalmente un Router?",
+      "risposte": [
+        "Strato Fisico (Layer 1)",
+        "Strato di Collegamento Dati (Layer 2)",
+        "Strato di Rete (Layer 3)",
+        "Strato di Trasporto (Layer 4)"
+      ],
+      "risposta_corretta": "Strato di Rete (Layer 3)",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "Quale termine indica il punto di uscita dalla tua rete locale verso Internet?",
+      "risposte": [
+        "Server DNS",
+        "Switch",
+        "Gateway",
+        "Hub"
+      ],
+      "risposta_corretta": "Gateway",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Cosa indica l'indirizzo IP configurato come 'Default Gateway' in un dispositivo della tua LAN?",
+      "risposte": [
+        "L'indirizzo del server DNS preferito.",
+        "L'indirizzo IP del router locale che permette l'accesso a reti esterne.",
+        "L'indirizzo IP del dispositivo stesso.",
+        "L'indirizzo di broadcast della rete."
+      ],
+      "risposta_corretta": "L'indirizzo IP del router locale che permette l'accesso a reti esterne.",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Qual è lo scopo principale del NAT (Network Address Translation)?",
+      "risposte": [
+        "Crittografare il traffico di rete.",
+        "Conservare gli indirizzi IPv4 pubblici e mascherare le reti private.",
+        "Tradurre gli indirizzi IPv6 in IPv4.",
+        "Bilanciare il carico tra più server."
+      ],
+      "risposta_corretta": "Conservare gli indirizzi IPv4 pubblici e mascherare le reti private.",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Se un router NAT ha un singolo indirizzo IP pubblico e molteplici dispositivi privati usano Internet, come distingue le connessioni in entrata per dirigerle al dispositivo corretto?",
+      "risposte": [
+        "Utilizza un indirizzo IP pubblico diverso per ogni dispositivo.",
+        "Mantiene una tabella di traduzione basata sugli indirizzi IP privati e sulle porte TCP/UDP.",
+        "Blocca tutte le connessioni in entrata.",
+        "Richiede a ogni dispositivo di avere un indirizzo IP pubblico."
+      ],
+      "risposta_corretta": "Mantiene una tabella di traduzione basata sugli indirizzi IP privati e sulle porte TCP/UDP.",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Quale tipo di NAT mappa un singolo indirizzo IP privato a un singolo indirizzo IP pubblico dedicato?",
+      "risposte": [
+        "PAT (Port Address Translation)",
+        "NAPT (Network Address Port Translation)",
+        "Static NAT",
+        "Dynamic NAT"
+      ],
+      "risposta_corretta": "Static NAT",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Quale termine è spesso usato per indicare il tipo di NAT che permette a molti dispositivi privati di condividere un singolo IP pubblico utilizzando le porte?",
+      "risposte": [
+        "Static NAT",
+        "Dynamic NAT",
+        "PAT (Port Address Translation)",
+        "One-to-One NAT"
+      ],
+      "risposta_corretta": "PAT (Port Address Translation)",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Quale tra i seguenti NON è un vantaggio del NAT?",
+      "risposte": [
+        "Conservazione degli indirizzi IPv4.",
+        "Maggiore visibilità della topologia della rete interna dall'esterno.",
+        "Aumento della sicurezza di base mascherando gli IP interni.",
+        "Flessibilità nella gestione degli indirizzi IP interni."
+      ],
+      "risposta_corretta": "Maggiore visibilità della topologia della rete interna dall'esterno.",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Come viene rappresentata la lunghezza del prefisso di rete in un indirizzo IPv6?",
+      "risposte": [
+        "Con un punto (.)",
+        "Con una barra (/) seguita da un numero di bit (notazione CIDR).",
+        "Con un trattino (-)",
+        "Con due punti (::)"
+      ],
+      "risposta_corretta": "Con una barra (/) seguita da un numero di bit (notazione CIDR).",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Quale tipo di indirizzo IPv6 è instradabile su Internet e simile agli IP pubblici di IPv4?",
+      "risposte": [
+        "Link-Local Address",
+        "Unique Local Address",
+        "Global Unicast Address",
+        "Multicast Address"
+      ],
+      "risposta_corretta": "Global Unicast Address",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Cosa indica il `::` in un indirizzo IPv6 abbreviato?",
+      "risposte": [
+        "Un errore nell'indirizzo.",
+        "Una sequenza singola e contigua di blocchi di zeri.",
+        "L'inizio dell'ID di interfaccia.",
+        "La fine del prefisso di rete."
+      ],
+      "risposta_corretta": "Una sequenza singola e contigua di blocchi di zeri.",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "Un router ha tipicamente quante interfacce per connettere reti diverse?",
+      "risposte": [
+        "Solo una",
+        "Due o più",
+        "Zero, opera solo via software",
+        "Solo per connessioni wireless"
+      ],
+      "risposta_corretta": "Due o più",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "Se un pacchetto deve viaggiare dalla tua LAN a Internet, a quale indirizzo IP lo invia il tuo dispositivo per primo?",
+      "risposte": [
+        "L'indirizzo IP del server DNS.",
+        "L'indirizzo IP di destinazione finale su Internet.",
+        "L'indirizzo IP del suo Default Gateway.",
+        "Un indirizzo di broadcast."
+      ],
+      "risposta_corretta": "L'indirizzo IP del suo Default Gateway.",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "Quale delle seguenti affermazioni è vera riguardo a NAT e sicurezza?",
+      "risposte": [
+        "Il NAT offre una protezione completa contro tutti i tipi di attacchi informatici.",
+        "Il NAT maschera gli indirizzi IP interni, offrendo una sicurezza di base.",
+        "Il NAT rende i server interni più facili da raggiungere dall'esterno senza configurazioni aggiuntive.",
+        "Il NAT crittografa il traffico di rete."
+      ],
+      "risposta_corretta": "Il NAT maschera gli indirizzi IP interni, offrendo una sicurezza di base.",
+      "svg": ""
+    },
+    {
+      "id": 21,
+      "domanda": "Quante cifre esadecimali compongono ogni gruppo di 16 bit in un indirizzo IPv6?",
+      "risposte": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "risposta_corretta": "4",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "Quale tipo di indirizzo IPv6 è simile agli indirizzi IP privati di IPv4 e non è instradabile su Internet?",
+      "risposte": [
+        "Global Unicast Address",
+        "Link-Local Address",
+        "Multicast Address",
+        "Unique Local Address"
+      ],
+      "risposta_corretta": "Unique Local Address",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "In un indirizzo IPv6 come `2001:DB8:A::/48`, cosa indica il `/48`?",
+      "risposte": [
+        "Il numero di host disponibili.",
+        "Il numero di bit dedicati all'ID interfaccia.",
+        "La lunghezza del prefisso di rete.",
+        "La versione del protocollo IPv6."
+      ],
+      "risposta_corretta": "La lunghezza del prefisso di rete.",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "Cosa succede agli zeri iniziali di un gruppo in un indirizzo IPv6 compresso?",
+      "risposte": [
+        "Vengono sostituiti da un punto.",
+        "Vengono mantenuti sempre.",
+        "Possono essere omessi.",
+        "Vengono sostituiti da trattini."
+      ],
+      "risposta_corretta": "Possono essere omessi.",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "Qual è il principale vantaggio di IPv6 rispetto a IPv4?",
+      "risposte": [
+        "È più veloce nel trasferimento dati.",
+        "Ha indirizzi più lunghi che risolvono il problema dell'esaurimento degli indirizzi.",
+        "Non richiede router per la comunicazione.",
+        "Supporta solo la comunicazione wireless."
+      ],
+      "risposta_corretta": "Ha indirizzi più lunghi che risolvono il problema dell'esaurimento degli indirizzi.",
+      "svg": ""
+    },
+    {
+      "id": 26,
+      "domanda": "Un dispositivo di rete che opera al Livello 3 del modello OSI e connette reti diverse si chiama:",
+      "risposte": [
+        "Switch",
+        "Hub",
+        "Router",
+        "Modem"
+      ],
+      "risposta_corretta": "Router",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "Se un router domestico esegue NAT, quale indirizzo IP vedranno i server su Internet per le tue richieste?",
+      "risposte": [
+        "L'indirizzo IP privato del tuo PC.",
+        "L'indirizzo IP pubblico del tuo router.",
+        "L'indirizzo di loopback.",
+        "L'indirizzo del server DNS."
+      ],
+      "risposta_corretta": "L'indirizzo IP pubblico del tuo router.",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "Il PAT (Port Address Translation) è anche conosciuto come:",
+      "risposte": [
+        "Static NAT",
+        "Dynamic NAT",
+        "One-to-One NAT",
+        "NAT Overload"
+      ],
+      "risposta_corretta": "NAT Overload",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "Quale funzione del NAT è necessaria per rendere un server nella tua rete privata raggiungibile dall'esterno su una porta specifica?",
+      "risposte": [
+        "NAT Overload",
+        "Port Forwarding",
+        "Dynamic NAT",
+        "IP Masquerading"
+      ],
+      "risposta_corretta": "Port Forwarding",
+      "svg": ""
+    },
+    {
+      "id": 30,
+      "domanda": "Un gateway può essere:",
+      "risposte": [
+        "Solo un server DNS.",
+        "Solo un firewall.",
+        "Un router, un server o qualsiasi nodo che connetta reti diverse.",
+        "Solo un hub."
+      ],
+      "risposta_corretta": "Un router, un server o qualsiasi nodo che connetta reti diverse.",
+      "svg": ""
+    },
+    {
+      "id": 31,
+      "domanda": "Quante volte può essere usato il doppio due punti (::) in un indirizzo IPv6?",
+      "risposte": [
+        "Illimitate volte",
+        "Solo una volta",
+        "Due volte",
+        "Nessuna volta"
+      ],
+      "risposta_corretta": "Solo una volta",
+      "svg": ""
+    },
+    {
+      "id": 32,
+      "domanda": "Quale tipo di indirizzo IPv6 è usato per la comunicazione all'interno di un singolo segmento di rete e viene auto-configurato?",
+      "risposte": [
+        "Global Unicast Address",
+        "Unique Local Address",
+        "Link-Local Address",
+        "Anycast Address"
+      ],
+      "risposta_corretta": "Link-Local Address",
+      "svg": ""
+    },
+    {
+      "id": 33,
+      "domanda": "L'ID di interfaccia di un indirizzo IPv6 è tipicamente di quanti bit?",
+      "risposte": [
+        "32 bit",
+        "48 bit",
+        "64 bit",
+        "128 bit"
+      ],
+      "risposta_corretta": "64 bit",
+      "svg": ""
+    },
+    {
+      "id": 34,
+      "domanda": "Qual è il principale problema che IPv6 mira a risolvere?",
+      "risposte": [
+        "La velocità di Internet.",
+        "L'esaurimento degli indirizzi IPv4.",
+        "La sicurezza delle comunicazioni.",
+        "La compatibilità tra sistemi operativi."
+      ],
+      "risposta_corretta": "L'esaurimento degli indirizzi IPv4.",
+      "svg": ""
+    },
+    {
+      "id": 35,
+      "domanda": "Un router prende decisioni di inoltro basandosi principalmente su:",
+      "risposte": [
+        "Indirizzi MAC",
+        "Nomi di dominio",
+        "Indirizzi IP e tabelle di routing",
+        "Numeri di porta"
+      ],
+      "risposta_corretta": "Indirizzi IP e tabelle di routing",
+      "svg": ""
+    },
+    {
+      "id": 36,
+      "domanda": "Se un'organizzazione ha un blocco di indirizzi IPv6 `2001:DB8:AAAA::/48`, quante sottoreti `/64` può creare?",
+      "risposte": [
+        "16",
+        "256",
+        "65536",
+        "Più di un milione"
+      ],
+      "risposta_corretta": "65536",
+      "svg": ""
+    },
+    {
+      "id": 37,
+      "domanda": "Quale tipo di indirizzo IPv6 consegna un pacchetto all'interfaccia 'più vicina' in un gruppo?",
+      "risposte": [
+        "Unicast",
+        "Multicast",
+        "Anycast",
+        "Broadcast"
+      ],
+      "risposta_corretta": "Anycast",
+      "svg": ""
+    },
+    {
+      "id": 38,
+      "domanda": "Il NAT è un meccanismo che modifica l'indirizzo IP nel pacchetto a quale strato del modello OSI?",
+      "risposte": [
+        "Strato di Applicazione (Layer 7)",
+        "Strato di Trasporto (Layer 4)",
+        "Strato di Rete (Layer 3)",
+        "Strato di Collegamento Dati (Layer 2)"
+      ],
+      "risposta_corretta": "Strato di Rete (Layer 3)",
+      "svg": ""
+    },
+    {
+      "id": 39,
+      "domanda": "In un contesto domestico, qual è il dispositivo che più spesso agisce da gateway per la tua rete locale?",
+      "risposte": [
+        "Il tuo PC",
+        "Lo smartphone",
+        "Il router Wi-Fi",
+        "La stampante di rete"
+      ],
+      "risposta_corretta": "Il router Wi-Fi",
+      "svg": ""
+    },
+    {
+      "id": 40,
+      "domanda": "Il NAT è un protocollo che richiede la configurazione di un server?",
+      "risposte": [
+        "Sì, un server NAT dedicato.",
+        "No, è una funzione integrata nei router/firewall.",
+        "Solo per IPv6.",
+        "Solo per le reti wireless."
+      ],
+      "risposta_corretta": "No, è una funzione integrata nei router/firewall.",
+      "svg": ""
+    },
+    {
+      "id": 41,
+      "domanda": "Un indirizzo IPv6 come `2001:DB8::/32` indica una lunghezza di prefisso di:",
+      "risposte": [
+        "16 bit",
+        "32 bit",
+        "64 bit",
+        "128 bit"
+      ],
+      "risposta_corretta": "32 bit",
+      "svg": ""
+    },
+    {
+      "id": 42,
+      "domanda": "Quale dei seguenti è un indirizzo IPv6 valido che presenta la compressione degli zeri?",
+      "risposte": [
+        "192.168.1.1::",
+        "2001:DB8:0:0:1::",
+        "FF02::1:FF02::1",
+        "2001:DB8:0:1:0:0:0:1"
+      ],
+      "risposta_corretta": "2001:DB8:0:0:1::",
+      "svg": ""
+    },
+    {
+      "id": 43,
+      "domanda": "Qual è lo scopo principale del router nel modello TCP/IP?",
+      "risposte": [
+        "Controllo di flusso e congestione.",
+        "Comunicazione tra processi su host diversi.",
+        "Inoltro pacchetti tra reti diverse.",
+        "Gestione degli indirizzi MAC."
+      ],
+      "risposta_corretta": "Inoltro pacchetti tra reti diverse.",
+      "svg": ""
+    },
+    {
+      "id": 44,
+      "domanda": "Un Gateway è necessario quando due reti diverse hanno:",
+      "risposte": [
+        "Gli stessi protocolli.",
+        "Indirizzi IP nello stesso intervallo.",
+        "Nessun dispositivo al loro interno.",
+        "Spazi di indirizzi IP diversi o protocolli incompatibili."
+      ],
+      "risposta_corretta": "Spazi di indirizzi IP diversi o protocolli incompatibili.",
+      "svg": ""
+    },
+    {
+      "id": 45,
+      "domanda": "Il NAT impedisce o rallenta l'esaurimento degli indirizzi IPv4 perché:",
+      "risposte": [
+        "Aumenta il numero di indirizzi IPv4 disponibili.",
+        "Permette a più dispositivi privati di condividere un unico indirizzo IP pubblico.",
+        "Converte gli indirizzi IPv4 in IPv6.",
+        "Elimina la necessità di indirizzi IP."
+      ],
+      "risposta_corretta": "Permette a più dispositivi privati di condividere un unico indirizzo IP pubblico.",
+      "svg": ""
+    },
+    {
+      "id": 46,
+      "domanda": "Qual è il principale svantaggio del NAT quando si tenta di ospitare un server nella rete interna?",
+      "risposte": [
+        "Aumenta la velocità della connessione.",
+        "Richiede la configurazione manuale del Port Forwarding.",
+        "Aumenta la sicurezza del server.",
+        "Riduce la compatibilità con i browser."
+      ],
+      "risposta_corretta": "Richiede la configurazione manuale del Port Forwarding.",
+      "svg": ""
+    },
+    {
+      "id": 47,
+      "domanda": "Quale delle seguenti è una rappresentazione abbreviata valida di un indirizzo IPv6?",
+      "risposte": [
+        "2001::DB8::1",
+        "FE80::1:2:3",
+        "192.168.1.1",
+        "A::B::C"
+      ],
+      "risposta_corretta": "FE80::1:2:3",
+      "svg": ""
+    },
+    {
+      "id": 48,
+      "domanda": "Un indirizzo IPv6 di tipo Multicast serve a:",
+      "risposte": [
+        "Identificare un singolo dispositivo.",
+        "Identificare un gruppo di dispositivi per ricevere un pacchetto.",
+        "Identificare l'indirizzo di loopback.",
+        "Identificare solo router."
+      ],
+      "risposta_corretta": "Identificare un gruppo di dispositivi per ricevere un pacchetto.",
+      "svg": ""
+    },
+    {
+      "id": 49,
+      "domanda": "Qual è la differenza fondamentale tra un router e uno switch?",
+      "risposte": [
+        "Il router connette dispositivi nella stessa rete, lo switch connette reti diverse.",
+        "Lo switch connette dispositivi nella stessa rete, il router connette reti diverse.",
+        "Il router opera al Layer 2, lo switch al Layer 3.",
+        "Non c'è differenza significativa."
+      ],
+      "risposta_corretta": "Lo switch connette dispositivi nella stessa rete, il router connette reti diverse.",
+      "svg": ""
+    },
+    {
+      "id": 50,
+      "domanda": "Il NAT migliora la sicurezza della rete interna perché:",
+      "risposte": [
+        "Crittografa tutti i dati in transito.",
+        "Nasconde gli indirizzi IP interni ai dispositivi esterni.",
+        "Blocca automaticamente tutti i virus.",
+        "Assegna password complesse ai dispositivi."
+      ],
+      "risposta_corretta": "Nasconde gli indirizzi IP interni ai dispositivi esterni.",
+      "svg": ""
+    }
+  ]
+}

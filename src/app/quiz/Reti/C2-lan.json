@@ -1,0 +1,484 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "domanda": "Qual è la funzione principale di una rete LAN?",
+        "risposte": [
+          "Connettere dispositivi all'interno di un'area geografica limitata",
+          "Connettere reti diverse su scala globale",
+          "Fornire connettività wireless ai dispositivi",
+          "Gestire il traffico tra router e switch"
+        ],
+        "risposta_corretta": "Connettere dispositivi all'interno di un'area geografica limitata",
+        "svg": ""
+      },
+      {
+        "id": 2,
+        "domanda": "Quale dispositivo è comunemente utilizzato per creare una rete WLAN?",
+        "risposte": [
+          "Access point",
+          "Router",
+          "Switch",
+          "Hub"
+        ],
+        "risposta_corretta": "Access point",
+        "svg": ""
+      },
+      {
+        "id": 3,
+        "domanda": "Quale tecnologia viene utilizzata per connettere reti WAN?",
+        "risposte": [
+          "MPLS",
+          "Ethernet",
+          "Wi-Fi",
+          "Bluetooth"
+        ],
+        "risposta_corretta": "MPLS",
+        "svg": ""
+      },
+      {
+        "id": 4,
+        "domanda": "Quale protocollo viene utilizzato per assegnare automaticamente indirizzi IP in una rete LAN?",
+        "risposte": [
+          "DHCP",
+          "DNS",
+          "NAT",
+          "ARP"
+        ],
+        "risposta_corretta": "DHCP",
+        "svg": ""
+      },
+      {
+        "id": 5,
+        "domanda": "Quale dispositivo viene utilizzato per instradare pacchetti tra reti diverse?",
+        "risposte": [
+          "Router",
+          "Switch",
+          "Access point",
+          "Hub"
+        ],
+        "risposta_corretta": "Router",
+        "svg": ""
+      },
+      {
+        "id": 6,
+        "domanda": "Quale standard Wi-Fi supporta velocità fino a 1 Gbps?",
+        "risposte": [
+          "802.11ac",
+          "802.11n",
+          "802.11g",
+          "802.11b"
+        ],
+        "risposta_corretta": "802.11ac",
+        "svg": ""
+      },
+      {
+        "id": 7,
+        "domanda": "Quale comando viene utilizzato per verificare la connettività tra due dispositivi in una rete LAN?",
+        "risposte": [
+          "ping",
+          "traceroute",
+          "netstat",
+          "ipconfig"
+        ],
+        "risposta_corretta": "ping",
+        "svg": ""
+      },
+      {
+        "id": 8,
+        "domanda": "Quale tecnologia consente di creare più reti virtuali su una rete LAN?",
+        "risposte": [
+          "VLAN",
+          "VPN",
+          "NAT",
+          "STP"
+        ],
+        "risposta_corretta": "VLAN",
+        "svg": ""
+      },
+      {
+        "id": 9,
+        "domanda": "Quale dispositivo viene utilizzato per estendere la copertura di una rete WLAN?",
+        "risposte": [
+          "Range extender",
+          "Router",
+          "Switch",
+          "Hub"
+        ],
+        "risposta_corretta": "Range extender",
+        "svg": ""
+      },
+      {
+        "id": 10,
+        "domanda": "Quale protocollo viene utilizzato per tradurre indirizzi privati in indirizzi pubblici in una rete WAN?",
+        "risposte": [
+          "NAT",
+          "DHCP",
+          "DNS",
+          "ARP"
+        ],
+        "risposta_corretta": "NAT",
+        "svg": ""
+      },
+      {
+        "id": 11,
+        "domanda": "Quale dispositivo viene utilizzato per connettere più dispositivi in una rete LAN?",
+        "risposte": [
+          "Switch",
+          "Router",
+          "Access point",
+          "Hub"
+        ],
+        "risposta_corretta": "Switch",
+        "svg": ""
+      },
+      {
+        "id": 12,
+        "domanda": "Quale comando viene utilizzato per verificare il percorso di un pacchetto verso una destinazione?",
+        "risposte": [
+          "traceroute",
+          "ping",
+          "netstat",
+          "ipconfig"
+        ],
+        "risposta_corretta": "traceroute",
+        "svg": ""
+      },
+      {
+        "id": 13,
+        "domanda": "Quale tecnologia viene utilizzata per creare una connessione sicura tra due reti WAN?",
+        "risposte": [
+          "VPN",
+          "VLAN",
+          "NAT",
+          "STP"
+        ],
+        "risposta_corretta": "VPN",
+        "svg": ""
+      },
+      {
+        "id": 14,
+        "domanda": "Quale protocollo viene utilizzato per risolvere i nomi di dominio in indirizzi IP?",
+        "risposte": [
+          "DNS",
+          "DHCP",
+          "NAT",
+          "ARP"
+        ],
+        "risposta_corretta": "DNS",
+        "svg": ""
+      },
+      {
+        "id": 15,
+        "domanda": "Quale dispositivo viene utilizzato per segmentare una rete LAN in più domini di collisione?",
+        "risposte": [
+          "Switch",
+          "Router",
+          "Hub",
+          "Access point"
+        ],
+        "risposta_corretta": "Switch",
+        "svg": ""
+      },
+      {
+        "id": 16,
+        "domanda": "Quale standard Wi-Fi supporta velocità fino a 600 Mbps?",
+        "risposte": [
+          "802.11n",
+          "802.11ac",
+          "802.11g",
+          "802.11b"
+        ],
+        "risposta_corretta": "802.11n",
+        "svg": ""
+      },
+      {
+        "id": 17,
+        "domanda": "Quale comando viene utilizzato per visualizzare la configurazione IP di un dispositivo in Windows?",
+        "risposte": [
+          "ipconfig",
+          "ifconfig",
+          "netstat",
+          "ping"
+        ],
+        "risposta_corretta": "ipconfig",
+        "svg": ""
+      },
+      {
+        "id": 18,
+        "domanda": "Quale tecnologia consente di ridurre il traffico di rete instradando solo i pacchetti necessari?",
+        "risposte": [
+          "Routing",
+          "Switching",
+          "Broadcasting",
+          "Flooding"
+        ],
+        "risposta_corretta": "Routing",
+        "svg": ""
+      },
+      {
+        "id": 19,
+        "domanda": "Quale dispositivo viene utilizzato per fornire connettività Internet a una rete LAN?",
+        "risposte": [
+          "Router",
+          "Switch",
+          "Access point",
+          "Hub"
+        ],
+        "risposta_corretta": "Router",
+        "svg": ""
+      },
+      {
+        "id": 20,
+        "domanda": "Quale protocollo viene utilizzato per monitorare e gestire dispositivi di rete?",
+        "risposte": [
+          "SNMP",
+          "DHCP",
+          "DNS",
+          "NAT"
+        ],
+        "risposta_corretta": "SNMP",
+        "svg": ""
+      },
+      {
+        "id": 21,
+        "domanda": "Quale dispositivo viene utilizzato per connettere due reti diverse?",
+        "risposte": [
+          "Router",
+          "Switch",
+          "Hub",
+          "Access point"
+        ],
+        "risposta_corretta": "Router",
+        "svg": ""
+      },
+      {
+        "id": 22,
+        "domanda": "Quale comando viene utilizzato per verificare le connessioni di rete attive in Linux?",
+        "risposte": [
+          "netstat",
+          "ifconfig",
+          "ping",
+          "traceroute"
+        ],
+        "risposta_corretta": "netstat",
+        "svg": ""
+      },
+      {
+        "id": 23,
+        "domanda": "Quale tecnologia consente di creare una rete privata su Internet?",
+        "risposte": [
+          "VPN",
+          "VLAN",
+          "NAT",
+          "STP"
+        ],
+        "risposta_corretta": "VPN",
+        "svg": ""
+      },
+      {
+        "id": 24,
+        "domanda": "Quale protocollo viene utilizzato per trasferire file tra dispositivi in una rete LAN?",
+        "risposte": [
+          "FTP",
+          "HTTP",
+          "DNS",
+          "DHCP"
+        ],
+        "risposta_corretta": "FTP",
+        "svg": ""
+      },
+      {
+        "id": 25,
+        "domanda": "Quale dispositivo viene utilizzato per amplificare il segnale in una rete LAN?",
+        "risposte": [
+          "Repeater",
+          "Switch",
+          "Router",
+          "Access point"
+        ],
+        "risposta_corretta": "Repeater",
+        "svg": ""
+      },
+      {
+        "id": 26,
+        "domanda": "Quale standard Wi-Fi supporta velocità fino a 54 Mbps?",
+        "risposte": [
+          "802.11g",
+          "802.11n",
+          "802.11ac",
+          "802.11b"
+        ],
+        "risposta_corretta": "802.11g",
+        "svg": ""
+      },
+      {
+        "id": 27,
+        "domanda": "Quale comando viene utilizzato per configurare un indirizzo IP statico in Windows?",
+        "risposte": [
+          "netsh",
+          "ipconfig",
+          "ifconfig",
+          "route"
+        ],
+        "risposta_corretta": "netsh",
+        "svg": ""
+      },
+      {
+        "id": 28,
+        "domanda": "Quale tecnologia consente di ridurre i loop in una rete LAN?",
+        "risposte": [
+          "STP",
+          "NAT",
+          "VLAN",
+          "VPN"
+        ],
+        "risposta_corretta": "STP",
+        "svg": ""
+      },
+      {
+        "id": 29,
+        "domanda": "Quale dispositivo viene utilizzato per fornire connettività wireless in una rete WLAN?",
+        "risposte": [
+          "Access point",
+          "Router",
+          "Switch",
+          "Hub"
+        ],
+        "risposta_corretta": "Access point",
+        "svg": ""
+      },
+      {
+        "id": 30,
+        "domanda": "Quale protocollo viene utilizzato per sincronizzare l'orario tra dispositivi di rete?",
+        "risposte": [
+          "NTP",
+          "SNMP",
+          "DHCP",
+          "DNS"
+        ],
+        "risposta_corretta": "NTP",
+        "svg": ""
+      },
+      {
+        "id": 31,
+        "domanda": "Quale dispositivo viene utilizzato per collegare più reti WAN?",
+        "risposte": [
+          "Router",
+          "Switch",
+          "Access point",
+          "Hub"
+        ],
+        "risposta_corretta": "Router",
+        "svg": ""
+      },
+      {
+        "id": 32,
+        "domanda": "Quale comando viene utilizzato per visualizzare la tabella di routing in Windows?",
+        "risposte": [
+          "route print",
+          "netstat -r",
+          "ipconfig /route",
+          "tracert"
+        ],
+        "risposta_corretta": "route print",
+        "svg": ""
+      },
+      {
+        "id": 33,
+        "domanda": "Quale tecnologia consente di separare il traffico di rete in una LAN?",
+        "risposte": [
+          "VLAN",
+          "VPN",
+          "NAT",
+          "STP"
+        ],
+        "risposta_corretta": "VLAN",
+        "svg": ""
+      },
+      {
+        "id": 34,
+        "domanda": "Quale protocollo viene utilizzato per inviare pacchetti senza connessione?",
+        "risposte": [
+          "UDP",
+          "TCP",
+          "ICMP",
+          "HTTP"
+        ],
+        "risposta_corretta": "UDP",
+        "svg": ""
+      },
+      {
+        "id": 35,
+        "domanda": "Quale dispositivo viene utilizzato per connettere dispositivi in una rete wireless?",
+        "risposte": [
+          "Access point",
+          "Router",
+          "Switch",
+          "Hub"
+        ],
+        "risposta_corretta": "Access point",
+        "svg": ""
+      },
+      {
+        "id": 36,
+        "domanda": "Quale comando viene utilizzato per verificare la latenza di rete?",
+        "risposte": [
+          "ping",
+          "traceroute",
+          "netstat",
+          "ipconfig"
+        ],
+        "risposta_corretta": "ping",
+        "svg": ""
+      },
+      {
+        "id": 37,
+        "domanda": "Quale tecnologia consente di instradare pacchetti tra reti diverse?",
+        "risposte": [
+          "Routing",
+          "Switching",
+          "Broadcasting",
+          "Flooding"
+        ],
+        "risposta_corretta": "Routing",
+        "svg": ""
+      },
+      {
+        "id": 38,
+        "domanda": "Quale protocollo viene utilizzato per garantire la consegna affidabile dei dati?",
+        "risposte": [
+          "TCP",
+          "UDP",
+          "ICMP",
+          "FTP"
+        ],
+        "risposta_corretta": "TCP",
+        "svg": ""
+      },
+      {
+        "id": 39,
+        "domanda": "Quale dispositivo viene utilizzato per estendere la copertura di una rete WAN?",
+        "risposte": [
+          "Repeater",
+          "Router",
+          "Switch",
+          "Access point"
+        ],
+        "risposta_corretta": "Repeater",
+        "svg": ""
+      },
+      {
+        "id": 40,
+        "domanda": "Quale protocollo viene utilizzato per tradurre indirizzi IP privati in pubblici?",
+        "risposte": [
+          "NAT",
+          "DHCP",
+          "DNS",
+          "ARP"
+        ],
+        "risposta_corretta": "NAT",
+        "svg": ""
+      }
+    ]
+  }

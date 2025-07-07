@@ -1,0 +1,199 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Chi viene considerata la prima programmatrice della storia?",
+      "risposte": ["Marie Curie", "Ada Lovelace", "Grace Hopper", "Margaret Hamilton"],
+      "risposta_corretta": "Ada Lovelace",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Quale concetto è stato introdotto da Leibniz ed è alla base dell'informatica moderna?",
+      "risposte": ["Sistema esadecimale", "Sistema binario", "Sistema decimale", "Sistema ottale"],
+      "risposta_corretta": "Sistema binario",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Quale fu uno dei primi calcolatori elettronici digitali, usato durante la Seconda Guerra Mondiale?",
+      "risposte": ["ENIAC", "Colossus", "Pascalina", "Olivetti P101"],
+      "risposta_corretta": "Colossus",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Qual è la funzione principale della CPU (processore) in un computer?",
+      "risposte": ["Memorizzare dati", "Visualizzare immagini", "Eseguire istruzioni", "Fornire energia"],
+      "risposta_corretta": "Eseguire istruzioni",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Che tipo di software è il firmware?",
+      "risposte": [
+        "Software di produttività",
+        "Software modificabile dall’utente",
+        "Software installato e non facilmente modificabile",
+        "Software per navigare in internet"
+      ],
+      "risposta_corretta": "Software installato e non facilmente modificabile",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Quale delle seguenti NON è una fase fondamentale dell'attività di un computer?",
+      "risposte": ["Input", "Elaborazione", "Fotografia", "Output"],
+      "risposta_corretta": "Fotografia",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Cosa rappresenta l'acronimo IoT?",
+      "risposte": [
+        "Information of Technology",
+        "Internet of Tools",
+        "Internet of Things",
+        "Input of Technology"
+      ],
+      "risposta_corretta": "Internet of Things",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "A cosa serve la realtà aumentata (AR)?",
+      "risposte": [
+        "A creare un ambiente immaginario completamente digitale",
+        "A sovrapporre elementi digitali al mondo reale",
+        "A costruire robot",
+        "A scrivere codice"
+      ],
+      "risposta_corretta": "A sovrapporre elementi digitali al mondo reale",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Qual è la differenza tra AR e VR?",
+      "risposte": [
+        "AR è solo per videogiochi, VR no",
+        "AR sovrappone il digitale al reale, VR sostituisce completamente la realtà",
+        "AR è più costosa della VR",
+        "VR funziona solo su smartphone"
+      ],
+      "risposta_corretta": "AR sovrappone il digitale al reale, VR sostituisce completamente la realtà",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Quale dispositivo è un esempio di wearable computing?",
+      "risposte": ["Smart TV", "Mouse ottico", "Smartwatch", "Stampante 3D"],
+      "risposta_corretta": "Smartwatch",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Qual è lo scopo principale del cloud computing nell'IoT?",
+      "risposte": [
+        "Controllare i dispositivi domestici",
+        "Memorizzare e gestire i dati prodotti dai dispositivi connessi",
+        "Sostituire la connessione Wi-Fi",
+        "Aumentare la velocità di stampa"
+      ],
+      "risposta_corretta": "Memorizzare e gestire i dati prodotti dai dispositivi connessi",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Chi ha progettato la Pascalina, una delle prime macchine per calcoli?",
+      "risposte": ["Isaac Newton", "Blaise Pascal", "Alan Turing", "Ada Lovelace"],
+      "risposta_corretta": "Blaise Pascal",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Qual è il principale vantaggio delle GPU nell’IA?",
+      "risposte": [
+        "Permettono la connessione a internet",
+        "Hanno una batteria integrata",
+        "Supportano elaborazioni parallele ad alta velocità",
+        "Consentono di visualizzare video in 4K"
+      ],
+      "risposta_corretta": "Supportano elaborazioni parallele ad alta velocità",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Cosa indica il termine 'pervasive computing'?",
+      "risposte": [
+        "L’uso di computer solo nei data center",
+        "L’informatica diffusa e invisibile nella vita quotidiana",
+        "Il controllo delle password",
+        "L’uso dei social network"
+      ],
+      "risposta_corretta": "L’informatica diffusa e invisibile nella vita quotidiana",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Cos'è una rete neurale artificiale?",
+      "risposte": [
+        "Un sistema biologico",
+        "Un insieme di server interconnessi",
+        "Un modello matematico ispirato al cervello umano",
+        "Un'app per fare esercizi mentali"
+      ],
+      "risposta_corretta": "Un modello matematico ispirato al cervello umano",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Qual è uno degli obiettivi del Machine Learning?",
+      "risposte": [
+        "Velocizzare la stampa di documenti",
+        "Automatizzare l’apprendimento dai dati",
+        "Controllare dispositivi USB",
+        "Tradurre testi solo manualmente"
+      ],
+      "risposta_corretta": "Automatizzare l’apprendimento dai dati",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Quale macchina informatica fu sviluppata in Italia e usata anche dalla NASA?",
+      "risposte": ["ENIAC", "Pascalina", "Colossus", "Olivetti Programma 101"],
+      "risposta_corretta": "Olivetti Programma 101",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "Quale delle seguenti tecnologie NON è parte dell’IoT?",
+      "risposte": ["Wi-Fi", "Bluetooth", "Stampante a getto d’inchiostro", "Sensori ambientali"],
+      "risposta_corretta": "Stampante a getto d’inchiostro",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "Qual è una caratteristica chiave del 5G?",
+      "risposte": [
+        "Velocità di download limitata",
+        "Alta latenza",
+        "Connessione di milioni di dispositivi per km²",
+        "Solo per uso militare"
+      ],
+      "risposta_corretta": "Connessione di milioni di dispositivi per km²",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "Che cos’è un algoritmo in ambito informatico?",
+      "risposte": [
+        "Un tipo di virus",
+        "Un software installabile",
+        "Una serie di istruzioni per risolvere un problema",
+        "Un componente hardware"
+      ],
+      "risposta_corretta": "Una serie di istruzioni per risolvere un problema",
+      "svg": ""
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Quale tipo di cavo collega due PC direttamente senza dispositivi intermedi?",
+      "risposte": ["Cavo diretto", "Cavo incrociato", "Cavo seriale", "Cavo USB"],
+      "risposta_corretta": "Cavo incrociato",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Qual è la maschera di rete per l'indirizzo IP 192.168.1.101?",
+      "risposte": ["255.255.255.0", "255.255.0.0", "255.0.0.0", "255.255.255.255"],
+      "risposta_corretta": "255.255.255.0",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Cosa indica il lampeggio delle luci verdi vicino alla porta Ethernet?",
+      "risposte": ["Mancanza di collegamento", "Errore di rete", "Attività di rete", "Cavo difettoso"],
+      "risposta_corretta": "Attività di rete",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Quale comando mostra la tabella ARP su Windows o Linux?",
+      "risposte": ["ipconfig", "ping", "arp -a", "netstat"],
+      "risposta_corretta": "arp -a",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Cosa fa il protocollo ARP?",
+      "risposte": [
+        "Mappa indirizzi IP in nomi host",
+        "Mappa indirizzi MAC in IP",
+        "Mappa indirizzi IP in MAC",
+        "Invia pacchetti ICMP"
+      ],
+      "risposta_corretta": "Mappa indirizzi IP in MAC",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Che tipo di messaggio ICMP viene inviato con un comando ping?",
+      "risposte": ["Echo Request", "Destination Unreachable", "Redirect", "Time Exceeded"],
+      "risposta_corretta": "Echo Request",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Quale livello del modello OSI ospita il protocollo ICMP?",
+      "risposte": ["Livello 2", "Livello 3", "Livello 4", "Livello 7"],
+      "risposta_corretta": "Livello 3",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "Qual è il ruolo del protocollo ICMP?",
+      "risposte": ["Trasferire file", "Inviare dati crittografati", "Diagnosticare problemi di rete", "Ottenere indirizzi IP"],
+      "risposta_corretta": "Diagnosticare problemi di rete",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Quale livello OSI corrisponde al livello 'Accesso Rete' del modello TCP/IP?",
+      "risposte": ["Livello 3–4", "Livello 5–7", "Livello 1–2", "Livello 4"],
+      "risposta_corretta": "Livello 1–2",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Cosa accade se la cache ARP non contiene un MAC per un dato IP?",
+      "risposte": [
+        "Viene inviata una ARP Request",
+        "Il pacchetto viene scartato",
+        "Il pacchetto viene criptato",
+        "Il pacchetto viene inoltrato al router"
+      ],
+      "risposta_corretta": "Viene inviata una ARP Request",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Quale tipo di cavo usa la stessa terminazione su entrambi i lati?",
+      "risposte": ["Incrociato", "Diretto", "Coassiale", "Seriale"],
+      "risposta_corretta": "Diretto",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "ARP è un protocollo del livello:",
+      "risposte": ["Applicazione", "Trasporto", "Rete", "Collegamento dati"],
+      "risposta_corretta": "Collegamento dati",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Quale messaggio ICMP segnala un pacchetto scaduto?",
+      "risposte": ["Echo Reply", "Time Exceeded", "Redirect", "Destination Unreachable"],
+      "risposta_corretta": "Time Exceeded",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Qual è il pericolo associato al protocollo ARP?",
+      "risposte": ["Trojan", "ARP Spoofing", "IP Flooding", "DNS Hijacking"],
+      "risposta_corretta": "ARP Spoofing",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Quale dispositivo può intercettare traffico tramite un attacco ARP?",
+      "risposte": ["Switch", "Router", "Firewall", "Host malevolo"],
+      "risposta_corretta": "Host malevolo",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Come viene chiamato l’attacco in cui si intercetta il traffico tra due host?",
+      "risposte": ["Ping flood", "Denial of Service", "Man-in-the-Middle", "Spoofing DNS"],
+      "risposta_corretta": "Man-in-the-Middle",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Quale comando Cisco mostra la tabella ARP?",
+      "risposte": ["show mac", "show ip route", "show ip arp", "arp -a"],
+      "risposta_corretta": "show ip arp",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "Quali sono i pin usati per reti 10/100 Mbps?",
+      "risposte": ["Tutti gli 8", "Solo 1, 2, 3 e 6", "Solo 4 e 5", "Solo 7 e 8"],
+      "risposta_corretta": "Solo 1, 2, 3 e 6",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "Un ping verso se stessi genera traffico esterno?",
+      "risposte": ["Sì", "No", "Solo se c'è connessione", "Solo con IPv6"],
+      "risposta_corretta": "No",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "Cos'è l'Auto-MDIX?",
+      "risposte": [
+        "Un protocollo di sicurezza",
+        "Una tecnica per assegnare IP",
+        "Una funzione che adatta automaticamente i pin",
+        "Un tipo di firewall"
+      ],
+      "risposta_corretta": "Una funzione che adatta automaticamente i pin",
+      "svg": ""
+    },
+        {
+      "id": 21,
+      "domanda": "Qual è il ruolo del comando 'Add Simple PDU' in Packet Tracer?",
+      "risposte": ["Aggiunge un firewall", "Esegue un ping automatico", "Visualizza le rotte IP", "Blocca le connessioni"],
+      "risposta_corretta": "Esegue un ping automatico",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "Nel modello OSI, a quale livello appartiene il protocollo Ethernet?",
+      "risposte": ["Livello 1", "Livello 2", "Livello 3", "Livello 4"],
+      "risposta_corretta": "Livello 2",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "Che tipo di pacchetto viene inviato prima di un ICMP in assenza di ARP?",
+      "risposte": ["TCP SYN", "ARP Request", "Ping Reply", "UDP Ping"],
+      "risposta_corretta": "ARP Request",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "Qual è lo scopo del comando 'ping'?",
+      "risposte": [
+        "Verificare la velocità di rete",
+        "Inviare file",
+        "Verificare la connettività IP",
+        "Cambiare IP locale"
+      ],
+      "risposta_corretta": "Verificare la connettività IP",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "Cosa fa un Echo Reply ICMP?",
+      "risposte": [
+        "Inizia una connessione",
+        "Risponde a un ping",
+        "Chiude una sessione",
+        "Blocca un pacchetto"
+      ],
+      "risposta_corretta": "Risponde a un ping",
+      "svg": ""
+    },
+    {
+      "id": 26,
+      "domanda": "Quale dei seguenti protocolli opera al livello 4 del modello OSI?",
+      "risposte": ["ICMP", "TCP", "ARP", "IP"],
+      "risposta_corretta": "TCP",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "Cosa contiene una tabella ARP?",
+      "risposte": [
+        "Indirizzi IP e DNS",
+        "Indirizzi MAC e nomi host",
+        "Indirizzi IP e MAC",
+        "Indirizzi IP e porte TCP"
+      ],
+      "risposta_corretta": "Indirizzi IP e MAC",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "Qual è il formato di indirizzamento MAC standard?",
+      "risposte": [
+        "192.168.1.1",
+        "AA:BB:CC:DD:EE:FF",
+        "2001:0db8:85a3::8a2e",
+        "ftp://192.168.1.1"
+      ],
+      "risposta_corretta": "AA:BB:CC:DD:EE:FF",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "Qual è la funzione principale del livello 'Internet' nel modello TCP/IP?",
+      "risposte": [
+        "Gestione delle porte",
+        "Indirizzamento e routing",
+        "Formattazione dei dati",
+        "Connessione fisica"
+      ],
+      "risposta_corretta": "Indirizzamento e routing",
+      "svg": ""
+    },
+    {
+      "id": 30,
+      "domanda": "Quando viene usato ARP?",
+      "risposte": [
+        "Per inviare email",
+        "Per risolvere nomi DNS",
+        "Quando si conosce l'IP ma non il MAC",
+        "Quando si accede a un sito HTTPS"
+      ],
+      "risposta_corretta": "Quando si conosce l'IP ma non il MAC",
+      "svg": ""
+    }
+  ]
+}
+
+    
+    

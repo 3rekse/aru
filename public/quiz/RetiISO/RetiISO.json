@@ -1,0 +1,424 @@
+{
+    "quiz": [
+      {
+        "id": 61,
+        "domanda": "Cos'è una rete informatica?",
+        "risposte": [
+          "Un insieme di dispositivi interconnessi per condividere dati e risorse.",
+          "Un dispositivo che traduce i nomi di dominio in indirizzi IP.",
+          "Una tecnologia per utilizzare onde radio per la connessione senza fili.",
+          "Un sistema che instrada pacchetti tra reti diverse."
+        ],
+        "risposta_corretta": "Un insieme di dispositivi interconnessi per condividere dati e risorse.",
+        "svg": ""
+      },
+      {
+        "id": 62,
+        "domanda": "Qual è il livello del modello OSI responsabile della crittografia?",
+        "risposte": [
+          "Livello di rete",
+          "Livello di trasporto",
+          "Livello di sessione",
+          "Livello di presentazione"
+        ],
+        "risposta_corretta": "Livello di presentazione",
+        "svg": ""
+      },
+      {
+        "id": 63,
+        "domanda": "Quale protocollo opera al livello di trasporto del modello OSI?",
+        "risposte": [
+          "HTTP",
+          "TCP",
+          "IP",
+          "DNS"
+        ],
+        "risposta_corretta": "TCP",
+        "svg": ""
+      },
+      {
+        "id": 64,
+        "domanda": "Qual è la funzione principale del livello di rete nel modello OSI?",
+        "risposte": [
+          "Gestire la comunicazione end-to-end tra dispositivi.",
+          "Instradare i pacchetti tra reti diverse.",
+          "Convertire i dati in segnali elettrici o ottici.",
+          "Fornire un'interfaccia per le applicazioni."
+        ],
+        "risposta_corretta": "Instradare i pacchetti tra reti diverse.",
+        "svg": ""
+      },
+      {
+        "id": 65,
+        "domanda": "Quale livello del modello OSI corrisponde al livello di accesso alla rete nel modello TCP/IP?",
+        "risposte": [
+          "Livello di trasporto",
+          "Livello di rete",
+          "Livello fisico e livello di collegamento dati",
+          "Livello di applicazione"
+        ],
+        "risposta_corretta": "Livello fisico e livello di collegamento dati",
+        "svg": ""
+      },
+      {
+        "id": 66,
+        "domanda": "Qual è il livello del modello OSI responsabile della frammentazione e riassemblaggio dei dati?",
+        "risposte": [
+          "Livello di trasporto",
+          "Livello di rete",
+          "Livello di sessione",
+          "Livello di presentazione"
+        ],
+        "risposta_corretta": "Livello di trasporto",
+        "svg": ""
+      },
+      {
+        "id": 67,
+        "domanda": "Quale livello del modello OSI utilizza indirizzi IP per identificare i dispositivi?",
+        "risposte": [
+          "Livello di rete",
+          "Livello di trasporto",
+          "Livello di collegamento dati",
+          "Livello di applicazione"
+        ],
+        "risposta_corretta": "Livello di rete",
+        "svg": ""
+      },
+      {
+        "id": 68,
+        "domanda": "Quale protocollo viene utilizzato per tradurre i nomi di dominio in indirizzi IP?",
+        "risposte": [
+          "HTTP",
+          "DNS",
+          "FTP",
+          "ARP"
+        ],
+        "risposta_corretta": "DNS",
+        "svg": ""
+      },
+      {
+        "id": 69,
+        "domanda": "Qual è la funzione principale del livello di trasporto nel modello OSI?",
+        "risposte": [
+          "Fornire un'interfaccia per le applicazioni.",
+          "Gestire la comunicazione end-to-end tra dispositivi.",
+          "Instradare i pacchetti tra reti diverse.",
+          "Convertire i dati in segnali elettrici o ottici."
+        ],
+        "risposta_corretta": "Gestire la comunicazione end-to-end tra dispositivi.",
+        "svg": ""
+      },
+      {
+        "id": 70,
+        "domanda": "Quale livello del modello OSI è responsabile della gestione delle connessioni tra applicazioni?",
+        "risposte": [
+          "Livello di sessione",
+          "Livello di trasporto",
+          "Livello di rete",
+          "Livello di presentazione"
+        ],
+        "risposta_corretta": "Livello di sessione",
+        "svg": ""
+      },
+      {
+        "id": 71,
+        "domanda": "Quale protocollo opera al livello di rete del modello OSI?",
+        "risposte": [
+          "TCP",
+          "IP",
+          "HTTP",
+          "FTP"
+        ],
+        "risposta_corretta": "IP",
+        "svg": ""
+      },
+      {
+        "id": 72,
+        "domanda": "Qual è il livello del modello OSI che si occupa della conversione dei dati in segnali trasmissibili?",
+        "risposte": [
+          "Livello fisico",
+          "Livello di rete",
+          "Livello di trasporto",
+          "Livello di collegamento dati"
+        ],
+        "risposta_corretta": "Livello fisico",
+        "svg": ""
+      },
+      {
+        "id": 73,
+        "domanda": "Quale livello del modello OSI si occupa della correzione degli errori nei frame?",
+        "risposte": [
+          "Livello di rete",
+          "Livello di trasporto",
+          "Livello di collegamento dati",
+          "Livello di presentazione"
+        ],
+        "risposta_corretta": "Livello di collegamento dati",
+        "svg": ""
+      },
+      {
+        "id": 74,
+        "domanda": "Quale livello del modello TCP/IP corrisponde al livello di applicazione del modello OSI?",
+        "risposte": [
+          "Livello di trasporto",
+          "Livello di rete",
+          "Livello di applicazione",
+          "Livello di accesso alla rete"
+        ],
+        "risposta_corretta": "Livello di applicazione",
+        "svg": ""
+      },
+      {
+        "id": 75,
+        "domanda": "Quale protocollo viene utilizzato per trasferire file tra client e server?",
+        "risposte": [
+          "FTP",
+          "HTTP",
+          "DNS",
+          "SMTP"
+        ],
+        "risposta_corretta": "FTP",
+        "svg": ""
+      },
+      {
+        "id": 76,
+        "domanda": "Quale livello del modello OSI si occupa della sincronizzazione del dialogo tra due applicazioni?",
+        "risposte": [
+          "Livello di sessione",
+          "Livello di trasporto",
+          "Livello di rete",
+          "Livello di presentazione"
+        ],
+        "risposta_corretta": "Livello di sessione",
+        "svg": ""
+      },
+      {
+        "id": 77,
+        "domanda": "Quale protocollo viene utilizzato per inviare email?",
+        "risposte": [
+          "SMTP",
+          "POP3",
+          "IMAP",
+          "HTTP"
+        ],
+        "risposta_corretta": "SMTP",
+        "svg": ""
+      },
+      {
+        "id": 78,
+        "domanda": "Qual è il livello del modello OSI che si occupa della rappresentazione dei dati?",
+        "risposte": [
+          "Livello di presentazione",
+          "Livello di sessione",
+          "Livello di trasporto",
+          "Livello di rete"
+        ],
+        "risposta_corretta": "Livello di presentazione",
+        "svg": ""
+      },
+      {
+        "id": 79,
+        "domanda": "Quale livello del modello OSI è responsabile della trasmissione fisica dei dati?",
+        "risposte": [
+          "Livello fisico",
+          "Livello di rete",
+          "Livello di trasporto",
+          "Livello di collegamento dati"
+        ],
+        "risposta_corretta": "Livello fisico",
+        "svg": ""
+      },
+      {
+        "id": 80,
+        "domanda": "Quale protocollo viene utilizzato per ottenere un indirizzo IP automaticamente?",
+        "risposte": [
+          "DHCP",
+          "DNS",
+          "ARP",
+          "ICMP"
+        ],
+        "risposta_corretta": "DHCP",
+        "svg": ""
+      },
+      {
+        "id": 81,
+        "domanda": "Quale livello del modello OSI si occupa della gestione degli indirizzi MAC?",
+        "risposte": [
+          "Livello di collegamento dati",
+          "Livello di rete",
+          "Livello fisico",
+          "Livello di trasporto"
+        ],
+        "risposta_corretta": "Livello di collegamento dati",
+        "svg": ""
+      },
+      {
+        "id": 82,
+        "domanda": "Quale protocollo viene utilizzato per il trasferimento sicuro di file?",
+        "risposte": [
+          "SFTP",
+          "FTP",
+          "HTTP",
+          "SMTP"
+        ],
+        "risposta_corretta": "SFTP",
+        "svg": ""
+      },
+      {
+        "id": 83,
+        "domanda": "Quale livello del modello OSI utilizza i numeri di porta per identificare le applicazioni?",
+        "risposte": [
+          "Livello di trasporto",
+          "Livello di rete",
+          "Livello di sessione",
+          "Livello di applicazione"
+        ],
+        "risposta_corretta": "Livello di trasporto",
+        "svg": ""
+      },
+      {
+        "id": 84,
+        "domanda": "Quale protocollo viene utilizzato per il ping di un dispositivo?",
+        "risposte": [
+          "ICMP",
+          "ARP",
+          "DNS",
+          "TCP"
+        ],
+        "risposta_corretta": "ICMP",
+        "svg": ""
+      },
+      {
+        "id": 85,
+        "domanda": "Quale livello del modello OSI si occupa della segmentazione dei dati?",
+        "risposte": [
+          "Livello di trasporto",
+          "Livello di rete",
+          "Livello di sessione",
+          "Livello di presentazione"
+        ],
+        "risposta_corretta": "Livello di trasporto",
+        "svg": ""
+      },
+      {
+        "id": 86,
+        "domanda": "Quale livello del modello OSI si occupa dell'instradamento dei pacchetti?",
+        "risposte": [
+          "Livello di rete",
+          "Livello di trasporto",
+          "Livello di collegamento dati",
+          "Livello fisico"
+        ],
+        "risposta_corretta": "Livello di rete",
+        "svg": ""
+      },
+      {
+        "id": 87,
+        "domanda": "Quale protocollo viene utilizzato per risolvere gli indirizzi IP in indirizzi MAC?",
+        "risposte": [
+          "ARP",
+          "DNS",
+          "ICMP",
+          "DHCP"
+        ],
+        "risposta_corretta": "ARP",
+        "svg": ""
+      },
+      {
+        "id": 88,
+        "domanda": "Quale livello del modello OSI si occupa della compressione dei dati?",
+        "risposte": [
+          "Livello di presentazione",
+          "Livello di sessione",
+          "Livello di trasporto",
+          "Livello di rete"
+        ],
+        "risposta_corretta": "Livello di presentazione",
+        "svg": ""
+      },
+      {
+        "id": 89,
+        "domanda": "Quale protocollo viene utilizzato per la navigazione web?",
+        "risposte": [
+          "HTTP",
+          "FTP",
+          "SMTP",
+          "DNS"
+        ],
+        "risposta_corretta": "HTTP",
+        "svg": ""
+      },
+      {
+        "id": 90,
+        "domanda": "Quale livello del modello OSI si occupa della gestione delle connessioni logiche?",
+        "risposte": [
+          "Livello di sessione",
+          "Livello di trasporto",
+          "Livello di rete",
+          "Livello di presentazione"
+        ],
+        "risposta_corretta": "Livello di sessione",
+        "svg": ""
+      },
+      {
+        "id": 91,
+        "domanda": "Quale protocollo viene utilizzato per trasferire email da un server a un client?",
+        "risposte": [
+          "POP3",
+          "SMTP",
+          "IMAP",
+          "HTTP"
+        ],
+        "risposta_corretta": "POP3",
+        "svg": ""
+      },
+      {
+        "id": 92,
+        "domanda": "Quale livello del modello OSI si occupa della gestione del flusso di dati?",
+        "risposte": [
+          "Livello di trasporto",
+          "Livello di rete",
+          "Livello di sessione",
+          "Livello di presentazione"
+        ],
+        "risposta_corretta": "Livello di trasporto",
+        "svg": ""
+      },
+      {
+        "id": 93,
+        "domanda": "Quale protocollo viene utilizzato per sincronizzare l'orario tra dispositivi?",
+        "risposte": [
+          "NTP",
+          "DNS",
+          "ICMP",
+          "ARP"
+        ],
+        "risposta_corretta": "NTP",
+        "svg": ""
+      },
+      {
+        "id": 94,
+        "domanda": "Quale livello del modello OSI si occupa della rilevazione degli errori nei frame?",
+        "risposte": [
+          "Livello di collegamento dati",
+          "Livello di rete",
+          "Livello di trasporto",
+          "Livello fisico"
+        ],
+        "risposta_corretta": "Livello di collegamento dati",
+        "svg": ""
+      },
+      {
+        "id": 95,
+        "domanda": "Quale protocollo viene utilizzato per trasferire file in modo non sicuro?",
+        "risposte": [
+          "FTP",
+          "SFTP",
+          "HTTP",
+          "SMTP"
+        ],
+        "risposta_corretta": "FTP",
+        "svg": ""
+      }
+    ]
+  }

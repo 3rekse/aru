@@ -1,0 +1,560 @@
+{
+  "quiz": [
+    {
+      "id": 61,
+      "domanda": "Qual è stato uno dei primi strumenti considerati 'informatici' nella storia?",
+      "risposte": [
+        "La macchina a vapore",
+        "L'orologio solare",
+        "L'abaco",
+        "La stampa a caratteri mobili"
+      ],
+      "risposta_corretta": "L'abaco",
+      "svg": ""
+    },
+    {
+      "id": 62,
+      "domanda": "Chi ha introdotto per primo il concetto di sistema binario nell'informatica?",
+      "risposte": [
+        "Charles Babbage",
+        "Alan Turing",
+        "Gottfried Wilhelm Leibniz",
+        "Ada Lovelace"
+      ],
+      "risposta_corretta": "Gottfried Wilhelm Leibniz",
+      "svg": ""
+    },
+    {
+      "id": 63,
+      "domanda": "Perché Ada Lovelace è considerata la prima programmatrice della storia?",
+      "risposte": [
+        "Ha costruito il primo computer meccanico",
+        "Ha creato un linguaggio di programmazione",
+        "Ha ideato concetti fondamentali come cicli e condizioni",
+        "Ha collaborato con Alan Turing"
+      ],
+      "risposta_corretta": "Ha ideato concetti fondamentali come cicli e condizioni",
+      "svg": ""
+    },
+    {
+      "id": 64,
+      "domanda": "Quale computer è stato utilizzato durante la Seconda Guerra Mondiale per decifrare i codici nazisti?",
+      "risposte": [
+        "ENIAC",
+        "Colossus",
+        "Z3",
+        "Mark I"
+      ],
+      "risposta_corretta": "Colossus",
+      "svg": ""
+    },
+    {
+      "id": 65,
+      "domanda": "Cos'è l'Internet delle Cose (IoT)?",
+      "risposte": [
+        "Un nuovo browser web",
+        "Una rete di oggetti fisici connessi tra loro via Internet",
+        "Un sistema operativo per smartphone",
+        "Un tipo di social network"
+      ],
+      "risposta_corretta": "Una rete di oggetti fisici connessi tra loro via Internet",
+      "svg": ""
+    },
+    {
+      "id": 66,
+      "domanda": "Cosa si intende per realtà aumentata (AR)?",
+      "risposte": [
+        "Un mondo virtuale in cui ci si immerge completamente",
+        "Una tecnologia che modifica la realtà sensoriale",
+        "Una tecnologia che sovrappone contenuti digitali alla realtà visibile",
+        "Un videogioco tridimensionale"
+      ],
+      "risposta_corretta": "Una tecnologia che sovrappone contenuti digitali alla realtà visibile",
+      "svg": ""
+    },
+    {
+      "id": 67,
+      "domanda": "Cosa distingue il Deep Learning dal Machine Learning?",
+      "risposte": [
+        "È più semplice",
+        "È una forma più avanzata di apprendimento automatico basata su reti neurali",
+        "Non utilizza dati reali",
+        "Si basa su algoritmi di ricerca"
+      ],
+      "risposta_corretta": "È una forma più avanzata di apprendimento automatico basata su reti neurali",
+      "svg": ""
+    },
+    {
+      "id": 68,
+      "domanda": "Qual è il ruolo principale delle GPU nell'intelligenza artificiale?",
+      "risposte": [
+        "Elaborare immagini per i videogiochi",
+        "Gestire la connessione a Internet",
+        "Fornire potenza di calcolo per addestrare reti neurali",
+        "Controllare l'hardware del computer"
+      ],
+      "risposta_corretta": "Fornire potenza di calcolo per addestrare reti neurali",
+      "svg": ""
+    },
+    {
+      "id": 69,
+      "domanda": "Quali sono le tre fasi principali dell’attività di un computer?",
+      "risposte": [
+        "Analisi, calcolo, connessione",
+        "Input, elaborazione, output",
+        "Download, elaborazione, upload",
+        "Apertura, utilizzo, chiusura"
+      ],
+      "risposta_corretta": "Input, elaborazione, output",
+      "svg": ""
+    },
+    {
+      "id": 70,
+      "domanda": "Cosa si intende per informatica ubiqua (pervasive computing)?",
+      "risposte": [
+        "Uso di supercomputer nella ricerca",
+        "Presenza di computer visibili ovunque",
+        "Tecnologia informatica integrata e invisibile nella vita quotidiana",
+        "Reti sociali su dispositivi mobili"
+      ],
+      "risposta_corretta": "Tecnologia informatica integrata e invisibile nella vita quotidiana",
+      "svg": ""
+    },
+    {
+      "id": 21,
+      "domanda": "Cosa indica il termine 'intelligenza artificiale debole'?",
+      "risposte": [
+        "Un'IA in grado di provare emozioni",
+        "Un'IA che funziona solo in ambienti specifici",
+        "Un'IA che imita l'intelligenza umana per compiti limitati",
+        "Un'IA che può modificare se stessa"
+      ],
+      "risposta_corretta": "Un'IA che imita l'intelligenza umana per compiti limitati",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "Chi ha formulato il test per verificare l'intelligenza delle macchine?",
+      "risposte": ["Alan Turing", "Bill Gates", "Steve Jobs", "John McCarthy"],
+      "risposta_corretta": "Alan Turing",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "Qual è una delle funzioni principali dei sensori nell’IoT?",
+      "risposte": [
+        "Inviare email",
+        "Raccogliere dati dall’ambiente",
+        "Stampare documenti",
+        "Controllare account social"
+      ],
+      "risposta_corretta": "Raccogliere dati dall’ambiente",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "Che cosa si intende per 'Big Data'?",
+      "risposte": [
+        "Un hard disk di grandi dimensioni",
+        "Un programma per modificare dati",
+        "Una grande quantità di dati complessi da analizzare",
+        "Una rete sociale di successo"
+      ],
+      "risposta_corretta": "Una grande quantità di dati complessi da analizzare",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "Qual è l'obiettivo principale della blockchain?",
+      "risposte": [
+        "Aumentare la velocità di internet",
+        "Archiviare immagini in cloud",
+        "Gestire dati in modo decentralizzato e sicuro",
+        "Scrivere codice HTML"
+      ],
+      "risposta_corretta": "Gestire dati in modo decentralizzato e sicuro",
+      "svg": ""
+    },
+    {
+      "id": 26,
+      "domanda": "Cosa permette il riconoscimento facciale?",
+      "risposte": [
+        "Riprodurre musica",
+        "Identificare un volto umano tramite dati biometrici",
+        "Tradurre una lingua",
+        "Leggere QR Code"
+      ],
+      "risposta_corretta": "Identificare un volto umano tramite dati biometrici",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "Qual è una funzione tipica di un assistente vocale come Alexa o Siri?",
+      "risposte": [
+        "Modificare file PDF",
+        "Controllare dispositivi smart tramite comandi vocali",
+        "Stampare documenti",
+        "Disegnare loghi professionali"
+      ],
+      "risposta_corretta": "Controllare dispositivi smart tramite comandi vocali",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "Cosa fa un sistema di visione artificiale?",
+      "risposte": [
+        "Stampa immagini",
+        "Crea modelli 3D",
+        "Analizza e interpreta immagini o video",
+        "Controlla lo stato della rete"
+      ],
+      "risposta_corretta": "Analizza e interpreta immagini o video",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "Cosa significa 'machine-to-machine' (M2M)?",
+      "risposte": [
+        "Dialogo tra esseri umani tramite PC",
+        "Comunicazione diretta tra dispositivi senza intervento umano",
+        "Scrittura automatica di email",
+        "Riconoscimento di testi scritti"
+      ],
+      "risposta_corretta": "Comunicazione diretta tra dispositivi senza intervento umano",
+      "svg": ""
+    },
+    {
+      "id": 30,
+      "domanda": "Quale linguaggio è comunemente usato nella programmazione dell'IA?",
+      "risposte": ["HTML", "Python", "CSS", "SQL"],
+      "risposta_corretta": "Python",
+      "svg": ""
+    },
+    {
+      "id": 31,
+      "domanda": "A cosa serve un chatbot?",
+      "risposte": [
+        "A creare siti web",
+        "A sostituire gli antivirus",
+        "A simulare conversazioni automatiche con gli utenti",
+        "A fare chiamate vocali"
+      ],
+      "risposta_corretta": "A simulare conversazioni automatiche con gli utenti",
+      "svg": ""
+    },
+    {
+      "id": 32,
+      "domanda": "Che cosa significa 'apprendimento supervisionato' nell'IA?",
+      "risposte": [
+        "Imparare guardando video",
+        "Imparare da dati etichettati con esempi",
+        "Imparare senza nessun dato",
+        "Imparare copiando altri sistemi"
+      ],
+      "risposta_corretta": "Imparare da dati etichettati con esempi",
+      "svg": ""
+    },
+    {
+      "id": 33,
+      "domanda": "Cosa indica il termine 'robotica educativa'?",
+      "risposte": [
+        "Robot che fanno lezioni online",
+        "Uso dei robot per apprendere competenze logiche e tecniche",
+        "Un videogioco",
+        "Una materia universitaria"
+      ],
+      "risposta_corretta": "Uso dei robot per apprendere competenze logiche e tecniche",
+      "svg": ""
+    },
+    {
+      "id": 34,
+      "domanda": "Qual è una delle applicazioni dell’IA nel settore sanitario?",
+      "risposte": [
+        "Gestione dei parcheggi",
+        "Diagnosi automatica da immagini mediche",
+        "Controllo del traffico stradale",
+        "Traduzione simultanea"
+      ],
+      "risposta_corretta": "Diagnosi automatica da immagini mediche",
+      "svg": ""
+    },
+    {
+      "id": 35,
+      "domanda": "Qual è lo scopo dell’automazione industriale?",
+      "risposte": [
+        "Ridurre il numero di lavoratori",
+        "Sostituire i computer",
+        "Migliorare l’efficienza e la sicurezza nei processi produttivi",
+        "Creare nuove materie prime"
+      ],
+      "risposta_corretta": "Migliorare l’efficienza e la sicurezza nei processi produttivi",
+      "svg": ""
+    },
+    {
+      "id": 36,
+      "domanda": "Quale dispositivo IoT può controllare la temperatura in casa?",
+      "risposte": ["Termostato intelligente", "Router", "Webcam", "Smartwatch"],
+      "risposta_corretta": "Termostato intelligente",
+      "svg": ""
+    },
+    {
+      "id": 37,
+      "domanda": "Cos’è una smart city?",
+      "risposte": [
+        "Una città con molti negozi digitali",
+        "Una città che integra tecnologie per migliorare la qualità della vita",
+        "Una città piena di robot",
+        "Una città dove si usa solo moneta digitale"
+      ],
+      "risposta_corretta": "Una città che integra tecnologie per migliorare la qualità della vita",
+      "svg": ""
+    },
+    {
+      "id": 38,
+      "domanda": "Quale delle seguenti tecnologie può aiutare nella guida autonoma?",
+      "risposte": ["Radar", "Antivirus", "Mouse ottico", "Router Wi-Fi"],
+      "risposta_corretta": "Radar",
+      "svg": ""
+    },
+    {
+      "id": 39,
+      "domanda": "Che tipo di interazione si ha con un’interfaccia touch?",
+      "risposte": [
+        "Attraverso comandi vocali",
+        "Attraverso movimenti oculari",
+        "Attraverso il tocco diretto sullo schermo",
+        "Attraverso la tastiera"
+      ],
+      "risposta_corretta": "Attraverso il tocco diretto sullo schermo",
+      "svg": ""
+    },
+    {
+      "id": 40,
+      "domanda": "Cos’è un assistente virtuale?",
+      "risposte": [
+        "Un robot fisico",
+        "Un programma che assiste l’utente in compiti digitali",
+        "Un videogioco online",
+        "Un tipo di stampante"
+      ],
+      "risposta_corretta": "Un programma che assiste l’utente in compiti digitali",
+      "svg": ""
+    },
+    {
+      "id": 41,
+      "domanda": "Chi ha coniato il termine 'intelligenza artificiale' nel 1956?",
+      "risposte": ["Alan Turing", "John McCarthy", "Marvin Minsky", "Norbert Wiener"],
+      "risposta_corretta": "John McCarthy",
+      "svg": ""
+    },
+    {
+      "id": 42,
+      "domanda": "Cos'è un drone in ambito tecnologico?",
+      "risposte": [
+        "Un virus informatico",
+        "Un dispositivo volante controllato da remoto",
+        "Un tipo di cavo dati",
+        "Un microfono wireless"
+      ],
+      "risposta_corretta": "Un dispositivo volante controllato da remoto",
+      "svg": ""
+    },
+    {
+      "id": 43,
+      "domanda": "Qual è uno dei principali obiettivi della robotica collaborativa?",
+      "risposte": [
+        "Sostituire completamente gli umani",
+        "Far lavorare i robot accanto agli esseri umani in sicurezza",
+        "Costruire robot per videogiochi",
+        "Creare robot solo per la scuola"
+      ],
+      "risposta_corretta": "Far lavorare i robot accanto agli esseri umani in sicurezza",
+      "svg": ""
+    },
+    {
+      "id": 44,
+      "domanda": "Cosa significa l'acronimo AI?",
+      "risposte": ["Artificial Innovation", "Android Interface", "Artificial Intelligence", "Audio Interaction"],
+      "risposta_corretta": "Artificial Intelligence",
+      "svg": ""
+    },
+    {
+      "id": 45,
+      "domanda": "Quale delle seguenti è una piattaforma di coding visuale usata a scuola?",
+      "risposte": ["Python", "Scratch", "Java", "C++"],
+      "risposta_corretta": "Scratch",
+      "svg": ""
+    },
+    {
+      "id": 46,
+      "domanda": "Cos'è un robot umanoide?",
+      "risposte": [
+        "Un robot con forma simile a quella umana",
+        "Un'app per smartphone",
+        "Un tipo di computer portatile",
+        "Un videogioco"
+      ],
+      "risposta_corretta": "Un robot con forma simile a quella umana",
+      "svg": ""
+    },
+    {
+      "id": 47,
+      "domanda": "Cosa si intende con il termine 'eticamente progettata' per un’IA?",
+      "risposte": [
+        "Che segue le regole grammaticali",
+        "Che rispetta principi morali e diritti umani",
+        "Che è veloce",
+        "Che non sbaglia mai"
+      ],
+      "risposta_corretta": "Che rispetta principi morali e diritti umani",
+      "svg": ""
+    },
+    {
+      "id": 48,
+      "domanda": "Cos'è un algoritmo di raccomandazione?",
+      "risposte": [
+        "Un software per scrivere ricette",
+        "Un sistema che suggerisce contenuti basati sulle preferenze",
+        "Un'app per prenotare viaggi",
+        "Un programma per codici a barre"
+      ],
+      "risposta_corretta": "Un sistema che suggerisce contenuti basati sulle preferenze",
+      "svg": ""
+    },
+    {
+      "id": 49,
+      "domanda": "Quale componente gestisce le istruzioni del programma in un computer?",
+      "risposte": ["Hard disk", "RAM", "Processore (CPU)", "Scheda video"],
+      "risposta_corretta": "Processore (CPU)",
+      "svg": ""
+    },
+    {
+      "id": 50,
+      "domanda": "In che ambito si usa il termine 'deep learning'?",
+      "risposte": [
+        "Nella sicurezza stradale",
+        "Nel turismo",
+        "Nell'apprendimento automatico attraverso reti neurali",
+        "Nella manutenzione degli ascensori"
+      ],
+      "risposta_corretta": "Nell'apprendimento automatico attraverso reti neurali",
+      "svg": ""
+    },
+    {
+      "id": 51,
+      "domanda": "Cos’è il Natural Language Processing (NLP)?",
+      "risposte": [
+        "La programmazione hardware dei robot",
+        "La comprensione del linguaggio umano da parte delle macchine",
+        "La modifica di immagini digitali",
+        "La trasmissione dati via satellite"
+      ],
+      "risposta_corretta": "La comprensione del linguaggio umano da parte delle macchine",
+      "svg": ""
+    },
+    {
+      "id": 52,
+      "domanda": "Quale delle seguenti è un’applicazione dell’AI nella musica?",
+      "risposte": [
+        "Comporre melodie automaticamente",
+        "Sintonizzare radio",
+        "Registrare vinili",
+        "Creare spartiti cartacei"
+      ],
+      "risposta_corretta": "Comporre melodie automaticamente",
+      "svg": ""
+    },
+    {
+      "id": 53,
+      "domanda": "Cosa fa un sistema di raccomandazione come quello di Netflix?",
+      "risposte": [
+        "Mostra video casuali",
+        "Suggerisce contenuti basati sulle preferenze dell'utente",
+        "Blocca la visione ai minori",
+        "Rende i video più veloci"
+      ],
+      "risposta_corretta": "Suggerisce contenuti basati sulle preferenze dell'utente",
+      "svg": ""
+    },
+    {
+      "id": 54,
+      "domanda": "Quale linguaggio è comunemente usato nei sistemi embedded (integrati)?",
+      "risposte": ["C", "Ruby", "JavaScript", "PHP"],
+      "risposta_corretta": "C",
+      "svg": ""
+    },
+    {
+      "id": 55,
+      "domanda": "Cosa consente la tecnologia RFID?",
+      "risposte": [
+        "Cottura a microonde",
+        "Comunicazione wireless tra tag e lettori",
+        "Creazione di playlist",
+        "Aumentare la batteria dello smartphone"
+      ],
+      "risposta_corretta": "Comunicazione wireless tra tag e lettori",
+      "svg": ""
+    },
+    {
+      "id": 56,
+      "domanda": "Qual è una sfida etica legata all’IA?",
+      "risposte": [
+        "Velocità di calcolo",
+        "Rispetto della privacy e dei diritti umani",
+        "Durata della batteria",
+        "Numero di processori"
+      ],
+      "risposta_corretta": "Rispetto della privacy e dei diritti umani",
+      "svg": ""
+    },
+    {
+      "id": 57,
+      "domanda": "Cosa si intende per 'bias' in un algoritmo di IA?",
+      "risposte": [
+        "Velocità di esecuzione",
+        "Errore causato da dati distorti o non rappresentativi",
+        "Quantità di memoria richiesta",
+        "Aspetto grafico del programma"
+      ],
+      "risposta_corretta": "Errore causato da dati distorti o non rappresentativi",
+      "svg": ""
+    },
+    {
+      "id": 58,
+      "domanda": "Cosa fa un sistema predittivo?",
+      "risposte": [
+        "Prevede comportamenti futuri basandosi sui dati passati",
+        "Crea animazioni 3D",
+        "Gestisce i documenti Word",
+        "Invia notifiche di sistema"
+      ],
+      "risposta_corretta": "Prevede comportamenti futuri basandosi sui dati passati",
+      "svg": ""
+    },
+    {
+      "id": 59,
+      "domanda": "Qual è uno degli usi principali dell’IA in ambito ambientale?",
+      "risposte": [
+        "Colorare le foto antiche",
+        "Analizzare i dati climatici e prevedere fenomeni",
+        "Organizzare eventi",
+        "Tracciare itinerari GPS"
+      ],
+      "risposta_corretta": "Analizzare i dati climatici e prevedere fenomeni",
+      "svg": ""
+    },
+    {
+      "id": 60,
+      "domanda": "A cosa serve un simulatore di intelligenza artificiale?",
+      "risposte": [
+        "Simulare ambienti per testare algoritmi di IA",
+        "Disegnare icone",
+        "Costruire edifici",
+        "Modificare musica"
+      ],
+      "risposta_corretta": "Simulare ambienti per testare algoritmi di IA",
+      "svg": ""
+    }
+  ]
+}
+

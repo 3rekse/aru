@@ -1,0 +1,221 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Cosa fa un'istruzione di assegnazione?",
+      "risposte": [
+        "Assegna un valore a una variabile.",
+        "Crea una nuova funzione.",
+        "Esegue un ciclo infinito.",
+        "Verifica una condizione."
+      ],
+      "risposta_corretta": "Assegna un valore a una variabile.",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Cosa significa concatenare?",
+      "risposte": [
+        "Unire due operandi.",
+        "Dividere due numeri.",
+        "Moltiplicare variabili.",
+        "Eseguire una funzione."
+      ],
+      "risposta_corretta": "Unire due operandi.",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Cosa rappresenta un commento in un programma?",
+      "risposte": [
+        "Informazione destinata a chi legge il codice.",
+        "Un errore del codice.",
+        "Un ciclo ripetitivo.",
+        "Una funzione di stampa."
+      ],
+      "risposta_corretta": "Informazione destinata a chi legge il codice.",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Cosa vuol dire calcolare un'espressione?",
+      "risposte": [
+        "Semplificare un'espressione fino a ottenere un unico valore.",
+        "Scrivere una stringa.",
+        "Dichiarare una variabile.",
+        "Commentare il codice."
+      ],
+      "risposta_corretta": "Semplificare un'espressione fino a ottenere un unico valore.",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Cos'è un'espressione?",
+      "risposte": [
+        "Combinazione di variabili, operatori e valori.",
+        "Un ciclo di stampa.",
+        "Una funzione vuota.",
+        "Una dichiarazione di tipo."
+      ],
+      "risposta_corretta": "Combinazione di variabili, operatori e valori.",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Cosa rappresenta un numero a virgola mobile?",
+      "risposte": [
+        "Un numero con parte frazionaria.",
+        "Un numero intero.",
+        "Un carattere speciale.",
+        "Un valore booleano."
+      ],
+      "risposta_corretta": "Un numero con parte frazionaria.",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Qual è il tipo di dato composto da numeri interi?",
+      "risposte": [
+        "Interi.",
+        "Float.",
+        "Stringhe.",
+        "Booleani."
+      ],
+      "risposta_corretta": "Interi.",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "Cosa sono le parole chiave o riservate?",
+      "risposte": [
+        "Parole utilizzate dal compilatore e non riutilizzabili per variabili.",
+        "Commenti all’interno del codice.",
+        "Funzioni utente.",
+        "Nomi di file."
+      ],
+      "risposta_corretta": "Parole utilizzate dal compilatore e non riutilizzabili per variabili.",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Cos'è un mnemonico in programmazione?",
+      "risposte": [
+        "Un nome di variabile utile per ricordare il suo contenuto.",
+        "Un tipo di dato.",
+        "Un errore logico.",
+        "Un ciclo infinito."
+      ],
+      "risposta_corretta": "Un nome di variabile utile per ricordare il suo contenuto.",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "A cosa serve l'operatore modulo (%)?",
+      "risposte": [
+        "A restituire il resto di una divisione.",
+        "A moltiplicare due numeri.",
+        "A unire stringhe.",
+        "A creare un ciclo."
+      ],
+      "risposta_corretta": "A restituire il resto di una divisione.",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Cos'è un operando?",
+      "risposte": [
+        "Un valore su cui agisce un operatore.",
+        "Una stringa letterale.",
+        "Un tipo di commento.",
+        "Un ciclo di controllo."
+      ],
+      "risposta_corretta": "Un valore su cui agisce un operatore.",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Cosa fa un operatore?",
+      "risposte": [
+        "Rappresenta un calcolo come somma o moltiplicazione.",
+        "Scrive commenti.",
+        "Crea nuove variabili.",
+        "Legge input da tastiera."
+      ],
+      "risposta_corretta": "Rappresenta un calcolo come somma o moltiplicazione.",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Cosa indicano le regole di precedenza?",
+      "risposte": [
+        "L'ordine con cui vengono valutati operatori e operandi.",
+        "La priorità delle funzioni.",
+        "Il tipo di commento da usare.",
+        "La posizione delle variabili."
+      ],
+      "risposta_corretta": "L'ordine con cui vengono valutati operatori e operandi.",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Cos'è un'istruzione in un programma?",
+      "risposte": [
+        "Un comando o un’azione.",
+        "Una funzione vuota.",
+        "Un tipo di ciclo.",
+        "Un commento speciale."
+      ],
+      "risposta_corretta": "Un comando o un’azione.",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Cos'è una stringa?",
+      "risposte": [
+        "Una sequenza di caratteri.",
+        "Un numero intero.",
+        "Una funzione di sistema.",
+        "Un operatore matematico."
+      ],
+      "risposta_corretta": "Una sequenza di caratteri.",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Cosa rappresenta un tipo in programmazione?",
+      "risposte": [
+        "Una categoria di valori.",
+        "Una stringa vuota.",
+        "Una parola riservata.",
+        "Un file di testo."
+      ],
+      "risposta_corretta": "Una categoria di valori.",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Cos'è un valore in un programma?",
+      "risposte": [
+        "Un'unità di base dei dati come numeri o stringhe.",
+        "Una funzione speciale.",
+        "Un ciclo continuo.",
+        "Un operatore di confronto."
+      ],
+      "risposta_corretta": "Un'unità di base dei dati come numeri o stringhe.",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "A cosa serve una variabile?",
+      "risposte": [
+        "A memorizzare un valore.",
+        "A scrivere commenti.",
+        "A chiudere il programma.",
+        "A stampare errori."
+      ],
+      "risposta_corretta": "A memorizzare un valore.",
+      "svg": ""
+    }
+  ]
+}
+

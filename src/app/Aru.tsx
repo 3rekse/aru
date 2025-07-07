@@ -10,7 +10,7 @@ import { Bitter, Lexend_Zetta } from 'next/font/google';
 import jsPDF from 'jspdf';
 import { svg2pdf } from 'svg2pdf.js';
 import { QuizData, Question } from './components/typeQuestion';
-import { missionDescriptions } from './quiz/Mission';
+import { missionDescriptions,missionLearn } from './quiz/Mission';
 interface AruProps {
   mission: string;
   page:string;
@@ -34,8 +34,11 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
   const [inputsDisabled, setInputsDisabled] = useState(false);
   const [inputsExtra, setInputsExtra] = useState(false);
   
-  const missionD = missionDescriptions[mission] || " ";
-  const handleBinarySet = () => {
+  
+  const link= missionLearn(mission) ;
+  const missionD= missionDescriptions[mission] || " ";
+  //const missionD =(link !== " " ) ?  (link + missionDescriptions[mission] || " ")+"<\a>": missionDescriptions[mission] || " ";
+   const handleBinarySet = () => {
     setIsBinarySet(true);
     setNum1(randomBinary(bit + 1));
     setNum2(randomBinary(bit + 1));
@@ -119,10 +122,15 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
           priority
         /> 
         {mission!=="ARU"  ? (
-          <>
+          inputsExtra ?
+          (<>
+            IT Dictionary:  <span dangerouslySetInnerHTML={{ __html: link }} /> 
+          </>
+          ):
+          (<>
             IT Dictionary: {missionD} Test
           </>
-          ) : ( <>
+          )) : ( <>
            Arithmetic Unit Validation Test 
           </>)}
         
@@ -200,6 +208,7 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
          >
            DOWNLOAD LEVEL {bit-2} CERTIFICATE
          </a>
+         
        </div>  
 }
       
@@ -220,6 +229,28 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
           Learn→
         </a>
         <a
+        href={mission === "IT"
+              ? "/?mission=HW"
+              : mission === "HW"
+              ? "/?mission=SW"
+              : "/?mission=IT"
+        }
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden
+            src="/window.svg"
+            alt="Window icon"
+            width={16}
+            height={16}
+          />
+          {  mission==="IT"  ? ("HardWare →") :
+             mission==="HW"  ? ("SoftWare →") :
+             ("ITHistory+ →") 
+          }
+        </a>
+        <a
           href="/?mission=SI"
           target="_blank"
           rel="noopener noreferrer"
@@ -234,8 +265,34 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
           Sicurrezza→
         </a>
         <a
-          href="/?mission=Reti"
-          target="_blank"
+          href={mission==="Reti"  
+          ? ("/?mission=RetiA1") :
+          mission==="RetiA1"  
+          ? ("/?mission=RetiA2") :
+          mission==="RetiA2"  
+          ? ("/?mission=RetiA3") :
+          mission==="RetiA3"  
+          ? ("/?mission=Sistemi1") :
+          mission==="Sistemi1"
+          ?("/?mission=Sistemi2") :
+          mission==="Sistemi2"
+          ?("/?mission=Sistemi3") :
+          mission==="Sistemi3"  
+          ? ("/?mission=RetiC1") :
+          mission==="RetiC1"  
+          ? ("/?mission=RetiC2") :
+          mission==="RetiC2"  
+          ? ("/?mission=RetiC3") :
+          mission==="RetiC3"  
+          ? ("/?mission=RetiD1") :
+          mission==="RetiD1"  
+          ? ("/?mission=RetiD2") :
+          mission==="RetiD2"  
+          ? ("/?mission=RetiD3") :
+          mission==="RetiD3"  
+          ? ("/?mission=RetiD4") :
+          (  "/?mission=Reti")}
+          target="_self"
           rel="noopener noreferrer"
         >
           <Image
@@ -245,7 +302,20 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
             width={16}
             height={16}
           />
-          Reti→
+          { mission==="Reti"  ? ("Reti A1→") :
+            mission==="RetiA1"  ? ("Reti A2→") :
+            mission==="RetiA2"  ? ("Reti A3→") :
+            mission==="RetiA3"  ? ("Sistemi 1→") :
+            mission==="Sistemi1"  ? ("Sistemi 2→") :
+            mission==="Sistemi2"  ? ("Sistemi 3→") :
+            mission==="Sistemi3"  ? ("Reti C1→") :
+            mission==="RetiC1"  ? ("Reti C2→") :
+            mission==="RetiC2"  ? ("Reti C3→") :
+            mission==="RetiC3"  ? ("Reti D1→") :
+            mission==="RetiD1"  ? ("Reti D2→") :
+            mission==="RetiD2"  ? ("Reti D3→") :
+            mission==="RetiD3"  ? ("Reti D4→") :
+            (  "Reti+ →")}
         </a>
         <a
           href="/?mission=AI"

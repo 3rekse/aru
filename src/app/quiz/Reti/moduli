@@ -1,0 +1,74 @@
+Modulo 1: Reti Avanzate e Tecnologie di Interconnessione
+
+Routing Avanzato:
+Ripasso dei protocolli di routing (RIP, OSPF, BGP - concetti fondamentali e differenze).
+Configurazione e troubleshooting di base di OSPF (Single Area).
+Introduzione a concetti di routing inter-dominio (cenni su BGP).
+Virtual Routing and Forwarding (VRF) - concetti e scenari d'uso.
+Switching Avanzato:
+Spanning Tree Protocol (STP, RSTP, MSTP) in ambienti complessi.
+EtherChannel e Link Aggregation Control Protocol (LACP) per alta disponibilità e aumento della banda.
+QoS (Quality of Service) per la gestione della priorità del traffico.
+Concetti di stacking e chassis virtuale.
+Wireless Networking Avanzato:
+Standard IEEE 802.11 più recenti (ac, ax).
+Sicurezza nelle reti wireless (WPA3).
+Architetture WLAN centralizzate e controller wireless.
+Troubleshooting di reti wireless.
+Network Automation e Scripting:
+Introduzione a strumenti di automazione di rete (es. Ansible, Python per la rete - concetti base).
+Scripting per task di configurazione e monitoraggio di base.
+Modulo 2: Sicurezza Informatica Avanzata
+
+Firewalling di Nuova Generazione (NGFW):
+Funzionalità avanzate (Application Awareness, IPS, URL Filtering, Anti-Malware).
+Configurazione di regole complesse e policy di sicurezza.
+Gestione delle identità e controllo degli accessi (AAA).
+Sistemi di Rilevamento e Prevenzione delle Intrusioni (IDS/IPS):
+Tipologie di IDS/IPS (Network-based, Host-based).
+Analisi delle firme e del comportamento anomalo.
+Configurazione e gestione di base di un sistema IDS/IPS open source (es. Snort, Suricata).
+VPN (Virtual Private Networks) Avanzate:
+IPsec (tunnel mode e transport mode).
+SSL/TLS VPN.
+Configurazione di VPN site-to-site e client-to-site.
+Sicurezza delle Reti Wireless (Approfondimento):
+Vulnerabilità comuni nelle reti Wi-Fi.
+Strumenti di audit della sicurezza wireless (cenni).
+Fondamenti di Crittografia:
+Cifratura simmetrica e asimmetrica (concetti e algoritmi principali).
+Firme digitali e certificati digitali.
+Applicazioni della crittografia nella sicurezza delle reti.
+Cybersecurity Incident Response:
+Fasi di un incidente di sicurezza.
+Introduzione a strumenti di analisi forense di base.
+Modulo 3: Virtualizzazione e Cloud Computing
+
+Virtualizzazione dei Server:
+Concetti fondamentali di virtualizzazione (hypervisor di tipo 1 e 2).
+Piattaforme di virtualizzazione (es. VMware ESXi, Hyper-V, Proxmox - concetti e interfaccia).
+Creazione e gestione di macchine virtuali.
+Networking virtuale (switch virtuali, reti private virtuali).
+Virtualizzazione delle Reti (SDN - Software Defined Networking):
+Concetti fondamentali e architetture SDN.
+Separazione del piano di controllo e del piano dati.
+Introduzione a OpenFlow (concetti base).
+Cloud Computing:
+Modelli di servizio (IaaS, PaaS, SaaS).
+Modelli di deployment (Public, Private, Hybrid Cloud).
+Introduzione a piattaforme cloud (es. AWS, Azure, Google Cloud - concetti e servizi di rete e calcolo).
+Considerazioni sulla sicurezza nel cloud.
+Modulo 4: Gestione e Monitoraggio dei Sistemi e delle Reti
+
+Sistemi di Monitoraggio:
+Protocolli di monitoraggio (SNMP).
+Strumenti di monitoraggio open source (es. Nagios, Zabbix, Prometheus - concetti e interfaccia).
+Configurazione di allarmi e notifiche.
+Analisi dei log di sistema e di rete.
+Gestione Remota:
+SSH per l'accesso sicuro a sistemi e dispositivi di rete.
+Strumenti di desktop remoto.
+Backup e Disaster Recovery:
+Strategie di backup e ripristino.
+Introduzione a strumenti di backup.
+Concetti di alta disponibilità e fault tolerance.

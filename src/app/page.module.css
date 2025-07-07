@@ -27,6 +27,14 @@
   }
 }
 
+.selectTrasparente {
+  background: transparent;
+   font-size: 1.0em;
+   max-width: 250px; /* Sostituisci 250px con la dimensione desiderata */
+  width: 100%;
+  
+}
+
 .main {
   display: flex;
   flex-direction: column;

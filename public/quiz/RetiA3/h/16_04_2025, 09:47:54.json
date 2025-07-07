@@ -1,0 +1,166 @@
+[
+  {
+    "mission": "RetiA3",
+    "nome": "h",
+    "cognome": "h",
+    "classe": "h",
+    "voto": 4,
+    "dataorainizio": "2025-04-16T07:47:41.551Z",
+    "inizio": "16/04/2025, 09:47:41",
+    "durata": 12065,
+    "giuste": 12,
+    "sbagliate": 18,
+    "quiz": [
+      {
+        "id": 48,
+        "domanda": "Qual è il prefisso CIDR per una subnet con maschera 255.255.255.192?",
+        "svg": " ❌ "
+      },
+      {
+        "id": 31,
+        "domanda": "Qual è la lunghezza di un indirizzo IPv4?",
+        "svg": " ✅ 32 bit"
+      },
+      {
+        "id": 38,
+        "domanda": "Qual è il numero massimo di subnet che possono essere create con un prefisso /28?",
+        "svg": " ❌ "
+      },
+      {
+        "id": 35,
+        "domanda": "Quanti indirizzi host sono disponibili in una subnet con prefisso /26?",
+        "svg": " ❌ "
+      },
+      {
+        "id": 32,
+        "domanda": "Qual è la lunghezza di un indirizzo IPv6?",
+        "svg": " ✅ 128 bit"
+      },
+      {
+        "id": 36,
+        "domanda": "Qual è l'indirizzo di broadcast per la rete 192.168.1.0/24?",
+        "svg": " ✅ 192.168.1.255"
+      },
+      {
+        "id": 40,
+        "domanda": "Qual è il range di indirizzi IPv4 privati per la classe A?",
+        "svg": " ❌ 127.0.0.0 - 127.255.255.255"
+      },
+      {
+        "id": 34,
+        "domanda": "Qual è il prefisso CIDR per una subnet con maschera 255.255.255.0?",
+        "svg": " ✅ /24"
+      },
+      {
+        "id": 47,
+        "domanda": "Quanti indirizzi host sono disponibili in una subnet con prefisso /29?",
+        "svg": " ❌ 8"
+      },
+      {
+        "id": 55,
+        "domanda": "Qual è il prefisso CIDR per una subnet con maschera 255.255.255.240?",
+        "svg": " ❌ "
+      },
+      {
+        "id": 39,
+        "domanda": "Qual è il prefisso CIDR per una subnet con maschera 255.255.0.0?",
+        "svg": " ✅ /16"
+      },
+      {
+        "id": 51,
+        "domanda": "Qual è il prefisso CIDR per una subnet con maschera 255.255.255.252?",
+        "svg": " ❌ "
+      },
+      {
+        "id": 59,
+        "domanda": "Quanti indirizzi host sono disponibili in una subnet con prefisso /23?",
+        "svg": " ✅ 510"
+      },
+      {
+        "id": 44,
+        "domanda": "Qual è il prefisso CIDR per una subnet con maschera 255.255.255.128?",
+        "svg": " ✅ /25"
+      },
+      {
+        "id": 49,
+        "domanda": "Qual è l'indirizzo di broadcast per la rete 10.0.0.0/8?",
+        "svg": " ❌ 10.0.0.255"
+      },
+      {
+        "id": 50,
+        "domanda": "Qual è il numero massimo di subnet che possono essere create con un prefisso /22?",
+        "svg": " ❌ 8"
+      },
+      {
+        "id": 60,
+        "domanda": "Qual è l'indirizzo di rete per l'indirizzo IP 192.168.50.200 con maschera 255.255.255.192?",
+        "svg": " ❌ 192.168.50.64"
+      },
+      {
+        "id": 53,
+        "domanda": "Qual è l'indirizzo di rete per l'indirizzo IP 172.16.5.10 con maschera 255.255.0.0?",
+        "svg": " ❌ 172.16.5.0"
+      },
+      {
+        "id": 52,
+        "domanda": "Quanti indirizzi host sono disponibili in una subnet con prefisso /24?",
+        "svg": " ✅ 254"
+      },
+      {
+        "id": 45,
+        "domanda": "Qual è l'indirizzo di broadcast per la rete 172.16.0.0/16?",
+        "svg": " ❌ 172.16.0.0"
+      },
+      {
+        "id": 58,
+        "domanda": "Qual è il prefisso CIDR per una subnet con maschera 255.255.255.224?",
+        "svg": " ❌ "
+      },
+      {
+        "id": 43,
+        "domanda": "Quanti indirizzi host sono disponibili in una subnet con prefisso /30?",
+        "svg": " ✅ 2"
+      },
+      {
+        "id": 41,
+        "domanda": "Qual è il range di indirizzi IPv4 privati per la classe B?",
+        "svg": " ❌ 192.168.0.0 - 192.168.255.255"
+      },
+      {
+        "id": 54,
+        "domanda": "Qual è il numero massimo di subnet che possono essere create con un prefisso /25?",
+        "svg": " ❌ 4"
+      },
+      {
+        "id": 57,
+        "domanda": "Qual è il range di indirizzi host validi per la rete 10.0.0.0/30?",
+        "svg": " ❌ 10.0.0.1 - 10.0.0.3"
+      },
+      {
+        "id": 42,
+        "domanda": "Qual è il range di indirizzi IPv4 privati per la classe C?",
+        "svg": " ✅ 192.168.0.0 - 192.168.255.255"
+      },
+      {
+        "id": 46,
+        "domanda": "Qual è l'indirizzo di rete per l'indirizzo IP 192.168.10.15 con maschera 255.255.255.240?",
+        "svg": " ❌ 192.168.10.16"
+      },
+      {
+        "id": 37,
+        "domanda": "Qual è l'indirizzo di rete per l'indirizzo IP 10.0.0.25 con maschera 255.255.255.0?",
+        "svg": " ❌ "
+      },
+      {
+        "id": 56,
+        "domanda": "Qual è l'indirizzo di broadcast per la rete 192.168.100.0/26?",
+        "svg": " ✅ 192.168.100.63"
+      },
+      {
+        "id": 33,
+        "domanda": "Quale classe di indirizzi IPv4 supporta il maggior numero di host?",
+        "svg": " ✅ Classe A"
+      }
+    ]
+  }
+]

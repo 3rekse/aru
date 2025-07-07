@@ -1,0 +1,244 @@
+{
+  "quiz": [
+    {
+      "id": 101,
+      "domanda": "Chi ha inventato il concetto di 'loop' nei programmi informatici?",
+      "risposte": [
+        "Ada Lovelace",
+        "John Carmack",
+        "John McCarthy",
+        "Charles Babbage"
+      ],
+      "risposta_corretta": "Ada Lovelace",
+      "svg": ""
+    },
+    {
+      "id": 102,
+      "domanda": "Quale fu il primo linguaggio di programmazione ad alto livello?",
+      "risposte": [
+        "Fortran",
+        "Assembly",
+        "COBOL",
+        "C"
+      ],
+      "risposta_corretta": "Fortran",
+      "svg": ""
+    },
+    {
+      "id": 103,
+      "domanda": "Chi ha sviluppato il linguaggio di programmazione Python?",
+      "risposte": [
+        "Guido van Rossum",
+        "James Gosling",
+        "Dennis Ritchie",
+        "Bjarne Stroustrup"
+      ],
+      "risposta_corretta": "Guido van Rossum",
+      "svg": ""
+    },
+    {
+      "id": 104,
+      "domanda": "In quale decennio è nato il linguaggio C?",
+      "risposte": [
+        "Anni '70",
+        "Anni '60",
+        "Anni '80",
+        "Anni '50"
+      ],
+      "risposta_corretta": "Anni '70",
+      "svg": ""
+    },
+    {
+      "id": 105,
+      "domanda": "Chi ha inventato il linguaggio Java?",
+      "risposte": [
+        "James Gosling",
+        "Guido van Rossum",
+        "Larry Page",
+        "Steve Wozniak"
+      ],
+      "risposta_corretta": "James Gosling",
+      "svg": ""
+    },
+    {
+      "id": 106,
+      "domanda": "Cos'era il PDP-11?",
+      "risposte": [
+        "Un minicomputer degli anni '70",
+        "Un virus informatico",
+        "Una stampante a getto d’inchiostro",
+        "Un compilatore"
+      ],
+      "risposta_corretta": "Un minicomputer degli anni '70",
+      "svg": ""
+    },
+    {
+      "id": 107,
+      "domanda": "Quale fu il primo computer ad utilizzare circuiti integrati?",
+      "risposte": [
+        "IBM System/360",
+        "Colossus",
+        "ENIAC",
+        "UNIVAC"
+      ],
+      "risposta_corretta": "IBM System/360",
+      "svg": ""
+    },
+    {
+      "id": 108,
+      "domanda": "Quale sistema operativo è stato precursore di Linux?",
+      "risposte": [
+        "MINIX",
+        "UNIX",
+        "DOS",
+        "CP/M"
+      ],
+      "risposta_corretta": "MINIX",
+      "svg": ""
+    },
+    {
+      "id": 109,
+      "domanda": "Chi ha ideato l’algoritmo di ordinamento 'merge sort'?",
+      "risposte": [
+        "John von Neumann",
+        "Edsger Dijkstra",
+        "Donald Knuth",
+        "Alan Turing"
+      ],
+      "risposta_corretta": "John von Neumann",
+      "svg": ""
+    },
+    {
+      "id": 110,
+      "domanda": "Quale fu il primo videogioco elettronico?",
+      "risposte": [
+        "Tennis for Two",
+        "Pong",
+        "Space Invaders",
+        "Pac-Man"
+      ],
+      "risposta_corretta": "Tennis for Two",
+      "svg": ""
+    },
+    {
+      "id": 111,
+      "domanda": "Che cos'era il progetto 'Xerox Alto'?",
+      "risposte": [
+        "Il primo computer con interfaccia grafica",
+        "Il primo mainframe IBM",
+        "Il primo software antivirus",
+        "Un compilatore per il linguaggio C"
+      ],
+      "risposta_corretta": "Il primo computer con interfaccia grafica",
+      "svg": ""
+    },
+    {
+      "id": 112,
+      "domanda": "Quando fu lanciato il sistema operativo Windows 95?",
+      "risposte": [
+        "1995",
+        "1993",
+        "1997",
+        "1990"
+      ],
+      "risposta_corretta": "1995",
+      "svg": ""
+    },
+    {
+      "id": 113,
+      "domanda": "Che ruolo ha avuto Steve Wozniak nella storia dell'informatica?",
+      "risposte": [
+        "Co-fondatore di Apple e progettista dell'Apple I",
+        "Inventore di Internet",
+        "Sviluppatore di Linux",
+        "Autore del primo browser"
+      ],
+      "risposta_corretta": "Co-fondatore di Apple e progettista dell'Apple I",
+      "svg": ""
+    },
+    {
+      "id": 114,
+      "domanda": "Quale azienda ha creato il linguaggio Visual Basic?",
+      "risposte": [
+        "Microsoft",
+        "Apple",
+        "Oracle",
+        "IBM"
+      ],
+      "risposta_corretta": "Microsoft",
+      "svg": ""
+    },
+    {
+      "id": 115,
+      "domanda": "Chi ha scritto 'The Art of Computer Programming'?",
+      "risposte": [
+        "Donald Knuth",
+        "Brian Kernighan",
+        "Ken Thompson",
+        "John McCarthy"
+      ],
+      "risposta_corretta": "Donald Knuth",
+      "svg": ""
+    },
+    {
+      "id": 116,
+      "domanda": "Quale linguaggio è nato per l'insegnamento della programmazione?",
+      "risposte": [
+        "Pascal",
+        "C++",
+        "Java",
+        "Perl"
+      ],
+      "risposta_corretta": "Pascal",
+      "svg": ""
+    },
+    {
+      "id": 117,
+      "domanda": "Che cosa rappresentava ARPANET?",
+      "risposte": [
+        "Una rete militare precursore di Internet",
+        "Il primo sistema operativo",
+        "Una suite per ufficio",
+        "Un linguaggio di programmazione"
+      ],
+      "risposta_corretta": "Una rete militare precursore di Internet",
+      "svg": ""
+    },
+    {
+      "id": 118,
+      "domanda": "Chi ha ideato il linguaggio LISP?",
+      "risposte": [
+        "John McCarthy",
+        "Niklaus Wirth",
+        "Ken Thompson",
+        "Bjarne Stroustrup"
+      ],
+      "risposta_corretta": "John McCarthy",
+      "svg": ""
+    },
+    {
+      "id": 119,
+      "domanda": "Chi ha creato il primo browser grafico chiamato Mosaic?",
+      "risposte": [
+        "Marc Andreessen",
+        "Tim Berners-Lee",
+        "Larry Page",
+        "Steve Jobs"
+      ],
+      "risposta_corretta": "Marc Andreessen",
+      "svg": ""
+    },
+    {
+      "id": 120,
+      "domanda": "Quale computer è considerato il primo laptop commerciale?",
+      "risposte": [
+        "Osborne 1",
+        "Commodore PET",
+        "IBM PC",
+        "Apple Lisa"
+      ],
+      "risposta_corretta": "Osborne 1",
+      "svg": ""
+    }
+  ]
+}

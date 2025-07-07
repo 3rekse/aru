@@ -1,0 +1,364 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Quale componente è considerato il cervello del computer?",
+      "risposte": [
+        "RAM",
+        "Hard Disk",
+        "CPU",
+        "GPU"
+      ],
+      "risposta_corretta": "CPU",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Quale unità misura la velocità della CPU?",
+      "risposte": [
+        "Volt",
+        "Ampere",
+        "Hertz",
+        "Watt"
+      ],
+      "risposta_corretta": "Hertz",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Quale tipo di memoria è volatile?",
+      "risposte": [
+        "SSD",
+        "ROM",
+        "RAM",
+        "HDD"
+      ],
+      "risposta_corretta": "RAM",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Quale componente è responsabile dell'elaborazione grafica?",
+      "risposte": [
+        "CPU",
+        "SSD",
+        "GPU",
+        "RAM"
+      ],
+      "risposta_corretta": "GPU",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Che tipo di memoria è la ROM?",
+      "risposte": [
+        "Volatile",
+        "Scrivibile",
+        "Di massa",
+        "Non volatile"
+      ],
+      "risposta_corretta": "Non volatile",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Cosa significa l'acronimo SSD?",
+      "risposte": [
+        "Solid State Drive",
+        "Serial Storage Device",
+        "System Storage Disk",
+        "Static Storage Drive"
+      ],
+      "risposta_corretta": "Solid State Drive",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Quale dispositivo consente l'interazione con il computer?",
+      "risposte": [
+        "Monitor",
+        "Tastiera",
+        "Stampante",
+        "Hard disk"
+      ],
+      "risposta_corretta": "Tastiera",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "Qual è la funzione del BIOS?",
+      "risposte": [
+        "Salvare dati",
+        "Avviare il sistema operativo",
+        "Gestire la grafica",
+        "Controllare la rete"
+      ],
+      "risposta_corretta": "Avviare il sistema operativo",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Quale componente collega tutti gli altri componenti hardware?",
+      "risposte": [
+        "RAM",
+        "Scheda video",
+        "Alimentatore",
+        "Scheda madre"
+      ],
+      "risposta_corretta": "Scheda madre",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Quale tipo di memoria è usata per memorizzare il sistema operativo?",
+      "risposte": [
+        "RAM",
+        "ROM",
+        "HDD o SSD",
+        "Cache"
+      ],
+      "risposta_corretta": "HDD o SSD",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Qual è la funzione della cache del processore?",
+      "risposte": [
+        "Espandere la memoria",
+        "Salvare file temporanei",
+        "Accelerare l’accesso ai dati",
+        "Gestire il backup"
+      ],
+      "risposta_corretta": "Accelerare l’accesso ai dati",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Quale porta è comunemente usata per le periferiche?",
+      "risposte": [
+        "HDMI",
+        "Ethernet",
+        "USB",
+        "VGA"
+      ],
+      "risposta_corretta": "USB",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Cosa indica la sigla PSU?",
+      "risposte": [
+        "Power Supply Unit",
+        "Processor Speed Unit",
+        "Peripheral Storage Unit",
+        "Primary Storage Utility"
+      ],
+      "risposta_corretta": "Power Supply Unit",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Qual è la funzione di un dissipatore di calore?",
+      "risposte": [
+        "Raffreddare il processore",
+        "Conservare energia",
+        "Aumentare le prestazioni",
+        "Memorizzare dati"
+      ],
+      "risposta_corretta": "Raffreddare il processore",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Qual è il componente principale di un computer portatile per il salvataggio dei dati?",
+      "risposte": [
+        "SSD",
+        "RAM",
+        "GPU",
+        "BIOS"
+      ],
+      "risposta_corretta": "SSD",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Quale componente si occupa della connessione wireless?",
+      "risposte": [
+        "Scheda video",
+        "Scheda audio",
+        "Scheda madre",
+        "Scheda di rete Wi-Fi"
+      ],
+      "risposta_corretta": "Scheda di rete Wi-Fi",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Cos'è una GPU integrata?",
+      "risposte": [
+        "Una scheda grafica esterna",
+        "Una GPU separata",
+        "Una GPU incorporata nella CPU",
+        "Una memoria grafica"
+      ],
+      "risposta_corretta": "Una GPU incorporata nella CPU",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "Quale unità di misura indica la capacità della RAM?",
+      "risposte": [
+        "Hz",
+        "GB",
+        "W",
+        "MB/s"
+      ],
+      "risposta_corretta": "GB",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "Un Hard Disk tradizionale (HDD) utilizza:",
+      "risposte": [
+        "Memorie flash",
+        "Dischi magnetici rotanti",
+        "Fibre ottiche",
+        "Onde radio"
+      ],
+      "risposta_corretta": "Dischi magnetici rotanti",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "Quale tipo di connessione è più veloce per un disco SSD moderno?",
+      "risposte": [
+        "SATA",
+        "USB 2.0",
+        "PCIe",
+        "IDE"
+      ],
+      "risposta_corretta": "PCIe",
+      "svg": ""
+    },
+    {
+      "id": 21,
+      "domanda": "Cosa fa un alimentatore nel computer?",
+      "risposte": [
+        "Gestisce le periferiche",
+        "Raffredda i componenti",
+        "Fornisce energia elettrica",
+        "Memorizza file"
+      ],
+      "risposta_corretta": "Fornisce energia elettrica",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "Qual è la funzione principale della RAM?",
+      "risposte": [
+        "Salvare il sistema operativo",
+        "Memorizzare file a lungo termine",
+        "Eseguire dati temporaneamente",
+        "Controllare la GPU"
+      ],
+      "risposta_corretta": "Eseguire dati temporaneamente",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "Cosa determina la risoluzione di un monitor?",
+      "risposte": [
+        "La GPU",
+        "Il tipo di CPU",
+        "La densità di pixel",
+        "La RAM"
+      ],
+      "risposta_corretta": "La densità di pixel",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "Quale componente è essenziale per eseguire applicazioni 3D?",
+      "risposte": [
+        "CPU",
+        "GPU",
+        "RAM",
+        "BIOS"
+      ],
+      "risposta_corretta": "GPU",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "Quale tra questi è un connettore video?",
+      "risposte": [
+        "HDMI",
+        "USB",
+        "RJ45",
+        "SATA"
+      ],
+      "risposta_corretta": "HDMI",
+      "svg": ""
+    },
+    {
+      "id": 26,
+      "domanda": "Che funzione ha una ventola all’interno del case?",
+      "risposte": [
+        "Estetica",
+        "Aria compressa",
+        "Raffreddamento",
+        "Controllo volume"
+      ],
+      "risposta_corretta": "Raffreddamento",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "Quale porta è più adatta per video ad alta definizione?",
+      "risposte": [
+        "VGA",
+        "HDMI",
+        "USB",
+        "Audio Jack"
+      ],
+      "risposta_corretta": "HDMI",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "Un SSD è più veloce di un HDD perché:",
+      "risposte": [
+        "Ha più parti mobili",
+        "Usa memoria flash",
+        "È più grande",
+        "Richiede più energia"
+      ],
+      "risposta_corretta": "Usa memoria flash",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "Qual è lo scopo di un case per PC?",
+      "risposte": [
+        "Memorizzare file",
+        "Proteggere e ospitare i componenti",
+        "Raffreddare l’ambiente",
+        "Connettere a internet"
+      ],
+      "risposta_corretta": "Proteggere e ospitare i componenti",
+      "svg": ""
+    },
+    {
+      "id": 30,
+      "domanda": "Qual è la funzione del chipset della scheda madre?",
+      "risposte": [
+        "Controllare la RAM",
+        "Gestire la comunicazione tra componenti",
+        "Elaborare grafica",
+        "Fornire alimentazione"
+      ],
+      "risposta_corretta": "Gestire la comunicazione tra componenti",
+      "svg": ""
+    }
+  ]
+}

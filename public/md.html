@@ -1,0 +1,96 @@
+<!-- Questo file HTML visualizza il contenuto di un file Markdown (.md) passato come parametro nella query string. -->
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Digital Knowledge Pills</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.1.3/marked.min.js"></script>
+        <!-- Importa il font Special Elite -->
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+        <!-- Imposta l'icona della pagina -->
+        <link rel="icon" type="image/svg+xml" href="ccla.svg">
+            <style>
+            body {
+                font-family: 'Special Elite', Arial, sans-serif; /* Applica il font Special Elite */
+                margin: 7px;
+                background-color: #030303;
+                border-radius: 5px;
+                color: #979797;
+            }
+            #content {
+                border: 1px solid #1f1414;
+                padding: 3px;
+                background-color: #030303;
+                border-radius: 5px;
+                color: #a3a2a2;
+            }
+    .header {
+        display: flex;
+        align-items: center; /* Allinea verticalmente l'immagine e il testo */
+        gap: 10px; /* Spazio tra l'immagine e il titolo */
+    }
+
+    .header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header h1 {
+        margin: 0; /* Rimuove il margine predefinito del titolo */
+    }
+    #content h2, 
+    #content h3, 
+    #content h4, 
+    #content h5, 
+    #content h6,
+    #content strong  {
+        margin: 0; /* Rimuove il margine predefinito del titolo */
+        color: #ffffff;
+    }
+        </style>
+    </head>
+<body>
+    <div class="header">
+        <img src="ccla.svg" alt="Icona CCLA" style="width: 50px; height: 50px; margin-right: 10px;">
+        <h1>Digital knowledge pills</h1>
+    </div>
+    <div id="content"></div>
+
+    <script>
+        // Funzione per ottenere il nome del file dalla query string
+        function getParameterByName(name, url = window.location.href) {
+            name = name.replace(/[\[\]]/g, '\\$&');
+            const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+            const results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        // Ottieni il nome del file dal parametro 'file'
+        const fileName = getParameterByName('file');
+
+        // Se il nome del file è presente, carica il file .md
+        if (fileName) {
+            fetch(fileName)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('File non trovato');
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    document.getElementById('content').innerHTML = marked(data);
+                })
+                .catch(error => {
+                    document.getElementById('content').innerHTML = `<div align="center"><img src="ccla.svg" alt="Icona CCLA" style="width: 500px;  margin-right: 10px;"></div>`;
+                    console.error('Errore nel caricamento del file .md:', error);
+                });
+        } else {
+            document.getElementById('content').innerHTML = '<p>Nessun file specificato.</p>';
+        } 
+                    
+    </script>
+</body>
+</html>

@@ -1,0 +1,364 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "domanda": "Quale comando viene utilizzato in Linux per visualizzare il contenuto di una directory?",
+        "risposte": [
+          "ls",
+          "cd",
+          "mkdir",
+          "pwd"
+        ],
+        "risposta_corretta": "ls",
+        "svg": ""
+      },
+      {
+        "id": 2,
+        "domanda": "Quale strumento di Windows consente di gestire i dischi e le partizioni?",
+        "risposte": [
+          "Gestione disco",
+          "Prompt dei comandi",
+          "Task Manager",
+          "Pannello di controllo"
+        ],
+        "risposta_corretta": "Gestione disco",
+        "svg": ""
+      },
+      {
+        "id": 3,
+        "domanda": "Quale comando Linux viene utilizzato per cambiare i permessi di un file?",
+        "risposte": [
+          "chmod",
+          "chown",
+          "ls",
+          "mv"
+        ],
+        "risposta_corretta": "chmod",
+        "svg": ""
+      },
+      {
+        "id": 4,
+        "domanda": "Quale combinazione di tasti apre il Task Manager in Windows?",
+        "risposte": [
+          "Ctrl + Shift + Esc",
+          "Ctrl + Alt + Del",
+          "Alt + Tab",
+          "Ctrl + Esc"
+        ],
+        "risposta_corretta": "Ctrl + Shift + Esc",
+        "svg": ""
+      },
+      {
+        "id": 5,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare il percorso corrente?",
+        "risposte": [
+          "pwd",
+          "ls",
+          "cd",
+          "echo"
+        ],
+        "risposta_corretta": "pwd",
+        "svg": ""
+      },
+      {
+        "id": 6,
+        "domanda": "Quale strumento di Windows consente di gestire i servizi in esecuzione?",
+        "risposte": [
+          "Servizi",
+          "Gestione attività",
+          "Gestione disco",
+          "Pannello di controllo"
+        ],
+        "risposta_corretta": "Servizi",
+        "svg": ""
+      },
+      {
+        "id": 7,
+        "domanda": "Quale comando Linux viene utilizzato per spostare un file?",
+        "risposte": [
+          "mv",
+          "cp",
+          "rm",
+          "touch"
+        ],
+        "risposta_corretta": "mv",
+        "svg": ""
+      },
+      {
+        "id": 8,
+        "domanda": "Quale comando Linux viene utilizzato per installare pacchetti su distribuzioni basate su Debian?",
+        "risposte": [
+          "apt",
+          "yum",
+          "rpm",
+          "pacman"
+        ],
+        "risposta_corretta": "apt",
+        "svg": ""
+      },
+      {
+        "id": 9,
+        "domanda": "Quale strumento di Windows consente di configurare le impostazioni di rete?",
+        "risposte": [
+          "Centro connessioni di rete e condivisione",
+          "Gestione disco",
+          "Prompt dei comandi",
+          "Task Manager"
+        ],
+        "risposta_corretta": "Centro connessioni di rete e condivisione",
+        "svg": ""
+      },
+      {
+        "id": 10,
+        "domanda": "Quale comando Linux viene utilizzato per eliminare un file?",
+        "risposte": [
+          "rm",
+          "mv",
+          "cp",
+          "touch"
+        ],
+        "risposta_corretta": "rm",
+        "svg": ""
+      },
+      {
+        "id": 11,
+        "domanda": "Quale comando Linux viene utilizzato per creare una nuova directory?",
+        "risposte": [
+          "mkdir",
+          "rmdir",
+          "cd",
+          "ls"
+        ],
+        "risposta_corretta": "mkdir",
+        "svg": ""
+      },
+      {
+        "id": 12,
+        "domanda": "Quale strumento di Windows consente di visualizzare i processi in esecuzione?",
+        "risposte": [
+          "Gestione attività",
+          "Prompt dei comandi",
+          "Gestione disco",
+          "Pannello di controllo"
+        ],
+        "risposta_corretta": "Gestione attività",
+        "svg": ""
+      },
+      {
+        "id": 13,
+        "domanda": "Quale comando Linux viene utilizzato per copiare un file?",
+        "risposte": [
+          "cp",
+          "mv",
+          "rm",
+          "touch"
+        ],
+        "risposta_corretta": "cp",
+        "svg": ""
+      },
+      {
+        "id": 14,
+        "domanda": "Quale comando Linux viene utilizzato per cambiare il proprietario di un file?",
+        "risposte": [
+          "chown",
+          "chmod",
+          "ls",
+          "mv"
+        ],
+        "risposta_corretta": "chown",
+        "svg": ""
+      },
+      {
+        "id": 15,
+        "domanda": "Quale strumento di Windows consente di ripristinare il sistema operativo a uno stato precedente?",
+        "risposte": [
+          "Ripristino configurazione di sistema",
+          "Gestione disco",
+          "Prompt dei comandi",
+          "Gestione attività"
+        ],
+        "risposta_corretta": "Ripristino configurazione di sistema",
+        "svg": ""
+      },
+      {
+        "id": 16,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare il contenuto di un file?",
+        "risposte": [
+          "cat",
+          "ls",
+          "echo",
+          "pwd"
+        ],
+        "risposta_corretta": "cat",
+        "svg": ""
+      },
+      {
+        "id": 17,
+        "domanda": "Quale comando Linux viene utilizzato per aggiornare i pacchetti su distribuzioni basate su Debian?",
+        "risposte": [
+          "apt update",
+          "yum update",
+          "rpm update",
+          "pacman -Syu"
+        ],
+        "risposta_corretta": "apt update",
+        "svg": ""
+      },
+      {
+        "id": 18,
+        "domanda": "Quale strumento di Windows consente di gestire gli utenti e i gruppi?",
+        "risposte": [
+          "Gestione computer",
+          "Gestione disco",
+          "Prompt dei comandi",
+          "Pannello di controllo"
+        ],
+        "risposta_corretta": "Gestione computer",
+        "svg": ""
+      },
+      {
+        "id": 19,
+        "domanda": "Quale comando Linux viene utilizzato per verificare lo spazio disponibile su disco?",
+        "risposte": [
+          "df",
+          "du",
+          "lsblk",
+          "fdisk"
+        ],
+        "risposta_corretta": "df",
+        "svg": ""
+      },
+      {
+        "id": 20,
+        "domanda": "Quale comando Linux viene utilizzato per terminare un processo?",
+        "risposte": [
+          "kill",
+          "ps",
+          "top",
+          "htop"
+        ],
+        "risposta_corretta": "kill",
+        "svg": ""
+      },
+      {
+        "id": 21,
+        "domanda": "Quale comando Linux viene utilizzato per rinominare un file?",
+        "risposte": [
+          "mv",
+          "rename",
+          "cp",
+          "touch"
+        ],
+        "risposta_corretta": "mv",
+        "svg": ""
+      },
+      {
+        "id": 22,
+        "domanda": "Quale strumento di Windows consente di pianificare l'esecuzione automatica di attività?",
+        "risposte": [
+          "Utilità di pianificazione",
+          "Gestione attività",
+          "Prompt dei comandi",
+          "Gestione disco"
+        ],
+        "risposta_corretta": "Utilità di pianificazione",
+        "svg": ""
+      },
+      {
+        "id": 23,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare i processi in esecuzione?",
+        "risposte": [
+          "ps",
+          "top",
+          "htop",
+          "kill"
+        ],
+        "risposta_corretta": "ps",
+        "svg": ""
+      },
+      {
+        "id": 24,
+        "domanda": "Quale comando Linux viene utilizzato per creare un file vuoto?",
+        "risposte": [
+          "touch",
+          "cat",
+          "echo",
+          "mkdir"
+        ],
+        "risposta_corretta": "touch",
+        "svg": ""
+      },
+      {
+        "id": 25,
+        "domanda": "Quale strumento di Windows consente di monitorare le prestazioni del sistema?",
+        "risposte": [
+          "Monitoraggio risorse",
+          "Gestione attività",
+          "Prompt dei comandi",
+          "Gestione disco"
+        ],
+        "risposta_corretta": "Monitoraggio risorse",
+        "svg": ""
+      },
+      {
+        "id": 26,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare l'indirizzo IP del sistema?",
+        "risposte": [
+          "ip addr",
+          "ifconfig",
+          "ping",
+          "netstat"
+        ],
+        "risposta_corretta": "ip addr",
+        "svg": ""
+      },
+      {
+        "id": 27,
+        "domanda": "Quale comando Linux viene utilizzato per comprimere file?",
+        "risposte": [
+          "gzip",
+          "tar",
+          "zip",
+          "compress"
+        ],
+        "risposta_corretta": "gzip",
+        "svg": ""
+      },
+      {
+        "id": 28,
+        "domanda": "Quale strumento di Windows consente di gestire i driver di dispositivo?",
+        "risposte": [
+          "Gestione dispositivi",
+          "Gestione disco",
+          "Pannello di controllo",
+          "Prompt dei comandi"
+        ],
+        "risposta_corretta": "Gestione dispositivi",
+        "svg": ""
+      },
+      {
+        "id": 29,
+        "domanda": "Quale comando Linux viene utilizzato per verificare la connettività di rete?",
+        "risposte": [
+          "ping",
+          "traceroute",
+          "netstat",
+          "curl"
+        ],
+        "risposta_corretta": "ping",
+        "svg": ""
+      },
+      {
+        "id": 30,
+        "domanda": "Quale comando Linux viene utilizzato per elencare le porte aperte e le connessioni di rete?",
+        "risposte": [
+          "netstat",
+          "ss",
+          "lsof",
+          "nmap"
+        ],
+        "risposta_corretta": "netstat",
+        "svg": ""
+      }
+    ]
+  }

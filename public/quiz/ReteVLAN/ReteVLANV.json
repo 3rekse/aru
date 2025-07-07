@@ -1,0 +1,240 @@
+{
+  "quiz": [
+    {
+      "id": 21,
+      "domanda": "Perché si dice che le VLAN raggruppano i dispositivi 'logicamente' e non 'fisicamente'?",
+      "risposte": [
+        "Perché i dispositivi devono essere sempre nella stessa stanza.",
+        "Perché i dispositivi sono raggruppati per funzione o dipartimento, indipendentemente dalla loro posizione fisica.",
+        "Perché le VLAN non esistono realmente.",
+        "Perché la connessione avviene solo via Wi-Fi."
+      ],
+      "risposta_corretta": "Perché i dispositivi sono raggruppati per funzione o dipartimento, indipendentemente dalla loro posizione fisica.",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "Come le VLAN influiscono sui domini di collisione in una rete con switch?",
+      "risposte": [
+        "Ogni VLAN crea un nuovo dominio di collisione.",
+        "Aumentano il numero di collisioni.",
+        "Non alterano la natura dei domini di collisione creati dallo switch (ogni porta è un dominio).",
+        "Rimuovono completamente i domini di collisione."
+      ],
+      "risposta_corretta": "Non alterano la natura dei domini di collisione creati dallo switch (ogni porta è un dominio).",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "Quale tipo di porta dello switch è configurata per trasportare il traffico di più VLAN contemporaneamente tra dispositivi di rete?",
+      "risposte": [
+        "Access Port.",
+        "Console Port.",
+        "Trunk Port.",
+        "Aux Port."
+      ],
+      "risposta_corretta": "Trunk Port.",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "Se un dispositivo su una 'Access Port' invia un frame, questo frame lascia la porta taggato con l'ID della VLAN a cui appartiene?",
+      "risposte": [
+        "Sì, sempre.",
+        "No, mai.",
+        "Solo se è traffico broadcast.",
+        "Solo se la VLAN è la Native VLAN."
+      ],
+      "risposta_corretta": "No, mai.",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "Qual è il principale vantaggio di uno Switch di Livello 3 rispetto a un Router-on-a-Stick per il routing inter-VLAN?",
+      "risposte": [
+        "Costo inferiore.",
+        "Maggiore numero di porte Access.",
+        "Prestazioni di routing superiori (velocità di linea) grazie all'hardware dedicato.",
+        "Minore consumo energetico."
+      ],
+      "risposta_corretta": "Prestazioni di routing superiori (velocità di linea) grazie all'hardware dedicato.",
+      "svg": ""
+    },
+    {
+      "id": 26,
+      "domanda": "Un amministratore di rete vuole accedere da remoto agli switch per la configurazione. Quale tipo di VLAN dovrebbe utilizzare per questo scopo?",
+      "risposte": [
+        "Data VLAN.",
+        "Voice VLAN.",
+        "Management VLAN.",
+        "Native VLAN."
+      ],
+      "risposta_corretta": "Management VLAN.",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "In un collegamento trunk, il traffico della Native VLAN viene solitamente inviato:",
+      "risposte": [
+        "Sempre taggato con ID 0.",
+        "Senza alcun tag 802.1Q.",
+        "Con un tag speciale di gestione.",
+        "Solo se è traffico unicast."
+      ],
+      "risposta_corretta": "Senza alcun tag 802.1Q.",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "Qual è il motivo principale per cui il traffico VoIP necessita di una 'Voice VLAN' e di meccanismi di Quality of Service (QoS)?",
+      "risposte": [
+        "Per renderlo invisibile agli altri utenti.",
+        "Perché è molto sensibile al ritardo e alla perdita di pacchetti.",
+        "Per occupare meno banda di rete.",
+        "Per utilizzare solo il protocollo TCP."
+      ],
+      "risposta_corretta": "Perché è molto sensibile al ritardo e alla perdita di pacchetti.",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "Vero o Falso: La configurazione delle VLAN è sempre un processo semplice e privo di potenziali insidie.",
+      "risposte": [
+        "Vero.",
+        "Falso."
+      ],
+      "risposta_corretta": "Falso.",
+      "svg": ""
+    },
+    {
+      "id": 30,
+      "domanda": "Quale concetto descrive la capacità di raggruppare dispositivi per funzione o dipartimento, indipendentemente dalla loro posizione fisica?",
+      "risposte": [
+        "Networking flat.",
+        "Segmentazione fisica.",
+        "VLAN (Virtual Local Area Network).",
+        "Domain Name System (DNS)."
+      ],
+      "risposta_corretta": "VLAN (Virtual Local Area Network).",
+      "svg": ""
+    },
+    {
+      "id": 31,
+      "domanda": "Cosa accade ai frame di broadcast quando le VLAN sono implementate in una rete?",
+      "risposte": [
+        "Vengono bloccati e non si propagano affatto.",
+        "Si propagano solo all'interno della loro VLAN di appartenenza.",
+        "Vengono inoltrati a tutte le porte dello switch.",
+        "Vengono convertiti in traffico unicast."
+      ],
+      "risposta_corretta": "Si propagano solo all'interno della loro VLAN di appartenenza.",
+      "svg": ""
+    },
+    {
+      "id": 32,
+      "domanda": "Quale tipo di VLAN è utilizzata per il traffico 'generico' degli utenti, come navigazione web o accesso a file server?",
+      "risposte": [
+        "Voice VLAN.",
+        "Data VLAN.",
+        "Management VLAN.",
+        "Native VLAN."
+      ],
+      "risposta_corretta": "Data VLAN.",
+      "svg": ""
+    },
+    {
+      "id": 33,
+      "domanda": "In quale livello del modello OSI operano principalmente le VLAN?",
+      "risposte": [
+        "Livello 1 (Fisico).",
+        "Livello 2 (Data Link).",
+        "Livello 3 (Rete).",
+        "Livello 4 (Trasporto)."
+      ],
+      "risposta_corretta": "Livello 2 (Data Link).",
+      "svg": ""
+    },
+    {
+      "id": 34,
+      "domanda": "Un 'Router-on-a-Stick' utilizza un ____ per instradare il traffico tra le VLAN.",
+      "risposte": [
+        "Switch di Livello 2.",
+        "Switch di Livello 3.",
+        "Hub.",
+        "Router fisico con sotto-interfacce su un link trunk."
+      ],
+      "risposta_corretta": "Router fisico con sotto-interfacce su un link trunk.",
+      "svg": ""
+    },
+    {
+      "id": 35,
+      "domanda": "Vero o Falso: Ogni porta di uno switch gestito (managed switch) ha necessariamente un indirizzo IP per funzionare.",
+      "risposte": [
+        "Vero.",
+        "Falso."
+      ],
+      "risposta_corretta": "Falso.",
+      "svg": ""
+    },
+    {
+      "id": 36,
+      "domanda": "Qual è il campo di 4 byte che lo standard 802.1Q aggiunge all'intestazione Ethernet per identificare la VLAN?",
+      "risposte": [
+        "MAC Address.",
+        "IP Address.",
+        "VLAN Tag.",
+        "Subnet Mask."
+      ],
+      "risposta_corretta": "VLAN Tag.",
+      "svg": ""
+    },
+    {
+      "id": 37,
+      "domanda": "Se un utente si sposta da un ufficio all'altro all'interno di una rete con VLAN ben configurate, quale operazione è generalmente necessaria per ripristinare la sua connettività alla VLAN corretta?",
+      "risposte": [
+        "Ricablare l'intera rete.",
+        "Sostituire lo switch.",
+        "Riconfigurare la porta dello switch alla VLAN corretta.",
+        "Non è necessaria alcuna operazione."
+      ],
+      "risposta_corretta": "Riconfigurare la porta dello switch alla VLAN corretta.",
+      "svg": ""
+    },
+    {
+      "id": 38,
+      "domanda": "Quale scenario non è tipicamente un buon candidato per l'implementazione delle VLAN?",
+      "risposte": [
+        "Una rete domestica con pochi dispositivi.",
+        "Un grande campus universitario.",
+        "Un data center con molteplici server.",
+        "Una rete aziendale con centinaia di dipendenti in vari reparti."
+      ],
+      "risposta_corretta": "Una rete domestica con pochi dispositivi.",
+      "svg": ""
+    },
+    {
+      "id": 39,
+      "domanda": "La capacità di uno switch di Livello 3 di eseguire il routing inter-VLAN direttamente sul proprio hardware è nota come:",
+      "risposte": [
+        "Software Routing.",
+        "Hairpinning.",
+        "Routing a velocità di linea (wire-speed routing).",
+        "Collision Domain Management."
+      ],
+      "risposta_corretta": "Routing a velocità di linea (wire-speed routing).",
+      "svg": ""
+    },
+    {
+      "id": 40,
+      "domanda": "Qual è il rischio di sicurezza associato a una Native VLAN non corrispondente su un collegamento trunk?",
+      "risposte": [
+        "Rallentamento della velocità della porta.",
+        "Possibilità di attacchi di 'VLAN hopping'.",
+        "Interruzione totale dell'alimentazione dello switch.",
+        "Aumento automatico del traffico di broadcast."
+      ],
+      "risposta_corretta": "Possibilità di attacchi di 'VLAN hopping'.",
+      "svg": ""
+    }
+  ]
+}

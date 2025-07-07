@@ -1,0 +1,604 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Qual è lo scopo principale del DNS?",
+      "risposte": [
+        "Crittografare il traffico di rete.",
+        "Tradurre nomi di dominio in indirizzi IP.",
+        "Assegnare indirizzi IP dinamici ai dispositivi.",
+        "Instradare i pacchetti di dati tra reti."
+      ],
+      "risposta_corretta": "Tradurre nomi di dominio in indirizzi IP.",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Perché il DNS è definito un sistema 'gerarchico' e 'distribuito'?",
+      "risposte": [
+        "È gestito da un unico server centrale per garantire coerenza.",
+        "Ogni dominio ha un solo server DNS dedicato.",
+        "Le informazioni sono organizzate a livelli e distribuite su più server.",
+        "Utilizza solo un tipo di record DNS."
+      ],
+      "risposta_corretta": "Le informazioni sono organizzate a livelli e distribuite su più server.",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Cosa contiene principalmente un Root Name Server?",
+      "risposte": [
+        "Gli indirizzi IP di tutti i siti web del mondo.",
+        "Gli indirizzi IP dei server dei nomi autorevoli per ciascun TLD.",
+        "I record MX per i server di posta elettronica globali.",
+        "Le configurazioni di rete di tutti i resolver DNS."
+      ],
+      "risposta_corretta": "Gli indirizzi IP dei server dei nomi autorevoli per ciascun TLD.",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Quale organizzazione è responsabile della gestione della root zone del DNS?",
+      "risposte": [
+        "IEEE",
+        "W3C",
+        "IANA (ICANN)",
+        "IETF"
+      ],
+      "risposta_corretta": "IANA (ICANN)",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Cosa rappresenta un TLD (Top-Level Domain)?",
+      "risposte": [
+        "Il nome completo del dominio (es. google.com).",
+        "Il primo segmento di un indirizzo IP.",
+        "L'estensione finale di un nome di dominio (es. .com, .it).",
+        "Il protocollo per la risoluzione dei nomi."
+      ],
+      "risposta_corretta": "L'estensione finale di un nome di dominio (es. .com, .it).",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Quale tipo di record DNS mappa un nome di dominio a un indirizzo IPv4?",
+      "risposte": [
+        "AAAA record",
+        "CNAME record",
+        "A record",
+        "MX record"
+      ],
+      "risposta_corretta": "A record",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Quale tipo di record DNS mappa un nome di dominio a un indirizzo IPv6?",
+      "risposte": [
+        "A record",
+        "AAAA record",
+        "TXT record",
+        "NS record"
+      ],
+      "risposta_corretta": "AAAA record",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "A cosa serve un CNAME record?",
+      "risposte": [
+        "A specificare il server di posta di un dominio.",
+        "A creare un alias per un altro nome di dominio.",
+        "A mappare un nome di dominio a un indirizzo IP fisso.",
+        "A verificare la proprietà di un dominio."
+      ],
+      "risposta_corretta": "A creare un alias per un altro nome di dominio.",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Un dominio con un CNAME record può avere anche un record MX per lo stesso nome?",
+      "risposte": [
+        "Sì, sempre.",
+        "No, è una limitazione dei CNAME.",
+        "Solo se è un sottodominio.",
+        "Dipende dal registrar DNS."
+      ],
+      "risposta_corretta": "No, è una limitazione dei CNAME.",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Quale tipo di record DNS specifica i server di posta elettronica per un dominio?",
+      "risposte": [
+        "A record",
+        "CNAME record",
+        "MX record",
+        "PTR record"
+      ],
+      "risposta_corretta": "MX record",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Cosa indica un NS record?",
+      "risposte": [
+        "L'indirizzo IP del server web del dominio.",
+        "I server DNS autorevoli per un dominio.",
+        "Il proprietario del dominio.",
+        "La durata del record nella cache."
+      ],
+      "risposta_corretta": "I server DNS autorevoli per un dominio.",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "A cosa serve il TTL (Time-To-Live) in un record DNS?",
+      "risposte": [
+        "A indicare la versione del record DNS.",
+        "A definire la priorità del record.",
+        "A specificare per quanto tempo un resolver può cacheizzare la risposta.",
+        "A limitare il numero di query che un resolver può fare."
+      ],
+      "risposta_corretta": "A specificare per quanto tempo un resolver può cacheizzare la risposta.",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Qual è la funzione principale di un resolver DNS locale?",
+      "risposte": [
+        "Creare nuovi record DNS per i domini.",
+        "Ospitare il database primario di un dominio.",
+        "Interrogare altri server DNS per conto del client e cacheizzare le risposte.",
+        "Applicare filtri di sicurezza al traffico DNS."
+      ],
+      "risposta_corretta": "Interrogare altri server DNS per conto del client e cacheizzare le risposte.",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Quale protocollo è usato principalmente per le query DNS standard?",
+      "risposte": [
+        "TCP",
+        "UDP",
+        "FTP",
+        "SMTP"
+      ],
+      "risposta_corretta": "UDP",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Su quale porta UDP operano le query DNS?",
+      "risposte": [
+        "25",
+        "80",
+        "53",
+        "443"
+      ],
+      "risposta_corretta": "53",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Per quale scopo il DNS utilizza TCP sulla porta 53?",
+      "risposte": [
+        "Per query DNS di piccole dimensioni.",
+        "Per l'autenticazione dei client DNS.",
+        "Per i trasferimenti di zona (sincronizzazione tra server).",
+        "Per la crittografia delle comunicazioni DNS."
+      ],
+      "risposta_corretta": "Per i trasferimenti di zona (sincronizzazione tra server).",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Qual è il ruolo di un server DNS Master (primario)?",
+      "risposte": [
+        "Memorizzare solo le risposte DNS cacheizzate.",
+        "Reindirizzare tutte le query a un server Root.",
+        "Detenere la copia originale e primaria dei record DNS di una zona.",
+        "Fornire servizi di posta elettronica per il dominio."
+      ],
+      "risposta_corretta": "Detenere la copia originale e primaria dei record DNS di una zona.",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "Cosa ottiene un server DNS Slave (secondario) dal Master server?",
+      "risposte": [
+        "Solo l'indirizzo IP del Master.",
+        "Una copia completa o aggiornata del database della zona.",
+        "Le credenziali di accesso per il Master.",
+        "Un elenco dei client che hanno interrogato il Master."
+      ],
+      "risposta_corretta": "Una copia completa o aggiornata del database della zona.",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "Sia i server DNS Master che Slave sono considerati 'Authoritative Name Server'?",
+      "risposte": [
+        "Solo il Master è autorevole.",
+        "Solo lo Slave è autorevole.",
+        "Sì, entrambi lo sono quando hanno i dati aggiornati.",
+        "Nessuno dei due, solo i Root Server sono autorevoli."
+      ],
+      "risposta_corretta": "Sì, entrambi lo sono quando hanno i dati aggiornati.",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "Qual è un vantaggio dell'avere server DNS Slave?",
+      "risposte": [
+        "Aumenta la complessità della configurazione DNS.",
+        "Garantisce che tutte le query siano gestite da un solo server.",
+        "Fornisce ridondanza e bilanciamento del carico.",
+        "Permette agli utenti di modificare direttamente i record DNS."
+      ],
+      "risposta_corretta": "Fornisce ridondanza e bilanciamento del carico.",
+      "svg": ""
+    },
+    {
+      "id": 21,
+      "domanda": "Cosa sono i 'Domain Name System Security Extensions' (DNSSEC)?",
+      "risposte": [
+        "Un tipo di record DNS per la posta elettronica.",
+        "Un protocollo per crittografare il traffico web.",
+        "Estensioni che aggiungono sicurezza alle risposte DNS tramite firme crittografiche.",
+        "Un sistema per bloccare i siti web malevoli."
+      ],
+      "risposta_corretta": "Estensioni che aggiungono sicurezza alle risposte DNS tramite firme crittografiche.",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "Quale tipo di record DNS è spesso usato per le verifiche di dominio (es. per servizi cloud)?",
+      "risposte": [
+        "A record",
+        "AAAA record",
+        "TXT record",
+        "MX record"
+      ],
+      "risposta_corretta": "TXT record",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "In un nome di dominio come 'blog.example.com', 'blog' è un...",
+      "risposte": [
+        "TLD",
+        "Second-Level Domain",
+        "Subdomain",
+        "Root Domain"
+      ],
+      "risposta_corretta": "Subdomain",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "Cosa succede se un resolver DNS ha un record in cache con un TTL scaduto?",
+      "risposte": [
+        "Continua a usare il record cacheizzato.",
+        "Blocca tutte le query per quel dominio.",
+        "Deve effettuare una nuova query per ottenere l'informazione aggiornata.",
+        "Segnala un errore al client."
+      ],
+      "risposta_corretta": "Deve effettuare una nuova query per ottenere l'informazione aggiornata.",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "Qual è il vantaggio del caching DNS per i client?",
+      "risposte": [
+        "Aumenta il numero di query ai server autorevoli.",
+        "Rende le risoluzioni DNS più lente.",
+        "Accelera i tempi di risoluzione per le query successive.",
+        "Comprime i record DNS."
+      ],
+      "risposta_corretta": "Accelera i tempi di risoluzione per le query successive.",
+      "svg": ""
+    },
+    {
+      "id": 26,
+      "domanda": "Qual è il processo di sincronizzazione dei dati tra server DNS Master e Slave?",
+      "risposte": [
+        "Ping",
+        "Traceroute",
+        "Zone Transfer",
+        "WHOIS Lookup"
+      ],
+      "risposta_corretta": "Zone Transfer",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "Un CNAME record può puntare a un indirizzo IP direttamente?",
+      "risposte": [
+        "Sì, è il suo scopo principale.",
+        "No, punta solo ad altri nomi di dominio.",
+        "Solo se è un record AAAA.",
+        "Solo per domini interni alla rete."
+      ],
+      "risposta_corretta": "No, punta solo ad altri nomi di dominio.",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "Quale indirizzo IP è un esempio di server DNS pubblico di Google?",
+      "risposte": [
+        "192.168.1.1",
+        "127.0.0.1",
+        "8.8.8.8",
+        "172.16.0.1"
+      ],
+      "risposta_corretta": "8.8.8.8",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "Nell'indirizzo 'example.com/24', '/24' indica:",
+      "risposte": [
+        "La versione del protocollo DNS.",
+        "Il numero di server DNS nella rete.",
+        "La lunghezza del prefisso di rete in bit.",
+        "Il numero di host utilizzabili nella rete."
+      ],
+      "risposta_corretta": "La lunghezza del prefisso di rete in bit.",
+      "svg": ""
+    },
+    {
+      "id": 30,
+      "domanda": "Il concetto di 'Classi' (A, B, C) nell'indirizzamento IP è...",
+      "risposte": [
+        "Ancora ampiamente utilizzato nel routing moderno.",
+        "Rilevante solo per IPv6.",
+        "Obsoleto e sostituito da CIDR.",
+        "Utilizzato solo per le reti domestiche."
+      ],
+      "risposta_corretta": "Obsoleto e sostituito da CIDR.",
+      "svg": ""
+    },
+    {
+      "id": 31,
+      "domanda": "Cosa significa CIDR?",
+      "risposte": [
+        "Content Identification Data Register.",
+        "Classless Inter-Domain Routing.",
+        "Client Internet Domain Registry.",
+        "Common Internet Domain Resources."
+      ],
+      "risposta_corretta": "Classless Inter-Domain Routing.",
+      "svg": ""
+    },
+    {
+      "id": 32,
+      "domanda": "Qual è il vantaggio principale di CIDR rispetto all'indirizzamento classful?",
+      "risposte": [
+        "Maggiore rigidità nell'allocazione degli indirizzi.",
+        "Migliore utilizzo degli indirizzi IP e flessibilità nella definizione delle sottoreti.",
+        "Velocità di risoluzione DNS superiore.",
+        "Aumento della sicurezza delle connessioni."
+      ],
+      "risposta_corretta": "Migliore utilizzo degli indirizzi IP e flessibilità nella definizione delle sottoreti.",
+      "svg": ""
+    },
+    {
+      "id": 33,
+      "domanda": "Quale tipo di record DNS è utilizzato per i sistemi SPF e DKIM (sicurezza e-mail)?",
+      "risposte": [
+        "A record",
+        "MX record",
+        "CNAME record",
+        "TXT record"
+      ],
+      "risposta_corretta": "TXT record",
+      "svg": ""
+    },
+    {
+      "id": 34,
+      "domanda": "Quando un resolver DNS interroga un TLD server per 'example.com', cosa riceve come risposta?",
+      "risposte": [
+        "L'indirizzo IP di 'example.com'.",
+        "Gli indirizzi IP dei server dei nomi autorevoli per 'example.com'.",
+        "Il file di zona completo per 'example.com'.",
+        "Un errore di risoluzione."
+      ],
+      "risposta_corretta": "Gli indirizzi IP dei server dei nomi autorevoli per 'example.com'.",
+      "svg": ""
+    },
+    {
+      "id": 35,
+      "domanda": "Cosa significa che un server DNS è 'ricorsivo'?",
+      "risposte": [
+        "Può solo fornire risposte dalla sua cache.",
+        "Può solo rispondere a query per domini di cui è autorevole.",
+        "Inoltra le query ad altri server DNS e restituisce la risposta finale al client.",
+        "Esegue solo trasferimenti di zona."
+      ],
+      "risposta_corretta": "Inoltra le query ad altri server DNS e restituisce la risposta finale al client.",
+      "svg": ""
+    },
+    {
+      "id": 36,
+      "domanda": "Cosa significa che un server DNS è 'iterativo'?",
+      "risposte": [
+        "Non inoltra le query, ma fornisce un riferimento al server successivo nella gerarchia.",
+        "Richiede più query per una singola risoluzione.",
+        "È sempre l'ultimo server a rispondere a una query.",
+        "È un server DNS di backup."
+      ],
+      "risposta_corretta": "Non inoltra le query, ma fornisce un riferimento al server successivo nella gerarchia.",
+      "svg": ""
+    },
+    {
+      "id": 37,
+      "domanda": "Quale tipo di query DNS viene tipicamente inviata da un client (browser) al suo resolver DNS locale?",
+      "risposte": [
+        "Query iterativa.",
+        "Query ricorsiva.",
+        "Query diretta.",
+        "Query broadcast."
+      ],
+      "risposta_corretta": "Query ricorsiva.",
+      "svg": ""
+    },
+    {
+      "id": 38,
+      "domanda": "Quale tipo di query DNS viene tipicamente inviata da un resolver DNS ai server Root, TLD o Authoritative?",
+      "risposte": [
+        "Query ricorsiva.",
+        "Query inversa.",
+        "Query iterativa.",
+        "Query multicasting."
+      ],
+      "risposta_corretta": "Query iterativa.",
+      "svg": ""
+    },
+    {
+      "id": 39,
+      "domanda": "Cosa significa 'DNS caching'?",
+      "risposte": [
+        "Il processo di registrazione di un nuovo nome di dominio.",
+        "La memorizzazione temporanea delle risposte DNS per un accesso più rapido.",
+        "La sicurezza dei server DNS contro gli attacchi.",
+        "L'aggiornamento dinamico degli indirizzi IP."
+      ],
+      "risposta_corretta": "La memorizzazione temporanea delle risposte DNS per un accesso più rapido.",
+      "svg": ""
+    },
+    {
+      "id": 40,
+      "domanda": "Qual è il formato in cui sono rappresentati gli indirizzi IPv6?",
+      "risposte": [
+        "Decimale puntata (es. 192.168.1.1)",
+        "Esadecimale (es. 2001:0db8::)",
+        "Ottale (es. 010.010.010.010)",
+        "Binario puro (es. 00001000...)"
+      ],
+      "risposta_corretta": "Esadecimale (es. 2001:0db8::)",
+      "svg": ""
+    },
+    {
+      "id": 41,
+      "domanda": "Un 'A record' può puntare a più indirizzi IP per lo stesso nome di dominio?",
+      "risposte": [
+        "No, sempre e solo uno.",
+        "Sì, per il bilanciamento del carico o la ridondanza (Round Robin DNS).",
+        "Solo se gli IP sono su sottoreti diverse.",
+        "Dipende dalla versione del DNS."
+      ],
+      "risposta_corretta": "Sì, per il bilanciamento del carico o la ridondanza (Round Robin DNS).",
+      "svg": ""
+    },
+    {
+      "id": 42,
+      "domanda": "Qual è l'indirizzo IP locale (localhost) spesso usato per test?",
+      "risposte": [
+        "0.0.0.0",
+        "255.255.255.255",
+        "127.0.0.1",
+        "10.0.0.0"
+      ],
+      "risposta_corretta": "127.0.0.1",
+      "svg": ""
+    },
+    {
+      "id": 43,
+      "domanda": "Cosa si intende per 'Reverse DNS Lookup' (PTR record)?",
+      "risposte": [
+        "Risolvere un nome di dominio da un indirizzo IP.",
+        "Risolvere un indirizzo IP da un nome di dominio.",
+        "Verificare la disponibilità di un nome di dominio.",
+        "Tracciare il percorso di un pacchetto di rete."
+      ],
+      "risposta_corretta": "Risolvere un nome di dominio da un indirizzo IP.",
+      "svg": ""
+    },
+    {
+      "id": 44,
+      "domanda": "Qual è il registro che tiene traccia delle assegnazioni globali di indirizzi IP?",
+      "risposte": [
+        "WHOIS",
+        "Registrar",
+        "IETF",
+        "IANA / RIRs"
+      ],
+      "risposta_corretta": "IANA / RIRs",
+      "svg": ""
+    },
+    {
+      "id": 45,
+      "domanda": "Quale server DNS viene solitamente contattato per primo da un resolver DNS locale?",
+      "risposte": [
+        "Un server Root.",
+        "Un server TLD.",
+        "Un server Authoritative.",
+        "Un server di posta elettronica."
+      ],
+      "risposta_corretta": "Un server Root.",
+      "svg": ""
+    },
+    {
+      "id": 46,
+      "domanda": "Cosa si intende per 'TTL basso' in un record DNS?",
+      "risposte": [
+        "La risposta DNS rimarrà in cache per molto tempo.",
+        "La risposta DNS non verrà mai cacheizzata.",
+        "Le modifiche al record si propagheranno più rapidamente.",
+        "Il record è meno prioritario rispetto ad altri."
+      ],
+      "risposta_corretta": "Le modifiche al record si propagheranno più rapidamente.",
+      "svg": ""
+    },
+    {
+      "id": 47,
+      "domanda": "Cosa si intende per 'TTL alto' in un record DNS?",
+      "risposte": [
+        "Le modifiche al record si propagheranno più rapidamente.",
+        "La risposta DNS verrà aggiornata molto spesso.",
+        "La risposta DNS rimarrà in cache per un periodo più lungo.",
+        "Il record è obsoleto."
+      ],
+      "risposta_corretta": "La risposta DNS rimarrà in cache per un periodo più lungo.",
+      "svg": ""
+    },
+    {
+      "id": 48,
+      "domanda": "Qual è il tipo di server DNS che detiene la copia più aggiornata e modificabile dei record di una zona?",
+      "risposte": [
+        "Resolver DNS",
+        "Server DNS Slave",
+        "Server DNS Master",
+        "Server DNS Root"
+      ],
+      "risposta_corretta": "Server DNS Master",
+      "svg": ""
+    },
+    {
+      "id": 49,
+      "domanda": "Se un dominio ha un record A e un record AAAA, quale viene preferito dai client moderni?",
+      "risposte": [
+        "Il record A (IPv4).",
+        "Il record AAAA (IPv6), se il client e la rete lo supportano.",
+        "Dipende dalla velocità del server DNS.",
+        "Vengono sempre usati entrambi contemporaneamente."
+      ],
+      "risposta_corretta": "Il record AAAA (IPv6), se il client e la rete lo supportano.",
+      "svg": ""
+    },
+    {
+      "id": 50,
+      "domanda": "Cosa accade se un server DNS Root non risponde a una query?",
+      "risposte": [
+        "Il resolver DNS contatta direttamente il server Authoritative.",
+        "Il resolver DNS riprova con un altro Root Server o attende.",
+        "La risoluzione DNS fallisce immediatamente.",
+        "Il resolver cerca il nome nella sua cache locale."
+      ],
+      "risposta_corretta": "Il resolver DNS riprova con un altro Root Server o attende.",
+      "svg": ""
+    }
+  ]
+}

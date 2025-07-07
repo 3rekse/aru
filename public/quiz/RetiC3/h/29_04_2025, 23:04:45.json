@@ -1,0 +1,166 @@
+[
+  {
+    "mission": "RetiC3",
+    "nome": "h",
+    "cognome": "h",
+    "classe": "h",
+    "voto": 3.25,
+    "dataorainizio": "2025-04-29T21:04:34.564Z",
+    "inizio": "29/04/2025, 23:04:34",
+    "durata": 10817,
+    "giuste": 10,
+    "sbagliate": 20,
+    "quiz": [
+      {
+        "id": 24,
+        "domanda": "Quale tipo di VPN è ideale per connettere più sedi aziendali?",
+        "svg": " ✅ VPN site-to-site"
+      },
+      {
+        "id": 11,
+        "domanda": "Quale tipo di VPN collega due reti aziendali remote?",
+        "svg": " ✅ VPN site-to-site"
+      },
+      {
+        "id": 23,
+        "domanda": "Quale porta viene comunemente utilizzata per il protocollo SSTP?",
+        "svg": " ❌ 1723"
+      },
+      {
+        "id": 8,
+        "domanda": "Quale porta viene comunemente utilizzata per il protocollo IKEv2?",
+        "svg": " ❌ 1194"
+      },
+      {
+        "id": 13,
+        "domanda": "Quale comando viene utilizzato per verificare lo stato di una connessione VPN in Linux?",
+        "svg": " ❌ vpn status"
+      },
+      {
+        "id": 4,
+        "domanda": "Quale porta viene comunemente utilizzata da OpenVPN?",
+        "svg": " ❌ 443"
+      },
+      {
+        "id": 18,
+        "domanda": "Quale comando viene utilizzato per avviare un servizio VPN in Windows?",
+        "svg": " ❌ service start vpn"
+      },
+      {
+        "id": 12,
+        "domanda": "Quale protocollo VPN utilizza il protocollo HTTPS per garantire la sicurezza?",
+        "svg": " ❌ IKEv2"
+      },
+      {
+        "id": 20,
+        "domanda": "Quale tecnologia viene utilizzata per autenticare gli utenti in una VPN?",
+        "svg": " ✅ RADIUS"
+      },
+      {
+        "id": 29,
+        "domanda": "Quale comando viene utilizzato per configurare una connessione VPN in Windows?",
+        "svg": " ❌ create vpn"
+      },
+      {
+        "id": 3,
+        "domanda": "Quale protocollo VPN è noto per la sua velocità e stabilità su dispositivi mobili?",
+        "svg": " ❌ L2TP"
+      },
+      {
+        "id": 1,
+        "domanda": "Qual è la funzione principale di una VPN?",
+        "svg": " ✅ Creare una connessione sicura tra reti o dispositivi"
+      },
+      {
+        "id": 21,
+        "domanda": "Quale protocollo VPN utilizza il protocollo UDP per migliorare le prestazioni?",
+        "svg": " ✅ OpenVPN"
+      },
+      {
+        "id": 15,
+        "domanda": "Quale algoritmo di crittografia è comunemente utilizzato nelle VPN?",
+        "svg": " ❌ SHA-1"
+      },
+      {
+        "id": 9,
+        "domanda": "Quale tipo di VPN consente a un dispositivo remoto di connettersi a una rete aziendale?",
+        "svg": " ✅ VPN client-to-site"
+      },
+      {
+        "id": 28,
+        "domanda": "Quale tecnologia VPN utilizza il protocollo IPsec per la sicurezza?",
+        "svg": " ❌ PPTP"
+      },
+      {
+        "id": 27,
+        "domanda": "Quale algoritmo di hashing è comunemente utilizzato per l'autenticazione in una VPN?",
+        "svg": " ❌ AES"
+      },
+      {
+        "id": 5,
+        "domanda": "Quale protocollo VPN è considerato obsoleto a causa della sua scarsa sicurezza?",
+        "svg": " ❌ L2TP"
+      },
+      {
+        "id": 2,
+        "domanda": "Quale protocollo VPN utilizza la crittografia IPSec per garantire la sicurezza?",
+        "svg": " ❌ PPTP"
+      },
+      {
+        "id": 30,
+        "domanda": "Quale protocollo VPN è progettato per funzionare su reti con NAT?",
+        "svg": " ❌ L2TP"
+      },
+      {
+        "id": 6,
+        "domanda": "Quale tecnologia viene utilizzata per crittografare i dati in una VPN?",
+        "svg": " ✅ IPSec"
+      },
+      {
+        "id": 17,
+        "domanda": "Quale tipo di VPN utilizza un client software per connettersi a una rete remota?",
+        "svg": " ✅ VPN client-to-site"
+      },
+      {
+        "id": 19,
+        "domanda": "Quale protocollo VPN è noto per la sua semplicità ma scarsa sicurezza?",
+        "svg": " ❌ IKEv2"
+      },
+      {
+        "id": 14,
+        "domanda": "Quale porta viene comunemente utilizzata per il protocollo PPTP?",
+        "svg": " ❌ 1194"
+      },
+      {
+        "id": 26,
+        "domanda": "Quale comando viene utilizzato per visualizzare i log di OpenVPN in Linux?",
+        "svg": " ✅ cat /var/log/openvpn.log"
+      },
+      {
+        "id": 7,
+        "domanda": "Quale comando viene utilizzato in Linux per avviare una connessione OpenVPN?",
+        "svg": " ❌ start openvpn"
+      },
+      {
+        "id": 25,
+        "domanda": "Quale protocollo VPN utilizza il protocollo GRE per il tunneling?",
+        "svg": " ❌ IKEv2"
+      },
+      {
+        "id": 16,
+        "domanda": "Quale protocollo viene utilizzato per negoziare le chiavi di crittografia in una VPN IPSec?",
+        "svg": " ❌ SSL"
+      },
+      {
+        "id": 22,
+        "domanda": "Quale comando viene utilizzato per interrompere una connessione VPN in Linux?",
+        "svg": " ✅ killall openvpn"
+      },
+      {
+        "id": 10,
+        "domanda": "Quale protocollo VPN utilizza SSL/TLS per la crittografia?",
+        "svg": " ❌ L2TP"
+      }
+    ]
+  }
+]

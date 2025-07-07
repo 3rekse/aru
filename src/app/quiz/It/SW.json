@@ -1,0 +1,245 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "domanda": "Chi è considerato il padre dell'informatica?",
+        "risposte": [
+          "Charles Babbage",
+          "Alan Turing",
+          "Steve Jobs",
+          "Bill Gates"
+        ],
+        "risposta_corretta": "Charles Babbage",
+        "svg": ""
+      },
+      {
+        "id": 2,
+        "domanda": "Quale fu il primo computer elettronico programmabile?",
+        "risposte": [
+          "ENIAC",
+          "Z3",
+          "Colossus",
+          "UNIVAC"
+        ],
+        "risposta_corretta": "Z3",
+        "svg": ""
+      },
+      {
+        "id": 3,
+        "domanda": "In che anno è stato inventato l'ENIAC?",
+        "risposte": [
+          "1945",
+          "1955",
+          "1939",
+          "1961"
+        ],
+        "risposta_corretta": "1945",
+        "svg": ""
+      },
+      {
+        "id": 4,
+        "domanda": "Chi ha sviluppato il concetto di macchina universale?",
+        "risposte": [
+          "Alan Turing",
+          "Konrad Zuse",
+          "John von Neumann",
+          "Ada Lovelace"
+        ],
+        "risposta_corretta": "Alan Turing",
+        "svg": ""
+      },
+      {
+        "id": 5,
+        "domanda": "Chi fu la prima programmatrice della storia?",
+        "risposte": [
+          "Ada Lovelace",
+          "Grace Hopper",
+          "Hedy Lamarr",
+          "Margaret Hamilton"
+        ],
+        "risposta_corretta": "Ada Lovelace",
+        "svg": ""
+      },
+      {
+        "id": 6,
+        "domanda": "Cosa ha inventato Grace Hopper?",
+        "risposte": [
+          "Il linguaggio COBOL",
+          "Il linguaggio C",
+          "L'algoritmo di compressione ZIP",
+          "La macchina di Turing"
+        ],
+        "risposta_corretta": "Il linguaggio COBOL",
+        "svg": ""
+      },
+      {
+        "id": 7,
+        "domanda": "Qual era la funzione del computer Colossus durante la Seconda Guerra Mondiale?",
+        "risposte": [
+          "Decifrare messaggi criptati",
+          "Controllare missili",
+          "Predire il meteo",
+          "Simulare esplosioni atomiche"
+        ],
+        "risposta_corretta": "Decifrare messaggi criptati",
+        "svg": ""
+      },
+      {
+        "id": 8,
+        "domanda": "Quale azienda ha prodotto il primo microprocessore commerciale?",
+        "risposte": [
+          "Intel",
+          "IBM",
+          "Apple",
+          "Microsoft"
+        ],
+        "risposta_corretta": "Intel",
+        "svg": ""
+      },
+      {
+        "id": 9,
+        "domanda": "In che anno fu fondata Microsoft?",
+        "risposte": [
+          "1975",
+          "1980",
+          "1971",
+          "1969"
+        ],
+        "risposta_corretta": "1975",
+        "svg": ""
+      },
+      {
+        "id": 10,
+        "domanda": "Chi ha inventato il World Wide Web?",
+        "risposte": [
+          "Tim Berners-Lee",
+          "Marc Andreessen",
+          "Vinton Cerf",
+          "Larry Page"
+        ],
+        "risposta_corretta": "Tim Berners-Lee",
+        "svg": ""
+      },
+      {
+        "id": 11,
+        "domanda": "Quale linguaggio fu sviluppato da Dennis Ritchie negli anni '70?",
+        "risposte": [
+          "C",
+          "Java",
+          "Pascal",
+          "BASIC"
+        ],
+        "risposta_corretta": "C",
+        "svg": ""
+      },
+      {
+        "id": 12,
+        "domanda": "Che ruolo ha avuto John von Neumann nello sviluppo dell’informatica?",
+        "risposte": [
+          "Ha formalizzato l'architettura base dei computer moderni",
+          "Ha progettato il primo sistema operativo",
+          "Ha inventato Internet",
+          "Ha creato il primo mouse"
+        ],
+        "risposta_corretta": "Ha formalizzato l'architettura base dei computer moderni",
+        "svg": ""
+      },
+      {
+        "id": 13,
+        "domanda": "Qual è stato il primo computer personale di successo commerciale?",
+        "risposte": [
+          "Apple II",
+          "IBM PC",
+          "Commodore 64",
+          "Altair 8800"
+        ],
+        "risposta_corretta": "Apple II",
+        "svg": ""
+      },
+      {
+        "id": 14,
+        "domanda": "Cosa ha reso famoso l’Altair 8800?",
+        "risposte": [
+          "È considerato il primo personal computer",
+          "È stato il primo computer portatile",
+          "È stato il primo computer con GUI",
+          "È stato il primo a connettersi a Internet"
+        ],
+        "risposta_corretta": "È considerato il primo personal computer",
+        "svg": ""
+      },
+      {
+        "id": 15,
+        "domanda": "Chi ha scritto il primo compilatore?",
+        "risposte": [
+          "Grace Hopper",
+          "Alan Turing",
+          "Bill Gates",
+          "John Backus"
+        ],
+        "risposta_corretta": "Grace Hopper",
+        "svg": ""
+      },
+      {
+        "id": 16,
+        "domanda": "Cos'è UNIX?",
+        "risposte": [
+          "Un sistema operativo multiutente",
+          "Un linguaggio di programmazione",
+          "Una CPU storica",
+          "Un software di grafica"
+        ],
+        "risposta_corretta": "Un sistema operativo multiutente",
+        "svg": ""
+      },
+      {
+        "id": 17,
+        "domanda": "Quale fu il primo motore di ricerca Internet diffuso?",
+        "risposte": [
+          "Archie",
+          "Google",
+          "Yahoo!",
+          "Lycos"
+        ],
+        "risposta_corretta": "Archie",
+        "svg": ""
+      },
+      {
+        "id": 18,
+        "domanda": "Quando fu lanciato il primo iPhone?",
+        "risposte": [
+          "2007",
+          "2005",
+          "2010",
+          "2001"
+        ],
+        "risposta_corretta": "2007",
+        "svg": ""
+      },
+      {
+        "id": 19,
+        "domanda": "Cosa ha sviluppato Linus Torvalds?",
+        "risposte": [
+          "Il kernel Linux",
+          "Il sistema operativo Windows",
+          "La suite Office",
+          "Il linguaggio Python"
+        ],
+        "risposta_corretta": "Il kernel Linux",
+        "svg": ""
+      },
+      {
+        "id": 20,
+        "domanda": "Cosa ha rappresentato ARPANET nella storia dell'informatica?",
+        "risposte": [
+          "Il precursore di Internet",
+          "Il primo linguaggio di programmazione",
+          "Il primo computer da tavolo",
+          "Il primo virus informatico"
+        ],
+        "risposta_corretta": "Il precursore di Internet",
+        "svg": ""
+      }
+    ]
+  }
+  

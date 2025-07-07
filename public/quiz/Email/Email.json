@@ -1,0 +1,604 @@
+{
+  "quiz": [
+    {
+      "id": 51,
+      "domanda": "Cosa sta per l'acronimo SMTP?",
+      "risposte": [
+        "Secure Mail Transfer Protocol",
+        "Simple Mail Transfer Protocol",
+        "Standard Message Transport Protocol",
+        "System Mail Transmitting Process"
+      ],
+      "risposta_corretta": "Simple Mail Transfer Protocol",
+      "svg": ""
+    },
+    {
+      "id": 52,
+      "domanda": "Qual è il principale motivo per cui il server SMTP di un provider richiede l'autenticazione?",
+      "risposte": [
+        "Per velocizzare l'invio delle email.",
+        "Per impedire l'uso improprio per lo spam.",
+        "Per sincronizzare le email tra dispositivi.",
+        "Per ridurre il consumo di dati."
+      ],
+      "risposta_corretta": "Per impedire l'uso improprio per lo spam.",
+      "svg": ""
+    },
+    {
+      "id": 53,
+      "domanda": "Quale porta SMTP è comunemente usata per la 'submission' da parte dei client?",
+      "risposte": [
+        "25",
+        "587",
+        "110",
+        "143"
+      ],
+      "risposta_corretta": "587",
+      "svg": ""
+    },
+    {
+      "id": 54,
+      "domanda": "Quale protocollo di posta è ideale per chi accede alla propria casella da un unico dispositivo e desidera mantenere tutte le email localmente?",
+      "risposte": [
+        "IMAP",
+        "SMTP",
+        "POP3",
+        "HTTP"
+      ],
+      "risposta_corretta": "POP3",
+      "svg": ""
+    },
+    {
+      "id": 55,
+      "domanda": "Se un utente elimina un'email usando un client configurato con IMAP, cosa succede alla email sul server?",
+      "risposte": [
+        "Rimane sul server ma è nascosta.",
+        "Viene eliminata anche dal server.",
+        "Viene spostata in una cartella di backup locale.",
+        "Il server la reindirizza ad un'altra casella."
+      ],
+      "risposta_corretta": "Viene eliminata anche dal server.",
+      "svg": ""
+    },
+    {
+      "id": 56,
+      "domanda": "Quale acronimo indica il protocollo di accesso ai messaggi Internet?",
+      "risposte": [
+        "POP3",
+        "SMTP",
+        "IMAP",
+        "MIME"
+      ],
+      "risposta_corretta": "IMAP",
+      "svg": ""
+    },
+    {
+      "id": 57,
+      "domanda": "Quale servizio DNS è fondamentale per la consegna delle email?",
+      "risposte": [
+        "Record A",
+        "Record CNAME",
+        "Record MX",
+        "Record TXT"
+      ],
+      "risposta_corretta": "Record MX",
+      "svg": ""
+    },
+    {
+      "id": 58,
+      "domanda": "Qual è la porta utilizzata per POP3 quando la connessione è crittografata (POP3S)?",
+      "risposte": [
+        "110",
+        "995",
+        "143",
+        "993"
+      ],
+      "risposta_corretta": "995",
+      "svg": ""
+    },
+    {
+      "id": 59,
+      "domanda": "La porta 25 per SMTP è principalmente usata per:",
+      "risposte": [
+        "L'invio di email da un client.",
+        "Il trasferimento di email tra server di posta (MTA-to-MTA).",
+        "La ricezione di email via POP3.",
+        "L'autenticazione del mittente."
+      ],
+      "risposta_corretta": "Il trasferimento di email tra server di posta (MTA-to-MTA).",
+      "svg": ""
+    },
+    {
+      "id": 60,
+      "domanda": "Quale componente del sistema di posta elettronica deposita l'email nella casella di posta dell'utente sul server?",
+      "risposte": [
+        "Mail User Agent (MUA)",
+        "Mail Transfer Agent (MTA)",
+        "Mail Submission Agent (MSA)",
+        "Mail Delivery Agent (MDA)"
+      ],
+      "risposta_corretta": "Mail Delivery Agent (MDA)",
+      "svg": ""
+    },
+    {
+      "id": 61,
+      "domanda": "Quale delle seguenti non è una funzionalità di IMAP?",
+      "risposte": [
+        "Sincronizzazione delle email su più dispositivi.",
+        "Gestione delle cartelle direttamente sul server.",
+        "Eliminazione predefinita delle email dal server dopo lo scaricamento.",
+        "Accesso alle email in anteprima senza scaricarle completamente."
+      ],
+      "risposta_corretta": "Eliminazione predefinita delle email dal server dopo lo scaricamento.",
+      "svg": ""
+    },
+    {
+      "id": 62,
+      "domanda": "Se un server SMTP è un 'open relay', quale rischio si corre?",
+      "risposte": [
+        "Le email verranno inviate più lentamente.",
+        "Potrebbe essere utilizzato da spammer per inviare email non autorizzate.",
+        "Non sarà in grado di ricevere email.",
+        "Le email non saranno crittografate."
+      ],
+      "risposta_corretta": "Potrebbe essere utilizzato da spammer per inviare email non autorizzate.",
+      "svg": ""
+    },
+    {
+      "id": 63,
+      "domanda": "Quale acronimo sta per 'Post Office Protocol versione 3'?",
+      "risposte": [
+        "IMAP",
+        "SMTP",
+        "POP3",
+        "HTTP"
+      ],
+      "risposta_corretta": "POP3",
+      "svg": ""
+    },
+    {
+      "id": 64,
+      "domanda": "Qual è il protocollo di trasporto sottostante utilizzato da IMAP e POP3 per stabilire una connessione?",
+      "risposte": [
+        "UDP",
+        "ICMP",
+        "TCP",
+        "SCTP"
+      ],
+      "risposta_corretta": "TCP",
+      "svg": ""
+    },
+    {
+      "id": 65,
+      "domanda": "Perché è preferibile usare la porta 587 (con STARTTLS) per l'invio SMTP dal client, piuttosto che la porta 25?",
+      "risposte": [
+        "La porta 25 è più lenta.",
+        "La porta 587 è sempre crittografata di default.",
+        "La porta 587 è dedicata alla submission e richiede autenticazione, riducendo lo spam.",
+        "La porta 25 non supporta gli allegati."
+      ],
+      "risposta_corretta": "La porta 587 è dedicata alla submission e richiede autenticazione, riducendo lo spam.",
+      "svg": ""
+    },
+    {
+      "id": 66,
+      "domanda": "Cosa accade se un server SMTP di destinazione è temporaneamente irraggiungibile?",
+      "risposte": [
+        "L'email viene persa.",
+        "Il mittente riceve immediatamente un messaggio di errore.",
+        "Il server SMTP mittente tenta di nuovo la consegna dopo un certo intervallo.",
+        "L'email viene reindirizzata a un altro dominio."
+      ],
+      "risposta_corretta": "Il server SMTP mittente tenta di nuovo la consegna dopo un certo intervallo.",
+      "svg": ""
+    },
+    {
+      "id": 67,
+      "domanda": "Quale protocollo permette una visione 'centralizzata' della tua casella di posta, dove le modifiche si riflettono ovunque?",
+      "risposte": [
+        "POP3",
+        "SMTP",
+        "IMAP",
+        "FTP"
+      ],
+      "risposta_corretta": "IMAP",
+      "svg": ""
+    },
+    {
+      "id": 68,
+      "domanda": "Qual è il principale svantaggio di IMAP in termini di spazio di archiviazione?",
+      "risposte": [
+        "Non supporta grandi allegati.",
+        "Richiede più spazio sul server di posta.",
+        "Le email vengono eliminate troppo spesso.",
+        "Non permette di archiviare le email localmente."
+      ],
+      "risposta_corretta": "Richiede più spazio sul server di posta.",
+      "svg": ""
+    },
+    {
+      "id": 69,
+      "domanda": "Quale protocollo è comunemente usato per scaricare email senza rimuoverle dal server, ma non per la sincronizzazione completa?",
+      "risposte": [
+        "POP3 (se configurato per lasciare copia)",
+        "IMAP",
+        "SMTP",
+        "DNS"
+      ],
+      "risposta_corretta": "POP3 (se configurato per lasciare copia)",
+      "svg": ""
+    },
+    {
+      "id": 70,
+      "domanda": "Quale porta è spesso associata a IMAP non crittografato?",
+      "risposte": [
+        "25",
+        "80",
+        "110",
+        "143"
+      ],
+      "risposta_corretta": "143",
+      "svg": ""
+    },
+    {
+      "id": 71,
+      "domanda": "Nel processo di invio email, dopo che il client ha inviato il messaggio al server SMTP, cosa cerca il server SMTP del mittente nel DNS?",
+      "risposte": [
+        "Il record A del destinatario.",
+        "Il record CNAME del destinatario.",
+        "Il record MX del dominio del destinatario.",
+        "Il record NS del destinatario."
+      ],
+      "risposta_corretta": "Il record MX del dominio del destinatario.",
+      "svg": ""
+    },
+    {
+      "id": 72,
+      "domanda": "Perché è importante l'autenticazione SMTP (SMTP AUTH)?",
+      "risposte": [
+        "Perché aumenta la velocità di invio delle email.",
+        "Per impedire che il server di posta sia usato abusivamente da spammer.",
+        "Per ridurre il consumo di banda.",
+        "Per consentire l'invio di allegati di grandi dimensioni."
+      ],
+      "risposta_corretta": "Per impedire che il server di posta sia usato abusivamente da spammer.",
+      "svg": ""
+    },
+    {
+      "id": 73,
+      "domanda": "Quale dei seguenti non è un Mail User Agent (MUA)?",
+      "risposte": [
+        "Microsoft Outlook",
+        "Gmail (tramite browser web)",
+        "Mozilla Thunderbird",
+        "Un server SMTP"
+      ],
+      "risposta_corretta": "Un server SMTP",
+      "svg": ""
+    },
+    {
+      "id": 74,
+      "domanda": "Qual è il protocollo di sicurezza che spesso abilita una connessione crittografata su porte non criptate (come 587)?",
+      "risposte": [
+        "HTTP",
+        "FTP",
+        "STARTTLS",
+        "SSH"
+      ],
+      "risposta_corretta": "STARTTLS",
+      "svg": ""
+    },
+    {
+      "id": 75,
+      "domanda": "Cosa succede se un client tenta di inviare email senza autenticazione su un server SMTP che la richiede?",
+      "risposte": [
+        "L'email viene inviata normalmente ma con un avviso.",
+        "Il server rifiuta la connessione o l'invio dell'email.",
+        "L'email viene messa in coda per un'autenticazione successiva.",
+        "Il server chiede di riprovare su una porta diversa."
+      ],
+      "risposta_corretta": "Il server rifiuta la connessione o l'invio dell'email.",
+      "svg": ""
+    },
+    {
+      "id": 76,
+      "domanda": "Qual è la porta per IMAP quando la connessione non è crittografata?",
+      "risposte": [
+        "25",
+        "80",
+        "110",
+        "143"
+      ],
+      "risposta_corretta": "143",
+      "svg": ""
+    },
+    {
+      "id": 77,
+      "domanda": "Qual è il modello di accesso alla posta elettronica ideale per chi ha accesso da postazioni diverse e vuole che tutte le modifiche siano sempre visibili?",
+      "risposte": [
+        "Solo POP3",
+        "Solo SMTP",
+        "IMAP",
+        "Accesso via webmail senza protocolli."
+      ],
+      "risposta_corretta": "IMAP",
+      "svg": ""
+    },
+    {
+      "id": 78,
+      "domanda": "Cosa sono i 'Mail Exchange (MX) records'?",
+      "risposte": [
+        "Record DNS che mappano nomi di dominio a indirizzi IP.",
+        "Record DNS che specificano i server di posta elettronica per un dominio.",
+        "Record DNS usati per la sicurezza della posta.",
+        "Record DNS che definiscono il Time-To-Live."
+      ],
+      "risposta_corretta": "Record DNS che specificano i server di posta elettronica per un dominio.",
+      "svg": ""
+    },
+    {
+      "id": 79,
+      "domanda": "Quale protocollo consente al client di creare, eliminare e rinominare cartelle sul server di posta?",
+      "risposte": [
+        "POP3",
+        "SMTP",
+        "IMAP",
+        "FTP"
+      ],
+      "risposta_corretta": "IMAP",
+      "svg": ""
+    },
+    {
+      "id": 80,
+      "domanda": "Se un'email viene scaricata tramite POP3 e il dispositivo locale si rompe, cosa potrebbe succedere ai messaggi?",
+      "risposte": [
+        "Vengono automaticamente ricopiati sul server.",
+        "Vengono persi se non è stata lasciata una copia sul server.",
+        "Il server invia una notifica di recupero.",
+        "Sono accessibili tramite un altro dispositivo."
+      ],
+      "risposta_corretta": "Vengono persi se non è stata lasciata una copia sul server.",
+      "svg": ""
+    },
+    {
+      "id": 81,
+      "domanda": "Qual è il nome generico per un server di posta in uscita che accetta email dai client?",
+      "risposte": [
+        "Mail Delivery Agent (MDA)",
+        "Mail Transfer Agent (MTA)",
+        "Mail User Agent (MUA)",
+        "Mail Submission Agent (MSA)"
+      ],
+      "risposta_corretta": "Mail Submission Agent (MSA)",
+      "svg": ""
+    },
+    {
+      "id": 82,
+      "domanda": "Quale porta è spesso usata per SMTP crittografato implicito, ma è considerata meno standard della 587 con STARTTLS?",
+      "risposte": [
+        "25",
+        "587",
+        "465",
+        "993"
+      ],
+      "risposta_corretta": "465",
+      "svg": ""
+    },
+    {
+      "id": 83,
+      "domanda": "L'email viene crittografata automaticamente da SMTP, POP3 o IMAP di default?",
+      "risposte": [
+        "Sì, sempre.",
+        "No, la crittografia (es. SSL/TLS) deve essere configurata a parte.",
+        "Solo SMTP la crittografa.",
+        "Solo POP3 la crittografa."
+      ],
+      "risposta_corretta": "No, la crittografia (es. SSL/TLS) deve essere configurata a parte.",
+      "svg": ""
+    },
+    {
+      "id": 84,
+      "domanda": "Qual è il principale vantaggio di usare la crittografia (SSL/TLS) con i protocolli di posta?",
+      "risposte": [
+        "Velocizza l'invio e la ricezione.",
+        "Riduce la dimensione delle email.",
+        "Protegge la riservatezza e l'integrità dei dati scambiati.",
+        "Permette di inviare allegati più grandi."
+      ],
+      "risposta_corretta": "Protegge la riservatezza e l'integrità dei dati scambiati.",
+      "svg": ""
+    },
+    {
+      "id": 85,
+      "domanda": "Quale delle seguenti non è una fase del viaggio di un'email?",
+      "risposte": [
+        "Invio (Client a Server)",
+        "Trasporto (Server a Server)",
+        "Modifica (Server di destinazione)",
+        "Ricezione (Server a Client)"
+      ],
+      "risposta_corretta": "Modifica (Server di destinazione)",
+      "svg": ""
+    },
+    {
+      "id": 86,
+      "domanda": "Cos'è la 'priorità' in un record MX?",
+      "risposte": [
+        "La velocità del server di posta.",
+        "L'ordine in cui i mail server dovrebbero essere contattati per la consegna.",
+        "La dimensione massima delle email che il server può accettare.",
+        "Il livello di sicurezza del server di posta."
+      ],
+      "risposta_corretta": "L'ordine in cui i mail server dovrebbero essere contattati per la consegna.",
+      "svg": ""
+    },
+    {
+      "id": 87,
+      "domanda": "Se un'email ha un errore di destinatario inesistente, quale tipo di messaggio riceverà il mittente?",
+      "risposte": [
+        "Un messaggio di conferma di ricezione.",
+        "Un messaggio di Postmaster (Mail Delivery Failure Notification).",
+        "Un'email dal server DNS.",
+        "Nessun messaggio, l'email sparisce."
+      ],
+      "risposta_corretta": "Un messaggio di Postmaster (Mail Delivery Failure Notification).",
+      "svg": ""
+    },
+    {
+      "id": 88,
+      "domanda": "Qual è un potenziale svantaggio di IMAP se il server di posta ha poco spazio?",
+      "risposte": [
+        "Le email potrebbero essere eliminate automaticamente dal server.",
+        "Potresti non essere in grado di accedere a tutte le tue email se non c'è spazio sufficiente.",
+        "La sincronizzazione diventa troppo lenta.",
+        "Non potrai inviare email."
+      ],
+      "risposta_corretta": "Potresti non essere in grado di accedere a tutte le tue email se non c'è spazio sufficiente.",
+      "svg": ""
+    },
+    {
+      "id": 89,
+      "domanda": "Quale protocollo di posta è più orientato al 'client' che al 'server' per la gestione delle email?",
+      "risposte": [
+        "IMAP",
+        "SMTP",
+        "POP3",
+        "HTTP"
+      ],
+      "risposta_corretta": "POP3",
+      "svg": ""
+    },
+    {
+      "id": 90,
+      "domanda": "Come si chiama l'indirizzo IP del server di posta in uscita che il tuo client contatta per inviare un'email?",
+      "risposte": [
+        "Indirizzo MX",
+        "Indirizzo del server DNS",
+        "Indirizzo del server SMTP (o MSA)",
+        "Indirizzo del server POP3"
+      ],
+      "risposta_corretta": "Indirizzo del server SMTP (o MSA)",
+      "svg": ""
+    },
+    {
+      "id": 91,
+      "domanda": "Qual è il principale motivo per cui si usa una connessione crittografata (SSL/TLS) per POP3 e IMAP?",
+      "risposte": [
+        "Per velocizzare il download delle email.",
+        "Per comprimere le email.",
+        "Per proteggere le credenziali di accesso e il contenuto delle email durante il trasferimento.",
+        "Per permettere l'invio di email."
+      ],
+      "risposta_corretta": "Per proteggere le credenziali di accesso e il contenuto delle email durante il trasferimento.",
+      "svg": ""
+    },
+    {
+      "id": 92,
+      "domanda": "Nel processo di ricezione email, dopo che l'MTA di destinazione ha ricevuto l'email, a chi la consegna?",
+      "risposte": [
+        "Al MUA del destinatario.",
+        "Al DNS.",
+        "Al Mail Delivery Agent (MDA).",
+        "Al server SMTP del mittente."
+      ],
+      "risposta_corretta": "Al Mail Delivery Agent (MDA).",
+      "svg": ""
+    },
+    {
+      "id": 93,
+      "domanda": "Qual è il vantaggio di usare la porta 587 per SMTP invece della 25 dal punto di vista della sicurezza per l'utente finale?",
+      "risposte": [
+        "La 587 non richiede autenticazione.",
+        "La 587 è meno soggetta a blocchi da parte degli ISP e incoraggia l'autenticazione.",
+        "La 25 supporta solo IPv6.",
+        "La 25 è più lenta."
+      ],
+      "risposta_corretta": "La 587 è meno soggetta a blocchi da parte degli ISP e incoraggia l'autenticazione.",
+      "svg": ""
+    },
+    {
+      "id": 94,
+      "domanda": "Un'email viene memorizzata in una 'mailbox' sul server di posta del destinatario. Quale protocollo è usato dal client per accedere a questa mailbox?",
+      "risposte": [
+        "SMTP",
+        "FTP",
+        "POP3 o IMAP",
+        "HTTP"
+      ],
+      "risposta_corretta": "POP3 o IMAP",
+      "svg": ""
+    },
+    {
+      "id": 95,
+      "domanda": "Quale tipo di protocollo è SMTP?",
+      "risposte": [
+        "Un protocollo di accesso.",
+        "Un protocollo di invio e trasferimento.",
+        "Un protocollo di gestione file.",
+        "Un protocollo di risoluzione nomi."
+      ],
+      "risposta_corretta": "Un protocollo di invio e trasferimento.",
+      "svg": ""
+    },
+    {
+      "id": 96,
+      "domanda": "Se un'email ha un lungo elenco di destinatari in BCC (Blind Carbon Copy), cosa significa?",
+      "risposte": [
+        "Tutti i destinatari vedranno l'elenco completo.",
+        "I destinatari in BCC non vedranno gli altri destinatari in BCC o CC/To.",
+        "L'email verrà inviata in ritardo.",
+        "Solo il mittente vedrà l'elenco dei destinatari."
+      ],
+      "risposta_corretta": "I destinatari in BCC non vedranno gli altri destinatari in BCC o CC/To.",
+      "svg": ""
+    },
+    {
+      "id": 97,
+      "domanda": "Cosa indica il campo 'Subject' di un'email?",
+      "risposte": [
+        "Il mittente dell'email.",
+        "Il corpo del messaggio.",
+        "L'oggetto dell'email.",
+        "La data di invio."
+      ],
+      "risposta_corretta": "L'oggetto dell'email.",
+      "svg": ""
+    },
+    {
+      "id": 98,
+      "domanda": "In un contesto di posta elettronica, cosa sono gli 'header' di un'email?",
+      "risposte": [
+        "Solo il campo 'Subject' e 'From'.",
+        "Informazioni aggiuntive che descrivono il messaggio, i mittenti, i destinatari, ecc.",
+        "Il contenuto principale dell'email.",
+        "I dati degli allegati."
+      ],
+      "risposta_corretta": "Informazioni aggiuntive che descrivono il messaggio, i mittenti, i destinatari, ecc.",
+      "svg": ""
+    },
+    {
+      "id": 99,
+      "domanda": "Qual è il ruolo del 'Mail Delivery Agent' (MDA)?",
+      "risposte": [
+        "Invia email da un server all'altro.",
+        "Fornisce un'interfaccia utente per la posta.",
+        "Consegna le email dal server al client.",
+        "Deposita l'email nella casella di posta dell'utente sul server."
+      ],
+      "risposta_corretta": "Deposita l'email nella casella di posta dell'utente sul server.",
+      "svg": ""
+    },
+    {
+      "id": 100,
+      "domanda": "Quale tipo di record DNS viene interrogato per la 'reverse DNS lookup' di un server di posta?",
+      "risposte": [
+        "A record",
+        "MX record",
+        "PTR record",
+        "TXT record"
+      ],
+      "risposta_corretta": "PTR record",
+      "svg": ""
+    }
+  ]
+}

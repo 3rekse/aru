@@ -1,0 +1,242 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Qual è la funzione principale di una VLAN (Virtual Local Area Network)?",
+      "risposte": [
+        "Aumentare il dominio di collisione.",
+        "Suddividere logicamente una LAN in sottoreti.",
+        "Connettere reti geograficamente distanti.",
+        "Assegnare indirizzi IP automaticamente ai dispositivi."
+      ],
+      "risposta_corretta": "Suddividere logicamente una LAN in sottoreti.",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Come influisce l'implementazione delle VLAN sui domini di broadcast di una rete?",
+      "risposte": [
+        "Li elimina completamente.",
+        "Li unifica in un unico grande dominio.",
+        "Suddivide un grande dominio in più piccoli domini separati.",
+        "Non ha alcun impatto sui domini di broadcast."
+      ],
+      "risposta_corretta": "Suddivide un grande dominio in più piccoli domini separati.",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Quale tipo di porta dello switch è progettata per connettere un singolo dispositivo finale (es. PC) e trasporta traffico non taggato?",
+      "risposte": [
+        "Trunk Port.",
+        "Access Port.",
+        "Management Port.",
+        "Uplink Port."
+      ],
+      "risposta_corretta": "Access Port.",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Quale standard IEEE è utilizzato per il tagging VLAN sui collegamenti trunk?",
+      "risposte": [
+        "IEEE 802.3.",
+        "IEEE 802.1Q.",
+        "IEEE 802.11.",
+        "IEEE 802.1X."
+      ],
+      "risposta_corretta": "IEEE 802.1Q.",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Se due dispositivi si trovano in VLAN diverse, quale dispositivo è necessario per permettere la loro comunicazione?",
+      "risposte": [
+        "Un Hub.",
+        "Un Repeater.",
+        "Un Router o uno Switch di Livello 3.",
+        "Un Access Point."
+      ],
+      "risposta_corretta": "Un Router o uno Switch di Livello 3.",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Qual è uno dei principali vantaggi delle VLAN in termini di sicurezza della rete?",
+      "risposte": [
+        "Elimina la necessità di password.",
+        "Isola il traffico tra diversi gruppi di utenti o dipartimenti.",
+        "Crittografa automaticamente tutti i dati.",
+        "Rende le connessioni wireless più veloci."
+      ],
+      "risposta_corretta": "Isola il traffico tra diversi gruppi di utenti o dipartimenti.",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Quale tipo di VLAN è specificamente ottimizzato per il traffico di telefonia IP (VoIP) e riceve spesso priorità?",
+      "risposte": [
+        "Data VLAN.",
+        "Management VLAN.",
+        "Native VLAN.",
+        "Voice VLAN."
+      ],
+      "risposta_corretta": "Voice VLAN.",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "La 'Native VLAN' è la VLAN a cui viene assegnato il traffico ____ che attraversa una porta trunk.",
+      "risposte": [
+        "taggato con ID specifico.",
+        "non taggato.",
+        "unicast.",
+        "broadcast."
+      ],
+      "risposta_corretta": "non taggato.",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Quale vantaggio offre l'uso di una 'Management VLAN' separata?",
+      "risposte": [
+        "Rende tutti gli switch non gestibili.",
+        "Isola e protegge l'accesso di gestione ai dispositivi di rete.",
+        "Aumenta la larghezza di banda per il traffico dati.",
+        "Permette agli utenti di accedere a tutte le VLAN."
+      ],
+      "risposta_corretta": "Isola e protegge l'accesso di gestione ai dispositivi di rete.",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Perché è fondamentale che la Native VLAN sia configurata con lo stesso ID su entrambi i lati di un collegamento trunk?",
+      "risposte": [
+        "Per aumentare la velocità del traffico.",
+        "Per prevenire vulnerabilità di 'VLAN hopping' e problemi di connettività.",
+        "Per consentire il routing dinamico.",
+        "Per ridurre il consumo energetico degli switch."
+      ],
+      "risposta_corretta": "Per prevenire vulnerabilità di 'VLAN hopping' e problemi di connettività.",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Qual è il principale svantaggio delle VLAN in termini di configurazione e gestione?",
+      "risposte": [
+        "Riducono la necessità di cavi di rete.",
+        "Aumentano significativamente la complessità di progettazione e configurazione.",
+        "Non supportano i dispositivi wireless.",
+        "Eliminano la necessità di router."
+      ],
+      "risposta_corretta": "Aumentano significativamente la complessità di progettazione e configurazione.",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Quale delle seguenti affermazioni riguardo a un 'Switch di Livello 3' è vera?",
+      "risposte": [
+        "Può solo inoltrare frame all'interno della stessa VLAN.",
+        "Combina le funzionalità di switching di Livello 2 e di routing di Livello 3.",
+        "È un dispositivo obsoleto non più utilizzato.",
+        "Non richiede alimentazione elettrica."
+      ],
+      "risposta_corretta": "Combina le funzionalità di switching di Livello 2 e di routing di Livello 3.",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Il 'Router-on-a-Stick' è una configurazione che utilizza:",
+      "risposte": [
+        "Uno switch di Livello 3.",
+        "Un hub per connettere più VLAN.",
+        "Un router fisico esterno collegato a uno switch via un unico link trunk.",
+        "Due router collegati direttamente senza switch."
+      ],
+      "risposta_corretta": "Un router fisico esterno collegato a uno switch via un unico link trunk.",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Qual è la principale differenza di prestazioni per il routing inter-VLAN tra un Router-on-a-Stick e uno Switch di Livello 3?",
+      "risposte": [
+        "Il Router-on-a-Stick è sempre più veloce.",
+        "Lo Switch di Livello 3 esegue il routing a velocità di linea (wire speed), mentre il Router-on-a-Stick può avere un collo di bottiglia.",
+        "Entrambi hanno prestazioni identiche.",
+        "Le prestazioni dipendono solo dal tipo di cavo usato."
+      ],
+      "risposta_corretta": "Lo Switch di Livello 3 esegue il routing a velocità di linea (wire speed), mentre il Router-on-a-Stick può avere un collo di bottiglia.",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Qual è il vantaggio delle VLAN in termini di flessibilità e gestione degli spostamenti dei dispositivi?",
+      "risposte": [
+        "Richiede la ricablazione completa ad ogni spostamento.",
+        "Permette di raggruppare utenti indipendentemente dalla loro posizione fisica, semplificando gli spostamenti.",
+        "Disabilita automaticamente il Wi-Fi.",
+        "Rende impossibile lo spostamento dei dispositivi."
+      ],
+      "risposta_corretta": "Permette di raggruppare utenti indipendentemente dalla loro posizione fisica, semplificando gli spostamenti.",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Un frame che attraversa una 'Access Port' di uno switch è:",
+      "risposte": [
+        "Sempre taggato con l'ID della VLAN.",
+        "Mai taggato con l'ID della VLAN.",
+        "Taggato solo se la porta è full-duplex.",
+        "Taggato solo se collegato a un router."
+      ],
+      "risposta_corretta": "Mai taggato con l'ID della VLAN.",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Cosa significa 'tagging VLAN' in riferimento allo standard 802.1Q?",
+      "risposte": [
+        "L'aggiunta di un indirizzo IP al frame.",
+        "L'aggiunta di un campo (tag) all'intestazione del frame Ethernet per identificare la VLAN.",
+        "La rimozione dell'indirizzo MAC dal frame.",
+        "La compressione dei dati del frame."
+      ],
+      "risposta_corretta": "L'aggiunta di un campo (tag) all'intestazione del frame Ethernet per identificare la VLAN.",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "Un 'dominio di broadcast' è l'area in cui:",
+      "risposte": [
+        "Solo i messaggi unicast possono viaggiare.",
+        "I messaggi broadcast si propagano e vengono ricevuti da tutti i dispositivi.",
+        "Le collisioni di rete sono eliminate.",
+        "Solo i dispositivi di Livello 3 possono comunicare."
+      ],
+      "risposta_corretta": "I messaggi broadcast si propagano e vengono ricevuti da tutti i dispositivi.",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "Quale tipo di VLAN è generalmente utilizzato per il traffico dati degli utenti finali (es. PC, stampanti)?",
+      "risposte": [
+        "Voice VLAN.",
+        "Management VLAN.",
+        "Native VLAN.",
+        "Data VLAN."
+      ],
+      "risposta_corretta": "Data VLAN.",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "Vero o Falso: Le VLAN rendono il troubleshooting di rete più complesso a causa dei vari livelli di astrazione (VLAN ID, porte, routing inter-VLAN).",
+      "risposte": [
+        "Vero.",
+        "Falso."
+      ],
+      "risposta_corretta": "Vero.",
+      "svg": ""
+    }
+  ]
+}

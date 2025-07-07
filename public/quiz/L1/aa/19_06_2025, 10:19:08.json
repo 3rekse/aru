@@ -1,0 +1,266 @@
+[
+  {
+    "mission": "L1",
+    "nome": "aa",
+    "cognome": "aa",
+    "classe": "aa",
+    "voto": 4,
+    "dataorainizio": "2025-06-19T08:19:06.438Z",
+    "inizio": "19/06/2025, 10:19:06",
+    "durata": 543,
+    "giuste": 21,
+    "sbagliate": 29,
+    "quiz": [
+      {
+        "id": 54,
+        "domanda": "Quale linguaggio è comunemente usato nei sistemi embedded (integrati)?",
+        "svg": " ✅ C"
+      },
+      {
+        "id": 7,
+        "domanda": "Cosa distingue il Deep Learning dal Machine Learning?",
+        "svg": " ✅ È una forma più avanzata di apprendimento automatico basata su reti neurali"
+      },
+      {
+        "id": 45,
+        "domanda": "Quale delle seguenti è una piattaforma di coding visuale usata a scuola?",
+        "svg": " ✅ Scratch"
+      },
+      {
+        "id": 1,
+        "domanda": "Qual è stato uno dei primi strumenti considerati 'informatici' nella storia?",
+        "svg": " ✅ L'abaco"
+      },
+      {
+        "id": 30,
+        "domanda": "Quale linguaggio è comunemente usato nella programmazione dell'IA?",
+        "svg": " ✅ Python"
+      },
+      {
+        "id": 42,
+        "domanda": "Cos'è un drone in ambito tecnologico?",
+        "svg": " ✅ Un dispositivo volante controllato da remoto"
+      },
+      {
+        "id": 3,
+        "domanda": "Perché Ada Lovelace è considerata la prima programmatrice della storia?",
+        "svg": " ✅ Ha ideato concetti fondamentali come cicli e condizioni"
+      },
+      {
+        "id": 56,
+        "domanda": "Qual è una sfida etica legata all’IA?",
+        "svg": " ✅ Rispetto della privacy e dei diritti umani"
+      },
+      {
+        "id": 36,
+        "domanda": "Quale dispositivo IoT può controllare la temperatura in casa?",
+        "svg": " ✅ Termostato intelligente"
+      },
+      {
+        "id": 23,
+        "domanda": "Qual è una delle funzioni principali dei sensori nell’IoT?",
+        "svg": " ✅ Raccogliere dati dall’ambiente"
+      },
+      {
+        "id": 58,
+        "domanda": "Cosa fa un sistema predittivo?",
+        "svg": " ✅ Prevede comportamenti futuri basandosi sui dati passati"
+      },
+      {
+        "id": 53,
+        "domanda": "Cosa fa un sistema di raccomandazione come quello di Netflix?",
+        "svg": " ✅ Suggerisce contenuti basati sulle preferenze dell'utente"
+      },
+      {
+        "id": 10,
+        "domanda": "Cosa si intende per informatica ubiqua (pervasive computing)?",
+        "svg": " ✅ Tecnologia informatica integrata e invisibile nella vita quotidiana"
+      },
+      {
+        "id": 28,
+        "domanda": "Cosa fa un sistema di visione artificiale?",
+        "svg": " ❌ Crea modelli 3D"
+      },
+      {
+        "id": 57,
+        "domanda": "Cosa si intende per 'bias' in un algoritmo di IA?",
+        "svg": " ❌ Velocità di esecuzione"
+      },
+      {
+        "id": 34,
+        "domanda": "Qual è una delle applicazioni dell’IA nel settore sanitario?",
+        "svg": " ❌ Traduzione simultanea"
+      },
+      {
+        "id": 25,
+        "domanda": "Qual è l'obiettivo principale della blockchain?",
+        "svg": " ❌ Archiviare immagini in cloud"
+      },
+      {
+        "id": 59,
+        "domanda": "Qual è uno degli usi principali dell’IA in ambito ambientale?",
+        "svg": " ❌ Colorare le foto antiche"
+      },
+      {
+        "id": 27,
+        "domanda": "Qual è una funzione tipica di un assistente vocale come Alexa o Siri?",
+        "svg": " ❌ Disegnare loghi professionali"
+      },
+      {
+        "id": 2,
+        "domanda": "Chi ha introdotto per primo il concetto di sistema binario nell'informatica?",
+        "svg": " ❌ Alan Turing"
+      },
+      {
+        "id": 51,
+        "domanda": "Cos’è il Natural Language Processing (NLP)?",
+        "svg": " ✅ La comprensione del linguaggio umano da parte delle macchine"
+      },
+      {
+        "id": 37,
+        "domanda": "Cos’è una smart city?",
+        "svg": " ❌ Una città piena di robot"
+      },
+      {
+        "id": 40,
+        "domanda": "Cos’è un assistente virtuale?",
+        "svg": " ❌ Un robot fisico"
+      },
+      {
+        "id": 50,
+        "domanda": "In che ambito si usa il termine 'deep learning'?",
+        "svg": " ❌ Nel turismo"
+      },
+      {
+        "id": 49,
+        "domanda": "Quale componente gestisce le istruzioni del programma in un computer?",
+        "svg": " ✅ Processore (CPU)"
+      },
+      {
+        "id": 48,
+        "domanda": "Cos'è un algoritmo di raccomandazione?",
+        "svg": " ❌ Un'app per prenotare viaggi"
+      },
+      {
+        "id": 55,
+        "domanda": "Cosa consente la tecnologia RFID?",
+        "svg": " ✅ Comunicazione wireless tra tag e lettori"
+      },
+      {
+        "id": 26,
+        "domanda": "Cosa permette il riconoscimento facciale?",
+        "svg": " ❌ Leggere QR Code"
+      },
+      {
+        "id": 60,
+        "domanda": "A cosa serve un simulatore di intelligenza artificiale?",
+        "svg": " ✅ Simulare ambienti per testare algoritmi di IA"
+      },
+      {
+        "id": 9,
+        "domanda": "Quali sono le tre fasi principali dell’attività di un computer?",
+        "svg": " ❌ Apertura, utilizzo, chiusura"
+      },
+      {
+        "id": 31,
+        "domanda": "A cosa serve un chatbot?",
+        "svg": " ❌ A fare chiamate vocali"
+      },
+      {
+        "id": 24,
+        "domanda": "Che cosa si intende per 'Big Data'?",
+        "svg": " ✅ Una grande quantità di dati complessi da analizzare"
+      },
+      {
+        "id": 39,
+        "domanda": "Che tipo di interazione si ha con un’interfaccia touch?",
+        "svg": " ❌ Attraverso comandi vocali"
+      },
+      {
+        "id": 44,
+        "domanda": "Cosa significa l'acronimo AI?",
+        "svg": " ✅ Artificial Intelligence"
+      },
+      {
+        "id": 46,
+        "domanda": "Cos'è un robot umanoide?",
+        "svg": " ❌ Un'app per smartphone"
+      },
+      {
+        "id": 47,
+        "domanda": "Cosa si intende con il termine 'eticamente progettata' per un’IA?",
+        "svg": " ❌ Che non sbaglia mai"
+      },
+      {
+        "id": 6,
+        "domanda": "Cosa si intende per realtà aumentata (AR)?",
+        "svg": " ❌ Un videogioco tridimensionale"
+      },
+      {
+        "id": 22,
+        "domanda": "Chi ha formulato il test per verificare l'intelligenza delle macchine?",
+        "svg": " ❌ Bill Gates"
+      },
+      {
+        "id": 5,
+        "domanda": "Cos'è l'Internet delle Cose (IoT)?",
+        "svg": " ❌ Un sistema operativo per smartphone"
+      },
+      {
+        "id": 35,
+        "domanda": "Qual è lo scopo dell’automazione industriale?",
+        "svg": " ❌ Creare nuove materie prime"
+      },
+      {
+        "id": 4,
+        "domanda": "Quale computer è stato utilizzato durante la Seconda Guerra Mondiale per decifrare i codici nazisti?",
+        "svg": " ❌ Mark I"
+      },
+      {
+        "id": 52,
+        "domanda": "Quale delle seguenti è un’applicazione dell’AI nella musica?",
+        "svg": " ❌ Sintonizzare radio"
+      },
+      {
+        "id": 38,
+        "domanda": "Quale delle seguenti tecnologie può aiutare nella guida autonoma?",
+        "svg": " ❌ Router Wi-Fi"
+      },
+      {
+        "id": 43,
+        "domanda": "Qual è uno dei principali obiettivi della robotica collaborativa?",
+        "svg": " ❌ Costruire robot per videogiochi"
+      },
+      {
+        "id": 21,
+        "domanda": "Cosa indica il termine 'intelligenza artificiale debole'?",
+        "svg": " ❌ Un'IA che può modificare se stessa"
+      },
+      {
+        "id": 33,
+        "domanda": "Cosa indica il termine 'robotica educativa'?",
+        "svg": " ✅ Uso dei robot per apprendere competenze logiche e tecniche"
+      },
+      {
+        "id": 32,
+        "domanda": "Che cosa significa 'apprendimento supervisionato' nell'IA?",
+        "svg": " ✅ Imparare da dati etichettati con esempi"
+      },
+      {
+        "id": 29,
+        "domanda": "Cosa significa 'machine-to-machine' (M2M)?",
+        "svg": " ❌ Riconoscimento di testi scritti"
+      },
+      {
+        "id": 41,
+        "domanda": "Chi ha coniato il termine 'intelligenza artificiale' nel 1956?",
+        "svg": " ❌ Norbert Wiener"
+      },
+      {
+        "id": 8,
+        "domanda": "Qual è il ruolo principale delle GPU nell'intelligenza artificiale?",
+        "svg": " ❌ Gestire la connessione a Internet"
+      }
+    ]
+  }
+]

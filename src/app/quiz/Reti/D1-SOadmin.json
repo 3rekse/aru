@@ -1,0 +1,605 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "domanda": "Qual è un compito principale di un amministratore di sistema?",
+        "risposte": [
+          "Progettare l'interfaccia utente di un'applicazione web",
+          "Gestire gli account utente e i permessi di accesso",
+          "Sviluppare nuove funzionalità software",
+          "Creare contenuti per i social media"
+        ],
+        "risposta_corretta": "Gestire gli account utente e i permessi di accesso",
+        "svg": ""
+      },
+      {
+        "id": 2,
+        "domanda": "Qual è un vantaggio principale dell'utilizzo di una rete locale (LAN)?",
+        "risposte": [
+          "Accesso illimitato a internet senza costi",
+          "Condivisione di risorse hardware (es. stampanti)",
+          "Maggiore anonimato online",
+          "Comunicazione con reti situate in altri continenti"
+        ],
+        "risposta_corretta": "Condivisione di risorse hardware (es. stampanti)",
+        "svg": ""
+      },
+      {
+        "id": 3,
+        "domanda": "Quale dei seguenti è un modello di servizio del Cloud Computing?",
+        "risposte": [
+          "Hardware as a Service (HaaS)",
+          "Network as a Service (NaaS)",
+          "Software as a Service (SaaS)",
+          "Desktop as a Service (DaaS)"
+        ],
+        "risposta_corretta": "Software as a Service (SaaS)",
+        "svg": ""
+      },
+      {
+        "id": 4,
+        "domanda": "Qual è un principio fondamentale per garantire la sicurezza di una rete informatica?",
+        "risposte": [
+          "Consentire l'accesso amministrativo a tutti gli utenti",
+          "Utilizzo di password complesse e aggiornate regolarmente",
+          "Disabilitare il firewall per migliorare le prestazioni",
+          "Non eseguire backup dei dati per risparmiare spazio"
+        ],
+        "risposta_corretta": "Utilizzo di password complesse e aggiornate regolarmente",
+        "svg": ""
+      },
+      {
+        "id": 5,
+        "domanda": "Qual è un vantaggio principale della segmentazione di una rete in sottoreti?",
+        "risposte": [
+          "Aumento del numero massimo di host per rete",
+          "Miglioramento della sicurezza isolando segmenti di rete",
+          "Aumento della velocità di trasferimento dati complessiva",
+          "Complicazione della gestione degli indirizzi IP"
+        ],
+        "risposta_corretta": "Miglioramento della sicurezza isolando segmenti di rete",
+        "svg": ""
+      },
+      {
+        "id": 6,
+        "domanda": "Quale dei seguenti è un dispositivo di rete attivo?",
+        "risposte": [
+          "Cavo Ethernet",
+          "Connettore RJ45",
+          "Switch",
+          "Patch panel"
+        ],
+        "risposta_corretta": "Switch",
+        "svg": ""
+      },
+      {
+        "id": 7,
+        "domanda": "Qual è una funzionalità tipica di un firewall?",
+        "risposte": [
+          "Instradamento del traffico tra reti diverse",
+          "Fornire connettività wireless",
+          "Filtraggio del traffico in base a regole configurate",
+          "Gestione degli indirizzi IP tramite DHCP"
+        ],
+        "risposta_corretta": "Filtraggio del traffico in base a regole configurate",
+        "svg": ""
+      },
+      {
+        "id": 8,
+        "domanda": "Quale dei seguenti è un protocollo utilizzato per implementare una VPN (Virtual Private Network)?",
+        "risposte": [
+          "HTTP",
+          "SMTP",
+          "IPsec",
+          "FTP"
+        ],
+        "risposta_corretta": "IPsec",
+        "svg": ""
+      },
+      {
+        "id": 9,
+        "domanda": "Qual è una responsabilità principale nella gestione degli account utente in un sistema informatico?",
+        "risposte": [
+          "Installazione di aggiornamenti del sistema operativo",
+          "Configurazione delle impostazioni di rete per gli utenti",
+          "Creazione, modifica ed eliminazione degli account utente",
+          "Gestione della posta elettronica degli utenti"
+        ],
+        "risposta_corretta": "Creazione, modifica ed eliminazione degli account utente",
+        "svg": ""
+      },
+      {
+        "id": 10,
+        "domanda": "Qual è il primo passo fondamentale nel processo di troubleshooting di una rete?",
+        "risposte": [
+          "Applicare una soluzione immediata",
+          "Riavviare tutti i dispositivi di rete",
+          "Identificare il problema e raccogliere informazioni",
+          "Sostituire l'hardware sospetto"
+        ],
+        "risposta_corretta": "Identificare il problema e raccogliere informazioni",
+        "svg": ""
+      },
+     
+          {
+            "id": 11,
+            "domanda": "Qual è la funzione principale del protocollo DHCP?",
+            "risposte": [
+              "Risolvere nomi di dominio in indirizzi IP",
+              "Trasferire file tra client e server",
+              "Assegnare automaticamente indirizzi IP ai client di rete",
+              "Garantire la comunicazione sicura tramite crittografia"
+            ],
+            "risposta_corretta": "Assegnare automaticamente indirizzi IP ai client di rete",
+            "svg": ""
+          },
+          {
+            "id": 12,
+            "domanda": "Qual è la differenza fondamentale tra un hub e uno switch?",
+            "risposte": [
+              "Un hub inoltra il traffico a tutte le porte, uno switch solo alla porta di destinazione",
+              "Uno switch opera a livello fisico, un hub a livello di collegamento dati",
+              "Un hub supporta solo connessioni cablate, uno switch anche wireless",
+              "Uno switch è utilizzato per reti WAN, un hub per reti LAN"
+            ],
+            "risposta_corretta": "Un hub inoltra il traffico a tutte le porte, uno switch solo alla porta di destinazione",
+            "svg": ""
+          },
+          {
+            "id": 13,
+            "domanda": "Qual è la funzione principale del protocollo DNS?",
+            "risposte": [
+              "Gestire la qualità del servizio (QoS)",
+              "Fornire indirizzi IP dinamici",
+              "Tradurre nomi di dominio in indirizzi IP",
+              "Controllare l'accesso alla rete tramite autenticazione"
+            ],
+            "risposta_corretta": "Tradurre nomi di dominio in indirizzi IP",
+            "svg": ""
+          },
+          {
+            "id": 14,
+            "domanda": "Qual è il significato dell'acronimo RAID?",
+            "risposte": [
+              "Redundant Array of Independent Disks",
+              "Random Access Information Database",
+              "Remote Administration and Installation Device",
+              "Real-time Application Interface Driver"
+            ],
+            "risposta_corretta": "Redundant Array of Independent Disks",
+            "svg": ""
+          },
+          {
+            "id": 15,
+            "domanda": "Qual è lo scopo principale di un sistema di backup?",
+            "risposte": [
+              "Aumentare la velocità di elaborazione dei dati",
+              "Prevenire attacchi informatici",
+              "Ripristinare i dati in caso di perdita o danneggiamento",
+              "Ottimizzare l'utilizzo dello spazio di archiviazione"
+            ],
+            "risposta_corretta": "Ripristinare i dati in caso di perdita o danneggiamento",
+            "svg": ""
+          },
+          {
+            "id": 16,
+            "domanda": "Qual è la funzione principale di un router in una rete?",
+            "risposte": [
+              "Connettere dispositivi all'interno della stessa rete",
+              "Amplificare il segnale di rete",
+              "Instradare il traffico tra reti diverse",
+              "Filtrare il traffico in base agli indirizzi MAC"
+            ],
+            "risposta_corretta": "Instradare il traffico tra reti diverse",
+            "svg": ""
+          },
+          {
+            "id": 17,
+            "domanda": "Qual è un metodo comune per autenticare gli utenti su una rete?",
+            "risposte": [
+              "Indirizzo IP",
+              "Indirizzo MAC",
+              "Username e password",
+              "Nome del computer"
+            ],
+            "risposta_corretta": "Username e password",
+            "svg": ""
+          },
+          {
+            "id": 18,
+            "domanda": "Qual è lo scopo principale di un sistema IDS (Intrusion Detection System)?",
+            "risposte": [
+              "Bloccare attivamente il traffico dannoso",
+              "Crittografare le comunicazioni di rete",
+              "Rilevare attività sospette o dannose sulla rete",
+              "Gestire gli accessi degli utenti alla rete"
+            ],
+            "risposta_corretta": "Rilevare attività sospette o dannose sulla rete",
+            "svg": ""
+          },
+          {
+            "id": 19,
+            "domanda": "Qual è un tipo comune di attacco informatico?",
+            "risposte": [
+              "Deframmentazione del disco",
+              "Aggiornamento del software",
+              "Phishing",
+              "Ottimizzazione della cache"
+            ],
+            "risposta_corretta": "Phishing",
+            "svg": ""
+          },
+          {
+            "id": 20,
+            "domanda": "Qual è la funzione principale di un server proxy?",
+            "risposte": [
+              "Fornire storage di rete centralizzato",
+              "Agire come intermediario tra client e server",
+              "Gestire la posta elettronica degli utenti",
+              "Ospitare siti web"
+            ],
+            "risposta_corretta": "Agire come intermediario tra client e server",
+            "svg": ""
+          },
+          {
+            "id": 21,
+            "domanda": "Qual è la differenza tra un indirizzo IP pubblico e uno privato?",
+            "risposte": [
+              "Un indirizzo IP pubblico è utilizzato solo internamente, uno privato esternamente",
+              "Un indirizzo IP pubblico è univoco a livello globale, uno privato è utilizzato all'interno di una rete",
+              "Un indirizzo IP pubblico è assegnato manualmente, uno privato automaticamente",
+              "Non c'è alcuna differenza significativa tra i due"
+            ],
+            "risposta_corretta": "Un indirizzo IP pubblico è univoco a livello globale, uno privato è utilizzato all'interno di una rete",
+            "svg": ""
+          },
+          {
+            "id": 22,
+            "domanda": "Qual è la funzione principale di una VLAN (Virtual Local Area Network)?",
+            "risposte": [
+              "Aumentare la velocità di trasmissione dei dati",
+              "Segmentare logicamente una rete fisica",
+              "Estendere la portata geografica di una LAN",
+              "Comprimere i dati trasmessi sulla rete"
+            ],
+            "risposta_corretta": "Segmentare logicamente una rete fisica",
+            "svg": ""
+          },
+          {
+            "id": 23,
+            "domanda": "Qual è un protocollo utilizzato per la gestione remota di server e dispositivi di rete tramite una linea di comando sicura?",
+            "risposte": [
+              "HTTP",
+              "FTP",
+              "SSH",
+              "Telnet"
+            ],
+            "risposta_corretta": "SSH",
+            "svg": ""
+          },
+          {
+            "id": 24,
+            "domanda": "Qual è lo scopo principale del protocollo SNMP (Simple Network Management Protocol)?",
+            "risposte": [
+              "Trasferire file di grandi dimensioni in modo efficiente",
+              "Monitorare e gestire i dispositivi di rete",
+              "Fornire servizi di directory centralizzati",
+              "Automatizzare la configurazione degli indirizzi IP"
+            ],
+            "risposta_corretta": "Monitorare e gestire i dispositivi di rete",
+            "svg": ""
+          },
+          {
+            "id": 25,
+            "domanda": "Qual è un metodo per migliorare la tolleranza ai guasti in un sistema informatico?",
+            "risposte": [
+              "Aumentare la frammentazione del disco",
+              "Utilizzare un singolo punto di failure",
+              "Implementare la ridondanza hardware",
+              "Disabilitare i sistemi di monitoraggio"
+            ],
+            "risposta_corretta": "Implementare la ridondanza hardware",
+            "svg": ""
+          },
+          {
+            "id": 26,
+            "domanda": "Qual è la funzione principale di un load balancer?",
+            "risposte": [
+              "Ottimizzare le query al database",
+              "Distribuire il traffico su più server",
+              "Comprimere i dati prima della trasmissione",
+              "Proteggere i server da sbalzi di tensione"
+            ],
+            "risposta_corretta": "Distribuire il traffico su più server",
+            "svg": ""
+          },
+          {
+            "id": 27,
+            "domanda": "Qual è un tipo di cavo comunemente utilizzato nelle reti Ethernet?",
+            "risposte": [
+              "Cavo coassiale",
+              "Cavo in fibra ottica",
+              "Cavo a doppino intrecciato",
+              "Cavo seriale"
+            ],
+            "risposta_corretta": "Cavo a doppino intrecciato",
+            "svg": ""
+          },
+          {
+            "id": 28,
+            "domanda": "Qual è la funzione principale di un sistema operativo server?",
+            "risposte": [
+              "Eseguire applicazioni desktop",
+              "Fornire servizi centralizzati a più client",
+              "Gestire la riproduzione multimediale",
+              "Navigare sul web"
+            ],
+            "risposta_corretta": "Fornire servizi centralizzati a più client",
+            "svg": ""
+          },
+          {
+            "id": 29,
+            "domanda": "Qual è un modo per proteggere una rete wireless?",
+            "risposte": [
+              "Utilizzare un SSID predefinito",
+              "Disabilitare la crittografia",
+              "Utilizzare la crittografia WPA3",
+              "Non cambiare la password di fabbrica del router"
+            ],
+            "risposta_corretta": "Utilizzare la crittografia WPA3",
+            "svg": ""
+          },
+          {
+            "id": 30,
+            "domanda": "Qual è un aspetto importante da considerare nella progettazione di una rete?",
+            "risposte": [
+              "Il colore dei cavi Ethernet",
+              "La posizione delle prese elettriche",
+              "La scalabilità futura della rete",
+              "Il tipo di illuminazione della stanza dei server"
+            ],
+            "risposta_corretta": "La scalabilità futura della rete",
+            "svg": ""
+          },
+          {
+            "id": 31,
+            "domanda": "Qual è la funzione principale di un <a href=\"md.html?file=firewall.md\" target=\"_blank\">firewall stateful</a>?",
+            "risposte": [
+              "Filtrare i pacchetti in base solo agli indirizzi IP e alle porte",
+              "Mantenere traccia dello stato delle connessioni di rete",
+              "Fornire servizi di traduzione degli indirizzi di rete (NAT)",
+              "Analizzare il contenuto dei pacchetti a livello applicativo"
+            ],
+            "risposta_corretta": "Mantenere traccia dello stato delle connessioni di rete",
+            "svg": ""
+          },
+          {
+            "id": 32,
+            "domanda": "Qual è un protocollo di livello applicativo utilizzato per il trasferimento di file?",
+            "risposte": [
+              "TCP",
+              "UDP",
+              "FTP",
+              "IP"
+            ],
+            "risposta_corretta": "FTP",
+            "svg": ""
+          },
+          {
+            "id": 33,
+            "domanda": "Qual è la funzione principale di un sistema SIEM (Security Information and Event Management)?",
+            "risposte": [
+              "Prevenire l'accesso non autorizzato ai sistemi",
+              "Crittografare i dati sensibili",
+              "Raccogliere e analizzare i log di sicurezza da diverse fonti",
+              "Gestire le patch di sicurezza dei sistemi operativi"
+            ],
+            "risposta_corretta": "Raccogliere e analizzare i log di sicurezza da diverse fonti",
+            "svg": ""
+          },
+          {
+            "id": 34,
+            "domanda": "Qual è un metodo per garantire la disponibilità di un servizio web?",
+            "risposte": [
+              "Utilizzare un solo server con elevate specifiche hardware",
+              "Disabilitare i sistemi di monitoraggio",
+              "Implementare il bilanciamento del carico su più server",
+              "Limitare la banda di rete disponibile"
+            ],
+            "risposta_corretta": "Implementare il bilanciamento del carico su più server",
+            "svg": ""
+          },
+          {
+            "id": 35,
+            "domanda": "Qual è la funzione principale del protocollo SNMP trap?",
+            "risposte": [
+              "Richiedere informazioni ai dispositivi di rete",
+              "Inviare notifiche asincrone da parte dei dispositivi di rete a un sistema di gestione",
+              "Configurare i parametri dei dispositivi di rete",
+              "Eseguire comandi sui dispositivi di rete"
+            ],
+            "risposta_corretta": "Inviare notifiche asincrone da parte dei dispositivi di rete a un sistema di gestione",
+            "svg": ""
+          },
+          {
+            "id": 36,
+            "domanda": "Qual è un tipo di architettura di rete comune in ambienti aziendali?",
+            "risposte": [
+              "Architettura peer-to-peer",
+              "Architettura client-server",
+              "Architettura ad anello",
+              "Architettura a bus"
+            ],
+            "risposta_corretta": "Architettura client-server",
+            "svg": ""
+          },
+          {
+            "id": 37,
+            "domanda": "Qual è la funzione principale di un server DNS secondario?",
+            "risposte": [
+              "Aumentare la velocità di risoluzione dei nomi",
+              "Fornire ridondanza e disponibilità del servizio DNS",
+              "Gestire le zone DNS primarie",
+              "Crittografare le query DNS"
+            ],
+            "risposta_corretta": "Fornire ridondanza e disponibilità del servizio DNS",
+            "svg": ""
+          },
+          {
+            "id": 38,
+            "domanda": "Qual è un attacco informatico volto a rendere un servizio non disponibile agli utenti legittimi?",
+            "risposte": [
+              "Phishing",
+              "Man-in-the-middle",
+              "Denial of Service (DoS)",
+              "SQL Injection"
+            ],
+            "risposta_corretta": "Denial of Service (DoS)",
+            "svg": ""
+          },
+          {
+            "id": 39,
+            "domanda": "Qual è la funzione principale di un sistema di controllo degli accessi (Access Control List - ACL)?",
+            "risposte": [
+              "Monitorare le prestazioni della rete",
+              "Definire le regole per consentire o negare il traffico di rete",
+              "Assegnare dinamicamente gli indirizzi IP",
+              "Tradurre gli indirizzi IP privati in pubblici"
+            ],
+            "risposta_corretta": "Definire le regole per consentire o negare il traffico di rete",
+            "svg": ""
+          },
+          {
+            "id": 40,
+            "domanda": "Qual è un aspetto cruciale nella pianificazione dell'indirizzamento IP di una rete?",
+            "risposte": [
+              "La marca dei dispositivi di rete",
+              "Il numero previsto di host e la crescita futura",
+              "Il colore dei cavi di rete",
+              "La disposizione fisica degli uffici"
+            ],
+            "risposta_corretta": "Il numero previsto di host e la crescita futura",
+            "svg": ""
+          },
+          {
+            "id": 41,
+            "domanda": "Qual è la funzione principale di un hypervisor in un ambiente virtualizzato?",
+            "risposte": [
+              "Fornire storage condiviso per le macchine virtuali",
+              "Gestire e allocare le risorse hardware alle macchine virtuali",
+              "Emulare le periferiche hardware per i sistemi operativi guest",
+              "Fornire connettività di rete alle macchine virtuali"
+            ],
+            "risposta_corretta": "Gestire e allocare le risorse hardware alle macchine virtuali",
+            "svg": ""
+          },
+          {
+            "id": 42,
+            "domanda": "Qual è un protocollo di routing interno (Interior Gateway Protocol - IGP) comunemente utilizzato?",
+            "risposte": [
+              "BGP",
+              "RIP",
+              "SMTP",
+              "HTTP"
+            ],
+            "risposta_corretta": "RIP",
+            "svg": ""
+          },
+          {
+            "id": 43,
+            "domanda": "Qual è la funzione principale di un certificato digitale?",
+            "risposte": [
+              "Crittografare i dati trasmessi sulla rete",
+              "Verificare l'identità di un sito web o di un server",
+              "Gestire le sessioni utente",
+              "Ottimizzare le prestazioni della rete"
+            ],
+            "risposta_corretta": "Verificare l'identità di un sito web o di un server",
+            "svg": ""
+          },
+          {
+            "id": 44,
+            "domanda": "Qual è un metodo per proteggere le comunicazioni web?",
+            "risposte": [
+              "Utilizzare il protocollo HTTP",
+              "Disabilitare i cookie",
+              "Utilizzare il protocollo HTTPS",
+              "Non utilizzare password"
+            ],
+            "risposta_corretta": "Utilizzare il protocollo HTTPS",
+            "svg": ""
+          },
+          {
+            "id": 45,
+            "domanda": "Qual è la funzione principale di un sistema di prevenzione delle intrusioni (Intrusion Prevention System - IPS)?",
+            "risposte": [
+              "Solo rilevare le minacce alla sicurezza",
+              "Bloccare attivamente le minacce alla sicurezza",
+              "Registrare gli eventi di sicurezza",
+              "Fornire report sulle vulnerabilità"
+            ],
+            "risposta_corretta": "Bloccare attivamente le minacce alla sicurezza",
+            "svg": ""
+          },
+          {
+            "id": 46,
+            "domanda": "Qual è un aspetto importante da considerare nella gestione delle password degli utenti?",
+            "risposte": [
+              "Imporre l'utilizzo di password semplici per facilità di memorizzazione",
+              "Non richiedere la modifica periodica delle password",
+              "Archiviare le password in chiaro nel database",
+              "Imporre requisiti di complessità delle password"
+            ],
+            "risposta_corretta": "Imporre requisiti di complessità delle password",
+            "svg": ""
+          },
+          {
+            "id": 47,
+            "domanda": "Qual è la funzione principale di un server di autenticazione (es. RADIUS, TACACS+)?",
+            "risposte": [
+              "Fornire storage centralizzato per i file degli utenti",
+              "Gestire l'accesso alle risorse di rete tramite autenticazione e autorizzazione",
+              "Assegnare indirizzi IP ai client",
+              "Risolvere i nomi di dominio"
+            ],
+            "risposta_corretta": "Gestire l'accesso alle risorse di rete tramite autenticazione e autorizzazione",
+            "svg": ""
+          },
+          {
+            "id": 48,
+            "domanda": "Qual è un modo per migliorare le prestazioni di una rete?",
+            "risposte": [
+              "Utilizzare cavi di categoria inferiore",
+              "Aumentare il numero di hub nella rete",
+              "Segmentare la rete e ridurre il traffico di broadcast",
+              "Disabilitare il Quality of Service (QoS)"
+            ],
+            "risposta_corretta": "Segmentare la rete e ridurre il traffico di broadcast",
+            "svg": ""
+          },
+          {
+            "id": 49,
+            "domanda": "Qual è la funzione principale di un sistema di patch management?",
+            "risposte": [
+              "Monitorare l'utilizzo della banda di rete",
+              "Applicare aggiornamenti di sicurezza ai sistemi operativi e alle applicazioni",
+              "Gestire gli account utente",
+              "Eseguire backup dei dati"
+            ],
+            "risposta_corretta": "Applicare aggiornamenti di sicurezza ai sistemi operativi e alle applicazioni",
+            "svg": ""
+          },
+          {
+            "id": 50,
+            "domanda": "Qual è un concetto chiave nella progettazione di reti resilienti?",
+            "risposte": [
+              "Single point of failure",
+              "Massima complessità della rete",
+              "Ridondanza",
+              "Minima documentazione"
+            ],
+            "risposta_corretta": "Ridondanza",
+            "svg": ""
+          }
+    ]
+  }

@@ -1,0 +1,111 @@
+[
+  {
+    "mission": "WEB",
+    "nome": "k",
+    "cognome": "k",
+    "classe": "k",
+    "voto": 2,
+    "dataorainizio": "2025-04-29T15:58:03.255Z",
+    "inizio": "29/04/2025, 17:58:03",
+    "durata": 1363,
+    "giuste": 4,
+    "sbagliate": 15,
+    "quiz": [
+      {
+        "id": 110,
+        "domanda": "[Web] Cosa fanno le API?",
+        "svg": " ❌ Definiscono lo stile delle pagine web"
+      },
+      {
+        "id": 109,
+        "domanda": "[Web] A cosa servono i database come MySQL e MongoDB?",
+        "svg": " ❌ Eseguire il rendering di pagine web"
+      },
+      {
+        "id": 105,
+        "domanda": "[Web] Quali sono alcuni framework JavaScript popolari?",
+        "svg": " ❌ MySQL, PostgreSQL e MongoDB"
+      },
+      {
+        "id": 114,
+        "domanda": "[Web] A cosa servono strumenti di versionamento come Git?",
+        "svg": " ❌ Ottimizzare i database"
+      },
+      {
+        "id": 116,
+        "domanda": "[Web] A cosa serve la SEO?",
+        "svg": " ❌ Gestire il traffico di rete"
+      },
+      {
+        "id": 115,
+        "domanda": "[Web] Cosa caratterizza le Single Page Applications (SPA)?",
+        "svg": " ❌ Usano solo PHP per funzionare"
+      },
+      {
+        "id": 118,
+        "domanda": "[Web] Cos'è il frontend?",
+        "svg": " ❌ La logica lato server"
+      },
+      {
+        "id": 117,
+        "domanda": "[Web] Qual è la funzione del backend?",
+        "svg": " ✅ Gestire la logica e l'interazione con il database"
+      },
+      {
+        "id": 104,
+        "domanda": "[Web] A cosa servono i framework CSS come Bootstrap?",
+        "svg": " ❌ Memorizzare dati in tabelle"
+      },
+      {
+        "id": 106,
+        "domanda": "[Web] Cos'è il DOM?",
+        "svg": " ❌ Un sistema per proteggere le connessioni internet"
+      },
+      {
+        "id": 113,
+        "domanda": "[Web] Quale CMS è molto usato per creare siti web?",
+        "svg": " ✅ WordPress"
+      },
+      {
+        "id": 103,
+        "domanda": "[Web] Qual è lo scopo di JavaScript?",
+        "svg": " ❌ Definire lo stile visivo di una pagina"
+      },
+      {
+        "id": 119,
+        "domanda": "[Web] A cosa servono i test automatizzati?",
+        "svg": " ❌ Proteggere i dati degli utenti"
+      },
+      {
+        "id": 111,
+        "domanda": "[Web] A cosa serve il responsive design?",
+        "svg": " ❌ Proteggere i dati degli utenti"
+      },
+      {
+        "id": 112,
+        "domanda": "[Web] Cosa garantisce il protocollo HTTPS?",
+        "svg": " ❌ Un caricamento più veloce delle pagine"
+      },
+      {
+        "id": 102,
+        "domanda": "[Web] A cosa serve il CSS?",
+        "svg": " ✅ Definire lo stile e il layout delle pagine web"
+      },
+      {
+        "id": 101,
+        "domanda": "[Web] Cosa rappresenta l'HTML?",
+        "svg": " ❌ Un database relazionale"
+      },
+      {
+        "id": 108,
+        "domanda": "[Web] Quali linguaggi server-side vengono usati per creare contenuti dinamici?",
+        "svg": " ✅ PHP, Python e Node.js"
+      },
+      {
+        "id": 107,
+        "domanda": "[Web] Quali sono alcuni server web comuni?",
+        "svg": " ❌ Bootstrap e Tailwind"
+      }
+    ]
+  }
+]

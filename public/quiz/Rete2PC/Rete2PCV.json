@@ -1,0 +1,214 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Quale classe IP viene usata nella rete 192.168.1.0/24?",
+      "risposte": ["Classe A", "Classe B", "Classe C", "Classe D"],
+      "risposta_corretta": "Classe C",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Quale indirizzo IP è valido per un dispositivo nella rete 192.168.1.0/24?",
+      "risposte": ["192.168.1.255", "192.168.0.5", "192.168.1.101", "192.168.2.1"],
+      "risposta_corretta": "192.168.1.101",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Qual è la funzione di un cross-cable Ethernet?",
+      "risposte": ["Collegare PC e switch", "Collegare due dispositivi simili", "Collegare stampanti", "Connettere un PC al router"],
+      "risposta_corretta": "Collegare due dispositivi simili",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Quale pin del connettore RJ-45 trasmette dati in una configurazione T568B?",
+      "risposte": ["Pin 1 e 2", "Pin 3 e 6", "Pin 4 e 5", "Pin 7 e 8"],
+      "risposta_corretta": "Pin 1 e 2",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Che significato ha T568B nel contesto del cablaggio?",
+      "risposte": ["Un tipo di porta", "Una configurazione di cavi Ethernet", "Un tipo di connettore USB", "Un indirizzo IP"],
+      "risposta_corretta": "Una configurazione di cavi Ethernet",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Che tipo di segnale viaggia nei cavi Ethernet?",
+      "risposte": ["Segnali ottici", "Segnali radio", "Segnali elettrici", "Segnali a infrarossi"],
+      "risposta_corretta": "Segnali elettrici",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Cosa visualizza il comando `show ip arp` su un router Cisco?",
+      "risposte": ["Le rotte statiche", "Le interfacce disponibili", "La tabella ARP", "I pacchetti in coda"],
+      "risposta_corretta": "La tabella ARP",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "Qual è il comportamento del protocollo ARP quando il MAC non è noto?",
+      "risposte": ["Invia una richiesta broadcast", "Chiude la connessione", "Blocca il traffico", "Spegne la rete"],
+      "risposta_corretta": "Invia una richiesta broadcast",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Cosa succede se il destinatario di una ARP request non esiste?",
+      "risposte": ["Risponde un router", "ARP reply è vuota", "Nessuna risposta", "Viene generato un ICMP error"],
+      "risposta_corretta": "Nessuna risposta",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Cosa accade se si invia un ping con IP errato?",
+      "risposte": ["Si riceve ARP reply", "Si riceve ICMP Echo Reply", "Nessuna risposta", "Si genera un ARP loop"],
+      "risposta_corretta": "Nessuna risposta",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Quale tipo di pacchetto ICMP viene restituito da un host raggiunto correttamente?",
+      "risposte": ["Echo Request", "Echo Reply", "Redirect", "Time Exceeded"],
+      "risposta_corretta": "Echo Reply",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Cosa fa il comando `ping` quando l’host non risponde?",
+      "risposte": ["Mostra TTL 0", "Continua a inviare pacchetti", "Segnala timeout", "Genera loop ARP"],
+      "risposta_corretta": "Segnala timeout",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Il protocollo ICMP può essere bloccato da?",
+      "risposte": ["ARP", "Router", "Firewall", "Switch"],
+      "risposta_corretta": "Firewall",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Un pacchetto ICMP fa parte della famiglia di protocolli:",
+      "risposte": ["TCP", "IP", "UDP", "ARP"],
+      "risposta_corretta": "IP",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Un pacchetto ICMP può segnalare:",
+      "risposte": ["Numero di porte TCP aperte", "Problemi nella consegna dei pacchetti", "Errore di login", "Presenza di malware"],
+      "risposta_corretta": "Problemi nella consegna dei pacchetti",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Quale pacchetto è visibile in una simulazione con ARP già risolto?",
+      "risposte": ["Solo pacchetti TCP", "Una sola busta ICMP", "Due buste ARP", "Una sola busta ICMP"],
+      "risposta_corretta": "Una sola busta ICMP",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Cosa rappresenta il TTL in un pacchetto IP?",
+      "risposte": ["Tempo residuo di rete", "Limite massimo di hop", "Tempo di login", "Tasso di latenza"],
+      "risposta_corretta": "Limite massimo di hop",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "Quale indirizzo viene usato come destinazione in una ARP Request?",
+      "risposte": ["Indirizzo IP specifico", "Indirizzo MAC broadcast", "Indirizzo DNS", "Loopback"],
+      "risposta_corretta": "Indirizzo MAC broadcast",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "A cosa serve il comando `traceroute`?",
+      "risposte": ["Scansionare porte", "Visualizzare MAC", "Mostrare il percorso dei pacchetti", "Verificare la cache ARP"],
+      "risposta_corretta": "Mostrare il percorso dei pacchetti",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "In quale modello si trova la distinzione tra 7 livelli funzionali?",
+      "risposte": ["Modello TCP/IP", "Modello Client-Server", "Modello ISO/OSI", "Modello Ethernet"],
+      "risposta_corretta": "Modello ISO/OSI",
+      "svg": ""
+    },
+    {
+      "id": 21,
+      "domanda": "A quale livello OSI appartiene il protocollo TCP?",
+      "risposte": ["Livello 3", "Livello 4", "Livello 5", "Livello 2"],
+      "risposta_corretta": "Livello 4",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "Quale protocollo consente la comunicazione affidabile tra host?",
+      "risposte": ["UDP", "ICMP", "TCP", "ARP"],
+      "risposta_corretta": "TCP",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "Quando viene usato il livello presentazione del modello OSI?",
+      "risposte": ["Durante l’invio ICMP", "Per visualizzare la tabella ARP", "Per codificare/decodificare dati", "Per configurare IP"],
+      "risposta_corretta": "Per codificare/decodificare dati",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "Il livello 1 del modello OSI è chiamato:",
+      "risposte": ["Collegamento", "Fisico", "Rete", "Sessione"],
+      "risposta_corretta": "Fisico",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "Quale funzione non è svolta dal protocollo ICMP?",
+      "risposte": ["Controllo degli errori", "Tracciamento del percorso", "Trasferimento file", "Segnalazione di problemi"],
+      "risposta_corretta": "Trasferimento file",
+      "svg": ""
+    },
+    {
+      "id": 26,
+      "domanda": "L’indirizzamento MAC è assegnato a livello:",
+      "risposte": ["Hardware", "Applicazione", "Router", "Sessione"],
+      "risposta_corretta": "Hardware",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "Quale tra questi NON è un tipo di messaggio ICMP?",
+      "risposte": ["Echo Reply", "Time Exceeded", "Ping Confirm", "Redirect"],
+      "risposta_corretta": "Ping Confirm",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "Cosa accade se TTL di un pacchetto scade?",
+      "risposte": ["Viene scartato e generato ICMP Time Exceeded", "Viene ritrasmesso", "Viene salvato nella cache", "Il TTL viene resettato"],
+      "risposta_corretta": "Viene scartato e generato ICMP Time Exceeded",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "ARP lavora tra quali due livelli del modello OSI?",
+      "risposte": ["Livello 1 e 2", "Livello 2 e 3", "Livello 4 e 5", "Livello 5 e 6"],
+      "risposta_corretta": "Livello 2 e 3",
+      "svg": ""
+    },
+    {
+      "id": 30,
+      "domanda": "Qual è il formato di un pacchetto Ethernet a livello fisico?",
+      "risposte": ["Bit elettrici", "Segmenti TCP", "Pacchetti IP", "Nomi simbolici"],
+      "risposta_corretta": "Bit elettrici",
+      "svg": ""
+    }
+  ]
+}

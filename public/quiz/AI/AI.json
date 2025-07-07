@@ -1,0 +1,469 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Che cosa si intende per intelligenza artificiale (IA)?",
+      "risposte": [
+        "Un tipo di computer portatile molto avanzato e costoso.",
+        "La capacità delle macchine di riprodurre comportamenti umani intelligenti.",
+        "Un videogioco educativo per bambini dai 6 anni in su.",
+        "Un nuovo tipo di energia rinnovabile per alimentare le città del futuro."
+      ],
+      "risposta_corretta": "La capacità delle macchine di riprodurre comportamenti umani intelligenti.",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Chi è considerato il padre dell'intelligenza artificiale?",
+      "risposte": [
+        "Isaac Newton, famoso scienziato e matematico.",
+        "Albert Einstein, noto per la teoria della relatività.",
+        "John McCarthy.",
+        "Nikola Tesla, l'inventore e ingegnere serbo-americano."
+      ],
+      "risposta_corretta": "John McCarthy.",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Cos’è un algoritmo in ambito IA?",
+      "risposte": [
+        "Una password segreta per accedere a sistemi informatici complessi.",
+        "Una serie di istruzioni per risolvere un problema.",
+        "Un programma per disegnare immagini vettoriali in 3D.",
+        "Un robot con braccia meccaniche utilizzato nelle fabbriche moderne."
+      ],
+      "risposta_corretta": "Una serie di istruzioni per risolvere un problema.",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Che cos'è il machine learning?",
+      "risposte": [
+        "Un tipo di social network basato sulla condivisione di contenuti multimediali.",
+        "L'apprendimento automatico da parte delle macchine.",
+        "Una tecnica per saldare circuiti elettronici in microchip.",
+        "L’insegnamento delle materie scientifiche nelle scuole primarie e secondarie."
+      ],
+      "risposta_corretta": "L'apprendimento automatico da parte delle macchine.",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Quale linguaggio è spesso usato per sviluppare sistemi di IA?",
+      "risposte": ["PHP, un linguaggio di scripting web.", "CSS, per lo stile delle pagine.", "Python.", "HTML, per la struttura delle pagine web."],
+      "risposta_corretta": "Python.",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Che cos’è una rete neurale artificiale?",
+      "risposte": [
+        "Un'app di messaggistica istantanea per comunicare in tempo reale.",
+        "Un sistema che imita il cervello umano.",
+        "Una rete di computer scollegati e indipendenti tra loro.",
+        "Un tipo di hard disk per l'archiviazione di grandi quantità di dati."
+      ],
+      "risposta_corretta": "Un sistema che imita il cervello umano.",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Quale campo NON utilizza l'intelligenza artificiale?",
+      "risposte": ["La moda per la creazione di design e l'analisi delle tendenze.", "Nessuno dei presenti.", "L'agricoltura per l'ottimizzazione dei raccolti e l'irrigazione.", "La medicina per diagnosi e sviluppo di farmaci personalizzati."],
+      "risposta_corretta": "Nessuno dei presenti.",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "Cosa fa un chatbot come ChatGPT?",
+      "risposte": [
+        "Gioca a calcio simulato su piattaforme online.",
+        "Parla con gli utenti rispondendo a domande.",
+        "Insegna a guidare veicoli in simulatori avanzati.",
+        "Ripara computer individuando automaticamente i malfunzionamenti hardware."
+      ],
+      "risposta_corretta": "Parla con gli utenti rispondendo a domande.",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Cos’è il deep learning?",
+      "risposte": [
+        "Un corso scolastico approfondito sulle civiltà antiche.",
+        "Un tipo avanzato di machine learning.",
+        "L'apprendimento in profondità del mare per studi oceanografici.",
+        "Un sistema per leggere velocemente testi complessi in diverse lingue."
+      ],
+      "risposta_corretta": "Un tipo avanzato di machine learning.",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Cosa rappresenta un dataset nell’IA?",
+      "risposte": [
+        "Un codice di errore generato da un software obsoleto.",
+        "Un insieme di dati utilizzati per addestrare un algoritmo.",
+        "Una raccolta di immagini digitali ad alta risoluzione per la grafica.",
+        "Un pacchetto software preinstallato su tutti i nuovi computer."
+      ],
+      "risposta_corretta": "Un insieme di dati utilizzati per addestrare un algoritmo.",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Qual è una possibile minaccia dell’intelligenza artificiale?",
+      "risposte": [
+        "La riduzione della comunicazione digitale tra persone.",
+        "Automazione e perdita di posti di lavoro.",
+        "Un aumento del lavoro manuale richiesto alle persone.",
+        "Un maggior uso dei libri cartacei rispetto ai digitali."
+      ],
+      "risposta_corretta": "Automazione e perdita di posti di lavoro.",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Cos'è un assistente virtuale?",
+      "risposte": [
+        "Un antivirus che protegge il computer da malware e virus online.",
+        "Un programma che interagisce vocalmente con l’utente.",
+        "Una stampante intelligente che ordina l'inchiostro da sola.",
+        "Un'app per fare ginnastica a casa seguendo le istruzioni video."
+      ],
+      "risposta_corretta": "Un programma che interagisce vocalmente con l’utente.",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Quale di questi è un esempio di IA nella vita quotidiana?",
+      "risposte": [
+        "Un telefono fisso con tastiera a disco.",
+        "Un frigorifero intelligente.",
+        "Un forno a legna tradizionale per cuocere la pizza.",
+        "Un semaforo rosso che indica di fermarsi."
+      ],
+      "risposta_corretta": "Un frigorifero intelligente.",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Cosa si intende per bias in un algoritmo?",
+      "risposte": [
+        "Una scheda audio di alta qualità per la riproduzione musicale.",
+        "Un errore dovuto a preferenze nei dati.",
+        "Un modo per accelerare l'esecuzione del codice di programmazione.",
+        "Una protezione da virus informatici molto aggressivi e dannosi."
+      ],
+      "risposta_corretta": "Un errore dovuto a preferenze nei dati.",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Quale di questi NON è un campo dell’intelligenza artificiale?",
+      "risposte": [
+        "Elaborazione del linguaggio naturale per traduzioni e comprensione testuale.",
+        "Architettura delle chiese storiche e moderne.",
+        "Visione artificiale per il riconoscimento di oggetti e persone.",
+        "Fotoritocco automatico per migliorare le immagini digitali."
+      ],
+      "risposta_corretta": "Architettura delle chiese storiche e moderne.",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Come si chiama la fase in cui un’IA apprende dai dati?",
+      "risposte": ["Addestramento.", "Test di funzionamento del software.", "Progettazione dell'interfaccia utente.", "Compilazione del codice sorgente."],
+      "risposta_corretta": "Addestramento.",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Cos’è l’etica dell’IA?",
+      "risposte": [
+        "Un metodo per migliorare la velocità di connessione a internet.",
+        "Un insieme di principi per un uso responsabile dell’IA.",
+        "Una regola matematica fondamentale per l'algebra lineare.",
+        "L’uso di computer ecologici per ridurre l'impatto ambientale."
+      ],
+      "risposta_corretta": "Un insieme di principi per un uso responsabile dell’IA.",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "Cosa sono i dati di input per un’IA?",
+      "risposte": [
+        "I dati generati alla fine di un processo di analisi complessa.",
+        "I dati che l’IA usa per prendere decisioni.",
+        "Le password degli utenti archiviate in un database protetto.",
+        "I codici per accedere ai server remoti tramite una connessione sicura."
+      ],
+      "risposta_corretta": "I dati che l’IA usa per prendere decisioni.",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "Quale di questi è un compito tipico della visione artificiale?",
+      "risposte": [
+        "Gestire conti bancari e transazioni finanziarie online.",
+        "Riconoscere volti o oggetti nelle immagini.",
+        "Tradurre testi complessi da una lingua all'altra in tempo reale.",
+        "Scrivere racconti o poesie originali con uno stile creativo."
+      ],
+      "risposta_corretta": "Riconoscere volti o oggetti nelle immagini.",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "Qual è il vantaggio principale dell’IA nei dispositivi mobili?",
+      "risposte": [
+        "Consuma più batteria rispetto ai dispositivi non-AI.",
+        "Offre funzioni intelligenti come assistenti vocali e fotocamere smart.",
+        "Blocca la rete Wi-Fi rendendola meno performante.",
+        "Permette di guardare la TV in alta definizione senza interruzioni."
+      ],
+      "risposta_corretta": "Offre funzioni intelligenti come assistenti vocali e fotocamere smart.",
+      "svg": ""
+    },
+    {
+      "id": 21,
+      "domanda": "Qual è l'obiettivo principale dell'intelligenza artificiale?",
+      "risposte": [
+        "Creare hardware più veloce per applicazioni gaming.",
+        "Simulare l'intelligenza umana.",
+        "Aumentare la memoria dei computer in modo esponenziale.",
+        "Costruire nuovi sistemi operativi per smartphone e tablet."
+      ],
+      "risposta_corretta": "Simulare l'intelligenza umana.",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "Che cosa si intende per 'addestramento supervisionato'?",
+      "risposte": [
+        "Una simulazione di guida per imparare a parcheggiare.",
+        "L'uso di dati etichettati per insegnare a un algoritmo.",
+        "Un tipo di lezione scolastica impartita da un insegnante esperto.",
+        "Un sistema che corregge da solo i propri errori senza intervento umano."
+      ],
+      "risposta_corretta": "L'uso di dati etichettati per insegnare a un algoritmo.",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "Che cosa distingue il machine learning dal deep learning?",
+      "risposte": [
+        "Il machine learning funziona solo con numeri e tabelle di dati semplici.",
+        "Il deep learning utilizza reti neurali profonde.",
+        "Il deep learning è usato solo nei videogiochi di ultima generazione.",
+        "Non c'è alcuna differenza sostanziale tra le due tecnologie."
+      ],
+      "risposta_corretta": "Il deep learning utilizza reti neurali profonde.",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "Che cos'è il reinforcement learning?",
+      "risposte": [
+        "Un corso per programmatori per imparare linguaggi avanzati.",
+        "Un apprendimento basato su premi e penalità.",
+        "Un'app di fitness che monitora l'allenamento quotidiano.",
+        "Una rete di sicurezza per proteggere i dati personali degli utenti."
+      ],
+      "risposta_corretta": "Un apprendimento basato su premi e penalità.",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "Quale di questi NON è un tipo di intelligenza artificiale?",
+      "risposte": [
+        "IA ristretta (Narrow AI) per compiti specifici.",
+        "IA casuale.",
+        "IA autonoma (Strong AI) con capacità umane.",
+        "IA generale (AGI) che eguaglia l'intelligenza umana."
+      ],
+      "risposta_corretta": "IA casuale.",
+      "svg": ""
+    },
+    {
+      "id": 26,
+      "domanda": "Cosa fa un sistema di riconoscimento vocale basato su IA?",
+      "risposte": [
+        "Controlla la batteria del telefono e suggerisce il risparmio energetico.",
+        "Traduce il parlato in testo.",
+        "Imposta la sveglia in base all'orario desiderato dall'utente.",
+        "Cambia la lingua del sistema operativo in modo automatico."
+      ],
+      "risposta_corretta": "Traduce il parlato in testo.",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "Cos'è un modello predittivo?",
+      "risposte": [
+        "Un orologio intelligente che misura la frequenza cardiaca.",
+        "Un programma che prevede risultati futuri da dati.",
+        "Un robot che imita gli animali domestici per compagnia.",
+        "Un software per modificare foto e aggiungere filtri artistici."
+      ],
+      "risposta_corretta": "Un programma che prevede risultati futuri da dati.",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "Qual è il ruolo dei big data nell’IA?",
+      "risposte": [
+        "Servono per installare app e programmi sul computer.",
+        "Servono a fornire una grande quantità di dati per l’apprendimento.",
+        "Occupano spazio inutilmente sulla memoria dei dispositivi.",
+        "Servono per costruire hardware più potente e performante."
+      ],
+      "risposta_corretta": "Servono a fornire una grande quantità di dati per l’apprendimento.",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "Cosa si intende per 'overfitting' in un modello di IA?",
+      "risposte": [
+        "Un problema hardware comune nei computer più vecchi.",
+        "Quando il modello si adatta troppo ai dati di addestramento.",
+        "Un'interfaccia utente troppo complessa da utilizzare.",
+        "Un errore di installazione del software che impedisce l'avvio."
+      ],
+      "risposta_corretta": "Quando il modello si adatta troppo ai dati di addestramento.",
+      "svg": ""
+    },
+    {
+      "id": 30,
+      "domanda": "Cosa rappresentano gli 'input' in una rete neurale?",
+      "risposte": [
+        "I nomi degli algoritmi utilizzati nel processo di calcolo.",
+        "I dati inseriti per iniziare l'elaborazione.",
+        "I risultati finali ottenuti dopo l'analisi del modello.",
+        "Le immagini salvate nella galleria fotografica del dispositivo."
+      ],
+      "risposta_corretta": "I dati inseriti per iniziare l'elaborazione.",
+      "svg": ""
+    },
+    {
+      "id": 31,
+      "domanda": "Qual è uno svantaggio dell’IA generativa?",
+      "risposte": [
+        "Funziona solo con musica e non con altri tipi di media.",
+        "Può creare contenuti falsi o ingannevoli.",
+        "Produce troppi dati utili che rallentano i sistemi.",
+        "Non può essere usata online e richiede una connessione locale."
+      ],
+      "risposta_corretta": "Può creare contenuti falsi o ingannevoli.",
+      "svg": ""
+    },
+    {
+      "id": 32,
+      "domanda": "Cosa sono i token nel contesto del linguaggio naturale?",
+      "risposte": [
+        "Le monete digitali utilizzate nelle transazioni online sicure.",
+        "I frammenti di testo che l’IA analizza.",
+        "Gli accessori per chatbot che ne migliorano l'aspetto visivo.",
+        "I file di sistema essenziali per il funzionamento del software."
+      ],
+      "risposta_corretta": "I frammenti di testo che l’IA analizza.",
+      "svg": ""
+    },
+    {
+      "id": 33,
+      "domanda": "Che ruolo ha l’IA nella guida autonoma?",
+      "risposte": [
+        "Ricarica la batteria del veicolo durante il viaggio.",
+        "Riconosce strade, segnali e ostacoli.",
+        "Controlla solo i fari anteriori del veicolo.",
+        "Riproduce musica e podcast per intrattenere i passeggeri."
+      ],
+      "risposta_corretta": "Riconosce strade, segnali e ostacoli.",
+      "svg": ""
+    },
+    {
+      "id": 34,
+      "domanda": "Che cosa si intende per 'IA debole'?",
+      "risposte": [
+        "Una rete lenta con problemi di connettività.",
+        "Un’IA progettata per compiti specifici.",
+        "Un’IA con problemi tecnici frequenti e malfunzionamenti.",
+        "Un’IA che si spegne facilmente e richiede frequenti riavvii."
+      ],
+      "risposta_corretta": "Un’IA progettata per compiti specifici.",
+      "svg": ""
+    },
+    {
+      "id": 35,
+      "domanda": "L'intelligenza artificiale può imparare dai propri errori?",
+      "risposte": [
+        "Sì, attraverso l’apprendimento automatico.",
+        "Solo se lo dice l'utente in modo esplicito.",
+        "Solo nei videogiochi per migliorare le prestazioni del giocatore.",
+        "No, serve sempre l’intervento umano per correggere gli errori."
+      ],
+      "risposta_corretta": "Sì, attraverso l’apprendimento automatico.",
+      "svg": ""
+    },
+    {
+      "id": 36,
+      "domanda": "Quale settore sfrutta di più l’IA per diagnosi mediche?",
+      "risposte": [
+        "Gastronomia, per creare nuove ricette.",
+        "Radiologia.",
+        "Orologeria, per la precisione dei meccanismi.",
+        "Agricoltura, per ottimizzare i raccolti."
+      ],
+      "risposta_corretta": "Radiologia.",
+      "svg": ""
+    },
+    {
+      "id": 37,
+      "domanda": "Cosa fa un algoritmo di classificazione?",
+      "risposte": [
+        "Disegna grafici e diagrammi complessi.",
+        "Assegna dati a categorie.",
+        "Ordina le e-mail per colore e importanza.",
+        "Traduce i testi da una lingua all'altra automaticamente."
+      ],
+      "risposta_corretta": "Assegna dati a categorie.",
+      "svg": ""
+    },
+    {
+      "id": 38,
+      "domanda": "Perché l’IA ha bisogno di grandi quantità di dati?",
+      "risposte": [
+        "Per salvare energia e ridurre il consumo elettrico.",
+        "Per migliorare l’apprendimento e le previsioni.",
+        "Per essere più costosa e accessibile solo a pochi.",
+        "Per aggiornare il sistema operativo e ricevere nuove funzioni."
+      ],
+      "risposta_corretta": "Per migliorare l’apprendimento e le previsioni.",
+      "svg": ""
+    },
+    {
+      "id": 39,
+      "domanda": "Che cosa sono i 'pesos' in una rete neurale?",
+      "risposte": [
+        "Il numero di immagini analizzate da un sistema di visione.",
+        "Valori che determinano l’importanza dei segnali.",
+        "Dati casuali generati per testare le prestazioni del modello.",
+        "Le dimensioni della rete neurale in termini di strati e neuroni."
+      ],
+      "risposta_corretta": "Valori che determinano l’importanza dei segnali.",
+      "svg": ""
+    },
+    {
+      "id": 40,
+      "domanda": "Qual è una sfida importante per il futuro dell’IA?",
+      "risposte": [
+        "Tornare all’uso della carta e ridurre la digitalizzazione.",
+        "Garantire trasparenza e uso etico.",
+        "Spegnere tutti i robot per evitare la loro ribellione.",
+        "Ridurre la velocità dei processori per risparmiare energia."
+      ],
+      "risposta_corretta": "Garantire trasparenza e uso etico.",
+      "svg": ""
+    }
+  ]
+}

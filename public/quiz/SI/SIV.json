@@ -1,0 +1,364 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Che cos'è un firewall?",
+      "risposte": [
+        "Un software antivirus",
+        "Un sistema per filtrare il traffico di rete",
+        "Un'app per la privacy",
+        "Un sistema operativo"
+      ],
+      "risposta_corretta": "Un sistema per filtrare il traffico di rete",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Cos'è un attacco phishing?",
+      "risposte": [
+        "Un attacco fisico al server",
+        "L’invio di email fraudolente per rubare dati",
+        "Un tipo di virus informatico",
+        "Un furto di hardware"
+      ],
+      "risposta_corretta": "L’invio di email fraudolente per rubare dati",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Qual è una buona pratica per creare una password sicura?",
+      "risposte": [
+        "Usare il proprio nome",
+        "Usare solo numeri",
+        "Usare una combinazione di lettere, numeri e simboli",
+        "Usare la stessa password per tutti i siti"
+      ],
+      "risposta_corretta": "Usare una combinazione di lettere, numeri e simboli",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Cos'è un malware?",
+      "risposte": [
+        "Un aggiornamento del software",
+        "Un programma dannoso",
+        "Un antivirus",
+        "Un tipo di firewall"
+      ],
+      "risposta_corretta": "Un programma dannoso",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Che cos'è un antivirus?",
+      "risposte": [
+        "Un virus informatico",
+        "Un sistema operativo",
+        "Un programma per prevenire, rilevare e rimuovere virus",
+        "Un firewall"
+      ],
+      "risposta_corretta": "Un programma per prevenire, rilevare e rimuovere virus",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Quale tra questi è un esempio di autenticazione a due fattori (2FA)?",
+      "risposte": [
+        "Password + CAPTCHA",
+        "Password + SMS con codice",
+        "Username + Password",
+        "Email + Nome"
+      ],
+      "risposta_corretta": "Password + SMS con codice",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Cosa si intende per crittografia?",
+      "risposte": [
+        "L'accesso non autorizzato a un sistema",
+        "La cancellazione sicura dei dati",
+        "La protezione tramite password",
+        "La trasformazione dei dati in forma illeggibile per proteggerli"
+      ],
+      "risposta_corretta": "La trasformazione dei dati in forma illeggibile per proteggerli",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "Quale tra questi è un attacco DoS?",
+      "risposte": [
+        "L'accesso fisico non autorizzato",
+        "Un attacco per sovraccaricare un sistema fino al blocco",
+        "Una truffa online",
+        "Un virus che si nasconde nei file di sistema"
+      ],
+      "risposta_corretta": "Un attacco per sovraccaricare un sistema fino al blocco",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Cosa significa HTTPS?",
+      "risposte": [
+        "Un protocollo non sicuro",
+        "HyperText Transfer Protocol Standard",
+        "HyperText Transfer Protocol Secure",
+        "Home Transfer Protocol Secure"
+      ],
+      "risposta_corretta": "HyperText Transfer Protocol Secure",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Qual è l'obiettivo del social engineering?",
+      "risposte": [
+        "Sviluppare software",
+        "Ingannare le persone per ottenere informazioni riservate",
+        "Creare reti aziendali",
+        "Bloccare accessi a internet"
+      ],
+      "risposta_corretta": "Ingannare le persone per ottenere informazioni riservate",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Cos'è un ransomware?",
+      "risposte": [
+        "Un virus che rallenta il computer",
+        "Un programma che cancella i file",
+        "Un malware che blocca i file finché non si paga un riscatto",
+        "Un software antivirus"
+      ],
+      "risposta_corretta": "Un malware che blocca i file finché non si paga un riscatto",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Cosa dovrebbe fare un utente se riceve un'email sospetta?",
+      "risposte": [
+        "Cliccare sul link per vedere di cosa si tratta",
+        "Rispondere per chiarimenti",
+        "Segnalarla e non cliccare su alcun link",
+        "Ignorarla per sempre"
+      ],
+      "risposta_corretta": "Segnalarla e non cliccare su alcun link",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Che cos'è un certificato digitale?",
+      "risposte": [
+        "Un file musicale protetto",
+        "Un documento PDF firmato",
+        "Uno strumento per autenticare identità online",
+        "Una ricevuta fiscale"
+      ],
+      "risposta_corretta": "Uno strumento per autenticare identità online",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Quale tra questi è un comportamento sicuro online?",
+      "risposte": [
+        "Condividere la password solo con amici fidati",
+        "Installare software da fonti sconosciute",
+        "Aggiornare regolarmente il sistema operativo",
+        "Aprire tutti gli allegati email"
+      ],
+      "risposta_corretta": "Aggiornare regolarmente il sistema operativo",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Che cos'è un keylogger?",
+      "risposte": [
+        "Un'app per la tastiera",
+        "Un dispositivo di input",
+        "Un programma che registra ciò che si digita",
+        "Un driver per stampanti"
+      ],
+      "risposta_corretta": "Un programma che registra ciò che si digita",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Cos’è una VPN?",
+      "risposte": [
+        "Una rete per hacker",
+        "Un sistema operativo alternativo",
+        "Una rete privata virtuale per proteggere la connessione",
+        "Un tipo di firewall"
+      ],
+      "risposta_corretta": "Una rete privata virtuale per proteggere la connessione",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Qual è lo scopo del backup?",
+      "risposte": [
+        "Migliorare la velocità del computer",
+        "Creare copie di sicurezza dei dati",
+        "Bloccare gli attacchi informatici",
+        "Aggiornare i software"
+      ],
+      "risposta_corretta": "Creare copie di sicurezza dei dati",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "Che cosa indica il termine 'zero-day'?",
+      "risposte": [
+        "Un tipo di virus di sistema",
+        "Una vulnerabilità sconosciuta ancora non corretta",
+        "Un attacco diretto alla RAM",
+        "Un backup crittografato"
+      ],
+      "risposta_corretta": "Una vulnerabilità sconosciuta ancora non corretta",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "Cos'è un trojan?",
+      "risposte": [
+        "Un cavallo da guerra digitale",
+        "Un tipo di firewall",
+        "Un malware che si presenta come software legittimo",
+        "Un attacco di rete"
+      ],
+      "risposta_corretta": "Un malware che si presenta come software legittimo",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "Qual è la prima azione da fare dopo una violazione di dati?",
+      "risposte": [
+        "Ignorare l'evento",
+        "Spegnere il computer",
+        "Informare l’amministratore di sistema o responsabile sicurezza",
+        "Installare un nuovo software"
+      ],
+      "risposta_corretta": "Informare l’amministratore di sistema o responsabile sicurezza",
+      "svg": ""
+    },
+    {
+      "id": 21,
+      "domanda": "Che cos'è l'ingegneria inversa?",
+      "risposte": [
+        "La costruzione di malware",
+        "L'analisi di software per comprenderne il funzionamento",
+        "Un metodo di backup",
+        "Una tecnica di disegno tecnico"
+      ],
+      "risposta_corretta": "L'analisi di software per comprenderne il funzionamento",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "Cosa può aiutare a prevenire un attacco brute-force?",
+      "risposte": [
+        "Disabilitare la crittografia",
+        "Usare password corte",
+        "Limitare i tentativi di login",
+        "Usare un solo livello di autenticazione"
+      ],
+      "risposta_corretta": "Limitare i tentativi di login",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "Cos'è un attacco MITM (Man-In-The-Middle)?",
+      "risposte": [
+        "Un virus che si nasconde nei documenti Word",
+        "Un attacco che intercetta comunicazioni tra due parti",
+        "Una scansione antivirus",
+        "Un attacco da parte di un insider"
+      ],
+      "risposta_corretta": "Un attacco che intercetta comunicazioni tra due parti",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "Come si chiama un programma che si replica automaticamente infettando altri file?",
+      "risposte": [
+        "Trojan",
+        "Worm",
+        "Spyware",
+        "Firewall"
+      ],
+      "risposta_corretta": "Worm",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "Quale autorità europea si occupa di protezione dei dati personali?",
+      "risposte": [
+        "FBI",
+        "CIA",
+        "Garante della Privacy",
+        "GDPR"
+      ],
+      "risposta_corretta": "Garante della Privacy",
+      "svg": ""
+    },
+    {
+      "id": 26,
+      "domanda": "Cos'è una patch?",
+      "risposte": [
+        "Un virus mascherato",
+        "Un aggiornamento di sicurezza",
+        "Un tipo di malware",
+        "Una vulnerabilità"
+      ],
+      "risposta_corretta": "Un aggiornamento di sicurezza",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "Quale tra questi è un software di sicurezza?",
+      "risposte": [
+        "Photoshop",
+        "Zoom",
+        "Kaspersky",
+        "Chrome"
+      ],
+      "risposta_corretta": "Kaspersky",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "Cosa si intende con il termine 'autenticazione biometrica'?",
+      "risposte": [
+        "Un tipo di login tramite codice PIN",
+        "Una verifica dell’identità tramite caratteristiche fisiche",
+        "L'uso di OTP",
+        "La scansione del codice QR"
+      ],
+      "risposta_corretta": "Una verifica dell’identità tramite caratteristiche fisiche",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "Cosa fa un sistema IDS (Intrusion Detection System)?",
+      "risposte": [
+        "Blocca automaticamente tutti i virus",
+        "Detecta accessi non autorizzati",
+        "Crittografa i backup",
+        "Controlla i file system"
+      ],
+      "risposta_corretta": "Detecta accessi non autorizzati",
+      "svg": ""
+    },
+    {
+      "id": 30,
+      "domanda": "Qual è una minaccia comune per i dispositivi mobili?",
+      "risposte": [
+        "Attacchi DDoS",
+        "Phishing via SMS",
+        "Backup automatici",
+        "Crittografia dei dati"
+      ],
+      "risposta_corretta": "Phishing via SMS",
+      "svg": ""
+    }
+  ]
+}

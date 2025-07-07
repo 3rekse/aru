@@ -1,0 +1,72 @@
+# Guida all'Hardware del Computer
+
+Questa guida offre una panoramica dei principali componenti hardware di un computer, spiegandone le funzioni e le caratteristiche essenziali.
+
+## 1. CPU (Central Processing Unit)
+
+La CPU, o processore, è il "cervello" del computer. Esegue le istruzioni dei programmi e coordina le attività degli altri componenti. Le CPU moderne possono avere più core, permettendo l'elaborazione simultanea di più operazioni (multi-threading). :contentReference[oaicite:0]{index=0}
+
+## 2. RAM (Random Access Memory)
+
+La RAM è una memoria volatile che consente l'accesso rapido ai dati temporanei utilizzati dalla CPU. Maggiore è la quantità di RAM, più programmi possono essere eseguiti contemporaneamente senza rallentamenti. :contentReference[oaicite:1]{index=1}
+
+## 3. Scheda Madre (Motherboard)
+
+La scheda madre è il circuito principale che collega tutti i componenti del computer, inclusi CPU, RAM, dispositivi di archiviazione e periferiche. Fornisce anche slot di espansione per schede aggiuntive come GPU e schede di rete. :contentReference[oaicite:2]{index=2}
+
+## 4. Dispositivi di Archiviazione
+
+- **HDD (Hard Disk Drive):** Utilizza dischi magnetici per memorizzare grandi quantità di dati a un costo inferiore, ma con velocità di accesso più lente.
+- **SSD (Solid State Drive):** Utilizza memoria flash per un accesso ai dati più rapido e una maggiore resistenza agli urti, ma generalmente a un costo superiore per gigabyte. :contentReference[oaicite:3]{index=3}
+
+## 5. GPU (Graphics Processing Unit)
+
+La GPU è responsabile dell'elaborazione grafica. Le GPU dedicate offrono prestazioni superiori per applicazioni grafiche intensive, come giochi e software di progettazione. :contentReference[oaicite:4]{index=4}
+
+## 6. Alimentatore (PSU - Power Supply Unit)
+
+L'alimentatore converte la corrente alternata (AC) dalla rete elettrica in corrente continua (DC) utilizzata dai componenti del computer, fornendo le tensioni necessarie per il funzionamento stabile del sistema. :contentReference[oaicite:5]{index=5}
+
+## 7. Case
+
+Il case ospita e protegge tutti i componenti interni del computer. Inoltre, facilita il raffreddamento dei componenti attraverso il flusso d'aria e può variare in dimensioni e design. :contentReference[oaicite:6]{index=6}
+
+## 8. Periferiche di Input/Output
+
+- **Input:** Dispositivi come tastiera e mouse che permettono all'utente di interagire con il computer.
+- **Output:** Dispositivi come monitor e stampanti che presentano le informazioni elaborate dal computer. :contentReference[oaicite:7]{index=7}
+
+## 9. BIOS/UEFI
+
+Il BIOS (Basic Input/Output System) o UEFI (Unified Extensible Firmware Interface) è un firmware che inizializza e testa l'hardware durante l'avvio del computer e fornisce un'interfaccia tra il sistema operativo e l'hardware. :contentReference[oaicite:8]{index=8}
+
+## 10. Schede di Espansione
+
+Schede aggiuntive inserite negli slot della scheda madre per estendere le funzionalità del computer, come schede audio, schede di rete o schede TV. :contentReference[oaicite:9]{index=9}
+
+## 11. Sistemi di Raffreddamento
+
+I componenti come la CPU e la GPU generano calore durante il funzionamento. I sistemi di raffreddamento, come dissipatori di calore, ventole e raffreddamento a liquido, sono essenziali per mantenere temperature operative sicure. :contentReference[oaicite:10]{index=10}
+
+## 12. Porte e Connettori
+
+- **USB (Universal Serial Bus):** Standard per la connessione di periferiche come tastiere, mouse e dispositivi di archiviazione esterni.
+- **HDMI (High-Definition Multimedia Interface):** Trasmette audio e video ad alta definizione a monitor e TV.
+- **Ethernet:** Connessione cablata per reti locali (LAN).
+- **VGA (Video Graphics Array):** Standard più vecchio per la trasmissione video analogica. :contentReference[oaicite:11]{index=11}
+
+## 13. RAID (Redundant Array of Independent Disks)
+
+Tecnologia che combina più dischi rigidi per migliorare le prestazioni o fornire ridondanza dei dati, aumentando la sicurezza contro la perdita di dati. :contentReference[oaicite:12]{index=12}
+
+## 14. Cache
+
+Memoria ad alta velocità situata vicino alla CPU che memorizza temporaneamente i dati e le istruzioni più frequentemente utilizzati, migliorando le prestazioni complessive del sistema. :contentReference[oaicite:13]{index=13}
+
+## 15. Bus di Sistema
+
+Canali di comunicazione che trasferiscono dati tra la CPU, la memoria e altri componenti del computer. Un bus efficiente è cruciale per le prestazioni del sistema. :contentReference[oaicite:14]{index=14}
+
+---
+
+Questa guida fornisce una base solida per comprendere l'hardware del computer.

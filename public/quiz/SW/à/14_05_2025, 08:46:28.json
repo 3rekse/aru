@@ -1,0 +1,166 @@
+[
+  {
+    "mission": "SW",
+    "nome": "àà",
+    "cognome": "àà",
+    "classe": "à",
+    "voto": 10,
+    "dataorainizio": "2025-05-14T06:46:21.204Z",
+    "inizio": "14/05/2025, 08:46:21",
+    "durata": 6561,
+    "giuste": 30,
+    "sbagliate": 0,
+    "quiz": [
+      {
+        "id": 9,
+        "domanda": "Quale software si trova normalmente preinstallato sul computer?",
+        "svg": " ✅ Sistema operativo"
+      },
+      {
+        "id": 20,
+        "domanda": "Cosa si intende per aggiornamento software?",
+        "svg": " ✅ Installazione di nuove versioni con miglioramenti"
+      },
+      {
+        "id": 19,
+        "domanda": "Un browser web è:",
+        "svg": " ✅ Software applicativo"
+      },
+      {
+        "id": 12,
+        "domanda": "Cos'è un file .dll in Windows?",
+        "svg": " ✅ Una libreria di funzioni condivise"
+      },
+      {
+        "id": 5,
+        "domanda": "Quale componente software gestisce la CPU, la RAM e l'I/O?",
+        "svg": " ✅ Il sistema operativo"
+      },
+      {
+        "id": 24,
+        "domanda": "Che cos’è il kernel di un sistema operativo?",
+        "svg": " ✅ Il cuore del sistema operativo"
+      },
+      {
+        "id": 10,
+        "domanda": "Un'app per smartphone è:",
+        "svg": " ✅ Software applicativo"
+      },
+      {
+        "id": 6,
+        "domanda": "Qual è la prima cosa che il BIOS fa all'avvio del computer?",
+        "svg": " ✅ Esegue il test dell’hardware"
+      },
+      {
+        "id": 2,
+        "domanda": "Il sistema operativo si carica:",
+        "svg": " ✅ Appena il computer si accende"
+      },
+      {
+        "id": 18,
+        "domanda": "Quale compito svolge un sistema operativo?",
+        "svg": " ✅ Gestire risorse hardware e software"
+      },
+      {
+        "id": 11,
+        "domanda": "Cosa fa un'interfaccia testuale?",
+        "svg": " ✅ Permette di digitare comandi da tastiera"
+      },
+      {
+        "id": 17,
+        "domanda": "Un esempio di interfaccia grafica è:",
+        "svg": " ✅ Desktop con icone"
+      },
+      {
+        "id": 23,
+        "domanda": "Qual è la funzione principale del file system?",
+        "svg": " ✅ Organizzare e archiviare file"
+      },
+      {
+        "id": 8,
+        "domanda": "Cosa rappresenta il termine multitasking?",
+        "svg": " ✅ Eseguire più programmi contemporaneamente"
+      },
+      {
+        "id": 15,
+        "domanda": "Cos'è il software?",
+        "svg": " ✅ I programmi che fanno funzionare il computer"
+      },
+      {
+        "id": 13,
+        "domanda": "Quale tra questi è un sistema operativo?",
+        "svg": " ✅ Windows"
+      },
+      {
+        "id": 29,
+        "domanda": "Un file eseguibile in Windows ha estensione:",
+        "svg": " ✅ .exe"
+      },
+      {
+        "id": 27,
+        "domanda": "Cos'è un processo in un sistema operativo?",
+        "svg": " ✅ Un programma in esecuzione"
+      },
+      {
+        "id": 21,
+        "domanda": "Che funzione ha la memoria RAM per il software?",
+        "svg": " ✅ Memorizza temporaneamente dati in uso"
+      },
+      {
+        "id": 22,
+        "domanda": "Un antivirus è un tipo di:",
+        "svg": " ✅ Software applicativo"
+      },
+      {
+        "id": 1,
+        "domanda": "Cosa distingue il software di base dal software applicativo?",
+        "svg": " ✅ Il software di base gestisce il sistema, l'applicativo svolge funzioni specifiche"
+      },
+      {
+        "id": 7,
+        "domanda": "Come si chiama il programma che consente l'interazione tra utente e SO in modo visuale?",
+        "svg": " ✅ Interfaccia grafica"
+      },
+      {
+        "id": 3,
+        "domanda": "Un gioco per PC è un esempio di:",
+        "svg": " ✅ Software applicativo"
+      },
+      {
+        "id": 4,
+        "domanda": "Un editor di testo come WordPad è:",
+        "svg": " ✅ Un software applicativo"
+      },
+      {
+        "id": 25,
+        "domanda": "Un compilatore è utilizzato per:",
+        "svg": " ✅ Tradurre codice sorgente in eseguibile"
+      },
+      {
+        "id": 28,
+        "domanda": "I sistemi operativi mobili includono:",
+        "svg": " ✅ Android"
+      },
+      {
+        "id": 14,
+        "domanda": "Un driver serve a:",
+        "svg": " ✅ Collegare hardware e sistema operativo"
+      },
+      {
+        "id": 30,
+        "domanda": "Per installare un software serve:",
+        "svg": " ✅ Un file di installazione"
+      },
+      {
+        "id": 26,
+        "domanda": "Il termine 'boot' indica:",
+        "svg": " ✅ Avviare il sistema operativo"
+      },
+      {
+        "id": 16,
+        "domanda": "Un esempio di software di base è:",
+        "svg": " ✅ Linux"
+      }
+    ]
+  }
+]

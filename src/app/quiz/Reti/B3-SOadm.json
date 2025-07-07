@@ -1,0 +1,364 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare il contenuto di una directory?",
+        "risposte": [
+          "ls",
+          "cd",
+          "pwd",
+          "mkdir"
+        ],
+        "risposta_corretta": "ls",
+        "svg": ""
+      },
+      {
+        "id": 2,
+        "domanda": "Quale comando Windows viene utilizzato per visualizzare il contenuto di una directory?",
+        "risposte": [
+          "dir",
+          "ls",
+          "cd",
+          "tree"
+        ],
+        "risposta_corretta": "dir",
+        "svg": ""
+      },
+      {
+        "id": 3,
+        "domanda": "Quale comando Linux viene utilizzato per spostarsi in un'altra directory?",
+        "risposte": [
+          "cd",
+          "ls",
+          "pwd",
+          "mv"
+        ],
+        "risposta_corretta": "cd",
+        "svg": ""
+      },
+      {
+        "id": 4,
+        "domanda": "Quale comando Windows viene utilizzato per creare una nuova directory?",
+        "risposte": [
+          "mkdir",
+          "md",
+          "dir",
+          "newdir"
+        ],
+        "risposta_corretta": "mkdir",
+        "svg": ""
+      },
+      {
+        "id": 5,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare il percorso corrente?",
+        "risposte": [
+          "pwd",
+          "ls",
+          "cd",
+          "echo"
+        ],
+        "risposta_corretta": "pwd",
+        "svg": ""
+      },
+      {
+        "id": 6,
+        "domanda": "Quale comando Windows viene utilizzato per rinominare un file?",
+        "risposte": [
+          "rename",
+          "ren",
+          "mv",
+          "edit"
+        ],
+        "risposta_corretta": "ren",
+        "svg": ""
+      },
+      {
+        "id": 7,
+        "domanda": "Quale comando Linux viene utilizzato per copiare un file?",
+        "risposte": [
+          "cp",
+          "mv",
+          "copy",
+          "scp"
+        ],
+        "risposta_corretta": "cp",
+        "svg": ""
+      },
+      {
+        "id": 8,
+        "domanda": "Quale comando Windows viene utilizzato per eliminare un file?",
+        "risposte": [
+          "del",
+          "rm",
+          "erase",
+          "delete"
+        ],
+        "risposta_corretta": "del",
+        "svg": ""
+      },
+      {
+        "id": 9,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare i processi in esecuzione?",
+        "risposte": [
+          "ps",
+          "top",
+          "htop",
+          "jobs"
+        ],
+        "risposta_corretta": "ps",
+        "svg": ""
+      },
+      {
+        "id": 10,
+        "domanda": "Quale comando Windows viene utilizzato per terminare un processo?",
+        "risposte": [
+          "taskkill",
+          "kill",
+          "endtask",
+          "terminate"
+        ],
+        "risposta_corretta": "taskkill",
+        "svg": ""
+      },
+      {
+        "id": 11,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare l'indirizzo IP del sistema?",
+        "risposte": [
+          "ip addr",
+          "ifconfig",
+          "ping",
+          "netstat"
+        ],
+        "risposta_corretta": "ip addr",
+        "svg": ""
+      },
+      {
+        "id": 12,
+        "domanda": "Quale comando Windows viene utilizzato per visualizzare la configurazione di rete?",
+        "risposte": [
+          "ipconfig",
+          "netstat",
+          "ping",
+          "tracert"
+        ],
+        "risposta_corretta": "ipconfig",
+        "svg": ""
+      },
+      {
+        "id": 13,
+        "domanda": "Quale comando Linux viene utilizzato per terminare un processo?",
+        "risposte": [
+          "kill",
+          "ps",
+          "top",
+          "htop"
+        ],
+        "risposta_corretta": "kill",
+        "svg": ""
+      },
+      {
+        "id": 14,
+        "domanda": "Quale comando Windows viene utilizzato per verificare la connettività di rete?",
+        "risposte": [
+          "ping",
+          "ipconfig",
+          "tracert",
+          "netstat"
+        ],
+        "risposta_corretta": "ping",
+        "svg": ""
+      },
+      {
+        "id": 15,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare lo spazio disponibile su disco?",
+        "risposte": [
+          "df",
+          "du",
+          "lsblk",
+          "fdisk"
+        ],
+        "risposta_corretta": "df",
+        "svg": ""
+      },
+      {
+        "id": 16,
+        "domanda": "Quale comando Windows viene utilizzato per visualizzare le connessioni di rete attive?",
+        "risposte": [
+          "netstat",
+          "ipconfig",
+          "ping",
+          "tracert"
+        ],
+        "risposta_corretta": "netstat",
+        "svg": ""
+      },
+      {
+        "id": 17,
+        "domanda": "Quale comando Linux viene utilizzato per creare un file vuoto?",
+        "risposte": [
+          "touch",
+          "cat",
+          "echo",
+          "mkdir"
+        ],
+        "risposta_corretta": "touch",
+        "svg": ""
+      },
+      {
+        "id": 18,
+        "domanda": "Quale comando Windows viene utilizzato per tracciare il percorso di un pacchetto verso una destinazione?",
+        "risposte": [
+          "tracert",
+          "ping",
+          "netstat",
+          "ipconfig"
+        ],
+        "risposta_corretta": "tracert",
+        "svg": ""
+      },
+      {
+        "id": 19,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare i dettagli di un file?",
+        "risposte": [
+          "stat",
+          "ls -l",
+          "file",
+          "du"
+        ],
+        "risposta_corretta": "stat",
+        "svg": ""
+      },
+      {
+        "id": 20,
+        "domanda": "Quale comando Windows viene utilizzato per creare un file batch?",
+        "risposte": [
+          "notepad",
+          "echo",
+          "edit",
+          "copy con"
+        ],
+        "risposta_corretta": "notepad",
+        "svg": ""
+      },
+      {
+        "id": 21,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare l'utilizzo della memoria?",
+        "risposte": [
+          "free",
+          "top",
+          "htop",
+          "vmstat"
+        ],
+        "risposta_corretta": "free",
+        "svg": ""
+      },
+      {
+        "id": 22,
+        "domanda": "Quale comando Windows viene utilizzato per visualizzare i processi in esecuzione?",
+        "risposte": [
+          "tasklist",
+          "taskkill",
+          "wmic",
+          "ps"
+        ],
+        "risposta_corretta": "tasklist",
+        "svg": ""
+      },
+      {
+        "id": 23,
+        "domanda": "Quale comando Linux viene utilizzato per comprimere file in formato tar.gz?",
+        "risposte": [
+          "tar -czf",
+          "gzip",
+          "zip",
+          "compress"
+        ],
+        "risposta_corretta": "tar -czf",
+        "svg": ""
+      },
+      {
+        "id": 24,
+        "domanda": "Quale comando Windows viene utilizzato per creare una nuova variabile d'ambiente?",
+        "risposte": [
+          "set",
+          "env",
+          "export",
+          "path"
+        ],
+        "risposta_corretta": "set",
+        "svg": ""
+      },
+      {
+        "id": 25,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare le statistiche di rete?",
+        "risposte": [
+          "ifconfig",
+          "ip addr",
+          "netstat",
+          "ss"
+        ],
+        "risposta_corretta": "netstat",
+        "svg": ""
+      },
+      {
+        "id": 26,
+        "domanda": "Quale comando Windows viene utilizzato per verificare la latenza di rete?",
+        "risposte": [
+          "ping",
+          "tracert",
+          "netstat",
+          "ipconfig"
+        ],
+        "risposta_corretta": "ping",
+        "svg": ""
+      },
+      {
+        "id": 27,
+        "domanda": "Quale comando Linux viene utilizzato per elencare i file in ordine di dimensione?",
+        "risposte": [
+          "ls -lS",
+          "ls -lh",
+          "ls -lt",
+          "ls -la"
+        ],
+        "risposta_corretta": "ls -lS",
+        "svg": ""
+      },
+      {
+        "id": 28,
+        "domanda": "Quale comando Windows viene utilizzato per spegnere il sistema?",
+        "risposte": [
+          "shutdown",
+          "poweroff",
+          "halt",
+          "exit"
+        ],
+        "risposta_corretta": "shutdown",
+        "svg": ""
+      },
+      {
+        "id": 29,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare l'uptime del sistema?",
+        "risposte": [
+          "uptime",
+          "top",
+          "vmstat",
+          "htop"
+        ],
+        "risposta_corretta": "uptime",
+        "svg": ""
+      },
+      {
+        "id": 30,
+        "domanda": "Quale comando Windows viene utilizzato per visualizzare la versione del sistema operativo?",
+        "risposte": [
+          "ver",
+          "version",
+          "systeminfo",
+          "osver"
+        ],
+        "risposta_corretta": "ver",
+        "svg": ""
+      }
+    ]
+  }

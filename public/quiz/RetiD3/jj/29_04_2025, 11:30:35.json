@@ -1,0 +1,166 @@
+[
+  {
+    "mission": "RetiD3",
+    "nome": "jj",
+    "cognome": "jj",
+    "classe": "jj",
+    "voto": 6,
+    "dataorainizio": "2025-04-29T09:30:28.274Z",
+    "inizio": "29/04/2025, 11:30:28",
+    "durata": 7702,
+    "giuste": 18,
+    "sbagliate": 12,
+    "quiz": [
+      {
+        "id": 15,
+        "domanda": "Qual è il campo nell'intestazione IP utilizzato per la classificazione QoS?",
+        "svg": " ✅ Tipo di Servizio (ToS) / DSCP"
+      },
+      {
+        "id": 10,
+        "domanda": "Qual è l'acronimo di Link Aggregation Control Protocol?",
+        "svg": " ✅ LACP"
+      },
+      {
+        "id": 7,
+        "domanda": "Qual è lo scopo di Root Guard?",
+        "svg": " ❌ Proteggere il root bridge"
+      },
+      {
+        "id": 14,
+        "domanda": "Quali sono alcuni meccanismi QoS comunemente utilizzati?",
+        "svg": " ✅ Classificazione, marcatura, accodamento, shaping/policing"
+      },
+      {
+        "id": 18,
+        "domanda": "Qual è lo scopo dello stacking degli switch?",
+        "svg": " ✅ Aumentare il numero di porte e semplificare la gestione"
+      },
+      {
+        "id": 5,
+        "domanda": "Qual è il Bridge Protocol Data Unit (BPDU) utilizzato da STP?",
+        "svg": " ✅ Frame speciale di livello 2"
+      },
+      {
+        "id": 13,
+        "domanda": "Qual è lo scopo di QoS (Quality of Service)?",
+        "svg": " ✅ Dare priorità a specifici tipi di traffico"
+      },
+      {
+        "id": 24,
+        "domanda": "Quale meccanismo QoS previene che una singola classe di traffico monopolizzi la larghezza di banda?",
+        "svg": " ❌ Classificazione"
+      },
+      {
+        "id": 23,
+        "domanda": "Qual è il vantaggio principale di utilizzare EtherChannel con LACP?",
+        "svg": " ✅ Configurazione automatica e negoziazione"
+      },
+      {
+        "id": 2,
+        "domanda": "Quale stato di porta STP inoltra il traffico e partecipa alla topologia STP?",
+        "svg": " ❌ "
+      },
+      {
+        "id": 30,
+        "domanda": "Qual è il vantaggio principale di uno chassis virtuale rispetto agli switch standalone?",
+        "svg": " ✅ Maggiore flessibilità e scalabilità"
+      },
+      {
+        "id": 11,
+        "domanda": "Qual è la differenza tra LACP e PAgP?",
+        "svg": " ✅ LACP è uno standard IEEE, PAgP è proprietario Cisco"
+      },
+      {
+        "id": 25,
+        "domanda": "Qual è un potenziale svantaggio dello stacking degli switch?",
+        "svg": " ✅ Singolo punto di guasto se lo stack master fallisce"
+      },
+      {
+        "id": 16,
+        "domanda": "Qual è lo scopo di accodamento (queuing) in QoS?",
+        "svg": " ✅ Gestire la congestione del traffico"
+      },
+      {
+        "id": 3,
+        "domanda": "Quale miglioramento offre Rapid Spanning Tree Protocol (RSTP) rispetto a STP?",
+        "svg": " ✅ Convergenza più rapida"
+      },
+      {
+        "id": 26,
+        "domanda": "Quale comando viene utilizzato per configurare un EtherChannel su switch Cisco utilizzando LACP?",
+        "svg": " ❌ channel-group 1 mode desirable"
+      },
+      {
+        "id": 9,
+        "domanda": "Quali protocolli possono essere utilizzati per implementare EtherChannel?",
+        "svg": " ✅ LACP e PAgP"
+      },
+      {
+        "id": 4,
+        "domanda": "Qual è lo scopo di Multiple Spanning Tree Protocol (MSTP)?",
+        "svg": " ❌ Aumentare la velocità di inoltro"
+      },
+      {
+        "id": 28,
+        "domanda": "Quale comando viene utilizzato per configurare QoS su un'interfaccia di switch Cisco?",
+        "svg": " ❌ qos enable"
+      },
+      {
+        "id": 29,
+        "domanda": "Quale comando visualizza le informazioni sullo stacking degli switch Cisco?",
+        "svg": " ❌ show stack"
+      },
+      {
+        "id": 19,
+        "domanda": "Qual è la differenza tra stacking e chassis virtuale?",
+        "svg": " ✅ Stacking utilizza cavi dedicati, chassis virtuale software"
+      },
+      {
+        "id": 6,
+        "domanda": "Qual è lo scopo di BPDU Guard?",
+        "svg": " ✅ Proteggere contro loop causati da BPDU illegittimi"
+      },
+      {
+        "id": 27,
+        "domanda": "Quale comando visualizza lo stato di un EtherChannel su uno switch Cisco?",
+        "svg": " ✅ show etherchannel summary"
+      },
+      {
+        "id": 8,
+        "domanda": "Qual è lo scopo di EtherChannel?",
+        "svg": " ❌ Segmentare la rete in VLAN"
+      },
+      {
+        "id": 20,
+        "domanda": "Quali sono i vantaggi dello stacking degli switch?",
+        "svg": " ❌ Implementazione più semplice, supporto per più protocolli, scalabilità limitata"
+      },
+      {
+        "id": 22,
+        "domanda": "Quale parametro influenza l'elezione del Root Bridge in STP?",
+        "svg": " ✅ Priorità del bridge"
+      },
+      {
+        "id": 1,
+        "domanda": "Qual è lo scopo principale dello Spanning Tree Protocol (STP)?",
+        "svg": " ✅ Prevenire loop di bridging"
+      },
+      {
+        "id": 17,
+        "domanda": "Qual è la differenza tra shaping e policing in QoS?",
+        "svg": " ❌ "
+      },
+      {
+        "id": 21,
+        "domanda": "In un ambiente MSTP, cosa rappresenta una 'Region'?",
+        "svg": " ❌ Un livello gerarchico nella rete"
+      },
+      {
+        "id": 12,
+        "domanda": "Qual è il numero massimo di porte che possono essere incluse in un EtherChannel?",
+        "svg": " ❌ 16"
+      }
+    ]
+  }
+]

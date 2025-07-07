@@ -1,0 +1,722 @@
+[
+  {
+    "id": 61,
+    "domanda": "Se un dispositivo deve comunicare con un host sulla stessa rete locale, quale indirizzo necessita di conoscere prima di inviare dati a livello Ethernet?",
+    "risposte": [
+      "L'indirizzo IP del gateway.",
+      "L'indirizzo MAC del router.",
+      "L'indirizzo MAC dell'host di destinazione.",
+      "Il nome di dominio dell'host di destinazione."
+    ],
+    "risposta_corretta": "L'indirizzo MAC dell'host di destinazione.",
+    "svg": ""
+  },
+  {
+    "id": 62,
+    "domanda": "Un ARP Request viene inviato come broadcast. Cosa significa per gli altri dispositivi sulla stessa rete locale?",
+    "risposte": [
+      "Solo il dispositivo target riceve il messaggio.",
+      "Tutti i dispositivi sulla rete locale ricevono il messaggio.",
+      "Il messaggio viene inoltrato solo al router.",
+      "Il messaggio viene ignorato dalla maggior parte dei dispositivi."
+    ],
+    "risposta_corretta": "Tutti i dispositivi sulla rete locale ricevono il messaggio.",
+    "svg": ""
+  },
+  {
+    "id": 63,
+    "domanda": "Qual è il significato di 'Address Resolution' in ARP?",
+    "risposte": [
+      "Determinare il nome di un server da un indirizzo IP.",
+      "Trovare l'indirizzo MAC corrispondente a un indirizzo IP.",
+      "Convertire un indirizzo privato in un indirizzo pubblico.",
+      "Assegnare un indirizzo IP dinamico a un dispositivo."
+    ],
+    "risposta_corretta": "Trovare l'indirizzo MAC corrispondente a un indirizzo IP.",
+    "svg": ""
+  },
+  {
+    "id": 64,
+    "domanda": "Dopo aver ricevuto un ARP Reply, dove memorizza il dispositivo la mappatura IP-MAC?",
+    "risposte": [
+      "Nel DNS cache.",
+      "Nella MAC Address Table dello switch.",
+      "Nella sua cache ARP.",
+      "Nella memoria RAM del router."
+    ],
+    "risposta_corretta": "Nella sua cache ARP.",
+    "svg": ""
+  },
+  {
+    "id": 65,
+    "domanda": "Il traffico generato da un ARP Request è solitamente considerato un tipo di traffico ____.",
+    "risposte": [
+      "Unicast.",
+      "Multicast.",
+      "Broadcast.",
+      "Anycast."
+    ],
+    "risposta_corretta": "Broadcast.",
+    "svg": ""
+  },
+  {
+    "id": 66,
+    "domanda": "Quale delle seguenti informazioni non è contenuta in un ARP Reply?",
+    "risposte": [
+      "L'indirizzo IP del mittente della risposta.",
+      "L'indirizzo MAC del mittente della risposta.",
+      "L'indirizzo IP del dispositivo che ha generato l'ARP Request.",
+      "Il nome host del dispositivo che ha generato l'ARP Request."
+    ],
+    "risposta_corretta": "Il nome host del dispositivo che ha generato l'ARP Request.",
+    "svg": ""
+  },
+  {
+    "id": 67,
+    "domanda": "Cosa succede se un dispositivo invia un ARP Request e non riceve alcuna risposta?",
+    "risposte": [
+      "Il dispositivo tenta di inviare il pacchetto direttamente al router.",
+      "Il dispositivo non sarà in grado di comunicare con quell'indirizzo IP sulla rete locale.",
+      "Il dispositivo assume che il MAC Address sia broadcast.",
+      "Il dispositivo genera un nuovo indirizzo IP."
+    ],
+    "risposta_corretta": "Il dispositivo non sarà in grado di comunicare con quell'indirizzo IP sulla rete locale.",
+    "svg": ""
+  },
+  {
+    "id": 68,
+    "domanda": "ARP è un protocollo utilizzato per reti che impiegano ____.",
+    "risposte": [
+      "Indirizzi IP e nomi di dominio.",
+      "Indirizzi IP e indirizzi MAC.",
+      "Solo indirizzi IP.",
+      "Solo indirizzi MAC."
+    ],
+    "risposta_corretta": "Indirizzi IP e indirizzi MAC.",
+    "svg": ""
+  },
+  {
+    "id": 69,
+    "domanda": "Quale delle seguenti è una caratteristica chiave dell'ARP Reply rispetto all'ARP Request?",
+    "risposte": [
+      "L'ARP Reply è un broadcast, l'ARP Request è unicast.",
+      "L'ARP Reply è in unicast, l'ARP Request è in broadcast.",
+      "L'ARP Reply contiene solo il MAC Address, l'ARP Request solo l'IP.",
+      "L'ARP Reply viene inviato solo dai router."
+    ],
+    "risposta_corretta": "L'ARP Reply è in unicast, l'ARP Request è in broadcast.",
+    "svg": ""
+  },
+  {
+    "id": 70,
+    "domanda": "Un dispositivo vuole comunicare con un server sullo stesso segmento di rete. Qual è il primo passo che il dispositivo intraprende se non conosce il MAC Address del server?",
+    "risposte": [
+      "Invia un pacchetto IP al server.",
+      "Contatta un server DNS per il MAC Address.",
+      "Invia un ARP Request per l'indirizzo IP del server.",
+      "Invia un ping all'indirizzo loopback."
+    ],
+    "risposta_corretta": "Invia un ARP Request per l'indirizzo IP del server.",
+    "svg": ""
+  },
+  {
+    "id": 71,
+    "domanda": "Qual è il tempo di 'aging' (invecchiamento) tipico di una voce nella tabella MAC di uno switch?",
+    "risposte": [
+      "Pochi secondi (es. 5-10 secondi).",
+      "Pochi minuti (es. 5-30 minuti).",
+      "Poche ore (es. 1-2 ore).",
+      "Diversi giorni."
+    ],
+    "risposta_corretta": "Pochi minuti (es. 5-30 minuti).",
+    "svg": ""
+  },
+  {
+    "id": 72,
+    "domanda": "Quando una voce nella tabella MAC di uno switch scade, cosa succede?",
+    "risposte": [
+      "Lo switch invia un ARP Request per quel MAC.",
+      "Lo switch inoltra tutti i futuri frame per quel MAC come unicast.",
+      "Lo switch eliminerà la voce e tratterà i futuri frame per quel MAC come sconosciuti (flooding).",
+      "La porta associata a quel MAC viene disabilitata."
+    ],
+    "risposta_corretta": "Lo switch eliminerà la voce e tratterà i futuri frame per quel MAC come sconosciuti (flooding).",
+    "svg": ""
+  },
+  {
+    "id": 73,
+    "domanda": "Uno switch di Livello 3 (Layer 3 Switch) è in grado di:",
+    "risposte": [
+      "Solo inoltrare frame a Livello 2.",
+      "Eseguire funzionalità di routing (Livello 3) oltre all'inoltro di Livello 2.",
+      "Assegnare indirizzi IP tramite DHCP.",
+      "Crittografare l'intero traffico di rete."
+    ],
+    "risposta_corretta": "Eseguire funzionalità di routing (Livello 3) oltre all'inoltro di Livello 2.",
+    "svg": ""
+  },
+  {
+    "id": 74,
+    "domanda": "Quale delle seguenti è una caratteristica della 'full-duplex' su una porta switch?",
+    "risposte": [
+      "Permette la trasmissione in una sola direzione alla volta.",
+      "Richiede l'uso di hub.",
+      "Permette la trasmissione e la ricezione simultanee, eliminando le collisioni su quella porta.",
+      "Raddoppia il dominio di collisione."
+    ],
+    "risposta_corretta": "Permette la trasmissione e la ricezione simultanee, eliminando le collisioni su quella porta.",
+    "svg": ""
+  },
+  {
+    "id": 75,
+    "domanda": "Il numero di domini di collisione in una rete viene ____ dall'introduzione di uno switch.",
+    "risposte": [
+      "Aumentato.",
+      "Diminuito.",
+      "Lasciato invariato.",
+      "Eliminato completamente."
+    ],
+    "risposta_corretta": "Aumentato.",
+    "svg": ""
+  },
+  {
+    "id": 76,
+    "domanda": "La velocità delle porte di uno switch è misurata in:",
+    "risposte": [
+      "Indirizzi IP per secondo.",
+      "Domini di collisione per minuto.",
+      "Megabit al secondo (Mbps) o Gigabit al secondo (Gbps).",
+      "Numeri di frame scartati."
+    ],
+    "risposta_corretta": "Megabit al secondo (Mbps) o Gigabit al secondo (Gbps).",
+    "svg": ""
+  },
+  {
+    "id": 77,
+    "domanda": "Qual è il vantaggio principale di uno switch rispetto a un hub in termini di efficienza di banda?",
+    "risposte": [
+      "Uno switch ha più porte.",
+      "Uno switch ha un alimentatore più potente.",
+      "Uno switch inoltra il traffico solo alla porta di destinazione, riducendo il traffico non necessario.",
+      "Uno switch è più piccolo di un hub."
+    ],
+    "risposta_corretta": "Uno switch inoltra il traffico solo alla porta di destinazione, riducendo il traffico non necessario.",
+    "svg": ""
+  },
+  {
+    "id": 78,
+    "domanda": "Una VLAN (Virtual LAN) è una funzionalità di quale dispositivo di rete?",
+    "risposte": [
+      "Router.",
+      "Hub.",
+      "Switch (spesso di Livello 2 gestibile o Livello 3).",
+      "Modem."
+    ],
+    "risposta_corretta": "Switch (spesso di Livello 2 gestibile o Livello 3).",
+    "svg": ""
+  },
+  {
+    "id": 79,
+    "domanda": "Quale indirizzo MAC è usato da uno switch per la sua gestione remota (se configurato)?",
+    "risposte": [
+      "Un indirizzo MAC specifico per la porta di gestione o un VLAN Interface (SVI) MAC.",
+      "L'indirizzo MAC di broadcast.",
+      "L'indirizzo MAC del primo dispositivo connesso.",
+      "Non usa un indirizzo MAC per la gestione."
+    ],
+    "risposta_corretta": "Un indirizzo MAC specifico per la porta di gestione o un VLAN Interface (SVI) MAC.",
+    "svg": ""
+  },
+  {
+    "id": 80,
+    "domanda": "Uno switch può inoltrare frame tra VLAN diverse senza l'aiuto di un router?",
+    "risposte": [
+      "Sì, sempre.",
+      "No, è necessaria una funzione di routing (anche se integrata nello switch Layer 3).",
+      "Solo se le VLAN hanno gli stessi indirizzi IP.",
+      "Solo se la rete è molto piccola."
+    ],
+    "risposta_corretta": "No, è necessaria una funzione di routing (anche se integrata nello switch Layer 3).",
+    "svg": ""
+  },
+  {
+    "id": 81,
+    "domanda": "L'indirizzo IP di loopback 127.0.0.1 appartiene a quale classe di indirizzi IP secondo la classificazione tradizionale?",
+    "risposte": [
+      "Classe A",
+      "Classe B",
+      "Classe C",
+      "Nessuna delle precedenti, è un indirizzo speciale"
+    ],
+    "risposta_corretta": "Classe A",
+    "svg": ""
+  },
+  {
+    "id": 82,
+    "domanda": "Se un'applicazione si mette in ascolto sull'indirizzo 0.0.0.0 (o `::` per IPv6), significa che accetterà connessioni da:",
+    "risposte": [
+      "Solo dall'interfaccia loopback.",
+      "Solo da indirizzi IP privati.",
+      "Tutte le interfacce di rete disponibili del dispositivo.",
+      "Solo da indirizzi IP pubblici."
+    ],
+    "risposta_corretta": "Tutte le interfacce di rete disponibili del dispositivo.",
+    "svg": ""
+  },
+  {
+    "id": 83,
+    "domanda": "Qual è il blocco di indirizzi IPv4 riservato al loopback?",
+    "risposte": [
+      "10.0.0.0/8",
+      "172.16.0.0/12",
+      "192.168.0.0/16",
+      "127.0.0.0/8"
+    ],
+    "risposta_corretta": "127.0.0.0/8",
+    "svg": ""
+  },
+  {
+    "id": 84,
+    "domanda": "Un'interfaccia loopback può essere utilizzata per simulare una connessione di rete anche in assenza di hardware di rete fisico (es. scheda di rete scollegata)?",
+    "risposte": [
+      "No, richiede sempre una scheda di rete attiva.",
+      "Sì, è indipendente dall'hardware fisico di rete.",
+      "Solo se il sistema operativo supporta la virtualizzazione.",
+      "Solo se si utilizza una connessione wireless."
+    ],
+    "risposta_corretta": "Sì, è indipendente dall'hardware fisico di rete.",
+    "svg": ""
+  },
+  {
+    "id": 85,
+    "domanda": "Quale vantaggio offre un'interfaccia loopback a un router per le sessioni dei protocolli di routing (es. OSPF, BGP)?",
+    "risposte": [
+      "Aumenta la velocità di routing.",
+      "Fornisce un indirizzo IP che è sempre 'up' e non soggetto a guasti di interfaccia fisica.",
+      "Permette al router di agire come un hub.",
+      "Nasconde l'indirizzo IP reale del router."
+    ],
+    "risposta_corretta": "Fornisce un indirizzo IP che è sempre 'up' e non soggetto a guasti di interfaccia fisica.",
+    "svg": ""
+  },
+  {
+    "id": 86,
+    "domanda": "Il traffico di loopback, una volta generato, attraversa lo stack TCP/IP del sistema e viene:",
+    "risposte": [
+      "Inoltrato al router più vicino.",
+      "Inviato alla scheda di rete fisica.",
+      "Reindirizzato direttamente all'applicazione di destinazione sullo stesso host.",
+      "Broadcastato su tutta la rete locale."
+    ],
+    "risposta_corretta": "Reindirizzato direttamente all'applicazione di destinazione sullo stesso host.",
+    "svg": ""
+  },
+  {
+    "id": 87,
+    "domanda": "Quale comando è comunemente usato per testare la connettività dell'interfaccia loopback?",
+    "risposte": [
+      "ipconfig /all",
+      "tracert 8.8.8.8",
+      "ping 127.0.0.1",
+      "netstat -an"
+    ],
+    "risposta_corretta": "ping 127.0.0.1",
+    "svg": ""
+  },
+  {
+    "id": 88,
+    "domanda": "L'interfaccia loopback è un concetto esclusivo del modello OSI o è presente anche nel modello TCP/IP?",
+    "risposte": [
+      "Esclusivo del modello OSI.",
+      "Esclusivo del modello TCP/IP.",
+      "Presente in entrambi i modelli come funzionalità logica.",
+      "Non è presente in nessun modello standard."
+    ],
+    "risposta_corretta": "Presente in entrambi i modelli come funzionalità logica.",
+    "svg": ""
+  },
+  {
+    "id": 89,
+    "domanda": "Quale delle seguenti non è una caratteristica dell'interfaccia loopback?",
+    "risposte": [
+      "È un'interfaccia virtuale.",
+      "Ha un indirizzo IP fisso e non modificabile.",
+      "È utilizzata per testare i servizi locali.",
+      "Non ha un indirizzo MAC fisico."
+    ],
+    "risposta_corretta": "Ha un indirizzo IP fisso e non modificabile.",
+    "svg": ""
+  },
+  {
+    "id": 90,
+    "domanda": "Se un'applicazione su un server si blocca e non risponde a richieste provenienti dalla rete, ma risponde a ping sull'indirizzo loopback, cosa suggerisce?",
+    "risposte": [
+      "Che il problema è nella scheda di rete o nella connettività fisica/di Livello 2.",
+      "Che il server non ha un indirizzo IP valido.",
+      "Che il server è offline.",
+      "Che il firewall sta bloccando tutte le comunicazioni."
+    ],
+    "risposta_corretta": "Che il problema è nella scheda di rete o nella connettività fisica/di Livello 2.",
+    "svg": ""
+  },
+  {
+    "id": 91,
+    "domanda": "Oltre alle broadcast storms, MAC address table instability e duplicate frames, quale altro problema indiretto può causare un loop a Livello 2?",
+    "risposte": [
+      "Miglioramento della sicurezza di rete.",
+      "Rallentamento generale delle prestazioni della rete.",
+      "Aumento della capacità di banda.",
+      "Semplificazione della gestione della rete."
+    ],
+    "risposta_corretta": "Rallentamento generale delle prestazioni della rete.",
+    "svg": ""
+  },
+  {
+    "id": 92,
+    "domanda": "Qual è il nome completo del protocollo STP?",
+    "risposte": [
+      "Secure Transmission Protocol",
+      "Spanning Tree Protocol",
+      "Standard Transport Protocol",
+      "System Tracking Protocol"
+    ],
+    "risposta_corretta": "Spanning Tree Protocol",
+    "svg": ""
+  },
+  {
+    "id": 93,
+    "domanda": "Qual è lo stato di una porta che STP/RSTP blocca logicamente per prevenire i loop?",
+    "risposte": [
+      "Forwarding (Inoltro)",
+      "Learning (Apprendimento)",
+      "Blocking (Blocco)",
+      "Listening (Ascolto)"
+    ],
+    "risposta_corretta": "Blocking (Blocco)",
+    "svg": ""
+  },
+  {
+    "id": 94,
+    "domanda": "Se una porta bloccata da STP rileva un guasto sul percorso primario, cosa fa?",
+    "risposte": [
+      "Rimane bloccata indefinitamente.",
+      "Si spegne per risparmiare energia.",
+      "Passa allo stato di inoltro per ripristinare la connettività.",
+      "Richiede una configurazione manuale per essere riattivata."
+    ],
+    "risposta_corretta": "Passa allo stato di inoltro per ripristinare la connettività.",
+    "svg": ""
+  },
+  {
+    "id": 95,
+    "domanda": "Perché la ridondanza fisica (più cavi) è auspicabile in una rete LAN, nonostante il rischio di loop?",
+    "risposte": [
+      "Per ridurre i costi dell'hardware.",
+      "Per aumentare il numero di domini di collisione.",
+      "Per garantire la tolleranza ai guasti e la disponibilità della rete.",
+      "Per semplificare la configurazione dello switch."
+    ],
+    "risposta_corretta": "Per garantire la tolleranza ai guasti e la disponibilità della rete.",
+    "svg": ""
+  },
+  {
+    "id": 96,
+    "domanda": "Il tempo di convergenza di STP (quanto impiega a ripristinare la connettività dopo un guasto) è più lungo o più corto rispetto a RSTP?",
+    "risposte": [
+      "Più corto di RSTP.",
+      "Uguale a RSTP.",
+      "Più lungo di RSTP.",
+      "Non esiste un tempo di convergenza per STP."
+    ],
+    "risposta_corretta": "Più lungo di RSTP.",
+    "svg": ""
+  },
+  {
+    "id": 97,
+    "domanda": "Cosa accade ai frame broadcast in una rete con un loop non gestito?",
+    "risposte": [
+      "Vengono inoltrati una sola volta a ogni dispositivo.",
+      "Vengono replicati all'infinito nel loop, causando una tempesta di broadcast.",
+      "Vengono convertiti in unicast.",
+      "Vengono bloccati dai router."
+    ],
+    "risposta_corretta": "Vengono replicati all'infinito nel loop, causando una tempesta di broadcast.",
+    "svg": ""
+  },
+  {
+    "id": 98,
+    "domanda": "Un loop di Livello 2 può influenzare negativamente l'efficienza della cache ARP dei dispositivi?",
+    "risposte": [
+      "No, non c'è correlazione.",
+      "Sì, indirettamente, a causa dell'instabilità della tabella MAC e del flooding.",
+      "Solo se la cache ARP è piena.",
+      "Solo se il protocollo ARP è disabilitato."
+    ],
+    "risposta_corretta": "Sì, indirettamente, a causa dell'instabilità della tabella MAC e del flooding.",
+    "svg": ""
+  },
+  {
+    "id": 99,
+    "domanda": "In un loop non gestito, i dispositivi di destinazione possono ricevere _____ dello stesso frame di dati.",
+    "risposte": [
+      "Nessuna copia.",
+      "Una singola copia.",
+      "Diverse copie duplicate.",
+      "Solo l'intestazione del frame."
+    ],
+    "risposta_corretta": "Diverse copie duplicate.",
+    "svg": ""
+  },
+  {
+    "id": 100,
+    "domanda": "Qual è l'obiettivo finale di STP/RSTP nella gestione dei loop?",
+    "risposte": [
+      "Aumentare il numero di collisioni.",
+      "Creare un unico percorso logico privo di loop attraverso la rete.",
+      "Disabilitare completamente le porte ridondanti.",
+      "Forzare tutti i dispositivi a usare indirizzi IP statici."
+    ],
+    "risposta_corretta": "Creare un unico percorso logico privo di loop attraverso la rete.",
+    "svg": ""
+  },
+  {
+    "id": 101,
+    "domanda": "Come sono gli indirizzi MAC delle schede di rete (NIC) influenzati dall'adozione di IPv6 rispetto a IPv4?",
+    "risposte": [
+      "Cambiano formato per supportare IPv6.",
+      "Rimangono invariati, essendo indirizzi di Livello 2.",
+      "Vengono convertiti in indirizzi IPv6.",
+      "Sono gestiti esclusivamente dal router in IPv6."
+    ],
+    "risposta_corretta": "Rimangono invariati, essendo indirizzi di Livello 2.",
+    "svg": ""
+  },
+  {
+    "id": 102,
+    "domanda": "Perché la tabella MAC di uno switch non distingue tra traffico IPv4 e IPv6?",
+    "risposte": [
+      "Perché la tabella MAC si basa sugli indirizzi IP.",
+      "Perché uno switch opera solo a Livello 3.",
+      "Perché lo switch esamina solo gli indirizzi MAC a Livello 2, indipendentemente dal payload di Livello 3.",
+      "Perché IPv6 è più efficiente e non necessita di distinzioni."
+    ],
+    "risposta_corretta": "Perché lo switch esamina solo gli indirizzi MAC a Livello 2, indipendentemente dal payload di Livello 3.",
+    "svg": ""
+  },
+  {
+    "id": 103,
+    "domanda": "I messaggi del Neighbor Discovery Protocol (NDP) vengono incapsulati in quale tipo di unità di dati per essere trasmessi su Ethernet?",
+    "risposte": [
+      "Pacchetti UDP.",
+      "Segmenti TCP.",
+      "Frame Ethernet.",
+      "Datagrammi IP."
+    ],
+    "risposta_corretta": "Frame Ethernet.",
+    "svg": ""
+  },
+  {
+    "id": 104,
+    "domanda": "Quale delle seguenti affermazioni descrive meglio il comportamento di uno switch in una rete dual-stack (IPv4 e IPv6)?",
+    "risposte": [
+      "Lo switch ignora il traffico IPv6.",
+      "Lo switch inoltra sia il traffico IPv4 che IPv6 basandosi sulla sua tabella MAC.",
+      "Lo switch inoltra solo il traffico che ha un indirizzo IP di destinazione noto.",
+      "Lo switch necessita di un software aggiuntivo per gestire IPv6."
+    ],
+    "risposta_corretta": "Lo switch inoltra sia il traffico IPv4 che IPv6 basandosi sulla sua tabella MAC.",
+    "svg": ""
+  },
+  {
+    "id": 105,
+    "domanda": "La capacità di uno switch di inoltrare frame è influenzata dalla complessità dell'indirizzo IP (IPv4 vs IPv6)?",
+    "risposte": [
+      "Sì, gli indirizzi IPv6 sono troppo complessi per gli switch di Livello 2.",
+      "No, la complessità dell'indirizzo IP è irrilevante per le decisioni di inoltro a Livello 2.",
+      "Solo se lo switch è vecchio.",
+      "Dipende dalla quantità di RAM dello switch."
+    ],
+    "risposta_corretta": "No, la complessità dell'indirizzo IP è irrilevante per le decisioni di inoltro a Livello 2.",
+    "svg": ""
+  },
+  {
+    "id": 106,
+    "domanda": "Se un host IPv6 in una LAN vuole comunicare con un altro host IPv6 sullo stesso segmento, e non conosce il suo MAC, quale protocollo utilizzerà?",
+    "risposte": [
+      "ARP.",
+      "DHCPv6.",
+      "Neighbor Discovery Protocol (NDP).",
+      "DNS."
+    ],
+    "risposta_corretta": "Neighbor Discovery Protocol (NDP).",
+    "svg": ""
+  },
+  {
+    "id": 107,
+    "domanda": "Un'aggiornamento di rete da IPv4 a IPv6 richiede la sostituzione di tutti gli switch di Livello 2?",
+    "risposte": [
+      "Sì, è un requisito fondamentale.",
+      "No, gli switch di Livello 2 sono generalmente agnostici alla versione IP.",
+      "Solo se si utilizzano indirizzi privati.",
+      "Dipende dal numero di host sulla rete."
+    ],
+    "risposta_corretta": "No, gli switch di Livello 2 sono generalmente agnostici alla versione IP.",
+    "svg": ""
+  },
+  {
+    "id": 108,
+    "domanda": "Quale tipo di indirizzo viene 'risolto' da NDP in IPv6?",
+    "risposte": [
+      "Nomi di dominio in indirizzi IP.",
+      "Indirizzi IP in indirizzi MAC.",
+      "Indirizzi pubblici in privati.",
+      "Porte TCP/UDP in applicazioni."
+    ],
+    "risposta_corretta": "Indirizzi IP in indirizzi MAC.",
+    "svg": ""
+  },
+  {
+    "id": 109,
+    "domanda": "La tabella MAC (CAM) di uno switch è usata per l'inoltro di frame contenenti solo pacchetti IPv4 o anche pacchetti IPv6?",
+    "risposte": [
+      "Solo IPv4.",
+      "Solo IPv6.",
+      "Entrambi, in quanto si basa sui MAC address.",
+      "Nessuno dei due, si basa sugli indirizzi di rete."
+    ],
+    "risposta_corretta": "Entrambi, in quanto si basa sui MAC address.",
+    "svg": ""
+  },
+  {
+    "id": 110,
+    "domanda": "Cosa indica il fatto che uno switch non 'sappia' se un frame contiene un pacchetto IPv4 o IPv6?",
+    "risposte": [
+      "Una limitazione tecnica dello switch.",
+      "La sua natura di dispositivo di Livello 2 che si concentra solo sull'intestazione Ethernet.",
+      "Un errore di configurazione.",
+      "Che lo switch necessita di un router per la conversione."
+    ],
+    "risposta_corretta": "La sua natura di dispositivo di Livello 2 che si concentra solo sull'intestazione Ethernet.",
+    "svg": ""
+  },
+  {
+    "id": 111,
+    "domanda": "Nello scenario di un network con uno switch centrale collegato a due hub (Hub A e Hub B), se un PC A1 (connesso all'Hub A) vuole comunicare con un PC B1 (connesso all'Hub B), quale indirizzo del PC B1 deve risolvere PC A1 prima di inviare i dati a livello Ethernet?",
+    "risposte": [
+      "L'indirizzo IP.",
+      "L'indirizzo MAC.",
+      "Il nome host.",
+      "L'indirizzo di porta."
+    ],
+    "risposta_corretta": "L'indirizzo MAC.",
+    "svg": ""
+  },
+  {
+    "id": 112,
+    "domanda": "Quando PC A1 invia un ARP Request per PC B1, e questo ARP Request raggiunge l'Hub A, come viene trattato dall'Hub A?",
+    "risposte": [
+      "Viene inoltrato solo allo switch.",
+      "Viene bloccato perché non è un traffico unicast.",
+      "Viene ripetuto su tutte le sue porte (tranne quella di ingresso).",
+      "Viene memorizzato nella tabella MAC dell'Hub."
+    ],
+    "risposta_corretta": "Viene ripetuto su tutte le sue porte (tranne quella di ingresso).",
+    "svg": ""
+  },
+  {
+    "id": 113,
+    "domanda": "Lo switch centrale, quando riceve l'ARP Request dal PC A1 (tramite l'Hub A), cosa impara e dove lo registra?",
+    "risposte": [
+      "Impara l'indirizzo IP di PC A1 e lo registra nella cache ARP.",
+      "Impara l'indirizzo MAC di PC A1 e la porta a cui è collegato (porta verso Hub A), registrandolo nella sua tabella MAC.",
+      "Impara l'indirizzo MAC di PC B1 e lo registra nella sua tabella di routing.",
+      "Non impara nulla, si limita a inoltrare."
+    ],
+    "risposta_corretta": "Impara l'indirizzo MAC di PC A1 e la porta a cui è collegato (porta verso Hub A), registrandolo nella sua tabella MAC.",
+    "svg": ""
+  },
+  {
+    "id": 114,
+    "domanda": "Perché lo switch centrale, avendo ricevuto l'ARP Request di PC A1, inoltra questo Request all'Hub B (e quindi a tutti i dispositivi connessi all'Hub B)?",
+    "risposte": [
+      "Perché è un messaggio unicast destinato a PC B1.",
+      "Perché è un messaggio broadcast e lo switch lo inoltra a tutte le porte (tranne l'origine).",
+      "Perché il MAC di PC B1 è già nella sua tabella.",
+      "Perché l'Hub B ha richiesto il messaggio."
+    ],
+    "risposta_corretta": "Perché è un messaggio broadcast e lo switch lo inoltra a tutte le porte (tranne l'origine).",
+    "svg": ""
+  },
+  {
+    "id": 115,
+    "domanda": "Quando PC B1 riceve l'ARP Request (che è broadcast) e riconosce il proprio indirizzo IP, cosa fa?",
+    "risposte": [
+      "Lo scarta.",
+      "Invia un ARP Reply in broadcast.",
+      "Invia un ARP Reply in unicast all'indirizzo MAC di PC A1.",
+      "Inoltra l'ARP Request ad altri dispositivi."
+    ],
+    "risposta_corretta": "Invia un ARP Reply in unicast all'indirizzo MAC di PC A1.",
+    "svg": ""
+  },
+  {
+    "id": 116,
+    "domanda": "Il dominio di collisione di un segmento di rete è la porzione di rete in cui la collisione di pacchetti può:",
+    "risposte": [
+      "Essere completamente evitata.",
+      "Essere rilevata dal firewall.",
+      "Verificarsi se due dispositivi trasmettono contemporaneamente.",
+      "Aumentare la velocità di trasmissione."
+    ],
+    "risposta_corretta": "Verificarsi se due dispositivi trasmettono contemporaneamente.",
+    "svg": ""
+  },
+  {
+    "id": 117,
+    "domanda": "Nello scenario, quanti domini di collisione sono presenti in totale?",
+    "risposte": [
+      "Uno (l'intera rete).",
+      "Due (uno per ogni hub).",
+      "Tre (uno per ogni hub e uno per la porta dello switch connessa al PC A1).",
+      "Tre (uno per l'Hub A, uno per l'Hub B, e uno per la porta dello switch a cui è collegato l'Hub A e l'Hub B)."
+    ],
+    "risposta_corretta": "Tre (uno per l'Hub A, uno per l'Hub B, e uno per la porta dello switch a cui è collegato l'Hub A e l'Hub B).",
+    "svg": ""
+  },
+  {
+    "id": 118,
+    "domanda": "Un 'dominio di broadcast' è un segmento di rete in cui tutti i dispositivi possono:",
+    "risposte": [
+      "Solo comunicare tramite unicast.",
+      "Ricevere i messaggi di broadcast.",
+      "Accedere a Internet tramite un gateway.",
+      "Avere indirizzi IP statici."
+    ],
+    "risposta_corretta": "Ricevere i messaggi di broadcast.",
+    "svg": ""
+  },
+  {
+    "id": 119,
+    "domanda": "Nello scenario dato, l'intero network (Switch + Hubs + PCs) forma:",
+    "risposte": [
+      "Un unico grande dominio di collisione.",
+      "Molti piccoli domini di broadcast.",
+      "Un unico grande dominio di broadcast.",
+      "Nessun dominio specifico."
+    ],
+    "risposta_corretta": "Un unico grande dominio di broadcast.",
+    "svg": ""
+  },
+  {
+    "id": 120,
+    "domanda": "Quale delle seguenti è una conseguenza negativa dell'avere un grande dominio di collisione (tipico degli hub)?",
+    "risposte": [
+      "Migliore sicurezza della rete.",
+      "Aumento delle prestazioni di rete.",
+      "Rischio più elevato di collisioni e riduzione della larghezza di banda effettiva.",
+      "Minor consumo energetico."
+    ],
+    "risposta_corretta": "Rischio più elevato di collisioni e riduzione della larghezza di banda effettiva.",
+    "svg": ""
+  }
+]

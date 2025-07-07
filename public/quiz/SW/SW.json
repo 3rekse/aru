@@ -1,0 +1,367 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Che cos'è il software?",
+      "risposte": [
+        "Un componente fisico del computer",
+        "L'insieme dei programmi che fanno funzionare il computer",
+        "Un tipo di memoria esterna",
+        "Un linguaggio di programmazione"
+      ],
+      "risposta_corretta": "L'insieme dei programmi che fanno funzionare il computer",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Quale delle seguenti è una funzione del software di base?",
+      "risposte": [
+        "Modificare immagini",
+        "Gestire la memoria del computer",
+        "Scrivere documenti",
+        "Navigare in Internet"
+      ],
+      "risposta_corretta": "Gestire la memoria del computer",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Qual è la funzione del software applicativo?",
+      "risposte": [
+        "Controllare l’hardware",
+        "Eseguire compiti specifici richiesti dall’utente",
+        "Gestire le risorse del sistema",
+        "Caricare il sistema operativo"
+      ],
+      "risposta_corretta": "Eseguire compiti specifici richiesti dall’utente",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Quale dei seguenti è un esempio di software applicativo?",
+      "risposte": [
+        "Linux",
+        "Google Chrome",
+        "Driver audio",
+        "BIOS"
+      ],
+      "risposta_corretta": "Google Chrome",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Il sistema operativo è un esempio di:",
+      "risposte": [
+        "Software applicativo",
+        "Software di base",
+        "Hardware",
+        "Firmware"
+      ],
+      "risposta_corretta": "Software di base",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Cosa fa il sistema operativo?",
+      "risposte": [
+        "Progetta programmi",
+        "Gestisce le risorse del computer",
+        "Elimina virus",
+        "Costruisce il computer"
+      ],
+      "risposta_corretta": "Gestisce le risorse del computer",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Quale tra questi NON è un sistema operativo?",
+      "risposte": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Excel"
+      ],
+      "risposta_corretta": "Excel",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "Cos'è un processo per il sistema operativo?",
+      "risposte": [
+        "Una cartella di sistema",
+        "Un'operazione hardware",
+        "Un programma in esecuzione",
+        "Una periferica connessa"
+      ],
+      "risposta_corretta": "Un programma in esecuzione",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Qual è il ruolo dei driver?",
+      "risposte": [
+        "Creare file di testo",
+        "Far comunicare il sistema operativo con le periferiche",
+        "Gestire il file system",
+        "Proteggere dai virus"
+      ],
+      "risposta_corretta": "Far comunicare il sistema operativo con le periferiche",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Il file system serve a:",
+      "risposte": [
+        "Proteggere i dati personali",
+        "Gestire i file e le cartelle sul disco",
+        "Eseguire giochi",
+        "Controllare le password"
+      ],
+      "risposta_corretta": "Gestire i file e le cartelle sul disco",
+      "svg": ""
+    },
+
+    {
+      "id": 11,
+      "domanda": "Quale tra questi sistemi operativi è per smartphone?",
+      "risposte": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "risposta_corretta": "Android",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Un'interfaccia grafica (GUI) permette di:",
+      "risposte": [
+        "Scrivere codice in linguaggio macchina",
+        "Interagire con il computer usando icone e finestre",
+        "Riparare l'hardware",
+        "Accedere ai file nascosti"
+      ],
+      "risposta_corretta": "Interagire con il computer usando icone e finestre",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Un esempio di interfaccia testuale è:",
+      "risposte": [
+        "Finder",
+        "Prompt dei comandi",
+        "Google Chrome",
+        "Paint"
+      ],
+      "risposta_corretta": "Prompt dei comandi",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Quale software si occupa di caricare i programmi in memoria?",
+      "risposte": [
+        "Il browser",
+        "Il sistema operativo",
+        "L’antivirus",
+        "Il file system"
+      ],
+      "risposta_corretta": "Il sistema operativo",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Un esempio di software di base è:",
+      "risposte": [
+        "Adobe Photoshop",
+        "Google Drive",
+        "Windows 11",
+        "Minecraft"
+      ],
+      "risposta_corretta": "Windows 11",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Che cos'è la RAM?",
+      "risposte": [
+        "Una memoria di archiviazione permanente",
+        "Una periferica di input",
+        "Una memoria temporanea usata dal sistema operativo",
+        "Un software"
+      ],
+      "risposta_corretta": "Una memoria temporanea usata dal sistema operativo",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Il termine 'hardware' si riferisce a:",
+      "risposte": [
+        "Programmi del computer",
+        "Componenti fisici del computer",
+        "Sistema operativo",
+        "File temporanei"
+      ],
+      "risposta_corretta": "Componenti fisici del computer",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "Che ruolo ha il BIOS?",
+      "risposte": [
+        "Avvia il sistema operativo",
+        "Gestisce i social network",
+        "Protegge dai virus",
+        "Esegue programmi complessi"
+      ],
+      "risposta_corretta": "Avvia il sistema operativo",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "Un file .exe su Windows è:",
+      "risposte": [
+        "Un documento",
+        "Un'immagine",
+        "Un file eseguibile (programma)",
+        "Un archivio compresso"
+      ],
+      "risposta_corretta": "Un file eseguibile (programma)",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "Che cosa permette il multitasking?",
+      "risposte": [
+        "Installare più sistemi operativi",
+        "Usare più programmi contemporaneamente",
+        "Cambiare il tema del desktop",
+        "Scrivere codice automaticamente"
+      ],
+      "risposta_corretta": "Usare più programmi contemporaneamente",
+      "svg": ""
+    },
+
+    {
+      "id": 21,
+      "domanda": "Il kernel del sistema operativo:",
+      "risposte": [
+        "È l’interfaccia grafica",
+        "Gestisce le periferiche hardware a basso livello",
+        "È un programma applicativo",
+        "Gestisce solo i file musicali"
+      ],
+      "risposta_corretta": "Gestisce le periferiche hardware a basso livello",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "macOS è un sistema operativo sviluppato da:",
+      "risposte": [
+        "Microsoft",
+        "Linux Foundation",
+        "Apple",
+        "Google"
+      ],
+      "risposta_corretta": "Apple",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "Linux è un sistema operativo:",
+      "risposte": [
+        "A pagamento",
+        "Usato solo per videogiochi",
+        "Open source",
+        "Disponibile solo su Mac"
+      ],
+      "risposta_corretta": "Open source",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "Un browser è un esempio di:",
+      "risposte": [
+        "Software di base",
+        "Sistema operativo",
+        "Software applicativo",
+        "Driver"
+      ],
+      "risposta_corretta": "Software applicativo",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "Qual è la funzione principale della gestione della memoria?",
+      "risposte": [
+        "Avviare il computer",
+        "Salvare i dati su cloud",
+        "Assegnare memoria ai programmi in esecuzione",
+        "Bloccare programmi non sicuri"
+      ],
+      "risposta_corretta": "Assegnare memoria ai programmi in esecuzione",
+      "svg": ""
+    },
+    {
+      "id": 26,
+      "domanda": "Il prompt dei comandi è:",
+      "risposte": [
+        "Una GUI",
+        "Un browser",
+        "Un’interfaccia testuale",
+        "Un editor video"
+      ],
+      "risposta_corretta": "Un’interfaccia testuale",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "I file e le cartelle sul computer sono organizzati da:",
+      "risposte": [
+        "Il browser",
+        "Il file system",
+        "Il BIOS",
+        "La RAM"
+      ],
+      "risposta_corretta": "Il file system",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "Un antivirus è:",
+      "risposte": [
+        "Software applicativo",
+        "Sistema operativo",
+        "Software di base",
+        "Firmware"
+      ],
+      "risposta_corretta": "Software applicativo",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "Chi gestisce l’uso del processore da parte dei programmi?",
+      "risposte": [
+        "Il sistema operativo",
+        "Il mouse",
+        "Il software applicativo",
+        "La tastiera"
+      ],
+      "risposta_corretta": "Il sistema operativo",
+      "svg": ""
+    },
+    {
+      "id": 30,
+      "domanda": "Quale componente software parte subito all’accensione del computer?",
+      "risposte": [
+        "Il browser",
+        "Il BIOS",
+        "Il file manager",
+        "La GUI"
+      ],
+      "risposta_corretta": "Il BIOS",
+      "svg": ""
+    }
+  ]
+}
+

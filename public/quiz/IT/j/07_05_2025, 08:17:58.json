@@ -1,0 +1,31 @@
+[
+  {
+    "mission": "IT",
+    "nome": "j",
+    "cognome": "j",
+    "classe": "j",
+    "voto": 3.25,
+    "dataorainizio": "2025-05-07T06:17:55.765Z",
+    "inizio": "07/05/2025, 08:17:55",
+    "durata": 2040,
+    "giuste": 1,
+    "sbagliate": 2,
+    "quiz": [
+      {
+        "id": 1,
+        "domanda": "Chi è considerato il padre dell'informatica?",
+        "svg": " ❌ Alan Turing"
+      },
+      {
+        "id": 3,
+        "domanda": "In che anno è stato inventato l'ENIAC?",
+        "svg": " ❌ 1955"
+      },
+      {
+        "id": 2,
+        "domanda": "Quale fu il primo computer elettronico programmabile?",
+        "svg": " ✅ Z3"
+      }
+    ]
+  }
+]

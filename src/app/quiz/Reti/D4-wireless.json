@@ -1,0 +1,365 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "domanda": "Quale standard IEEE 802.11 offre velocità di trasmissione più elevate rispetto a 802.11n?",
+        "risposte": [
+          "802.11b",
+          "802.11g",
+          "802.11ac",
+          "802.11a"
+        ],
+        "risposta_corretta": "802.11ac",
+        "svg": ""
+      },
+      {
+        "id": 2,
+        "domanda": "Quale standard IEEE 802.11 è noto anche come Wi-Fi 6?",
+        "risposte": [
+          "802.11ac",
+          "802.11ad",
+          "802.11ax",
+          "802.11ay"
+        ],
+        "risposta_corretta": "802.11ax",
+        "svg": ""
+      },
+      {
+        "id": 3,
+        "domanda": "Qual è il principale vantaggio di 802.11ax rispetto a 802.11ac?",
+        "risposte": [
+          "Maggiore portata",
+          "Minore consumo energetico",
+          "Maggiore capacità e efficienza in ambienti densi",
+          "Maggiore sicurezza"
+        ],
+        "risposta_corretta": "Maggiore capacità e efficienza in ambienti densi",
+        "svg": ""
+      },
+      {
+        "id": 4,
+        "domanda": "Quale metodo di crittografia è stato introdotto con WPA3?",
+        "risposte": [
+          "WEP",
+          "WPA",
+          "WPA2",
+          "SAE (Simultaneous Authentication of Equals)"
+        ],
+        "risposta_corretta": "SAE (Simultaneous Authentication of Equals)",
+        "svg": ""
+      },
+      {
+        "id": 5,
+        "domanda": "Qual è la principale vulnerabilità di sicurezza associata a WEP?",
+        "risposte": [
+          "Utilizzo di una chiave pre-condivisa",
+          "Crittografia TKIP debole",
+          "Utilizzo di una chiave statica e facilmente decifrabile",
+          "Mancanza di autenticazione"
+        ],
+        "risposta_corretta": "Utilizzo di una chiave statica e facilmente decifrabile",
+        "svg": ""
+      },
+      {
+        "id": 6,
+        "domanda": "Quale protocollo di autenticazione è comunemente utilizzato in combinazione con WPA2 Enterprise?",
+        "risposte": [
+          "PSK",
+          "EAP",
+          "TKIP",
+          "AES"
+        ],
+        "risposta_corretta": "EAP",
+        "svg": ""
+      },
+      {
+        "id": 7,
+        "domanda": "Qual è il vantaggio principale di WPA3-Enterprise rispetto a WPA3-Personal?",
+        "risposte": [
+          "Maggiore velocità",
+          "Crittografia più forte",
+          "Autenticazione centralizzata",
+          "Maggiore portata"
+        ],
+        "risposta_corretta": "Autenticazione centralizzata",
+        "svg": ""
+      },
+      {
+        "id": 8,
+        "domanda": "In un'architettura WLAN centralizzata, quale dispositivo gestisce gli access point?",
+        "risposte": [
+          "Switch",
+          "Router",
+          "Controller wireless",
+          "Firewall"
+        ],
+        "risposta_corretta": "Controller wireless",
+        "svg": ""
+      },
+      {
+        "id": 9,
+        "domanda": "Qual è il vantaggio principale di un'architettura WLAN centralizzata?",
+        "risposte": [
+          "Costo inferiore",
+          "Maggiore flessibilità",
+          "Gestione semplificata e scalabilità",
+          "Maggiore velocità"
+        ],
+        "risposta_corretta": "Gestione semplificata e scalabilità",
+        "svg": ""
+      },
+      {
+        "id": 10,
+        "domanda": "Quale protocollo è comunemente utilizzato per la comunicazione tra un access point e un controller wireless?",
+        "risposte": [
+          "CAPWAP o LWAPP",
+          "DHCP",
+          "SNMP",
+          "TCP"
+        ],
+        "risposta_corretta": "CAPWAP o LWAPP",
+        "svg": ""
+      },
+      {
+        "id": 11,
+        "domanda": "Qual è un tipo di architettura WLAN in cui gli access point operano autonomamente?",
+        "risposte": [
+          "Centralizzata",
+          "Distribuita (Fat AP)",
+          "Mesh",
+          "Cloud-based"
+        ],
+        "risposta_corretta": "Distribuita (Fat AP)",
+        "svg": ""
+      },
+      {
+        "id": 12,
+        "domanda": "Quale tecnologia consente agli access point di interconnettersi wireless per estendere la copertura?",
+        "risposte": [
+          "Roaming",
+          "VLAN",
+          "Mesh networking",
+          "Power over Ethernet (PoE)"
+        ],
+        "risposta_corretta": "Mesh networking",
+        "svg": ""
+      },
+      {
+        "id": 13,
+        "domanda": "Qual è la prima cosa da controllare quando si risolvono i problemi di connettività wireless di un client?",
+        "risposte": [
+          "Configurazione del firewall",
+          "Cavo Ethernet",
+          "SSID e password corretti",
+          "Driver della scheda di rete"
+        ],
+        "risposta_corretta": "SSID e password corretti",
+        "svg": ""
+      },
+      {
+        "id": 14,
+        "domanda": "Quale strumento può essere utilizzato per analizzare lo spettro radio e identificare interferenze Wi-Fi?",
+        "risposte": [
+          "Ping",
+          "Traceroute",
+          "Analizzatore di spettro",
+          "WireShark"
+        ],
+        "risposta_corretta": "Analizzatore di spettro",
+        "svg": ""
+      },
+      {
+        "id": 15,
+        "domanda": "Qual è una causa comune di prestazioni lente in una rete wireless?",
+        "risposte": [
+          "Troppi indirizzi IP",
+          "Interferenza da altri dispositivi wireless",
+          "Cavi Ethernet troppo lunghi",
+          "Mancanza di VLAN"
+        ],
+        "risposta_corretta": "Interferenza da altri dispositivi wireless",
+        "svg": ""
+      },
+      {
+        "id": 16,
+        "domanda": "Qual è la funzione del roaming in una rete wireless?",
+        "risposte": [
+          "Aumentare la velocità di trasmissione",
+          "Consentire ai client di spostarsi tra gli AP senza perdere la connessione",
+          "Fornire alimentazione agli AP",
+          "Crittografare il traffico wireless"
+        ],
+        "risposta_corretta": "Consentire ai client di spostarsi tra gli AP senza perdere la connessione",
+        "svg": ""
+      },
+      {
+        "id": 17,
+        "domanda": "Qual è il significato di SSID?",
+        "risposte": [
+          "Simple Service Identification Device",
+          "Service Set Identifier",
+          "System Security Identification Data",
+          "Secure Socket Internet Domain"
+        ],
+        "risposta_corretta": "Service Set Identifier",
+        "svg": ""
+      },
+      {
+        "id": 18,
+        "domanda": "Quale banda di frequenza è utilizzata da 802.11ac?",
+        "risposte": [
+          "2.4 GHz",
+          "5 GHz",
+          "Entrambe 2.4 GHz e 5 GHz",
+          "60 GHz"
+        ],
+        "risposta_corretta": "5 GHz",
+        "svg": ""
+      },
+      {
+        "id": 19,
+        "domanda": "Quale tecnologia consente a più dispositivi di trasmettere contemporaneamente su uno stesso canale in 802.11ax?",
+        "risposte": [
+          "MIMO",
+          "OFDM",
+          "MU-MIMO",
+          "QAM"
+        ],
+        "risposta_corretta": "MU-MIMO",
+        "svg": ""
+      },
+      {
+        "id": 20,
+        "domanda": "Qual è un metodo per migliorare la sicurezza di una rete wireless oltre a WPA3?",
+        "risposte": [
+          "Disabilitare la crittografia",
+          "Trasmettere l'SSID",
+          "Filtrare gli indirizzi MAC",
+          "Usare password predefinite"
+        ],
+        "risposta_corretta": "Filtrare gli indirizzi MAC",
+        "svg": ""
+      },
+      {
+        "id": 21,
+        "domanda": "Quale comando viene utilizzato per visualizzare le interfacce wireless su un router Cisco?",
+        "risposte": [
+          "show interface brief",
+          "show ip interface",
+          "show wireless summary",
+          "show interface wlan0"
+        ],
+        "risposta_corretta": "show wireless summary",
+        "svg": ""
+      },
+      {
+        "id": 22,
+        "domanda": "Quale comando viene utilizzato per configurare un SSID su un controller wireless Cisco?",
+        "risposte": [
+          "config wlan ssid <nome_ssid>",
+          "wlan config ssid <nome_ssid>",
+          "interface wlan <numero_wlan>\nssid <nome_ssid>",
+          "wlan create profile <nome_ssid>"
+        ],
+        "risposta_corretta": "interface wlan <numero_wlan>\nssid <nome_ssid>",
+        "svg": ""
+      },
+      {
+        "id": 23,
+        "domanda": "Quale comando viene utilizzato per visualizzare i client wireless connessi su un controller Cisco?",
+        "risposte": [
+          "show client",
+          "show wireless client summary",
+          "show wlan clients",
+          "show ap associations"
+        ],
+        "risposta_corretta": "show wireless client summary",
+        "svg": ""
+      },
+      {
+        "id": 24,
+        "domanda": "Qual è un potenziale problema causato da un errato posizionamento degli access point?",
+        "risposte": [
+          "Troppa potenza di trasmissione",
+          "Sovrapposizione insufficiente del segnale",
+          "Troppi canali disponibili",
+          "Crittografia non supportata"
+        ],
+        "risposta_corretta": "Sovrapposizione insufficiente del segnale",
+        "svg": ""
+      },
+      {
+        "id": 25,
+        "domanda": "Quale impostazione influisce sulla dimensione dell'area di copertura di un access point?",
+        "risposte": [
+          "SSID",
+          "Canale",
+          "Potenza di trasmissione",
+          "Crittografia"
+        ],
+        "risposta_corretta": "Potenza di trasmissione",
+        "svg": ""
+      },
+      {
+        "id": 26,
+        "domanda": "Qual è il vantaggio di utilizzare canali non sovrapposti in una rete Wi-Fi?",
+        "risposte": [
+          "Maggiore velocità di trasmissione",
+          "Minore interferenza",
+          "Maggiore portata",
+          "Minore consumo energetico"
+        ],
+        "risposta_corretta": "Minore interferenza",
+        "svg": ""
+      },
+      {
+        "id": 27,
+        "domanda": "Quale tipo di antenna è più adatto per una copertura direzionale?",
+        "risposte": [
+          "Omnidirezionale",
+          "Direzionale",
+          "Settoriale",
+          "Yagi"
+        ],
+        "risposta_corretta": "Direzionale",
+        "svg": ""
+      },
+      {
+        "id": 28,
+        "domanda": "Qual è un modo per mitigare l'interferenza co-canale?",
+        "risposte": [
+          "Aumentare la potenza di trasmissione",
+          "Utilizzare canali non sovrapposti",
+          "Disabilitare la crittografia",
+          "Installare più access point"
+        ],
+        "risposta_corretta": "Utilizzare canali non sovrapposti",
+        "svg": ""
+      },
+      {
+        "id": 29,
+        "domanda": "Qual è la funzione di un captive portal in una rete Wi-Fi pubblica?",
+        "risposte": [
+          "Crittografare il traffico",
+          "Fornire accesso a internet senza autenticazione",
+          "Autenticare gli utenti prima di concedere l'accesso alla rete",
+          "Bloccare il traffico non autorizzato"
+        ],
+        "risposta_corretta": "Autenticare gli utenti prima di concedere l'accesso alla rete",
+        "svg": ""
+      },
+      {
+        "id": 30,
+        "domanda": "Qual è un potenziale problema di sicurezza associato alle reti Wi-Fi pubbliche?",
+        "risposte": [
+          "Crittografia robusta",
+          "Autenticazione centralizzata",
+          "Attacchi Man-in-the-middle",
+          "Utilizzo di canali non sovrapposti"
+        ],
+        "risposta_corretta": "Attacchi Man-in-the-middle",
+        "svg": ""
+      }
+    ]
+  }
+  

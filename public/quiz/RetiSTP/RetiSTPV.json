@@ -1,0 +1,251 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Qual è il principale problema che il Protocollo Spanning Tree (STP) mira a prevenire nelle reti con switch?",
+      "risposte": [
+        "La mancanza di indirizzi IP.",
+        "I loop di Livello 2 (switching loops).",
+        "La perdita di connettività wireless.",
+        "L'eccessivo consumo energetico degli switch."
+      ],
+      "risposta_corretta": "I loop di Livello 2 (switching loops).",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Quali sono le tre conseguenze principali di un loop di Livello 2?",
+      "risposte": [
+        "Aumento della velocità di rete, riduzione del traffico, stabilità delle tabelle MAC.",
+        "Tempeste di broadcast, instabilità delle tabelle MAC, duplicazione dei frame.",
+        "Minore latenza, maggiore sicurezza, configurazione semplificata.",
+        "Miglioramento del QoS, bilanciamento del carico, nessuna ridondanza."
+      ],
+      "risposta_corretta": "Tempeste di broadcast, instabilità delle tabelle MAC, duplicazione dei frame.",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Qual è il ruolo del Root Bridge in una topologia Spanning Tree?",
+      "risposte": [
+        "È lo switch che blocca tutte le sue porte.",
+        "È lo switch che non partecipa all'elezione STP.",
+        "È il punto di riferimento centrale da cui l'albero senza loop inizia a diramarsi.",
+        "È lo switch che inoltra solo il traffico di broadcast."
+      ],
+      "risposta_corretta": "È il punto di riferimento centrale da cui l'albero senza loop inizia a diramarsi.",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Come viene eletto il Root Bridge in STP?",
+      "risposte": [
+        "Dallo switch con il maggior numero di porte.",
+        "Dallo switch con l'indirizzo IP più alto.",
+        "Dallo switch con il Bridge ID (priorità + MAC address) più basso.",
+        "Dallo switch più vecchio della rete."
+      ],
+      "risposta_corretta": "Dallo switch con il Bridge ID (priorità + MAC address) più basso.",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Qual è il valore predefinito della priorità STP sulla maggior parte degli switch (es. Cisco)?",
+      "risposte": [
+        "0",
+        "1",
+        "32768",
+        "65535"
+      ],
+      "risposta_corretta": "32768",
+      "svg": ""
+    },{
+      "id": 26,
+      "domanda": "MSTP (Multiple Spanning Tree Protocol - 802.1s) mira principalmente a risolvere quale svantaggio di PVST+?",
+      "risposte": [
+        "La sua lentezza di convergenza.",
+        "La sua mancanza di retrocompatibilità.",
+        "L'elevato overhead di CPU e BPDU in reti con molte VLAN.",
+        "L'impossibilità di bilanciare il carico."
+      ],
+      "risposta_corretta": "L'elevato overhead di CPU e BPDU in reti con molte VLAN.",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "In MSTP, cosa si intende per 'istanza MST (MSTI)'?",
+      "risposte": [
+        "Un singolo switch nella rete.",
+        "Un gruppo di switch configurati con la stessa priorità.",
+        "Un raggruppamento di una o più VLAN che seguono la stessa topologia Spanning Tree.",
+        "Un link fisico tra due switch."
+      ],
+      "risposta_corretta": "Un raggruppamento di una o più VLAN che seguono la stessa topologia Spanning Tree.",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "Quale funzionalità STP permette a una porta di accesso collegata a un PC di passare immediatamente allo stato di forwarding?",
+      "risposte": [
+        "BPDU Guard.",
+        "Root Guard.",
+        "PortFast.",
+        "Loop Guard."
+      ],
+      "risposta_corretta": "PortFast.",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "A quale tipo di porta si dovrebbe MAI abilitare PortFast?",
+      "risposte": [
+        "Porte collegate a stampanti.",
+        "Porte collegate a server.",
+        "Porte collegate ad altri switch.",
+        "Porte collegate a telefoni IP."
+      ],
+      "risposta_corretta": "Porte collegate ad altri switch.",
+      "svg": ""
+    },
+    {
+      "id": 30,
+      "domanda": "Quale funzionalità di sicurezza STP disabilita una porta se riceve un BPDU (quando non dovrebbe)?",
+      "risposte": [
+        "PortFast.",
+        "BPDU Filter.",
+        "BPDU Guard.",
+        "Loop Guard."
+      ],
+      "risposta_corretta": "BPDU Guard.",
+      "svg": ""
+    },
+    {
+      "id": 31,
+      "domanda": "Qual è l'azione di una porta che riceve un BPDU con BPDU Guard abilitato?",
+      "risposte": [
+        "Passa allo stato di forwarding.",
+        "Ignora il BPDU e continua a funzionare normalmente.",
+        "Passa allo stato di error-disable (err-disabled).",
+        "Diventa il nuovo Root Bridge."
+      ],
+      "risposta_corretta": "Passa allo stato di error-disable (err-disabled).",
+      "svg": ""
+    },
+    {
+      "id": 32,
+      "domanda": "Quale funzionalità STP previene che uno switch indesiderato diventi il Root Bridge, bloccando la porta se riceve un BPDU 'migliore'?",
+      "risposte": [
+        "PortFast.",
+        "BPDU Filter.",
+        "Root Guard.",
+        "Loop Guard."
+      ],
+      "risposta_corretta": "Root Guard.",
+      "svg": ""
+    },
+    {
+      "id": 33,
+      "domanda": "La principale differenza tra BPDU Guard e BPDU Filter è che:",
+      "risposte": [
+        "BPDU Guard è per i server, BPDU Filter è per i PC.",
+        "BPDU Guard disabilita la porta per sicurezza, BPDU Filter impedisce l'invio/ricezione di BPDU.",
+        "BPDU Guard è solo per RSTP, BPDU Filter è solo per STP.",
+        "BPDU Guard è solo per le porte trunk, BPDU Filter è solo per le porte access."
+      ],
+      "risposta_corretta": "BPDU Guard disabilita la porta per sicurezza, BPDU Filter impedisce l'invio/ricezione di BPDU.",
+      "svg": ""
+    },
+    {
+      "id": 34,
+      "domanda": "Quale funzionalità STP è progettata per rilevare e prevenire loop causati da guasti unidirezionali dei link?",
+      "risposte": [
+        "PortFast.",
+        "BPDU Guard.",
+        "Root Guard.",
+        "Loop Guard."
+      ],
+      "risposta_corretta": "Loop Guard.",
+      "svg": ""
+    },
+    {
+      "id": 35,
+      "domanda": "Vero o Falso: RSTP è retrocompatibile con STP 802.1D.",
+      "risposte": [
+        "Vero.",
+        "Falso."
+      ],
+      "risposta_corretta": "Vero.",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Qual è lo stato di una porta in STP 802.1D che non inoltra frame ma apprende indirizzi MAC?",
+      "risposte": [
+        "Blocking.",
+        "Listening.",
+        "Learning.",
+        "Forwarding."
+      ],
+      "risposta_corretta": "Learning.",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "La 'tempesta di broadcast' è causata dalla proliferazione incontrollata di quali tipi di pacchetti in un loop di Livello 2?",
+      "risposte": [
+        "Unicast.",
+        "Multicast.",
+        "Broadcast.",
+        "ICMP."
+      ],
+      "risposta_corretta": "Broadcast.",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Vero o Falso: Un Bridge ID più alto è preferito nell'elezione del Root Bridge.",
+      "risposte": [
+        "Vero.",
+        "Falso."
+      ],
+      "risposta_corretta": "Falso.",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "Se due switch sono collegati da due link e il primo switch è il Root Bridge, quale sarà il ruolo delle sue due porte su quei link?",
+      "risposte": [
+        "Entrambe Root Port.",
+        "Entrambe Blocking Port.",
+        "Entrambe Designated Port.",
+        "Una Root Port e una Designated Port."
+      ],
+      "risposta_corretta": "Entrambe Designated Port.",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "Qual è il livello del modello OSI in cui opera STP?",
+      "risposte": [
+        "Livello 1 (Fisico).",
+        "Livello 2 (Data Link).",
+        "Livello 3 (Rete).",
+        "Livello 4 (Trasporto)."
+      ],
+      "risposta_corretta": "Livello 2 (Data Link).",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "Il termine 'flapping della tabella MAC' si riferisce a:",
+      "risposte": [
+        "Un aumento di collisioni sulla porta.",
+        "Un errore di configurazione dell'indirizzo IP.",
+        "La continua modifica dell'associazione MAC-porta in una tabella MAC dello switch a causa di un loop.",
+        "Un problema di alimentazione dello switch."
+      ],
+      "risposta_corretta": "La continua modifica dell'associazione MAC-porta in una tabella MAC dello switch a causa di un loop.",
+      "svg": ""
+    }
+  ]
+}

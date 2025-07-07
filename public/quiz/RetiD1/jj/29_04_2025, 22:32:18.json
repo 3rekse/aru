@@ -1,0 +1,266 @@
+[
+  {
+    "mission": "RetiD1",
+    "nome": "hh",
+    "cognome": "hh",
+    "classe": "jj",
+    "voto": 9.75,
+    "dataorainizio": "2025-04-29T20:32:01.778Z",
+    "inizio": "29/04/2025, 22:32:01",
+    "durata": 16034,
+    "giuste": 48,
+    "sbagliate": 2,
+    "quiz": [
+      {
+        "id": 42,
+        "domanda": "Qual è un protocollo di routing interno (Interior Gateway Protocol - IGP) comunemente utilizzato?",
+        "svg": " ✅ RIP"
+      },
+      {
+        "id": 43,
+        "domanda": "Qual è la funzione principale di un certificato digitale?",
+        "svg": " ✅ Verificare l'identità di un sito web o di un server"
+      },
+      {
+        "id": 18,
+        "domanda": "Qual è lo scopo principale di un sistema IDS (Intrusion Detection System)?",
+        "svg": " ✅ Rilevare attività sospette o dannose sulla rete"
+      },
+      {
+        "id": 21,
+        "domanda": "Qual è la differenza tra un indirizzo IP pubblico e uno privato?",
+        "svg": " ✅ Un indirizzo IP pubblico è univoco a livello globale, uno privato è utilizzato all'interno di una rete"
+      },
+      {
+        "id": 19,
+        "domanda": "Qual è un tipo comune di attacco informatico?",
+        "svg": " ✅ Phishing"
+      },
+      {
+        "id": 22,
+        "domanda": "Qual è la funzione principale di una VLAN (Virtual Local Area Network)?",
+        "svg": " ✅ Segmentare logicamente una rete fisica"
+      },
+      {
+        "id": 17,
+        "domanda": "Qual è un metodo comune per autenticare gli utenti su una rete?",
+        "svg": " ✅ Username e password"
+      },
+      {
+        "id": 26,
+        "domanda": "Qual è la funzione principale di un load balancer?",
+        "svg": " ✅ Distribuire il traffico su più server"
+      },
+      {
+        "id": 37,
+        "domanda": "Qual è la funzione principale di un server DNS secondario?",
+        "svg": " ✅ Fornire ridondanza e disponibilità del servizio DNS"
+      },
+      {
+        "id": 25,
+        "domanda": "Qual è un metodo per migliorare la tolleranza ai guasti in un sistema informatico?",
+        "svg": " ✅ Implementare la ridondanza hardware"
+      },
+      {
+        "id": 46,
+        "domanda": "Qual è un aspetto importante da considerare nella gestione delle password degli utenti?",
+        "svg": " ✅ Imporre requisiti di complessità delle password"
+      },
+      {
+        "id": 44,
+        "domanda": "Qual è un metodo per proteggere le comunicazioni web?",
+        "svg": " ✅ Utilizzare il protocollo HTTPS"
+      },
+      {
+        "id": 1,
+        "domanda": "Qual è un compito principale di un amministratore di sistema?",
+        "svg": " ✅ Gestire gli account utente e i permessi di accesso"
+      },
+      {
+        "id": 7,
+        "domanda": "Qual è una funzionalità tipica di un firewall?",
+        "svg": " ✅ Filtraggio del traffico in base a regole configurate"
+      },
+      {
+        "id": 16,
+        "domanda": "Qual è la funzione principale di un router in una rete?",
+        "svg": " ✅ Instradare il traffico tra reti diverse"
+      },
+      {
+        "id": 30,
+        "domanda": "Qual è un aspetto importante da considerare nella progettazione di una rete?",
+        "svg": " ✅ La scalabilità futura della rete"
+      },
+      {
+        "id": 31,
+        "domanda": "Qual è la funzione principale di un firewall stateful?",
+        "svg": " ❌ Filtrare i pacchetti in base solo agli indirizzi IP e alle porte"
+      },
+      {
+        "id": 34,
+        "domanda": "Qual è un metodo per garantire la disponibilità di un servizio web?",
+        "svg": " ✅ Implementare il bilanciamento del carico su più server"
+      },
+      {
+        "id": 4,
+        "domanda": "Qual è un principio fondamentale per garantire la sicurezza di una rete informatica?",
+        "svg": " ✅ Utilizzo di password complesse e aggiornate regolarmente"
+      },
+      {
+        "id": 5,
+        "domanda": "Qual è un vantaggio principale della segmentazione di una rete in sottoreti?",
+        "svg": " ✅ Miglioramento della sicurezza isolando segmenti di rete"
+      },
+      {
+        "id": 49,
+        "domanda": "Qual è la funzione principale di un sistema di patch management?",
+        "svg": " ✅ Applicare aggiornamenti di sicurezza ai sistemi operativi e alle applicazioni"
+      },
+      {
+        "id": 38,
+        "domanda": "Qual è un attacco informatico volto a rendere un servizio non disponibile agli utenti legittimi?",
+        "svg": " ✅ Denial of Service (DoS)"
+      },
+      {
+        "id": 40,
+        "domanda": "Qual è un aspetto cruciale nella pianificazione dell'indirizzamento IP di una rete?",
+        "svg": " ✅ Il numero previsto di host e la crescita futura"
+      },
+      {
+        "id": 11,
+        "domanda": "Qual è la funzione principale del protocollo DHCP?",
+        "svg": " ✅ Assegnare automaticamente indirizzi IP ai client di rete"
+      },
+      {
+        "id": 9,
+        "domanda": "Qual è una responsabilità principale nella gestione degli account utente in un sistema informatico?",
+        "svg": " ✅ Creazione, modifica ed eliminazione degli account utente"
+      },
+      {
+        "id": 45,
+        "domanda": "Qual è la funzione principale di un sistema di prevenzione delle intrusioni (Intrusion Prevention System - IPS)?",
+        "svg": " ❌ Fornire report sulle vulnerabilità"
+      },
+      {
+        "id": 47,
+        "domanda": "Qual è la funzione principale di un server di autenticazione (es. RADIUS, TACACS+)?",
+        "svg": " ✅ Gestire l'accesso alle risorse di rete tramite autenticazione e autorizzazione"
+      },
+      {
+        "id": 14,
+        "domanda": "Qual è il significato dell'acronimo RAID?",
+        "svg": " ✅ Redundant Array of Independent Disks"
+      },
+      {
+        "id": 48,
+        "domanda": "Qual è un modo per migliorare le prestazioni di una rete?",
+        "svg": " ✅ Segmentare la rete e ridurre il traffico di broadcast"
+      },
+      {
+        "id": 13,
+        "domanda": "Qual è la funzione principale del protocollo DNS?",
+        "svg": " ✅ Tradurre nomi di dominio in indirizzi IP"
+      },
+      {
+        "id": 27,
+        "domanda": "Qual è un tipo di cavo comunemente utilizzato nelle reti Ethernet?",
+        "svg": " ✅ Cavo a doppino intrecciato"
+      },
+      {
+        "id": 12,
+        "domanda": "Qual è la differenza fondamentale tra un hub e uno switch?",
+        "svg": " ✅ Un hub inoltra il traffico a tutte le porte, uno switch solo alla porta di destinazione"
+      },
+      {
+        "id": 15,
+        "domanda": "Qual è lo scopo principale di un sistema di backup?",
+        "svg": " ✅ Ripristinare i dati in caso di perdita o danneggiamento"
+      },
+      {
+        "id": 39,
+        "domanda": "Qual è la funzione principale di un sistema di controllo degli accessi (Access Control List - ACL)?",
+        "svg": " ✅ Definire le regole per consentire o negare il traffico di rete"
+      },
+      {
+        "id": 6,
+        "domanda": "Quale dei seguenti è un dispositivo di rete attivo?",
+        "svg": " ✅ Switch"
+      },
+      {
+        "id": 50,
+        "domanda": "Qual è un concetto chiave nella progettazione di reti resilienti?",
+        "svg": " ✅ Ridondanza"
+      },
+      {
+        "id": 29,
+        "domanda": "Qual è un modo per proteggere una rete wireless?",
+        "svg": " ✅ Utilizzare la crittografia WPA3"
+      },
+      {
+        "id": 35,
+        "domanda": "Qual è la funzione principale del protocollo SNMP trap?",
+        "svg": " ✅ Inviare notifiche asincrone da parte dei dispositivi di rete a un sistema di gestione"
+      },
+      {
+        "id": 33,
+        "domanda": "Qual è la funzione principale di un sistema SIEM (Security Information and Event Management)?",
+        "svg": " ✅ Raccogliere e analizzare i log di sicurezza da diverse fonti"
+      },
+      {
+        "id": 28,
+        "domanda": "Qual è la funzione principale di un sistema operativo server?",
+        "svg": " ✅ Fornire servizi centralizzati a più client"
+      },
+      {
+        "id": 41,
+        "domanda": "Qual è la funzione principale di un hypervisor in un ambiente virtualizzato?",
+        "svg": " ✅ Gestire e allocare le risorse hardware alle macchine virtuali"
+      },
+      {
+        "id": 2,
+        "domanda": "Qual è un vantaggio principale dell'utilizzo di una rete locale (LAN)?",
+        "svg": " ✅ Condivisione di risorse hardware (es. stampanti)"
+      },
+      {
+        "id": 3,
+        "domanda": "Quale dei seguenti è un modello di servizio del Cloud Computing?",
+        "svg": " ✅ Software as a Service (SaaS)"
+      },
+      {
+        "id": 23,
+        "domanda": "Qual è un protocollo utilizzato per la gestione remota di server e dispositivi di rete tramite una linea di comando sicura?",
+        "svg": " ✅ SSH"
+      },
+      {
+        "id": 32,
+        "domanda": "Qual è un protocollo di livello applicativo utilizzato per il trasferimento di file?",
+        "svg": " ✅ FTP"
+      },
+      {
+        "id": 24,
+        "domanda": "Qual è lo scopo principale del protocollo SNMP (Simple Network Management Protocol)?",
+        "svg": " ✅ Monitorare e gestire i dispositivi di rete"
+      },
+      {
+        "id": 36,
+        "domanda": "Qual è un tipo di architettura di rete comune in ambienti aziendali?",
+        "svg": " ✅ Architettura client-server"
+      },
+      {
+        "id": 8,
+        "domanda": "Quale dei seguenti è un protocollo utilizzato per implementare una VPN (Virtual Private Network)?",
+        "svg": " ✅ IPsec"
+      },
+      {
+        "id": 20,
+        "domanda": "Qual è la funzione principale di un server proxy?",
+        "svg": " ✅ Agire come intermediario tra client e server"
+      },
+      {
+        "id": 10,
+        "domanda": "Qual è il primo passo fondamentale nel processo di troubleshooting di una rete?",
+        "svg": " ✅ Identificare il problema e raccogliere informazioni"
+      }
+    ]
+  }
+]

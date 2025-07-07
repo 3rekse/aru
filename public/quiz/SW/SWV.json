@@ -1,0 +1,364 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Cosa distingue il software di base dal software applicativo?",
+      "risposte": [
+        "Il primo è per smartphone, il secondo per PC",
+        "Il software di base gestisce il sistema, l'applicativo svolge funzioni specifiche",
+        "Il software applicativo è più veloce",
+        "Non ci sono differenze"
+      ],
+      "risposta_corretta": "Il software di base gestisce il sistema, l'applicativo svolge funzioni specifiche",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Il sistema operativo si carica:",
+      "risposte": [
+        "Quando si installa un programma",
+        "Solo su richiesta dell’utente",
+        "Appena il computer si accende",
+        "Dopo aver aperto un file"
+      ],
+      "risposta_corretta": "Appena il computer si accende",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Un gioco per PC è un esempio di:",
+      "risposte": [
+        "Software di base",
+        "Sistema operativo",
+        "Firmware",
+        "Software applicativo"
+      ],
+      "risposta_corretta": "Software applicativo",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Un editor di testo come WordPad è:",
+      "risposte": [
+        "Un driver",
+        "Un sistema operativo",
+        "Un software applicativo",
+        "Un programma di sistema"
+      ],
+      "risposta_corretta": "Un software applicativo",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Quale componente software gestisce la CPU, la RAM e l'I/O?",
+      "risposte": [
+        "Il browser",
+        "Il sistema operativo",
+        "Il file manager",
+        "Il terminale"
+      ],
+      "risposta_corretta": "Il sistema operativo",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Qual è la prima cosa che il BIOS fa all'avvio del computer?",
+      "risposte": [
+        "Avvia la musica",
+        "Esegue il test dell’hardware",
+        "Apre il browser",
+        "Mostra il desktop"
+      ],
+      "risposta_corretta": "Esegue il test dell’hardware",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Come si chiama il programma che consente l'interazione tra utente e SO in modo visuale?",
+      "risposte": [
+        "BIOS",
+        "Interfaccia grafica",
+        "Driver",
+        "Processore"
+      ],
+      "risposta_corretta": "Interfaccia grafica",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "Cosa rappresenta il termine multitasking?",
+      "risposte": [
+        "Avviare il BIOS",
+        "Usare più dischi rigidi",
+        "Eseguire più programmi contemporaneamente",
+        "Formattare la memoria"
+      ],
+      "risposta_corretta": "Eseguire più programmi contemporaneamente",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Quale software si trova normalmente preinstallato sul computer?",
+      "risposte": [
+        "Sistema operativo",
+        "Photoshop",
+        "Minecraft",
+        "Microsoft Office"
+      ],
+      "risposta_corretta": "Sistema operativo",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Un'app per smartphone è:",
+      "risposte": [
+        "Hardware",
+        "Firmware",
+        "Software di base",
+        "Software applicativo"
+      ],
+      "risposta_corretta": "Software applicativo",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Cosa fa un'interfaccia testuale?",
+      "risposte": [
+        "Mostra immagini 3D",
+        "Permette di digitare comandi da tastiera",
+        "Crea grafici",
+        "Riproduce suoni"
+      ],
+      "risposta_corretta": "Permette di digitare comandi da tastiera",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Cos'è un file .dll in Windows?",
+      "risposte": [
+        "Un file immagine",
+        "Un programma avviabile",
+        "Una libreria di funzioni condivise",
+        "Un documento Word"
+      ],
+      "risposta_corretta": "Una libreria di funzioni condivise",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Quale tra questi è un sistema operativo?",
+      "risposte": [
+        "Google",
+        "Windows",
+        "Excel",
+        "Facebook"
+      ],
+      "risposta_corretta": "Windows",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Un driver serve a:",
+      "risposte": [
+        "Creare grafici",
+        "Collegare hardware e sistema operativo",
+        "Proteggere da virus",
+        "Scrivere codice"
+      ],
+      "risposta_corretta": "Collegare hardware e sistema operativo",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Cos'è il software?",
+      "risposte": [
+        "L'hardware del PC",
+        "I componenti fisici",
+        "I programmi che fanno funzionare il computer",
+        "La connessione internet"
+      ],
+      "risposta_corretta": "I programmi che fanno funzionare il computer",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Un esempio di software di base è:",
+      "risposte": [
+        "Photoshop",
+        "Antivirus",
+        "Linux",
+        "PowerPoint"
+      ],
+      "risposta_corretta": "Linux",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Un esempio di interfaccia grafica è:",
+      "risposte": [
+        "Prompt dei comandi",
+        "Desktop con icone",
+        "BIOS",
+        "Router"
+      ],
+      "risposta_corretta": "Desktop con icone",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "Quale compito svolge un sistema operativo?",
+      "risposte": [
+        "Navigare su Internet",
+        "Gestire risorse hardware e software",
+        "Disegnare immagini",
+        "Inviare email"
+      ],
+      "risposta_corretta": "Gestire risorse hardware e software",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "Un browser web è:",
+      "risposte": [
+        "Hardware",
+        "Sistema operativo",
+        "Software applicativo",
+        "Un driver"
+      ],
+      "risposta_corretta": "Software applicativo",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "Cosa si intende per aggiornamento software?",
+      "risposte": [
+        "Acquisto di nuovo hardware",
+        "Sostituzione del sistema operativo",
+        "Installazione di nuove versioni con miglioramenti",
+        "Formattazione del PC"
+      ],
+      "risposta_corretta": "Installazione di nuove versioni con miglioramenti",
+      "svg": ""
+    },
+    {
+      "id": 21,
+      "domanda": "Che funzione ha la memoria RAM per il software?",
+      "risposte": [
+        "Archivia file per sempre",
+        "Memorizza temporaneamente dati in uso",
+        "Crea immagini",
+        "Collega il mouse"
+      ],
+      "risposta_corretta": "Memorizza temporaneamente dati in uso",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "Un antivirus è un tipo di:",
+      "risposte": [
+        "Hardware",
+        "Sistema operativo",
+        "Software di base",
+        "Software applicativo"
+      ],
+      "risposta_corretta": "Software applicativo",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "Qual è la funzione principale del file system?",
+      "risposte": [
+        "Creare animazioni",
+        "Gestire la rete",
+        "Organizzare e archiviare file",
+        "Velocizzare la CPU"
+      ],
+      "risposta_corretta": "Organizzare e archiviare file",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "Che cos’è il kernel di un sistema operativo?",
+      "risposte": [
+        "Una periferica",
+        "Il cuore del sistema operativo",
+        "Un'app",
+        "Un file di testo"
+      ],
+      "risposta_corretta": "Il cuore del sistema operativo",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "Un compilatore è utilizzato per:",
+      "risposte": [
+        "Scrivere email",
+        "Tradurre codice sorgente in eseguibile",
+        "Giocare",
+        "Formattare il PC"
+      ],
+      "risposta_corretta": "Tradurre codice sorgente in eseguibile",
+      "svg": ""
+    },
+    {
+      "id": 26,
+      "domanda": "Il termine 'boot' indica:",
+      "risposte": [
+        "Spegnere il computer",
+        "Riavviare la rete",
+        "Avviare il sistema operativo",
+        "Installare driver"
+      ],
+      "risposta_corretta": "Avviare il sistema operativo",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "Cos'è un processo in un sistema operativo?",
+      "risposte": [
+        "Un file corrotto",
+        "Un programma in esecuzione",
+        "Un virus",
+        "Una periferica"
+      ],
+      "risposta_corretta": "Un programma in esecuzione",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "I sistemi operativi mobili includono:",
+      "risposte": [
+        "Windows 7",
+        "Android",
+        "Ubuntu",
+        "macOS"
+      ],
+      "risposta_corretta": "Android",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "Un file eseguibile in Windows ha estensione:",
+      "risposte": [
+        ".txt",
+        ".exe",
+        ".doc",
+        ".jpg"
+      ],
+      "risposta_corretta": ".exe",
+      "svg": ""
+    },
+    {
+      "id": 30,
+      "domanda": "Per installare un software serve:",
+      "risposte": [
+        "Connettere la stampante",
+        "Un disco rigido rotto",
+        "Un file di installazione",
+        "Un aggiornamento del BIOS"
+      ],
+      "risposta_corretta": "Un file di installazione",
+      "svg": ""
+    }
+  ]
+}

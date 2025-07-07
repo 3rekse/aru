@@ -1,0 +1,191 @@
+[
+  {
+    "mission": "RetiA1",
+    "nome": "qq",
+    "cognome": "aaa",
+    "classe": "aa",
+    "voto": 5.5,
+    "dataorainizio": "2025-04-15T16:39:03.139Z",
+    "inizio": "15/04/2025, 18:39:03",
+    "durata": 8793,
+    "giuste": 19,
+    "sbagliate": 10,
+    "quiz": [
+      {
+        "id": 90,
+        "domanda": "Quale livello del modello OSI si occupa della gestione delle connessioni logiche?",
+        "svg": " ✅ Livello di sessione"
+      },
+      {
+        "id": 81,
+        "domanda": "Quale livello del modello OSI si occupa della gestione degli indirizzi MAC?",
+        "svg": " ❌ Livello di rete"
+      },
+      {
+        "id": 75,
+        "domanda": "Quale protocollo viene utilizzato per trasferire file tra client e server?",
+        "svg": " ✅ FTP"
+      },
+      {
+        "id": 80,
+        "domanda": "Quale protocollo viene utilizzato per ottenere un indirizzo IP automaticamente?",
+        "svg": " ✅ DHCP"
+      },
+      {
+        "id": 82,
+        "domanda": "Quale protocollo viene utilizzato per il trasferimento sicuro di file?",
+        "svg": " ✅ SFTP"
+      },
+      {
+        "id": 95,
+        "domanda": "Quale protocollo viene utilizzato per trasferire file in modo non sicuro?",
+        "svg": " ✅ FTP"
+      },
+      {
+        "id": 74,
+        "domanda": "Quale livello del modello TCP/IP corrisponde al livello di applicazione del modello OSI?",
+        "svg": " ✅ Livello di applicazione"
+      },
+      {
+        "id": 70,
+        "domanda": "Quale livello del modello OSI è responsabile della gestione delle connessioni tra applicazioni?",
+        "svg": " ✅ Livello di sessione"
+      },
+      {
+        "id": 84,
+        "domanda": "Quale protocollo viene utilizzato per il ping di un dispositivo?",
+        "svg": " ✅ ICMP"
+      },
+      {
+        "id": 62,
+        "domanda": "Qual è il livello del modello OSI responsabile della crittografia?",
+        "svg": " ❌ Livello di trasporto"
+      },
+      {
+        "id": 65,
+        "domanda": "Quale livello del modello OSI corrisponde al livello di accesso alla rete nel modello TCP/IP?",
+        "svg": " ❌ Livello di rete"
+      },
+      {
+        "id": 77,
+        "domanda": "Quale protocollo viene utilizzato per inviare email?",
+        "svg": " ✅ SMTP"
+      },
+      {
+        "id": 78,
+        "domanda": "Qual è il livello del modello OSI che si occupa della rappresentazione dei dati?",
+        "svg": " ✅ Livello di presentazione"
+      },
+      {
+        "id": 61,
+        "domanda": "Cos'è una rete informatica?",
+        "svg": " ✅ Un insieme di dispositivi interconnessi per condividere dati e risorse."
+      },
+      {
+        "id": 85,
+        "domanda": "Quale livello del modello OSI si occupa della segmentazione dei dati?",
+        "svg": " ✅ Livello di trasporto"
+      },
+      {
+        "id": 63,
+        "domanda": "Quale protocollo opera al livello di trasporto del modello OSI?",
+        "svg": " ✅ TCP"
+      },
+      {
+        "id": 69,
+        "domanda": "Qual è la funzione principale del livello di trasporto nel modello OSI?",
+        "svg": ""
+      },
+      {
+        "id": 89,
+        "domanda": "Quale protocollo viene utilizzato per la navigazione web?",
+        "svg": " ✅ HTTP"
+      },
+      {
+        "id": 83,
+        "domanda": "Quale livello del modello OSI utilizza i numeri di porta per identificare le applicazioni?",
+        "svg": " ❌ Livello di sessione"
+      },
+      {
+        "id": 68,
+        "domanda": "Quale protocollo viene utilizzato per tradurre i nomi di dominio in indirizzi IP?",
+        "svg": ""
+      },
+      {
+        "id": 71,
+        "domanda": "Quale protocollo opera al livello di rete del modello OSI?",
+        "svg": " ✅ IP"
+      },
+      {
+        "id": 72,
+        "domanda": "Qual è il livello del modello OSI che si occupa della conversione dei dati in segnali trasmissibili?",
+        "svg": ""
+      },
+      {
+        "id": 88,
+        "domanda": "Quale livello del modello OSI si occupa della compressione dei dati?",
+        "svg": " ❌ Livello di trasporto"
+      },
+      {
+        "id": 76,
+        "domanda": "Quale livello del modello OSI si occupa della sincronizzazione del dialogo tra due applicazioni?",
+        "svg": " ✅ Livello di sessione"
+      },
+      {
+        "id": 64,
+        "domanda": "Qual è la funzione principale del livello di rete nel modello OSI?",
+        "svg": ""
+      },
+      {
+        "id": 87,
+        "domanda": "Quale protocollo viene utilizzato per risolvere gli indirizzi IP in indirizzi MAC?",
+        "svg": ""
+      },
+      {
+        "id": 94,
+        "domanda": "Quale livello del modello OSI si occupa della rilevazione degli errori nei frame?",
+        "svg": " ❌ Livello di trasporto"
+      },
+      {
+        "id": 93,
+        "domanda": "Quale protocollo viene utilizzato per sincronizzare l'orario tra dispositivi?",
+        "svg": " ✅ NTP"
+      },
+      {
+        "id": 79,
+        "domanda": "Quale livello del modello OSI è responsabile della trasmissione fisica dei dati?",
+        "svg": ""
+      },
+      {
+        "id": 91,
+        "domanda": "Quale protocollo viene utilizzato per trasferire email da un server a un client?",
+        "svg": " ❌ SMTP"
+      },
+      {
+        "id": 66,
+        "domanda": "Qual è il livello del modello OSI responsabile della frammentazione e riassemblaggio dei dati?",
+        "svg": " ✅ Livello di trasporto"
+      },
+      {
+        "id": 73,
+        "domanda": "Quale livello del modello OSI si occupa della correzione degli errori nei frame?",
+        "svg": " ❌ Livello di rete"
+      },
+      {
+        "id": 67,
+        "domanda": "Quale livello del modello OSI utilizza indirizzi IP per identificare i dispositivi?",
+        "svg": " ❌ Livello di collegamento dati"
+      },
+      {
+        "id": 92,
+        "domanda": "Quale livello del modello OSI si occupa della gestione del flusso di dati?",
+        "svg": " ❌ Livello di rete"
+      },
+      {
+        "id": 86,
+        "domanda": "Quale livello del modello OSI si occupa dell'instradamento dei pacchetti?",
+        "svg": " ✅ Livello di rete"
+      }
+    ]
+  }
+]

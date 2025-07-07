@@ -1,0 +1,604 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "domanda": "Qual è il primo passo fondamentale nell'analisi dei requisiti di un nuovo sistema informativo aziendale?",
+        "risposte": [
+          "Progettare il database",
+          "Scrivere il codice dell'applicazione",
+          "Identificare gli stakeholder e le loro esigenze",
+          "Installare l'hardware del server"
+        ],
+        "risposta_corretta": "Identificare gli stakeholder e le loro esigenze",
+        "svg": ""
+      },
+      {
+        "id": 2,
+        "domanda": "Quale diagramma UML è più appropriato per rappresentare i processi aziendali?",
+        "risposte": [
+          "Diagramma delle classi",
+          "Diagramma dei casi d'uso",
+          "Diagramma di attività",
+          "Diagramma di sequenza"
+        ],
+        "risposta_corretta": "Diagramma di attività",
+        "svg": ""
+      },
+      {
+        "id": 3,
+        "domanda": "Quale metodologia di sviluppo software è caratterizzata da cicli brevi e iterativi, con feedback frequente del cliente?",
+        "risposte": [
+          "Modello a cascata",
+          "Modello a spirale",
+          "Metodologia Agile (es. Scrum)",
+          "Modello a prototipazione"
+        ],
+        "risposta_corretta": "Metodologia Agile (es. Scrum)",
+        "svg": ""
+      },
+      {
+        "id": 4,
+        "domanda": "Quale strumento è comunemente utilizzato per la gestione dei requisiti di un progetto software?",
+        "risposte": [
+          "Microsoft Word",
+          "Microsoft Excel",
+          "Un sistema di issue tracking (es. Jira)",
+          "Un compilatore"
+        ],
+        "risposta_corretta": "Un sistema di issue tracking (es. Jira)",
+        "svg": ""
+      },
+      {
+        "id": 5,
+        "domanda": "Nella progettazione di un database relazionale, qual è lo scopo principale di definire le chiavi primarie?",
+        "risposte": [
+          "Migliorare la velocità delle query",
+          "Assicurare l'integrità referenziale",
+          "Identificare univocamente ogni record nella tabella",
+          "Ridurre la ridondanza dei dati"
+        ],
+        "risposta_corretta": "Identificare univocamente ogni record nella tabella",
+        "svg": ""
+      },
+      {
+        "id": 6,
+        "domanda": "Quale linguaggio di modellazione è standard per la progettazione di database?",
+        "risposte": [
+          "UML",
+          "ERD (Entity-Relationship Diagram)",
+          "DFD (Data Flow Diagram)",
+          "BPMN (Business Process Model and Notation)"
+        ],
+        "risposta_corretta": "ERD (Entity-Relationship Diagram)",
+        "svg": ""
+      },
+      {
+        "id": 7,
+        "domanda": "Quale fase del ciclo di vita dello sviluppo software (SDLC) si concentra sulla trasformazione dei requisiti in un progetto dettagliato?",
+        "risposte": [
+          "Analisi",
+          "Implementazione",
+          "Progettazione",
+          "Test"
+        ],
+        "risposta_corretta": "Progettazione",
+        "svg": ""
+      },
+      {
+        "id": 8,
+        "domanda": "Quale strumento è utile per visualizzare il flusso di dati attraverso un sistema?",
+        "risposte": [
+          "Diagramma delle classi",
+          "Diagramma di distribuzione",
+          "Diagramma di flusso di dati (DFD)",
+          "Diagramma dei componenti"
+        ],
+        "risposta_corretta": "Diagramma di flusso di dati (DFD)",
+        "svg": ""
+      },
+      {
+        "id": 9,
+        "domanda": "Nella progettazione di un'applicazione web, quale aspetto riguarda l'esperienza dell'utente (UX)?",
+        "risposte": [
+          "La sicurezza del server",
+          "L'efficienza del database",
+          "La facilità d'uso e l'interfaccia intuitiva",
+          "Le prestazioni del backend"
+        ],
+        "risposta_corretta": "La facilità d'uso e l'interfaccia intuitiva",
+        "svg": ""
+      },
+      {
+        "id": 10,
+        "domanda": "Quale tipo di test software verifica il comportamento del sistema nel suo complesso?",
+        "risposte": [
+          "Test unitari",
+          "Test di integrazione",
+          "Test di sistema",
+          "Test di accettazione"
+        ],
+        "risposta_corretta": "Test di sistema",
+        "svg": ""
+      },
+      {
+        "id": 11,
+        "domanda": "Quale strumento è comunemente utilizzato per la gestione della configurazione del software e il controllo delle versioni?",
+        "risposte": [
+          "Microsoft Project",
+          "Apache Tomcat",
+          "Git",
+          "MySQL Workbench"
+        ],
+        "risposta_corretta": "Git",
+        "svg": ""
+      },
+      {
+        "id": 12,
+        "domanda": "Nella progettazione di un'architettura software, cosa si intende per 'scalabilità'?",
+        "risposte": [
+          "La capacità del sistema di gestire un aumento del carico di lavoro",
+          "La facilità con cui il codice può essere compreso",
+          "La portabilità del software su diverse piattaforme",
+          "La robustezza del sistema contro gli errori"
+        ],
+        "risposta_corretta": "La capacità del sistema di gestire un aumento del carico di lavoro",
+        "svg": ""
+      },
+      {
+        "id": 13,
+        "domanda": "Quale diagramma UML è utile per rappresentare l'interazione tra gli oggetti nel tempo?",
+        "risposte": [
+          "Diagramma delle classi",
+          "Diagramma di stato",
+          "Diagramma di sequenza",
+          "Diagramma dei componenti"
+        ],
+        "risposta_corretta": "Diagramma di sequenza",
+        "svg": ""
+      },
+      {
+        "id": 14,
+        "domanda": "Quale fase del SDLC si concentra sull'identificazione di bug e difetti?",
+        "risposte": [
+          "Analisi",
+          "Progettazione",
+          "Implementazione",
+          "Test"
+        ],
+        "risposta_corretta": "Test",
+        "svg": ""
+      },
+      {
+        "id": 15,
+        "domanda": "Quale strumento è utile per la prototipazione rapida di interfacce utente?",
+        "risposte": [
+          "Un IDE (Integrated Development Environment)",
+          "Un sistema di gestione di database",
+          "Uno strumento di wireframing (es. Balsamiq)",
+          "Un compilatore"
+        ],
+        "risposta_corretta": "Uno strumento di wireframing (es. Balsamiq)",
+        "svg": ""
+      },
+      {
+        "id": 16,
+        "domanda": "Nella progettazione di un sistema distribuito, cosa si intende per 'tolleranza ai guasti'?",
+        "risposte": [
+          "La capacità del sistema di prevenire completamente gli errori",
+          "La capacità del sistema di continuare a funzionare correttamente in presenza di guasti",
+          "La velocità con cui il sistema elabora le richieste",
+          "La facilità con cui il sistema può essere aggiornato"
+        ],
+        "risposta_corretta": "La capacità del sistema di continuare a funzionare correttamente in presenza di guasti",
+        "svg": ""
+      },
+      {
+        "id": 17,
+        "domanda": "Quale diagramma UML è utilizzato per mostrare la struttura statica di un sistema, inclusi classi, attributi e relazioni?",
+        "risposte": [
+          "Diagramma dei casi d'uso",
+          "Diagramma di attività",
+          "Diagramma delle classi",
+          "Diagramma di distribuzione"
+        ],
+        "risposta_corretta": "Diagramma delle classi",
+        "svg": ""
+      },
+      {
+        "id": 18,
+        "domanda": "Quale approccio di sviluppo software enfatizza la collaborazione tra sviluppatori, operation e altri professionisti IT?",
+        "risposte": [
+          "Modello a cascata",
+          "Metodologia Agile",
+          "DevOps",
+          "Sviluppo orientato ai componenti"
+        ],
+        "risposta_corretta": "DevOps",
+        "svg": ""
+      },
+      {
+        "id": 19,
+        "domanda": "Quale strumento è utile per tracciare i bug e le richieste di modifica in un progetto software?",
+        "risposte": [
+          "Un foglio di calcolo",
+          "Un editor di testo",
+          "Un sistema di issue tracking (es. Redmine)",
+          "Un software di presentazione"
+        ],
+        "risposta_corretta": "Un sistema di issue tracking (es. Redmine)",
+        "svg": ""
+      },
+      {
+        "id": 20,
+        "domanda": "Nella progettazione di un'interfaccia utente, quale principio mira a rendere il sistema facile da capire e da usare?",
+        "risposte": [
+          "Efficienza",
+          "Coerenza",
+          "Robustezza",
+          "Sicurezza"
+        ],
+        "risposta_corretta": "Coerenza",
+        "svg": ""
+      },
+      {
+        "id": 21,
+        "domanda": "Quale tipo di test software viene eseguito dagli utenti finali per verificare se il sistema soddisfa le loro esigenze?",
+        "risposte": [
+          "Test unitari",
+          "Test di integrazione",
+          "Test di sistema",
+          "Test di accettazione (UAT)"
+        ],
+        "risposta_corretta": "Test di accettazione (UAT)",
+        "svg": ""
+      },
+      {
+        "id": 22,
+        "domanda": "Quale strumento è comunemente utilizzato per automatizzare il processo di build, test e deployment del software?",
+        "risposte": [
+          "Un editor di immagini",
+          "Un software di contabilità",
+          "Uno strumento di Continuous Integration/Continuous Delivery (CI/CD) (es. Jenkins)",
+          "Un client di posta elettronica"
+        ],
+        "risposta_corretta": "Uno strumento di Continuous Integration/Continuous Delivery (CI/CD) (es. Jenkins)",
+        "svg": ""
+      },
+      {
+        "id": 23,
+        "domanda": "Nella progettazione di un'API (Application Programming Interface), quale aspetto riguarda il modo in cui diverse applicazioni possono comunicare tra loro?",
+        "risposte": [
+          "La sicurezza del server API",
+          "La documentazione dell'API",
+          "Le prestazioni del database sottostante",
+          "L'interfaccia utente dell'applicazione che consuma l'API"
+        ],
+        "risposta_corretta": "La documentazione dell'API",
+        "svg": ""
+      },
+      {
+        "id": 24,
+        "domanda": "Quale diagramma UML è utile per modellare il comportamento di un singolo oggetto nel tempo in risposta agli eventi?",
+        "risposte": [
+          "Diagramma dei casi d'uso",
+          "Diagramma di attività",
+          "Diagramma di stato",
+          "Diagramma di sequenza"
+        ],
+        "risposta_corretta": "Diagramma di stato",
+        "svg": ""
+      },
+      {
+        "id": 25,
+        "domanda": "Quale fase del SDLC si concentra sulla messa in funzione del sistema per gli utenti finali?",
+        "risposte": [
+          "Analisi",
+          "Progettazione",
+          "Implementazione",
+          "Deployment"
+        ],
+        "risposta_corretta": "Deployment",
+        "svg": ""
+      },
+      {
+        "id": 26,
+        "domanda": "Quale strumento è utile per creare modelli visivi di processi aziendali?",
+        "risposte": [
+          "Un compilatore",
+          "Un sistema di gestione di database",
+          "Uno strumento di modellazione BPMN",
+          "Un editor di testo"
+        ],
+        "risposta_corretta": "Uno strumento di modellazione BPMN",
+        "svg": ""
+      },
+      {
+        "id": 27,
+        "domanda": "Nella progettazione di un sistema di gestione degli utenti, quale aspetto è fondamentale per la sicurezza?",
+        "risposte": [
+          "La memorizzazione delle password in chiaro",
+          "L'utilizzo di password predefinite per tutti gli utenti",
+          "L'implementazione di meccanismi di autenticazione robusti",
+          "La disabilitazione dei controlli di accesso"
+        ],
+        "risposta_corretta": "L'implementazione di meccanismi di autenticazione robusti",
+        "svg": ""
+      },
+      {
+        "id": 28,
+        "domanda": "Quale tipo di test software verifica le singole unità di codice?",
+        "risposte": [
+          "Test di sistema",
+          "Test di accettazione",
+          "Test unitari",
+          "Test di integrazione"
+        ],
+        "risposta_corretta": "Test unitari",
+        "svg": ""
+      },
+      {
+        "id": 29,
+        "domanda": "Quale strumento è comunemente utilizzato per la collaborazione e la comunicazione in un team di sviluppo software?",
+        "risposte": [
+          "Un software di presentazione",
+          "Un software di contabilità",
+          "Una piattaforma di collaborazione (es. Slack, Microsoft Teams)",
+          "Un editor di immagini"
+        ],
+        "risposta_corretta": "Una piattaforma di collaborazione (es. Slack, Microsoft Teams)",
+        "svg": ""
+      },
+      {
+        "id": 30,
+        "domanda": "Nella progettazione di un'applicazione mobile, quale aspetto riguarda l'adattamento dell'interfaccia a diverse dimensioni di schermo?",
+        "risposte": [
+          "La sicurezza dei dati memorizzati localmente",
+          "Il consumo di batteria dell'applicazione",
+          "Il design responsivo",
+          "Le prestazioni della rete mobile"
+        ],
+        "risposta_corretta": "Il design responsivo",
+        "svg": ""
+      },
+      {
+        "id": 31,
+        "domanda": "Quale fase del SDLC si concentra sulla manutenzione e sull'evoluzione del sistema dopo il deployment?",
+        "risposte": [
+          "Analisi",
+          "Progettazione",
+          "Implementazione",
+          "Manutenzione"
+        ],
+        "risposta_corretta": "Manutenzione",
+        "svg": ""
+      },
+      {
+        "id": 32,
+        "domanda": "Quale strumento è utile per creare diagrammi di flusso di dati complessi?",
+        "risposte": [
+          "Un editor di testo semplice",
+          "Un foglio di calcolo",
+          "Uno strumento di diagrammazione (es. draw.io)",
+          "Un software di gestione di progetti"
+        ],
+        "risposta_corretta": "Uno strumento di diagrammazione (es. draw.io)",
+        "svg": ""
+      },
+      {
+        "id": 33,
+        "domanda": "Nella progettazione di un sistema di e-commerce, quale aspetto è cruciale per la fiducia degli utenti?",
+        "risposte": [
+          "La complessità dell'interfaccia utente",
+          "La presenza di numerosi passaggi nel checkout",
+          "La sicurezza delle transazioni e dei dati personali",
+          "La mancanza di informazioni di contatto del venditore"
+        ],
+        "risposta_corretta": "La sicurezza delle transazioni e dei dati personali",
+        "svg": ""
+      },
+      {
+        "id": 34,
+        "domanda": "Quale tipo di test software verifica l'interazione tra diversi moduli o componenti del sistema?",
+        "risposte": [
+          "Test unitari",
+          "Test di integrazione",
+          "Test di sistema",
+          "Test di accettazione"
+        ],
+        "risposta_corretta": "Test di integrazione",
+        "svg": ""
+      },
+      {
+        "id": 35,
+        "domanda": "Quale strumento è comunemente utilizzato per la gestione di progetti software complessi?",
+        "risposte": [
+          "Un editor di codice",
+          "Un software di gestione di database",
+          "Un software di project management (es. Asana, Trello)",
+          "Un client di posta elettronica"
+        ],
+        "risposta_corretta": "Un software di project management (es. Asana, Trello)",
+        "svg": ""
+      },
+      {
+        "id": 36,
+        "domanda": "Qual è un approccio per la realizzazione di soluzioni informatiche che enfatizza la collaborazione continua e il rilascio incrementale di software funzionante?",
+        "risposte": [
+          "Modello a cascata",
+          "Sviluppo guidato dai requisiti",
+          "Metodologie Agili",
+          "Ingegneria del software formale"
+        ],
+        "risposta_corretta": "Metodologie Agili",
+        "svg": ""
+      },
+      {
+        "id": 37,
+        "domanda": "Quale diagramma UML è utile per rappresentare la distribuzione fisica dei componenti software sull'hardware?",
+        "risposte": [
+          "Diagramma delle classi",
+          "Diagramma di attività",
+          "Diagramma di distribuzione",
+          "Diagramma di sequenza"
+        ],
+        "risposta_corretta": "Diagramma di distribuzione",
+        "svg": ""
+      },
+      {
+        "id": 38,
+        "domanda": "Quale approccio di sviluppo software si concentra sulla creazione di un prototipo funzionante per ottenere feedback rapido?",
+        "risposte": [
+          "Modello a cascata",
+          "Modello a spirale",
+          "Modello a prototipazione",
+          "Metodologia Agile"
+        ],
+        "risposta_corretta": "Modello a prototipazione",
+        "svg": ""
+      },
+      {
+        "id": 39,
+        "domanda": "Quale strumento è utile per la creazione di mockup interattivi di interfacce utente?",
+        "risposte": [
+          "Un compilatore",
+          "Un sistema di gestione di database",
+          "Uno strumento di prototipazione (es. Figma, Adobe XD)",
+          "Un editor di testo"
+        ],
+        "risposta_corretta": "Uno strumento di prototipazione (es. Figma, Adobe XD)",
+        "svg": ""
+      },
+      {
+        "id": 40,
+        "domanda": "Nella progettazione di un sistema informativo, cosa si intende per 'usabilità'?",
+        "risposte": [
+          "La velocità di elaborazione dei dati",
+          "La facilità con cui gli utenti possono imparare a usare il sistema",
+          "La quantità di dati che il sistema può memorizzare",
+          "La sicurezza del sistema contro gli accessi non autorizzati"
+        ],
+        "risposta_corretta": "La facilità con cui gli utenti possono imparare a usare il sistema",
+        "svg": ""
+      },
+      {
+        "id": 41,
+        "domanda": "Quale tipo di test software si concentra sulla verifica dei requisiti non funzionali, come le prestazioni e la sicurezza?",
+        "risposte": [
+          "Test funzionali",
+          "Test di usabilità",
+          "Test non funzionali",
+          "Test di regressione"
+        ],
+        "risposta_corretta": "Test non funzionali",
+        "svg": ""
+      },
+      {
+        "id": 42,
+        "domanda": "Quale strumento è comunemente utilizzato per la modellazione di database relazionali?",
+        "risposte": [
+          "Un editor di testo",
+          "Un foglio di calcolo",
+          "Uno strumento di modellazione ERD (es. MySQL Workbench)",
+          "Un software di presentazione"
+        ],
+        "risposta_corretta": "Uno strumento di modellazione ERD (es. MySQL Workbench)",
+        "svg": ""
+      },
+      {
+        "id": 43,
+        "domanda": "Nella progettazione di un'applicazione cloud-native, qual è un principio chiave?",
+        "risposte": [
+          "Monolitic architecture",
+          "Tight coupling between services",
+          "Containerization (es. Docker)",
+          "Manual scaling"
+        ],
+        "risposta_corretta": "Containerization (es. Docker)",
+        "svg": ""
+      },
+      {
+        "id": 44,
+        "domanda": "Quale diagramma UML è utilizzato per modellare le interazioni tra un sistema e i suoi attori esterni?",
+        "risposte": [
+          "Diagramma delle classi",
+          "Diagramma di attività",
+          "Diagramma dei casi d'uso",
+          "Diagramma di sequenza"
+        ],
+        "risposta_corretta": "Diagramma dei casi d'uso",
+        "svg": ""
+      },
+      {
+        "id": 45,
+        "domanda": "Quale fase del SDLC si concentra sulla comprensione del problema e delle esigenze degli utenti?",
+        "risposte": [
+          "Progettazione",
+          "Implementazione",
+          "Analisi",
+          "Test"
+        ],
+        "risposta_corretta": "Analisi",
+        "svg": ""
+      },
+      {
+        "id": 46,
+        "domanda": "Quale strumento è utile per la gestione dei progetti Agile?",
+        "risposte": [
+          "Un compilatore",
+          "Un sistema di gestione di database",
+          "Uno strumento di gestione Agile (es. Jira, Trello)",
+          "Un editor di testo"
+        ],
+        "risposta_corretta": "Uno strumento di gestione Agile (es. Jira, Trello)",
+        "svg": ""
+      },
+      {
+        "id": 47,
+        "domanda": "Nella progettazione di un sistema di pagamento online, quale aspetto è primario per la fiducia degli utenti?",
+        "risposte": [
+          "La complessità dell'interfaccia di pagamento",
+          "Il numero di campi richiesti per il pagamento",
+          "La sicurezza delle informazioni finanziarie",
+          "La lentezza del processo di pagamento"
+        ],
+        "risposta_corretta": "La sicurezza delle informazioni finanziarie",
+        "svg": ""
+      },
+      {
+        "id": 48,
+        "domanda": "Quale tipo di test software simula l'utilizzo del sistema da parte degli utenti finali?",
+        "risposte": [
+          "Test unitari",
+          "Test di integrazione",
+          "Test di sistema",
+          "Test di usabilità"
+        ],
+        "risposta_corretta": "Test di usabilità",
+        "svg": ""
+      },
+      {
+        "id": 49,
+        "domanda": "Quale strumento è comunemente utilizzato per la documentazione tecnica di un progetto software?",
+        "risposte": [
+          "Un software di presentazione",
+          "Un software di contabilità",
+          "Uno strumento di documentazione (es. Confluence)",
+          "Un editor di immagini"
+        ],
+        "risposta_corretta": "Uno strumento di documentazione (es. Confluence)",
+        "svg": ""
+      },
+      {
+        "id": 50,
+        "domanda": "Nella progettazione di un'applicazione web, quale aspetto mira a garantire l'accessibilità agli utenti con disabilità?",
+        "risposte": [
+          "L'utilizzo di animazioni complesse",
+          "Il contrasto insufficiente tra testo e sfondo",
+          "Il rispetto delle WCAG (Web Content Accessibility Guidelines)",
+          "La dipendenza esclusiva dall'uso del mouse"
+        ],
+        "risposta_corretta": "Il rispetto delle WCAG (Web Content Accessibility Guidelines)",
+        "svg": ""
+      }
+    ]
+}

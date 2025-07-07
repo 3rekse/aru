@@ -39,11 +39,13 @@ const Quiz: React.FC<QuizProps> = ({ mission, domande, classe, nome, cognome, ex
     const [correct, setCorrect] = useState(0);
     const [error, setError] = useState(0);
     const [fine, setFine] = useState(false);
+    const [allDomande, setAllDomande] = useState(true);
     const [responseMessage, setResponseMessage] = useState('DOWNLOAD CERTIFICATE\n');
 
     const handleNextQuestion = (selectedAnswer: string) => {
       let ok=correct;
       let ko=error;
+      if (allDomande) {
       if (selectedAnswer){
             
         if (selectedAnswer === domande[IDomanda].risposta_corretta) 
@@ -56,12 +58,29 @@ const Quiz: React.FC<QuizProps> = ({ mission, domande, classe, nome, cognome, ex
                 setError(++ko);
             }
         }
-        if (numDomande === IDomanda) {  
+      if (numDomande === IDomanda) {  
           registra(ok,ko); 
           setFine(true);  
-        }   
-        else
+      }   
+      else
         setIDomanda(IDomanda + 1);
+    } else {
+      if (selectedAnswer === domande[IDomanda].risposta_corretta) 
+        {   domande[IDomanda].svg = " ✅ " + selectedAnswer+ domande[IDomanda].svg;}
+      else
+        {   domande[IDomanda].svg = " ❌ " + domande[IDomanda].svg;}
+      let i = 0
+      for (;i<numDomande ;i++) 
+          if (domande[i].svg.substring(0, 3) === " ❌ "){
+                setIDomanda(i);
+                  break;
+          }
+      if (numDomande === i) {
+          setFine(true);  
+        }   
+      }
+
+
     };
     
     const domanda: Question = {
@@ -115,6 +134,13 @@ const Quiz: React.FC<QuizProps> = ({ mission, domande, classe, nome, cognome, ex
       setResponseMessage(responseMessage+' '+'Errore nella connessione con il server');
       }
     };
+
+    const rivedi = () => {
+      setFine(false)
+      setAllDomande(false);
+      setIDomanda(IDomanda-1);
+    };
+
     const certifica = async () => {
         /**
          * Initializes a new jsPDF document with the specified configuration.
@@ -295,7 +321,7 @@ const Quiz: React.FC<QuizProps> = ({ mission, domande, classe, nome, cognome, ex
                   Rivedi
                    
                 </a>
-                </div>
+               </div>
             )}
             
             {/*domande.map((domanda, index) => (

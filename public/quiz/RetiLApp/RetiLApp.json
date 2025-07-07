@@ -1,0 +1,688 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Qual è il protocollo fondamentale per il World Wide Web?",
+      "risposte": [
+        "FTP",
+        "SMTP",
+        "HTTP",
+        "DNS"
+      ],
+      "risposta_corretta": "HTTP",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Cosa rappresenta un URL?",
+      "risposte": [
+        "L'indirizzo fisico di un server.",
+        "Un identificatore unico di una risorsa sul web.",
+        "Il protocollo utilizzato per trasferire file.",
+        "Il nome simbolico di un indirizzo IP."
+      ],
+      "risposta_corretta": "Un identificatore unico di una risorsa sul web.",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Qual è il metodo HTTP utilizzato per richiedere una pagina web?",
+      "risposte": [
+        "POST",
+        "PUT",
+        "GET",
+        "DELETE"
+      ],
+      "risposta_corretta": "GET",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Quale codice di stato HTTP indica che la richiesta ha avuto successo?",
+      "risposte": [
+        "404",
+        "500",
+        "200",
+        "302"
+      ],
+      "risposta_corretta": "200",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Cosa indica l'intestazione HTTP `Content-Type` in una risposta?",
+      "risposte": [
+        "La lunghezza del corpo della risposta.",
+        "La data e l'ora della risposta.",
+        "Il tipo di media del corpo della risposta.",
+        "Il browser dell'utente che ha fatto la richiesta."
+      ],
+      "risposta_corretta": "Il tipo di media del corpo della risposta.",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Qual è lo scopo principale del DNS?",
+      "risposte": [
+        "Trasferire file tra client e server.",
+        "Inviare e ricevere messaggi di posta elettronica.",
+        "Tradurre nomi di dominio in indirizzi IP.",
+        "Fornire un canale sicuro per la comunicazione web."
+      ],
+      "risposta_corretta": "Tradurre nomi di dominio in indirizzi IP.",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Quale tipo di server DNS contiene le informazioni definitive per un dominio?",
+      "risposte": [
+        "Resolver DNS locale.",
+        "Root server DNS.",
+        "TLD server.",
+        "Authoritative name server."
+      ],
+      "risposta_corretta": "Authoritative name server.",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "Cosa rappresenta un TLD?",
+      "risposte": [
+        "Un sottodominio di un dominio.",
+        "Il nome principale di un sito web.",
+        "L'estensione di dominio di primo livello.",
+        "L'indirizzo numerico di un server."
+      ],
+      "risposta_corretta": "L'estensione di dominio di primo livello.",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Qual è la lunghezza degli indirizzi IPv4?",
+      "risposte": [
+        "64 bit",
+        "32 bit",
+        "128 bit",
+        "16 bit"
+      ],
+      "risposta_corretta": "32 bit",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Qual è la porta predefinita per il protocollo HTTP?",
+      "risposte": [
+        "21",
+        "25",
+        "80",
+        "110"
+      ],
+      "risposta_corretta": "80",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Qual è la porta predefinita per il protocollo HTTPS?",
+      "risposte": [
+        "80",
+        "443",
+        "21",
+        "25"
+      ],
+      "risposta_corretta": "443",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Cosa significa che HTTP è un protocollo stateless?",
+      "risposte": [
+        "Il server mantiene informazioni sulle richieste precedenti del client.",
+        "Ogni richiesta dal client al server è trattata in modo indipendente.",
+        "La connessione tra client e server è persistente.",
+        "I dati vengono trasferiti in modo sicuro tra client e server."
+      ],
+      "risposta_corretta": "Ogni richiesta dal client al server è trattata in modo indipendente.",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Qual è il meccanismo principale utilizzato per gestire lo stato nelle applicazioni web?",
+      "risposte": [
+        "Protocollo TCP",
+        "Indirizzi IP",
+        "Cookie e sessioni",
+        "Nomi di dominio"
+      ],
+      "risposta_corretta": "Cookie e sessioni",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Cosa indica l'intestazione `Connection: keep-alive` in una risposta HTTP?",
+      "risposte": [
+        "Il server chiuderà la connessione dopo aver inviato la risposta.",
+        "Il client deve stabilire una nuova connessione per la prossima richiesta.",
+        "Il server manterrà la connessione aperta per eventuali richieste future.",
+        "La connessione è crittografata con TLS/SSL."
+      ],
+      "risposta_corretta": "Il server manterrà la connessione aperta per eventuali richieste future.",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Qual è il primo pacchetto inviato dal client per stabilire una connessione TCP?",
+      "risposte": [
+        "ACK",
+        "SYN-ACK",
+        "SYN",
+        "FIN"
+      ],
+      "risposta_corretta": "SYN",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Quale pacchetto invia il server in risposta a un SYN?",
+      "risposte": [
+        "ACK",
+        "SYN",
+        "SYN-ACK",
+        "FIN"
+      ],
+      "risposta_corretta": "SYN-ACK",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Qual è l'ultimo pacchetto dell'handshake TCP a tre vie?",
+      "risposte": [
+        "SYN",
+        "SYN-ACK",
+        "ACK",
+        "FIN"
+      ],
+      "risposta_corretta": "ACK",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "A cosa serve il three-way handshake?",
+      "risposte": [
+        "Trasferire dati in modo efficiente.",
+        "Risolvere nomi di dominio in indirizzi IP.",
+        "Stabilire una connessione TCP affidabile.",
+        "Garantire la sicurezza della comunicazione."
+      ],
+      "risposta_corretta": "Stabilire una connessione TCP affidabile.",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "Durante l'handshake TCP, il server può rispondere da un indirizzo IP diverso da quello a cui ha ricevuto il SYN?",
+      "risposte": [
+        "Sì, se configurato correttamente.",
+        "Sì, per motivi di bilanciamento del carico.",
+        "No, comprometterebbe la connessione.",
+        "Solo se il client lo specifica."
+      ],
+      "risposta_corretta": "No, comprometterebbe la connessione.",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "Quando avviene l'apertura del socket Keep-Alive?",
+      "risposte": [
+        "Durante l'invio del pacchetto SYN.",
+        "Durante la ricezione del pacchetto SYN-ACK.",
+        "Dopo il completamento del three-way handshake.",
+        "Prima dell'invio della richiesta HTTP iniziale."
+      ],
+      "risposta_corretta": "Dopo il completamento del three-way handshake.",
+      "svg": ""
+    },
+    {
+      "id": 21,
+      "domanda": "Cosa sono le architetture multi-tier?",
+      "risposte": [
+        "Reti con più server web che gestiscono lo stesso contenuto.",
+        "Applicazioni con più livelli logici per migliorare scalabilità e manutenibilità.",
+        "Sistemi operativi che supportano più utenti contemporaneamente.",
+        "Protocolli di rete che operano a diversi livelli del modello OSI."
+      ],
+      "risposta_corretta": "Applicazioni con più livelli logici per migliorare scalabilità e manutenibilità.",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "Quale livello in un'architettura a tre livelli è responsabile della presentazione dei dati all'utente?",
+      "risposte": [
+        "Livello Dati",
+        "Livello Applicazione",
+        "Livello Presentazione",
+        "Livello Rete"
+      ],
+      "risposta_corretta": "Livello Presentazione",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "Quale livello in un'architettura a tre livelli contiene la logica di business dell'applicazione?",
+      "risposte": [
+        "Livello Presentazione",
+        "Livello Dati",
+        "Livello Applicazione",
+        "Livello Trasporto"
+      ],
+      "risposta_corretta": "Livello Applicazione",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "Qual è il vantaggio principale di un'architettura multi-tier in termini di gestione?",
+      "risposte": [
+        "Maggiore velocità di trasferimento dati.",
+        "Minore consumo di banda di rete.",
+        "Semplificazione della manutenzione e degli aggiornamenti.",
+        "Maggiore sicurezza intrinseca."
+      ],
+      "risposta_corretta": "Semplificazione della manutenzione e degli aggiornamenti.",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "In un'architettura client/server, chi avvia la comunicazione?",
+      "risposte": [
+        "Il server.",
+        "Il client.",
+        "Entrambi contemporaneamente.",
+        "Dipende dal protocollo."
+      ],
+      "risposta_corretta": "Il client.",
+      "svg": ""
+    },
+    {
+      "id": 26,
+      "domanda": "Qual è un esempio comune di architettura client/server?",
+      "risposte": [
+        "Una rete peer-to-peer.",
+        "Il World Wide Web.",
+        "Un sistema operativo distribuito.",
+        "Un database locale."
+      ],
+      "risposta_corretta": "Il World Wide Web.",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "Cosa permette il protocollo HTTP Keep-Alive?",
+      "risposte": [
+        "Crittografare la comunicazione HTTP.",
+        "Comprimere i dati HTTP per una trasmissione più veloce.",
+        "Riutilizzare una singola connessione TCP per più richieste HTTP.",
+        "Autenticare l'utente prima di inviare dati HTTP."
+      ],
+      "risposta_corretta": "Riutilizzare una singola connessione TCP per più richieste HTTP.",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "Qual è il principale vantaggio di utilizzare Keep-Alive con HTTPS?",
+      "risposte": [
+        "Aumentare la sicurezza della connessione.",
+        "Ridurre la necessità di ripetere l'handshake TLS.",
+        "Semplificare la configurazione del server.",
+        "Migliorare la compatibilità con browser obsoleti."
+      ],
+      "risposta_corretta": "Ridurre la necessità di ripetere l'handshake TLS.",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "Dove viene configurato il timeout di Keep-Alive in Apache?",
+      "risposte": [
+        "Nel file .htaccess.",
+        "Nel file robots.txt.",
+        "Nel file di configurazione principale (httpd.conf).",
+        "Nel file di log degli accessi."
+      ],
+      "risposta_corretta": "Nel file di configurazione principale (httpd.conf).",
+      "svg": ""
+    },
+    {
+      "id": 30,
+      "domanda": "Quale direttiva Nginx viene utilizzata per impostare il timeout di Keep-Alive per le connessioni client?",
+      "risposte": [
+        "keepalive_on",
+        "keep_alive_timeout",
+        "http_keepalive_timeout",
+        "client_keepalive_timeout"
+      ],
+      "risposta_corretta": "keep_alive_timeout",
+      "svg": ""
+    },
+    {
+      "id": 31,
+      "domanda": "Come può un client sapere se il server supporta Keep-Alive?",
+      "risposte": [
+        "Esaminando il codice HTML della pagina.",
+        "Controllando le impostazioni del browser.",
+        "Analizzando le intestazioni HTTP nella risposta del server.",
+        "Verificando la versione del protocollo HTTP utilizzato."
+      ],
+      "risposta_corretta": "Analizzando le intestazioni HTTP nella risposta del server.",
+      "svg": ""
+    },
+    {
+      "id": 32,
+      "domanda": "Qual è l'intestazione HTTP primaria che indica se una connessione deve essere mantenuta aperta?",
+      "risposte": [
+        "Timeout",
+        "Keep-Alive",
+        "Connection",
+        "Persistent-Connection"
+      ],
+      "risposta_corretta": "Connection",
+      "svg": ""
+    },
+    {
+      "id": 33,
+      "domanda": "Se l'intestazione `Connection` nella risposta HTTP contiene il valore `close`, cosa farà il browser dopo aver ricevuto la risposta?",
+      "risposte": [
+        "Manterrà la connessione aperta per un breve periodo.",
+        "Invierà immediatamente una nuova richiesta sulla stessa connessione.",
+        "Avvierà la chiusura della connessione TCP.",
+        "Ignorerà l'intestazione e manterrà la connessione aperta."
+      ],
+      "risposta_corretta": "Avvierà la chiusura della connessione TCP.",
+      "svg": ""
+    },
+    {
+      "id": 34,
+      "domanda": "In HTTP/1.1, qual è il comportamento predefinito riguardo al Keep-Alive?",
+      "risposte": [
+        "È disabilitato per impostazione predefinita.",
+        "Deve essere esplicitamente abilitato dal client.",
+        "È abilitato per impostazione predefinita.",
+        "Dipende dalla configurazione del server."
+      ],
+      "risposta_corretta": "È abilitato per impostazione predefinita.",
+      "svg": ""
+    },
+    {
+      "id": 35,
+      "domanda": "Qual è lo scopo principale di un load balancer?",
+      "risposte": [
+        "Aumentare la velocità di risoluzione DNS.",
+        "Migliorare la sicurezza della rete perimetrale.",
+        "Distribuire il traffico su più server.",
+        "Ottimizzare la compressione dei dati web."
+      ],
+      "risposta_corretta": "Distribuire il traffico su più server.",
+      "svg": ""
+    },
+    {
+      "id": 36,
+      "domanda": "A quale livello del modello OSI opera principalmente un load balancer TCP?",
+      "risposte": [
+        "Livello Applicazione",
+        "Livello Presentazione",
+        "Livello Trasporto",
+        "Livello Rete"
+      ],
+      "risposta_corretta": "Livello Trasporto",
+      "svg": ""
+    },
+    {
+      "id": 37,
+      "domanda": "Durante l'handshake TCP con un load balancer, la connessione TCP del client è stabilita con l'indirizzo IP di quale entità?",
+      "risposte": [
+        "Uno dei server backend.",
+        "Il server DNS del client.",
+        "L'indirizzo IP virtuale del load balancer.",
+        "Il gateway predefinito del client."
+      ],
+      "risposta_corretta": "L'indirizzo IP virtuale del load balancer.",
+      "svg": ""
+    },
+       {
+      "id": 38,
+      "domanda": "Qual è la funzione principale di un server web?",
+      "risposte": [
+        "Gestire le query di database.",
+        "Fornire servizi di posta elettronica.",
+        "Ospitare e distribuire pagine web e risorse.",
+        "Instradare il traffico di rete locale."
+      ],
+      "risposta_corretta": "Ospitare e distribuire pagine web e risorse.",
+      "svg": ""
+    },
+    {
+      "id": 39,
+      "domanda": "Quale metodo HTTP è comunemente utilizzato per inviare dati di un modulo web al server?",
+      "risposte": [
+        "GET",
+        "HEAD",
+        "PUT",
+        "POST"
+      ],
+      "risposta_corretta": "POST",
+      "svg": ""
+    },
+    {
+      "id": 40,
+      "domanda": "Cosa rappresenta il corpo di un messaggio HTTP?",
+      "risposte": [
+        "Le informazioni sull'instradamento del pacchetto.",
+        "I metadati sulla richiesta o la risposta.",
+        "I dati effettivi trasferiti (es. HTML, immagini).",
+        "L'indirizzo IP del client e del server."
+      ],
+      "risposta_corretta": "I dati effettivi trasferiti (es. HTML, immagini).",
+      "svg": ""
+    },
+    {
+      "id": 41,
+      "domanda": "Qual è un esempio di Top-Level Domain (TLD) generico?",
+      "risposte": [
+        ".it",
+        ".fr",
+        ".com",
+        ".gov"
+      ],
+      "risposta_corretta": ".com",
+      "svg": ""
+    },
+    {
+      "id": 42,
+      "domanda": "Qual è un esempio di Top-Level Domain (TLD) con codice paese?",
+      "risposte": [
+        ".net",
+        ".org",
+        ".edu",
+        ".it"
+      ],
+      "risposta_corretta": ".it",
+      "svg": ""
+    },
+    {
+      "id": 43,
+      "domanda": "Quale record DNS associa un nome di dominio a un indirizzo IPv4?",
+      "risposte": [
+        "MX",
+        "CNAME",
+        "A",
+        "AAAA"
+      ],
+      "risposta_corretta": "A",
+      "svg": ""
+    },
+    {
+      "id": 44,
+      "domanda": "Quale record DNS associa un nome di dominio a un indirizzo IPv6?",
+      "risposte": [
+        "A",
+        "MX",
+        "CNAME",
+        "AAAA"
+      ],
+      "risposta_corretta": "AAAA",
+      "svg": ""
+    },
+    {
+      "id": 45,
+      "domanda": "Quale record DNS specifica il server di posta per un dominio?",
+      "risposte": [
+        "A",
+        "CNAME",
+        "MX",
+        "NS"
+      ],
+      "risposta_corretta": "MX",
+      "svg": ""
+    },
+    {
+      "id": 46,
+      "domanda": "Cosa rappresenta il Time-To-Live (TTL) in un record DNS?",
+      "risposte": [
+        "La dimensione del record DNS in byte.",
+        "Il numero massimo di query DNS per un dominio.",
+        "Il periodo di tempo per cui un resolver DNS può memorizzare in cache il record.",
+        "La priorità del record rispetto ad altri dello stesso tipo."
+      ],
+      "risposta_corretta":"Il periodo di tempo per cui un resolver DNS può memorizzare in cache il record.",
+      "svg": ""
+    },
+    {
+      "id": 47,
+      "domanda": "Qual è la lunghezza degli indirizzi IPv6?",
+      "risposte": [
+        "32 bit",
+        "64 bit",
+        "128 bit",
+        "256 bit"
+      ],
+      "risposta_corretta": "128 bit",
+      "svg": ""
+    },
+    {
+      "id": 48,
+      "domanda": "Quale tipo di architettura di rete non prevede un server dedicato?",
+      "risposte": [
+        "Client/Server",
+        "Multi-Tier",
+        "Peer-to-Peer",
+        "Mainframe"
+      ],
+      "risposta_corretta": "Peer-to-Peer",
+      "svg": ""
+    },
+    {
+      "id": 49,
+      "domanda": "In un'architettura a tre livelli, quale livello interagisce direttamente con il database?",
+      "risposte": [
+        "Livello Presentazione",
+        "Livello Applicazione",
+        "Livello Dati",
+        "Tutti i livelli"
+      ],
+      "risposta_corretta": "Livello Dati",
+      "svg": ""
+    },
+    {
+      "id": 50,
+      "domanda": "Quale codice di stato HTTP indica un reindirizzamento temporaneo?",
+      "risposte": [
+        "200 OK",
+        "404 Not Found",
+        "302 Found",
+        "500 Internal Server Error"
+      ],
+      "risposta_corretta": "302 Found",
+      "svg": ""
+    },
+    {
+      "id": 51,
+      "domanda": "Quale codice di stato HTTP indica un errore del client, come una risorsa non trovata?",
+      "risposte": [
+        "503 Service Unavailable",
+        "201 Created",
+        "400 Bad Request",
+        "404 Not Found"
+      ],
+      "risposta_corretta": "404 Not Found",
+      "svg": ""
+    },
+    {
+      "id": 52,
+      "domanda": "Quale codice di stato HTTP indica un problema con il server?",
+      "risposte": [
+        "301 Moved Permanently",
+        "401 Unauthorized",
+        "500 Internal Server Error",
+        "204 No Content"
+      ],
+      "risposta_corretta": "500 Internal Server Error",
+      "svg": ""
+    },
+    {
+      "id": 53,
+      "domanda": "Quale metodo HTTP è utilizzato per aggiornare una risorsa esistente?",
+      "risposte": [
+        "POST",
+        "GET",
+        "DELETE",
+        "PUT"
+      ],
+      "risposta_corretta": "PUT",
+      "svg": ""
+    },
+    {
+      "id": 54,
+      "domanda": "Quale metodo HTTP è utilizzato per rimuovere una risorsa?",
+      "risposte": [
+        "POST",
+        "GET",
+        "DELETE",
+        "PUT"
+      ],
+      "risposta_corretta": "DELETE",
+      "svg": ""
+    },
+    {
+      "id": 55,
+      "domanda": "Cosa sono i sottodomini in un nome di dominio?",
+      "risposte": [
+        "Le estensioni di dominio di primo livello.",
+        "Parti del dominio a destra del TLD.",
+        "Domini sotto un altro dominio.",
+        "Nomi di dominio riservati per usi speciali."
+      ],
+      "risposta_corretta": "Domini sotto un altro dominio.",
+      "svg": ""
+    },
+    {
+      "id": 56,
+      "domanda": "Qual è la funzione principale di un resolver DNS locale?",
+      "risposte": [
+        "Ospitare i record DNS definitivi per un dominio.",
+        "Gestire la gerarchia dei server DNS root.",
+        "Interrogare altri server DNS per conto del client e memorizzare in cache le risposte.",
+        "Fornire indirizzi IP dinamici ai client."
+      ],
+      "risposta_corretta": "Interrogare altri server DNS per conto del client e memorizzare in cache le risposte.",
+      "svg": ""
+    },
+    {
+      "id": 57,
+      "domanda": "Qual è la porta predefinita per il protocollo FTP (control connection)?",
+      "risposte": [
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "risposta_corretta": "21",
+      "svg": ""
+    }
+  ]
+}

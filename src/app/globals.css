@@ -40,6 +40,20 @@ a {
   text-decoration: none;
 }
 
+a.qlink {
+  text-decoration: underline;
+  text-underline-offset: 4px; /* Opzionale: distanza della sottolineatura dal testo */
+  color: inherit; /* Mantiene il colore del testo */
+}
+
+select, option {
+  font-family: inherit;
+}
+
+option {
+  background-color: #222; /* Sostituisci con il colore che preferisci */
+  color: #ededed;         /* Colore del testo, opzionale */
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

@@ -1,0 +1,604 @@
+{
+  "quiz": [
+    {
+      "id": 51,
+      "domanda": "Quale concetto ha sostituito le classi di indirizzi IP (A, B, C)?",
+      "risposte": [
+        "NAT",
+        "DHCP",
+        "CIDR",
+        "VPN"
+      ],
+      "risposta_corretta": "CIDR",
+      "svg": ""
+    },
+    {
+      "id": 52,
+      "domanda": "Qual è il nome completo del sistema DNS?",
+      "risposte": [
+        "Domain Network Service",
+        "Digital Name System",
+        "Domain Name System",
+        "Dynamic Naming System"
+      ],
+      "risposta_corretta": "Domain Name System",
+      "svg": ""
+    },
+    {
+      "id": 53,
+      "domanda": "Chi gestisce i TLD '.com' e '.net'?",
+      "risposte": [
+        "Google",
+        "Microsoft",
+        "VeriSign",
+        "Amazon"
+      ],
+      "risposta_corretta": "VeriSign",
+      "svg": ""
+    },
+    {
+      "id": 54,
+      "domanda": "Qual è il meccanismo che permette agli indirizzi IP di un dominio di essere aggiornati automaticamente?",
+      "risposte": [
+        "Static DNS",
+        "Manual DNS",
+        "Dynamic DNS (DDNS)",
+        "Cached DNS"
+      ],
+      "risposta_corretta": "Dynamic DNS (DDNS)",
+      "svg": ""
+    },
+    {
+      "id": 55,
+      "domanda": "Cosa significa che un server DNS è 'autorevole' per una zona?",
+      "risposte": [
+        "Può solo inoltrare le query.",
+        "Contiene i record definitivi per quella zona e può rispondere direttamente.",
+        "È il server più veloce della rete.",
+        "Può essere interrogato solo da client interni."
+      ],
+      "risposta_corretta": "Contiene i record definitivi per quella zona e può rispondere direttamente.",
+      "svg": ""
+    },
+    {
+      "id": 56,
+      "domanda": "Quale numero di bit è comune per un prefisso di rete in una piccola rete domestica (es. 192.168.1.0/?)?",
+      "risposte": [
+        "/8",
+        "/16",
+        "/24",
+        "/32"
+      ],
+      "risposta_corretta": "/24",
+      "svg": ""
+    },
+    {
+      "id": 57,
+      "domanda": "Quale tipo di record è utilizzato per mappare un indirizzo IP a un nome di dominio (Reverse DNS)?",
+      "risposte": [
+        "A record",
+        "CNAME record",
+        "PTR record",
+        "TXT record"
+      ],
+      "risposta_corretta": "PTR record",
+      "svg": ""
+    },
+    {
+      "id": 58,
+      "domanda": "Quanti Root Name Server logici esistono a livello globale?",
+      "risposte": [
+        "1",
+        "7",
+        "13",
+        "25"
+      ],
+      "risposta_corretta": "13",
+      "svg": ""
+    },
+    {
+      "id": 59,
+      "domanda": "Quale strumento può essere usato per visualizzare i dettagli di registrazione di un dominio o di un blocco IP?",
+      "risposte": [
+        "Ping",
+        "Traceroute",
+        "WHOIS",
+        "Netstat"
+      ],
+      "risposta_corretta": "WHOIS",
+      "svg": ""
+    },
+    {
+      "id": 60,
+      "domanda": "Qual è il nome di dominio speciale usato per riferirsi al proprio computer?",
+      "risposte": [
+        "mydomain.local",
+        "thiscomputer.net",
+        "localhost",
+        "home.server"
+      ],
+      "risposta_corretta": "localhost",
+      "svg": ""
+    },
+    {
+      "id": 61,
+      "domanda": "Qual è l'indirizzo IP IPv4 di 'localhost'?",
+      "risposte": [
+        "0.0.0.0",
+        "1.1.1.1",
+        "127.0.0.1",
+        "192.168.0.1"
+      ],
+      "risposta_corretta": "127.0.0.1",
+      "svg": ""
+    },
+    {
+      "id": 62,
+      "domanda": "Se un CNAME punta a un altro CNAME, cosa succede nella risoluzione DNS?",
+      "risposte": [
+        "La risoluzione fallisce.",
+        "Aumenta la latenza perché richiede lookup aggiuntivi.",
+        "La risoluzione diventa più veloce.",
+        "Il server DNS ignora il secondo CNAME."
+      ],
+      "risposta_corretta": "Aumenta la latenza perché richiede lookup aggiuntivi.",
+      "svg": ""
+    },
+    {
+      "id": 63,
+      "domanda": "Quale tipo di TLD è '.gov'?",
+      "risposte": [
+        "Generic TLD",
+        "Country Code TLD",
+        "Sponsored TLD",
+        "Infrastructure TLD"
+      ],
+      "risposta_corretta": "Sponsored TLD",
+      "svg": ""
+    },
+    {
+      "id": 64,
+      "domanda": "Quale protocollo di trasporto viene utilizzato per i trasferimenti di zona DNS?",
+      "risposte": [
+        "UDP",
+        "ICMP",
+        "TCP",
+        "SCTP"
+      ],
+      "risposta_corretta": "TCP",
+      "svg": ""
+    },
+    {
+      "id": 65,
+      "domanda": "Quale concetto permette a un singolo nome di dominio di risolvere a più indirizzi IP per bilanciare il carico?",
+      "risposte": [
+        "DNSSEC",
+        "DNS Round Robin",
+        "DNS Anycast",
+        "DNS Forwarding"
+      ],
+      "risposta_corretta": "DNS Round Robin",
+      "svg": ""
+    },
+    {
+      "id": 66,
+      "domanda": "Quando avviene tipicamente l'aggiornamento dei Root Name Server?",
+      "risposte": [
+        "Ogni pochi anni.",
+        "Ogni giorno o anche più frequentemente.",
+        "Solo quando vengono aggiunti nuovi TLD.",
+        "Una volta al mese."
+      ],
+      "risposta_corretta": "Ogni giorno o anche più frequentemente.",
+      "svg": ""
+    },
+    {
+      "id": 67,
+      "domanda": "Chi è il responsabile dell'aggiornamento dei TLD Name Server per i domini che ricadono sotto la loro estensione?",
+      "risposte": [
+        "Il proprietario del dominio.",
+        "Il resolver DNS locale.",
+        "Il Registry Operator del TLD.",
+        "I Root Server."
+      ],
+      "risposta_corretta": "Il Registry Operator del TLD.",
+      "svg": ""
+    },
+    {
+      "id": 68,
+      "domanda": "Un server DNS 'caching-only' è un tipo di server ricorsivo?",
+      "risposte": [
+        "No, è un server autorevole.",
+        "Sì, ma senza dati di zona locali.",
+        "No, gestisce solo i trasferimenti di zona.",
+        "Sì, ma solo per i nomi di dominio locali."
+      ],
+      "risposta_corretta": "Sì, ma senza dati di zona locali.",
+      "svg": ""
+    },
+    {
+      "id": 69,
+      "domanda": "Quale tipo di record è un record A che non punta a un server specifico, ma a un altro record nel DNS?",
+      "risposte": [
+        "Questo non è possibile con i record A.",
+        "CNAME",
+        "PTR",
+        "MX"
+      ],
+      "risposta_corretta": "Questo non è possibile con i record A.",
+      "svg": ""
+    },
+    {
+      "id": 70,
+      "domanda": "Se un record DNS ha un TTL molto breve (es. 60 secondi), cosa implica questo per la propagazione delle modifiche?",
+      "risposte": [
+        "Le modifiche saranno lente a propagarsi.",
+        "Le modifiche si propagheranno molto rapidamente.",
+        "Il record non verrà mai cacheizzato.",
+        "Il server DNS lo ignorerà."
+      ],
+      "risposta_corretta": "Le modifiche si propagheranno molto rapidamente.",
+      "svg": ""
+    },
+    {
+      "id": 71,
+      "domanda": "Qual è il nome di un database distribuito per la risoluzione dei nomi di dominio?",
+      "risposte": [
+        "HTTP",
+        "FTP",
+        "DNS",
+        "SMTP"
+      ],
+      "risposta_corretta": "DNS",
+      "svg": ""
+    },
+    {
+      "id": 72,
+      "domanda": "Che tipo di indirizzo IP è 192.168.1.10?",
+      "risposte": [
+        "Indirizzo pubblico",
+        "Indirizzo privato",
+        "Indirizzo di broadcast",
+        "Indirizzo di loopback"
+      ],
+      "risposta_corretta": "Indirizzo privato",
+      "svg": ""
+    },
+    {
+      "id": 73,
+      "domanda": "Qual è il ruolo di un registrar di nomi di dominio?",
+      "risposte": [
+        "Ospitare i server DNS autorevoli per tutti i domini.",
+        "Vendere e gestire la registrazione dei nomi di dominio.",
+        "Fornire servizi di posta elettronica.",
+        "Mantenere i Root Name Server."
+      ],
+      "risposta_corretta": "Vendere e gestire la registrazione dei nomi di dominio.",
+      "svg": ""
+    },
+    {
+      "id": 74,
+      "domanda": "Il DNS può risolvere solo i nomi di dominio di siti web?",
+      "risposte": [
+        "Sì, è il suo unico scopo.",
+        "No, risolve nomi per vari servizi, inclusa la posta elettronica.",
+        "Solo i nomi con estensione .com.",
+        "Risolve solo indirizzi IP a nomi."
+      ],
+      "risposta_corretta": "No, risolve nomi per vari servizi, inclusa la posta elettronica.",
+      "svg": ""
+    },
+    {
+      "id": 75,
+      "domanda": "Qual è il valore di un A record per 'localhost'?",
+      "risposte": [
+        "0.0.0.0",
+        "127.0.0.1",
+        "255.255.255.0",
+        "Non esiste un A record per localhost."
+      ],
+      "risposta_corretta": "127.0.0.1",
+      "svg": ""
+    },
+    {
+      "id": 76,
+      "domanda": "Qual è il significato del termine 'zone' nel contesto DNS?",
+      "risposte": [
+        "Un tipo di record DNS.",
+        "Una regione geografica coperta da un server DNS.",
+        "Una parte dello spazio dei nomi di dominio gestita da uno o più server autorevoli.",
+        "Il file di configurazione di un server DNS."
+      ],
+      "risposta_corretta": "Una parte dello spazio dei nomi di dominio gestita da uno o più server autorevoli.",
+      "svg": ""
+    },
+    {
+      "id": 77,
+      "domanda": "Cosa indica l'esistenza di un record CNAME per un nome di dominio?",
+      "risposte": [
+        "Che quel nome non ha un indirizzo IP.",
+        "Che quel nome è un alias per un altro nome di dominio.",
+        "Che quel nome è un server di posta elettronica.",
+        "Che quel nome è obsoleto."
+      ],
+      "risposta_corretta": "Che quel nome è un alias per un altro nome di dominio.",
+      "svg": ""
+    },
+    {
+      "id": 78,
+      "domanda": "Quale tipo di server DNS non ha la capacità di cacheizzare le risposte?",
+      "risposte": [
+        "Root Server",
+        "TLD Server",
+        "Authoritative Name Server",
+        "Tutti i server DNS possono cacheizzare in qualche misura."
+      ],
+      "risposta_corretta": "Tutti i server DNS possono cacheizzare in qualche misura.",
+      "svg": ""
+    },
+    {
+      "id": 79,
+      "domanda": "Qual è il numero massimo di richieste che possono essere gestite su una singola connessione Keep-Alive (in un server web)?",
+      "risposte": [
+        "È sempre illimitato.",
+        "È sempre 100.",
+        "È configurabile dal server web (es. MaxKeepAliveRequests in Apache).",
+        "È stabilito dal client."
+      ],
+      "risposta_corretta": "È configurabile dal server web (es. MaxKeepAliveRequests in Apache).",
+      "svg": ""
+    },
+    {
+      "id": 80,
+      "domanda": "Cosa succede se un client tenta di connettersi a una porta su un server dove nessun servizio è in ascolto?",
+      "risposte": [
+        "La connessione viene accettata e poi chiusa.",
+        "Il server risponde con un ACK e poi chiude.",
+        "La connessione TCP fallisce (es. receive una RST).",
+        "Il client attende indefinitamente."
+      ],
+      "risposta_corretta": "La connessione TCP fallisce (es. receive una RST).",
+      "svg": ""
+    },
+    {
+      "id": 81,
+      "domanda": "La parte '8.8.8' nell'indirizzo IP 8.8.8.8/24 rappresenta:",
+      "risposte": [
+        "La parte host dell'indirizzo.",
+        "Il numero di versione IP.",
+        "La parte di rete dell'indirizzo.",
+        "La subnet mask."
+      ],
+      "risposta_corretta": "La parte di rete dell'indirizzo.",
+      "svg": ""
+    },
+    {
+      "id": 82,
+      "domanda": "Quanti host utilizzabili ci sono in una rete /24?",
+      "risposte": [
+        "256",
+        "255",
+        "254",
+        "128"
+      ],
+      "risposta_corretta": "254",
+      "svg": ""
+    },
+    {
+      "id": 83,
+      "domanda": "Cosa significa 'FQDN' nel contesto DNS?",
+      "risposte": [
+        "Fast Query Domain Name",
+        "Fully Qualified Domain Name",
+        "Flexible Queue Data Network",
+        "File Query Domain Name"
+      ],
+      "risposta_corretta": "Fully Qualified Domain Name",
+      "svg": ""
+    },
+    {
+      "id": 84,
+      "domanda": "Qual è il significato del punto finale in 'www.example.com.' (con il punto finale)?",
+      "risposte": [
+        "Indica un errore di sintassi.",
+        "Non ha alcun significato.",
+        "Rappresenta la root del DNS.",
+        "Indica un sottodominio."
+      ],
+      "risposta_corretta": "Rappresenta la root del DNS.",
+      "svg": ""
+    },
+    {
+      "id": 85,
+      "domanda": "Qual è il sistema che si occupa di assegnare e coordinare indirizzi IP e nomi di dominio?",
+      "risposte": [
+        "W3C",
+        "IEEE",
+        "IETF",
+        "ICANN/IANA"
+      ],
+      "risposta_corretta": "ICANN/IANA",
+      "svg": ""
+    },
+    {
+      "id": 86,
+      "domanda": "Il DNS è vulnerabile a quali tipi di attacchi?",
+      "risposte": [
+        "Attacchi di forza bruta sulle password.",
+        "DDoS, cache poisoning, spoofing DNS.",
+        "Solo attacchi fisici ai server.",
+        "Non è vulnerabile ad alcun attacco."
+      ],
+      "risposta_corretta": "DDoS, cache poisoning, spoofing DNS.",
+      "svg": ""
+    },
+    {
+      "id": 87,
+      "domanda": "Cosa fa un server DNS 'forwarder'?",
+      "risposte": [
+        "Memorizza tutti i record DNS localmente.",
+        "Inoltra le query DNS a un altro server DNS configurato prima di tentare la risoluzione.",
+        "Funziona come server DNS autorevole per un dominio.",
+        "Genera dinamicamente nuovi record DNS."
+      ],
+      "risposta_corretta": "Inoltra le query DNS a un altro server DNS configurato prima di tentare la risoluzione.",
+      "svg": ""
+    },
+    {
+      "id": 88,
+      "domanda": "In quale fase del processo di risoluzione DNS un resolver contatta un Root Server?",
+      "risposte": [
+        "Come prima cosa per ogni query.",
+        "Solo se non ha la risposta in cache e non sa a chi chiedere per il TLD.",
+        "Mai, i Root Server sono solo per l'amministrazione.",
+        "Dopo aver contattato il server autorevole."
+      ],
+      "risposta_corretta": "Solo se non ha la risposta in cache e non sa a chi chiedere per il TLD.",
+      "svg": ""
+    },
+    {
+      "id": 89,
+      "domanda": "Qual è il significato del termine 'glue record' nel DNS?",
+      "risposte": [
+        "Un record che lega un CNAME a un A record.",
+        "Un record A o AAAA per un name server che fa parte del dominio che sta servendo.",
+        "Un record che unisce due zone DNS separate.",
+        "Un record per la gestione della sicurezza."
+      ],
+      "risposta_corretta": "Un record A o AAAA per un name server che fa parte del dominio che sta servendo.",
+      "svg": ""
+    },
+    {
+      "id": 90,
+      "domanda": "Quale problema principale risolve il DNS rispetto all'uso diretto degli indirizzi IP?",
+      "risposte": [
+        "Problemi di sicurezza.",
+        "Difficoltà a ricordare e utilizzare gli indirizzi numerici.",
+        "L'esaurimento degli indirizzi IP.",
+        "Problemi di larghezza di banda."
+      ],
+      "risposta_corretta": "Difficoltà a ricordare e utilizzare gli indirizzi numerici.",
+      "svg": ""
+    },
+    {
+      "id": 91,
+      "domanda": "Cosa si intende per 'DNS Poisoning'?",
+      "risposte": [
+        "Un sovraccarico di query DNS.",
+        "L'inserimento di dati falsi nella cache di un resolver DNS.",
+        "La modifica dei file di zona di un server autorevole.",
+        "Il blocco delle query DNS legittime."
+      ],
+      "risposta_corretta": "L'inserimento di dati falsi nella cache di un resolver DNS.",
+      "svg": ""
+    },
+    {
+      "id": 92,
+      "domanda": "Qual è il nome di un file di testo che contiene tutti i record DNS per una specifica zona?",
+      "risposte": [
+        "DNS Config",
+        "Zone File",
+        "Host List",
+        "Record Cache"
+      ],
+      "risposta_corretta": "Zone File",
+      "svg": ""
+    },
+    {
+      "id": 93,
+      "domanda": "Cosa indica il campo 'Serial Number' in un file di zona DNS?",
+      "risposte": [
+        "Il numero di record nel file.",
+        "La versione del file di zona, usata per i trasferimenti.",
+        "Il tempo di vita del file di zona.",
+        "Il numero di server autorevoli per la zona."
+      ],
+      "risposta_corretta": "La versione del file di zona, usata per i trasferimenti.",
+      "svg": ""
+    },
+    {
+      "id": 94,
+      "domanda": "Quale tipo di record è necessario se un dominio gestisce la propria posta elettronica?",
+      "risposte": [
+        "A record",
+        "CNAME record",
+        "MX record",
+        "TXT record"
+      ],
+      "risposta_corretta": "MX record",
+      "svg": ""
+    },
+    {
+      "id": 95,
+      "domanda": "Qual è il ruolo di un 'registrant' nel sistema DNS?",
+      "risposte": [
+        "È il server DNS principale per un dominio.",
+        "È l'organizzazione o l'individuo che registra un nome di dominio.",
+        "È l'organizzazione che gestisce i Root Server.",
+        "È il software che esegue query DNS."
+      ],
+      "risposta_corretta": "È l'organizzazione o l'individuo che registra un nome di dominio.",
+      "svg": ""
+    },
+    {
+      "id": 96,
+      "domanda": "Quale parte di un indirizzo IP in notazione CIDR indica la dimensione della rete?",
+      "risposte": [
+        "La prima parte (es. 8.8.8)",
+        "L'ultima parte (es. .8)",
+        "La barra e il numero successivo (es. /24)",
+        "Non è indicato direttamente dall'indirizzo IP."
+      ],
+      "risposta_corretta": "La barra e il numero successivo (es. /24)",
+      "svg": ""
+    },
+    {
+      "id": 97,
+      "domanda": "La propagazione DNS si riferisce a cosa?",
+      "risposte": [
+        "La velocità con cui un sito web si carica.",
+        "Il tempo necessario affinché le modifiche ai record DNS siano visibili a livello globale.",
+        "La capacità di un server DNS di gestire molte query.",
+        "Il processo di stabilire una connessione TCP."
+      ],
+      "risposta_corretta": "Il tempo necessario affinché le modifiche ai record DNS siano visibili a livello globale.",
+      "svg": ""
+    },
+    {
+      "id": 98,
+      "domanda": "Qual è il termine per un indirizzo IP assegnato temporaneamente a un dispositivo da un server?",
+      "risposte": [
+        "Static IP",
+        "Fixed IP",
+        "Dynamic IP",
+        "Public IP"
+      ],
+      "risposta_corretta": "Dynamic IP",
+      "svg": ""
+    },
+    {
+      "id": 99,
+      "domanda": "Il DNS può risolvere solo nomi di dominio di secondo livello (es. example.com)?",
+      "risposte": [
+        "Sì, solo i nomi di secondo livello.",
+        "No, può risolvere anche sottodomini (es. blog.example.com).",
+        "Solo i nomi con WWW.",
+        "Solo i nomi che terminano con .org."
+      ],
+      "risposta_corretta": "No, può risolvere anche sottodomini (es. blog.example.com).",
+      "svg": ""
+    },
+    {
+      "id": 100,
+      "domanda": "Qual è un vantaggio della decentralizzazione del sistema DNS?",
+      "risposte": [
+        "Maggiore controllo da parte di un'unica entità.",
+        "Rischio più elevato di un singolo punto di fallimento.",
+        "Maggiore resilienza e scalabilità.",
+        "Minore complessità di gestione."
+      ],
+      "risposta_corretta": "Maggiore resilienza e scalabilità.",
+      "svg": ""
+    }
+  ]
+}

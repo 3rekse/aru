@@ -1,0 +1,364 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "domanda": "Quale comando Linux viene utilizzato per creare un nuovo utente?",
+        "risposte": [
+          "useradd",
+          "adduser",
+          "usermod",
+          "passwd"
+        ],
+        "risposta_corretta": "useradd",
+        "svg": ""
+      },
+      {
+        "id": 2,
+        "domanda": "Quale comando Linux viene utilizzato per modificare i permessi di un file?",
+        "risposte": [
+          "chmod",
+          "chown",
+          "ls",
+          "touch"
+        ],
+        "risposta_corretta": "chmod",
+        "svg": ""
+      },
+      {
+        "id": 3,
+        "domanda": "Quale comando Linux viene utilizzato per cambiare il proprietario di un file?",
+        "risposte": [
+          "chown",
+          "chmod",
+          "ls",
+          "mv"
+        ],
+        "risposta_corretta": "chown",
+        "svg": ""
+      },
+      {
+        "id": 4,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare i permessi di un file?",
+        "risposte": [
+          "ls -l",
+          "chmod",
+          "chown",
+          "cat"
+        ],
+        "risposta_corretta": "ls -l",
+        "svg": ""
+      },
+      {
+        "id": 5,
+        "domanda": "Quale comando Linux viene utilizzato per cambiare la password di un utente?",
+        "risposte": [
+          "passwd",
+          "useradd",
+          "usermod",
+          "chage"
+        ],
+        "risposta_corretta": "passwd",
+        "svg": ""
+      },
+      {
+        "id": 6,
+        "domanda": "Quale comando Linux viene utilizzato per aggiungere un utente a un gruppo?",
+        "risposte": [
+          "usermod -aG",
+          "groupadd",
+          "adduser",
+          "chmod"
+        ],
+        "risposta_corretta": "usermod -aG",
+        "svg": ""
+      },
+      {
+        "id": 7,
+        "domanda": "Quale comando Linux viene utilizzato per creare un nuovo gruppo?",
+        "risposte": [
+          "groupadd",
+          "addgroup",
+          "usermod",
+          "chmod"
+        ],
+        "risposta_corretta": "groupadd",
+        "svg": ""
+      },
+      {
+        "id": 8,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare lo spazio disponibile su disco?",
+        "risposte": [
+          "df",
+          "du",
+          "lsblk",
+          "fdisk"
+        ],
+        "risposta_corretta": "df",
+        "svg": ""
+      },
+      {
+        "id": 9,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare l'utilizzo dello spazio di una directory?",
+        "risposte": [
+          "du",
+          "df",
+          "ls",
+          "pwd"
+        ],
+        "risposta_corretta": "du",
+        "svg": ""
+      },
+      {
+        "id": 10,
+        "domanda": "Quale comando Linux viene utilizzato per eliminare un utente?",
+        "risposte": [
+          "userdel",
+          "usermod",
+          "deluser",
+          "groupdel"
+        ],
+        "risposta_corretta": "userdel",
+        "svg": ""
+      },
+      {
+        "id": 11,
+        "domanda": "Quale comando Linux viene utilizzato per bloccare un account utente?",
+        "risposte": [
+          "usermod -L",
+          "passwd -l",
+          "userdel",
+          "chage -E"
+        ],
+        "risposta_corretta": "usermod -L",
+        "svg": ""
+      },
+      {
+        "id": 12,
+        "domanda": "Quale comando Linux viene utilizzato per sbloccare un account utente?",
+        "risposte": [
+          "usermod -U",
+          "passwd -u",
+          "useradd",
+          "chage -E"
+        ],
+        "risposta_corretta": "usermod -U",
+        "svg": ""
+      },
+      {
+        "id": 13,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare i gruppi a cui appartiene un utente?",
+        "risposte": [
+          "groups",
+          "id",
+          "whoami",
+          "getent"
+        ],
+        "risposta_corretta": "groups",
+        "svg": ""
+      },
+      {
+        "id": 14,
+        "domanda": "Quale comando Linux viene utilizzato per cambiare il gruppo di un file?",
+        "risposte": [
+          "chgrp",
+          "chown",
+          "chmod",
+          "ls -l"
+        ],
+        "risposta_corretta": "chgrp",
+        "svg": ""
+      },
+      {
+        "id": 15,
+        "domanda": "Quale comando Linux viene utilizzato per impostare una data di scadenza per un account utente?",
+        "risposte": [
+          "chage -E",
+          "usermod -e",
+          "passwd -e",
+          "useradd -e"
+        ],
+        "risposta_corretta": "chage -E",
+        "svg": ""
+      },
+      {
+        "id": 16,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare le informazioni di un utente?",
+        "risposte": [
+          "id",
+          "whoami",
+          "finger",
+          "getent passwd"
+        ],
+        "risposta_corretta": "id",
+        "svg": ""
+      },
+      {
+        "id": 17,
+        "domanda": "Quale comando Linux viene utilizzato per creare un file di swap?",
+        "risposte": [
+          "mkswap",
+          "swapon",
+          "swapoff",
+          "dd"
+        ],
+        "risposta_corretta": "mkswap",
+        "svg": ""
+      },
+      {
+        "id": 18,
+        "domanda": "Quale comando Linux viene utilizzato per montare un file system?",
+        "risposte": [
+          "mount",
+          "umount",
+          "fsck",
+          "mkfs"
+        ],
+        "risposta_corretta": "mount",
+        "svg": ""
+      },
+      {
+        "id": 19,
+        "domanda": "Quale comando Linux viene utilizzato per verificare e riparare un file system?",
+        "risposte": [
+          "fsck",
+          "mkfs",
+          "mount",
+          "umount"
+        ],
+        "risposta_corretta": "fsck",
+        "svg": ""
+      },
+      {
+        "id": 20,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare l'elenco dei file system montati?",
+        "risposte": [
+          "df",
+          "mount",
+          "lsblk",
+          "cat /etc/mtab"
+        ],
+        "risposta_corretta": "mount",
+        "svg": ""
+      },
+      {
+        "id": 21,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare l'ID utente (UID) e l'ID gruppo (GID)?",
+        "risposte": [
+          "id",
+          "whoami",
+          "groups",
+          "getent"
+        ],
+        "risposta_corretta": "id",
+        "svg": ""
+      },
+      {
+        "id": 22,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare l'elenco degli utenti attualmente connessi?",
+        "risposte": [
+          "who",
+          "w",
+          "users",
+          "finger"
+        ],
+        "risposta_corretta": "who",
+        "svg": ""
+      },
+      {
+        "id": 23,
+        "domanda": "Quale comando Linux viene utilizzato per modificare la shell predefinita di un utente?",
+        "risposte": [
+          "chsh",
+          "usermod -s",
+          "passwd -s",
+          "useradd -s"
+        ],
+        "risposta_corretta": "chsh",
+        "svg": ""
+      },
+      {
+        "id": 24,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare l'elenco dei gruppi disponibili?",
+        "risposte": [
+          "getent group",
+          "groups",
+          "cat /etc/group",
+          "id"
+        ],
+        "risposta_corretta": "cat /etc/group",
+        "svg": ""
+      },
+      {
+        "id": 25,
+        "domanda": "Quale comando Linux viene utilizzato per verificare la scadenza della password di un utente?",
+        "risposte": [
+          "chage -l",
+          "passwd -S",
+          "usermod -e",
+          "getent passwd"
+        ],
+        "risposta_corretta": "chage -l",
+        "svg": ""
+      },
+      {
+        "id": 26,
+        "domanda": "Quale comando Linux viene utilizzato per rimuovere un gruppo?",
+        "risposte": [
+          "groupdel",
+          "groupmod",
+          "delgroup",
+          "usermod -G"
+        ],
+        "risposta_corretta": "groupdel",
+        "svg": ""
+      },
+      {
+        "id": 27,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare l'utilizzo dello spazio su disco per ogni file e directory?",
+        "risposte": [
+          "du",
+          "df",
+          "lsblk",
+          "fdisk"
+        ],
+        "risposta_corretta": "du",
+        "svg": ""
+      },
+      {
+        "id": 28,
+        "domanda": "Quale comando Linux viene utilizzato per creare un file system?",
+        "risposte": [
+          "mkfs",
+          "fsck",
+          "mount",
+          "umount"
+        ],
+        "risposta_corretta": "mkfs",
+        "svg": ""
+      },
+      {
+        "id": 29,
+        "domanda": "Quale comando Linux viene utilizzato per visualizzare i dettagli di un file o directory?",
+        "risposte": [
+          "stat",
+          "ls -l",
+          "file",
+          "du"
+        ],
+        "risposta_corretta": "stat",
+        "svg": ""
+      },
+      {
+        "id": 30,
+        "domanda": "Quale comando Linux viene utilizzato per verificare l'integrità di un file system?",
+        "risposte": [
+          "fsck",
+          "mkfs",
+          "mount",
+          "umount"
+        ],
+        "risposta_corretta": "fsck",
+        "svg": ""
+      }
+    ]
+  }
