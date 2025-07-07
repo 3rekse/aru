@@ -8,56 +8,43 @@ const shuffleArray = <T,>(array: T[]): T[] => {
     }
     return shuffledArray;
   };
+
+   
+export async function loadQuiz(mission: string, verifica: string, extraT: boolean): Promise<Question[]> {
+  const basePath1 = `./quiz/${mission}/${mission}.json`; // Primo file
+  const basePath2 = `./quiz/${mission}/${mission}V.json`; // Secondo file (esempio: aggiungi _extra)
+ // console.log('extraT: ', extraT);
+
+  // Carica il primo file
+  const response1 = await fetch(basePath1);
+  if (!response1.ok) {
+    throw new Error(`Prova non prevista per : ${mission}`);
+  }
   
-  export const loadQuiz = (mission: string): Question[] => {
-    let algorithms: QuizData;
-    if (mission === "IT") {
-        algorithms = require('./It/IT.json') as QuizData;
-    } else if (mission === "HW") {
-        algorithms = require('./It/HW.json') as QuizData;
-    } else if (mission === "SW") {
-        algorithms = require('./It/SW.json') as QuizData;
-    } else if (mission === "AL") {
-        algorithms = require('./AL.json') as QuizData;
-    } else if (mission === "SI") {
-        algorithms = require('./SI.json') as QuizData;
-    } else if (mission === "AI") {
-        algorithms = require('./AI.json') as QuizData;
-    } else if (mission === "MOBILE") {
-        algorithms = require('./Mobile.json') as QuizData;
-    } else if (mission === "WEB") {
-        algorithms = require('./WEB.json') as QuizData;
-    } else if (mission === "Reti") {
-        algorithms = require('./Reti.json') as QuizData;
-    } else if (mission === "RetiA1") {
-        algorithms = require('./Reti/A1-ISO_OSI.json') as QuizData;
-    } else if (mission === "RetiA2") {
-        algorithms = require('./Reti/A2-protocolli.json') as QuizData;
-    } else if (mission === "RetiA3") {
-        algorithms = require('./Reti/A3-IP.json') as QuizData;
-    } else if (mission === "Sistemi1") {
-        algorithms = require('./Reti/B1-SOconf.json') as QuizData;
-    } else if (mission === "Sistemi2") {
-        algorithms = require('./Reti/B2-SOuser.json') as QuizData;
-    } else if (mission === "Sistemi3") {
-        algorithms = require('./Reti/B3-SOadm.json') as QuizData;
-    } else if (mission === "RetiC1") {
-        algorithms = require('./Reti/C1-RetiConf.json') as QuizData;
-    } else if (mission === "RetiC2") {
-        algorithms = require('./Reti/C2-lan.json') as QuizData;
-    } else if (mission === "RetiC3") {
-        algorithms = require('./Reti/C3-VPN.json') as QuizData;
-    } else if (mission === "RetiD1") {
-        algorithms = require('./Reti/D1-SOadmin.json') as QuizData;
-    } else if (mission === "RetiD2") {
-        algorithms = require('./Reti/D2-rout.json') as QuizData;
-    } else if (mission === "RetiD3") {
-        algorithms = require('./Reti/D3-switch.json') as QuizData;
-    } else if (mission === "RetiD4") {
-        algorithms = require('./Reti/D4-wireless.json') as QuizData;
-    } else {
-        throw new Error("Invalid mission type");
+  const algorithms1 = await response1.json();
+  let algorithms2: { quiz: Question[] } = { quiz: [] }
+  if (verifica) {
+    // Carica il secondo file (se esiste)
+   
+    try {
+      const response2 = await fetch(basePath2);
+      if (response2.ok) {
+        algorithms2 = await response2.json();
+      //   console.log("Caricate domande: ", algorithms2.quiz.length);
+        if (extraT) {
+         algorithms2.quiz = shuffleArray(algorithms2.quiz as Question[]).slice(0, Math.floor(algorithms2.quiz.length * 0.9));
+        //console.log("Caricate domande extraT: ", algorithms2.quiz.length);
+      }
+      }
+    } catch (e) {
+      // Se il secondo file non esiste o dà errore, ignora
     }
-    const shuffledQuestions = shuffleArray(algorithms.quiz);
-    return shuffledQuestions; // Assuming QuizData has a quiz property of type Question[]
-};
+  }
+  const shuffledQuestions = shuffleArray([
+    ...(algorithms1.quiz as Question[]),
+    ...(algorithms2.quiz as Question[])
+    ]);
+// console.log("Caricate domande: ", shuffledQuestions.length);
+    // Aggiungi le domande extraT se necessari
+  return shuffledQuestions;
+}

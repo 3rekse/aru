@@ -1,5 +1,5 @@
 'use client'; 
-import Aru2 from './Aru2'
+import Aru from './Aru'
 import React, { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Scarica from './components/scarica';
@@ -13,7 +13,7 @@ function CallAru() {
   if (page!=="FB")
    {
   return <div style={{ width: '100vw', height: '100vh', margin: 0, padding: 0 }}>
-       <Aru2 mission={mission} missionD={missionD} page={page}/>;
+       <Aru mission={mission} missionD={missionD} page={page}/>;
         </div>;     
   } else {
     return <div> 

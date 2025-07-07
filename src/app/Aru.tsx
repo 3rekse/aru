@@ -4,15 +4,15 @@ import React, { useState, useEffect } from 'react';
 import Image from "next/image";
 import styles from "./page.module.css";
 import Binary from "./components/binary"
-import { loadQuiz } from './quiz/LoadQuiz';
+
 import Quiz from './quiz/Quiz'
-import { Bitter, Lexend_Zetta } from 'next/font/google';
+
 import jsPDF from 'jspdf';
-import { svg2pdf } from 'svg2pdf.js';
-import { QuizData, Question } from './components/typeQuestion';
-import { missionDescriptions,missionLearn } from './quiz/Mission';
+
+import { DropdownMissioni } from "./components/DropdownMissioni";
 interface AruProps {
   mission: string;
+  missionD: string;
   page:string;
 }
 const prove: any[] = [];
@@ -22,21 +22,26 @@ const randomBinary = (pot:number) => {
   return (min+Math.floor(Math.random() * 2**pot)).toString(2);
 }
 
-const Aru:React.FC<AruProps> = ({ mission, page }) =>{
+function isValidEmail(email: string) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+const Aru:React.FC<AruProps> = ({ mission, missionD, page }) =>{
 
   const [isBinarySet, setIsBinarySet] = useState(false);
   const [bit, setBit] = useState(2);
   const [num1, setNum1] = useState<string>('');
   const [num2, setNum2] = useState<string>('');
   const [name, setFirst] = useState('');
+  const [email, setEmail] = useState('');
   const [last, setLast] = useState('');
   const [classe, setClasse] = useState('');
   const [inputsDisabled, setInputsDisabled] = useState(false);
   const [inputsExtra, setInputsExtra] = useState(false);
+
   
+  const link= "<a class=\"qlink\" href=\"md.html?file=quiz/"+mission+"/"+mission+".md\" target=\"_blank\">"+ missionD+"</a>" ;
   
-  const link= missionLearn(mission) ;
-  const missionD= missionDescriptions[mission] || " ";
+  //const missionD= missionDescriptions[mission] || " ";
   //const missionD =(link !== " " ) ?  (link + missionDescriptions[mission] || " ")+"<\a>": missionDescriptions[mission] || " ";
    const handleBinarySet = () => {
     setIsBinarySet(true);
@@ -46,7 +51,17 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
     
   };
   const handleAccept = () => {
-    setInputsDisabled(name !== '' && last !== '' && classe !== '');
+    setInputsDisabled(isValidEmail(email) && classe !== '');
+    if (page !== "") {
+    const elem = document.documentElement; // oppure un altro elemento specifico
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if ((elem as any).webkitRequestFullscreen) { /* Safari */
+      (elem as any).webkitRequestFullscreen();
+    } else if ((elem as any).msRequestFullscreen) { /* IE11 */
+      (elem as any).msRequestFullscreen();
+    }
+  }
   };
 
   useEffect(() => {
@@ -67,7 +82,7 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
       unit: 'mm',
       format: 'a4'
     });
-    doc.setFillColor(255, 215, 0); // Gold color
+    doc.setFillColor(73, 116, 130); // Gold color
     doc.rect(0, 0, doc.internal.pageSize.getWidth(), doc.internal.pageSize.getHeight(), 'F');
     doc.setFillColor(173, 216, 230); // Light blue color
     doc.rect(5, 5, doc.internal.pageSize.getWidth()-10, doc.internal.pageSize.getHeight()-10, 'F');
@@ -155,25 +170,25 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
          {mission} Omarillo Mission 0.0.{bit} by : <br/>
             <input 
                     type="text" 
-                    value={name} 
+                    value={email} 
                     onChange={(e) => {
                         const value = e.target.value;
-                        setFirst(value);
-                       
-                    }} 
-                    placeholder="Enter first name" 
-                      disabled={inputsDisabled}                />
+                        setEmail(value);
+                        const start = value.indexOf(".") + 1;
+                        const end = value.indexOf("@");
+                        if (start !== -1 && end !== -1 && start < end) {
+                           setFirst(value.substring(start, end));
+                           setLast(value.substring(0, start - 1));
+                        } else {
+                            setFirst('');
+                        }
+                                               
+                    }}
+                    placeholder="Enter email" 
+                    disabled={inputsDisabled}
+                                   />
                 
-                <input 
-                    type="text" 
-                    value={last} 
-                    onChange={(e) => {
-                        const value = e.target.value;
-                        setLast(value);
-                        
-                    }} 
-                    placeholder="Enter last name" 
-                    disabled={inputsDisabled}                />
+               
                 <input 
                     type="text" 
                     value={classe} 
@@ -192,9 +207,9 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
                   onChange={(e) => setInputsExtra(e.target.checked)} 
                   disabled={inputsDisabled}
                 />
-                <label>Extra Time</label>
+                <label>Verifica facilitata</label>
               </div>
-                {inputsDisabled ?( mission!=="ARU"  ? ( <Quiz mission={mission} domande={loadQuiz(mission)} classe={classe} nome={name} cognome={last} extaT={inputsExtra}/>  ) : 
+                {inputsDisabled ?( mission!=="ARU"  ? ( <Quiz mission={mission} missionD={missionD} classe={classe} nome={name} cognome={last} extaT={inputsExtra} verifica={page}/>  ) : 
                     ( <Binary onSet={handleBinarySet} num1={num1} num2={num2} bit={bit} prova={prove} />) 
                      ):( <div>Insert your identity to start the test</div>)}
               {isBinarySet && 
@@ -216,7 +231,7 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
       <footer className={styles.footer}>
         <a
           href="https://kb-competition.vercel.app/aritmetica"
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
         >
           <Image
@@ -226,33 +241,18 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
             width={16}
             height={16}
           />
-          Learn→
+          Learn Binary Arithmetic→
         </a>
-        <a
-        href={mission === "IT"
-              ? "/?mission=HW"
-              : mission === "HW"
-              ? "/?mission=SW"
-              : "/?mission=IT"
-        }
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
+                  <Image
             aria-hidden
             src="/window.svg"
             alt="Window icon"
             width={16}
             height={16}
           />
-          {  mission==="IT"  ? ("HardWare →") :
-             mission==="HW"  ? ("SoftWare →") :
-             ("ITHistory+ →") 
-          }
-        </a>
         <a
           href="/?mission=SI"
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
         >
           <Image
@@ -264,37 +264,7 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
           />
           Sicurrezza→
         </a>
-        <a
-          href={mission==="Reti"  
-          ? ("/?mission=RetiA1") :
-          mission==="RetiA1"  
-          ? ("/?mission=RetiA2") :
-          mission==="RetiA2"  
-          ? ("/?mission=RetiA3") :
-          mission==="RetiA3"  
-          ? ("/?mission=Sistemi1") :
-          mission==="Sistemi1"
-          ?("/?mission=Sistemi2") :
-          mission==="Sistemi2"
-          ?("/?mission=Sistemi3") :
-          mission==="Sistemi3"  
-          ? ("/?mission=RetiC1") :
-          mission==="RetiC1"  
-          ? ("/?mission=RetiC2") :
-          mission==="RetiC2"  
-          ? ("/?mission=RetiC3") :
-          mission==="RetiC3"  
-          ? ("/?mission=RetiD1") :
-          mission==="RetiD1"  
-          ? ("/?mission=RetiD2") :
-          mission==="RetiD2"  
-          ? ("/?mission=RetiD3") :
-          mission==="RetiD3"  
-          ? ("/?mission=RetiD4") :
-          (  "/?mission=Reti")}
-          target="_self"
-          rel="noopener noreferrer"
-        >
+        
           <Image
             aria-hidden
             src="/globe.svg"
@@ -302,24 +272,11 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
             width={16}
             height={16}
           />
-          { mission==="Reti"  ? ("Reti A1→") :
-            mission==="RetiA1"  ? ("Reti A2→") :
-            mission==="RetiA2"  ? ("Reti A3→") :
-            mission==="RetiA3"  ? ("Sistemi 1→") :
-            mission==="Sistemi1"  ? ("Sistemi 2→") :
-            mission==="Sistemi2"  ? ("Sistemi 3→") :
-            mission==="Sistemi3"  ? ("Reti C1→") :
-            mission==="RetiC1"  ? ("Reti C2→") :
-            mission==="RetiC2"  ? ("Reti C3→") :
-            mission==="RetiC3"  ? ("Reti D1→") :
-            mission==="RetiD1"  ? ("Reti D2→") :
-            mission==="RetiD2"  ? ("Reti D3→") :
-            mission==="RetiD3"  ? ("Reti D4→") :
-            (  "Reti+ →")}
-        </a>
+          <DropdownMissioni />
+          
         <a
           href="/?mission=AI"
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
         >
           <Image
@@ -333,7 +290,7 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
         </a>
         <a
           href="/?mission=AL"
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
         >
           <Image
@@ -347,7 +304,7 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
         </a>
         <a
           href="/?mission=WEB"
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
         >
           <Image
@@ -361,7 +318,7 @@ const Aru:React.FC<AruProps> = ({ mission, page }) =>{
         </a>
         <a
           href="/?mission=MOBILE"
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
         >
           <Image
