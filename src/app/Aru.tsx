@@ -51,7 +51,16 @@ const Aru:React.FC<AruProps> = ({ mission, missionD, page }) =>{
     
   };
   const handleAccept = () => {
+    console.log(inputsDisabled);
     setInputsDisabled(isValidEmail(email) && classe !== '');
+    if (!isValidEmail(email)) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+    if (classe === '') {
+      alert("Please enter your class.");
+      return;
+    }
     if (page !== "") {
     const elem = document.documentElement; // oppure un altro elemento specifico
     if (elem.requestFullscreen) {
