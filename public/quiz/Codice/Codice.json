@@ -1,0 +1,352 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "domanda": "Chi utilizzò onde di diversa altezza per rappresentare un testo in un'analogia storica?",
+      "risposte": [
+        "Pitagora",
+        "Euclide",
+        "Aristotele",
+        "Archimede"
+      ],
+      "risposta_corretta": "Pitagora",
+      "svg": ""
+    },
+    {
+      "id": 2,
+      "domanda": "Quale problema si incontra nella trasmissione di segnali a distanza?",
+      "risposte": [
+        "Pixelizzazione",
+        "Indicizzazione",
+        "Compressione",
+        "Rumore"
+      ],
+      "risposta_corretta": "Rumore",
+      "svg": ""
+    },
+    {
+      "id": 3,
+      "domanda": "Qual è l'unità minima di informazione nel codice binario?",
+      "risposte": [
+        "Simbolo",
+        "Pixel",
+        "Bit",
+        "Byte"
+      ],
+      "risposta_corretta": "Bit",
+      "svg": ""
+    },
+    {
+      "id": 4,
+      "domanda": "Quanti bit utilizza il codice ASCII standard?",
+      "risposte": [
+        "6",
+        "8",
+        "5",
+        "7"
+      ],
+      "risposta_corretta": "7",
+      "svg": ""
+    },
+    {
+      "id": 5,
+      "domanda": "Quale codifica è compatibile con ASCII ma supporta caratteri di altri alfabeti?",
+      "risposte": [
+        "Morse",
+        "BCD",
+        "UTF-8",
+        "Base64"
+      ],
+      "risposta_corretta": "UTF-8",
+      "svg": ""
+    },
+    {
+      "id": 6,
+      "domanda": "Chi ha introdotto il concetto di problema dell'arresto?",
+      "risposte": [
+        "John von Neumann",
+        "Ada Lovelace",
+        "Alan Turing",
+        "Claude Shannon"
+      ],
+      "risposta_corretta": "Alan Turing",
+      "svg": ""
+    },
+    {
+      "id": 7,
+      "domanda": "Cosa rappresenta un API?",
+      "risposte": [
+        "Application Programming Interface",
+        "Automated Program Input",
+        "Applied Program Index",
+        "Advanced Processing Instruction"
+      ],
+      "risposta_corretta": "Application Programming Interface",
+      "svg": ""
+    },
+    {
+      "id": 8,
+      "domanda": "Quale rapporto di frequenza rappresenta un'ottava musicale?",
+      "risposte": [
+        "2:1",
+        "3:2",
+        "4:3",
+        "5:4"
+      ],
+      "risposta_corretta": "2:1",
+      "svg": ""
+    },
+    {
+      "id": 9,
+      "domanda": "Quale strumento musicale sfrutta pioli su un cilindro per produrre melodie?",
+      "risposte": [
+        "Tamburo",
+        "Arpa",
+        "Pianoforte",
+        "Carillon"
+      ],
+      "risposta_corretta": "Carillon",
+      "svg": ""
+    },
+    {
+      "id": 10,
+      "domanda": "Quanti simboli utilizza il codice binario?",
+      "risposte": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "risposta_corretta": "2",
+      "svg": ""
+    },
+    {
+      "id": 11,
+      "domanda": "Cosa rappresenta un pixel in un'immagine digitale?",
+      "risposte": [
+        "Un byte",
+        "Un'unità di colore",
+        "Un carattere",
+        "Un bit"
+      ],
+      "risposta_corretta": "Un'unità di colore",
+      "svg": ""
+    },
+    {
+      "id": 12,
+      "domanda": "Cosa aumenta se aumentano i bit per pixel?",
+      "risposte": [
+        "Dimensione dello schermo",
+        "Risoluzione in pollici",
+        "Sfumature disponibili",
+        "Rumore"
+      ],
+      "risposta_corretta": "Sfumature disponibili",
+      "svg": ""
+    },
+    {
+      "id": 13,
+      "domanda": "Chi ha collegato rapporti numerici alla musica?",
+      "risposte": [
+        "Mozart",
+        "Newton",
+        "Pitágora",
+        "Einstein"
+      ],
+      "risposta_corretta": "Pitágora",
+      "svg": ""
+    },
+    {
+      "id": 14,
+      "domanda": "Qual è lo scopo del multiplexing?",
+      "risposte": [
+        "Trasmettere più messaggi su un canale",
+        "Aumentare la memoria RAM",
+        "Ridurre il consumo elettrico",
+        "Migliorare la grafica 3D"
+      ],
+      "risposta_corretta": "Trasmettere più messaggi su un canale",
+      "svg": ""
+    },
+    {
+      "id": 15,
+      "domanda": "Come si chiama la rappresentazione di testo in 0 e 1?",
+      "risposte": [
+        "Codice binario",
+        "Codice Morse",
+        "Codice QR",
+        "Codice Base64"
+      ],
+      "risposta_corretta": "Codice binario",
+      "svg": ""
+    },
+    {
+      "id": 16,
+      "domanda": "Qual è il vantaggio di avere due soli stati in un sistema di codifica?",
+      "risposte": [
+        "Maggiore robustezza",
+        "Maggiore complessità",
+        "Minore compatibilità",
+        "Minore robustezza"
+      ],
+      "risposta_corretta": "Maggiore robustezza",
+      "svg": ""
+    },
+    {
+      "id": 17,
+      "domanda": "Cosa significa attenuazione del segnale?",
+      "risposte": [
+        "Perdita di potenza durante la trasmissione",
+        "Ripetizione del segnale",
+        "Compressione del segnale",
+        "Aumento della velocità di trasmissione"
+      ],
+      "risposta_corretta": "Perdita di potenza durante la trasmissione",
+      "svg": ""
+    },
+    {
+      "id": 18,
+      "domanda": "Quale codice rappresenta 128 simboli con 7 bit?",
+      "risposte": [
+        "UTF-8",
+        "EBCDIC",
+        "Morse",
+        "ASCII"
+      ],
+      "risposta_corretta": "ASCII",
+      "svg": ""
+    },
+    {
+      "id": 19,
+      "domanda": "Chi sviluppò concetti fondamentali della programmazione insieme a Babbage?",
+      "risposte": [
+        "Grace Hopper",
+        "Marie Curie",
+        "Ada Lovelace",
+        "Katherine Johnson"
+      ],
+      "risposta_corretta": "Ada Lovelace",
+      "svg": ""
+    },
+    {
+      "id": 20,
+      "domanda": "Come si chiama l'errore dovuto a sovrapposizione di simboli inviati?",
+      "risposte": [
+        "Rumore bianco",
+        "Interferenza tra simboli",
+        "Jitter",
+        "Echi digitali"
+      ],
+      "risposta_corretta": "Interferenza tra simboli",
+      "svg": ""
+    },
+    {
+      "id": 21,
+      "domanda": "Cosa fa un'equalizzazione nella trasmissione digitale?",
+      "risposte": [
+        "Amplifica pixel",
+        "Riduce interferenze",
+        "Aumenta tensione",
+        "Aumenta volume"
+      ],
+      "risposta_corretta": "Riduce interferenze",
+      "svg": ""
+    },
+    {
+      "id": 22,
+      "domanda": "Quale fenomeno atmosferico può degradare un segnale satellitare?",
+      "risposte": [
+        "Nebbia",
+        "Gelo",
+        "Vento solare",
+        "Rain Fade"
+      ],
+      "risposta_corretta": "Rain Fade",
+      "svg": ""
+    },
+    {
+      "id": 23,
+      "domanda": "Qual è la frequenza base in un'ottava rispetto alla nota superiore?",
+      "risposte": [
+        "Tripla",
+        "Doppia",
+        "Uguale",
+        "Metà"
+      ],
+      "risposta_corretta": "Metà",
+      "svg": ""
+    },
+    {
+      "id": 24,
+      "domanda": "Quale invenzione ha reso possibile rappresentare più alfabeti in digitale?",
+      "risposte": [
+        "Modem",
+        "UTF-8",
+        "ASCII",
+        "Telegraph"
+      ],
+      "risposta_corretta": "UTF-8",
+      "svg": ""
+    },
+    {
+      "id": 25,
+      "domanda": "Cosa indica il termine 'bit'?",
+      "risposte": [
+        "Base token",
+        "Binary time",
+        "Binary digit",
+        "Base integer"
+      ],
+      "risposta_corretta": "Binary digit",
+      "svg": ""
+    },
+    {
+      "id": 26,
+      "domanda": "Come si chiama la distorsione da arrivo di segnali multipli in tempi diversi?",
+      "risposte": [
+        "Lag",
+        "Echo",
+        "Multipath",
+        "Overload"
+      ],
+      "risposta_corretta": "Multipath",
+      "svg": ""
+    },
+    {
+      "id": 27,
+      "domanda": "Qual è la relazione tra pixel e atomi?",
+      "risposte": [
+        "Entrambi sono elettroni",
+        "Entrambi sono infiniti",
+        "Entrambi sono onde",
+        "Entrambi sono unità discrete"
+      ],
+      "risposta_corretta": "Entrambi sono unità discrete",
+      "svg": ""
+    },
+    {
+      "id": 28,
+      "domanda": "Quale codice utilizza lunghezza variabile per i caratteri?",
+      "risposte": [
+        "ASCII",
+        "Morse",
+        "Binario puro",
+        "UTF-8"
+      ],
+      "risposta_corretta": "UTF-8",
+      "svg": ""
+    },
+    {
+      "id": 29,
+      "domanda": "Chi ha dimostrato i limiti intrinseci della computazione?",
+      "risposte": [
+        "Alan Turing",
+        "Norbert Wiener",
+        "Claude Shannon",
+        "John von Neumann"
+      ],
+      "risposta_corretta": "Alan Turing",
+      "svg": ""
+    }
+  ]
+}
