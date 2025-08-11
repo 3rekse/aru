@@ -1,0 +1,626 @@
+[
+  {
+    "id": 1,
+    "domanda": "Qual è la differenza principale tra un programma e un processo?",
+    "risposte": [
+      "Un programma è un insieme di istruzioni, un processo è l'esecuzione di quelle istruzioni",
+      "Un programma è in memoria, un processo è su disco",
+      "Un programma è scritto in binario, un processo in linguaggio di alto livello",
+      "Un programma è sempre attivo, un processo no"
+    ],
+    "risposta_corretta": "Un programma è un insieme di istruzioni, un processo è l'esecuzione di quelle istruzioni",
+    "svg": ""
+  },
+  {
+    "id": 2,
+    "domanda": "Cosa fa la pianificazione dei processi in un sistema operativo?",
+    "risposte": [
+      "Configura la scheda video",
+      "Definisce i permessi dei file",
+      "Decide quale processo eseguire e quando",
+      "Aumenta la velocità della CPU"
+    ],
+    "risposta_corretta": "Decide quale processo eseguire e quando",
+    "svg": ""
+  },
+  {
+    "id": 3,
+    "domanda": "Quale operazione logica restituisce 1 solo se entrambi gli operandi sono 1?",
+    "risposte": [
+      "AND",
+      "NOT",
+      "XOR",
+      "OR"
+    ],
+    "risposta_corretta": "AND",
+    "svg": ""
+  },
+  {
+    "id": 4,
+    "domanda": "Quale dei seguenti è un esempio di sistema operativo?",
+    "risposte": [
+      "Python",
+      "Linux",
+      "HTML",
+      "Git"
+    ],
+    "risposta_corretta": "Linux",
+    "svg": ""
+  },
+  {
+    "id": 5,
+    "domanda": "In un sistema digitale, cosa rappresenta un bit?",
+    "risposte": [
+      "Un programma in esecuzione",
+      "Un processo interrotto",
+      "Un gruppo di 8 byte",
+      "La più piccola unità di informazione, 0 o 1"
+    ],
+    "risposta_corretta": "La più piccola unità di informazione, 0 o 1",
+    "svg": ""
+  },
+  {
+    "id": 6,
+    "domanda": "Cosa significa RAM?",
+    "risposte": [
+      "Random Access Memory",
+      "Read All Memory",
+      "Rapid Application Mode",
+      "Read Access Module"
+    ],
+    "risposta_corretta": "Random Access Memory",
+    "svg": ""
+  },
+  {
+    "id": 7,
+    "domanda": "Qual è la caratteristica principale della memoria ROM?",
+    "risposte": [
+      "È volatile",
+      "Perde i dati quando si spegne il computer",
+      "Conserva i dati anche senza alimentazione",
+      "Si svuota ad ogni riavvio"
+    ],
+    "risposta_corretta": "Conserva i dati anche senza alimentazione",
+    "svg": ""
+  },
+  {
+    "id": 8,
+    "domanda": "Che cos'è la memoria virtuale?",
+    "risposte": [
+      "Una tecnologia per salvare file in rete",
+      "Uno spazio su disco usato come estensione della RAM",
+      "Una cache del browser",
+      "Un tipo di memoria ROM"
+    ],
+    "risposta_corretta": "Uno spazio su disco usato come estensione della RAM",
+    "svg": ""
+  },
+  {
+    "id": 9,
+    "domanda": "Quale di queste interfacce è testuale?",
+    "risposte": [
+      "CLI",
+      "Touchscreen",
+      "GUI",
+      "Interfaccia vocale"
+    ],
+    "risposta_corretta": "CLI",
+    "svg": ""
+  },
+  {
+    "id": 10,
+    "domanda": "Qual è la base del sistema di numerazione binario?",
+    "risposte": [
+      "2",
+      "8",
+      "10",
+      "16"
+    ],
+    "risposta_corretta": "2",
+    "svg": ""
+  },
+  {
+    "id": 11,
+    "domanda": "Quanti bit ci sono in un byte?",
+    "risposte": [
+      "4",
+      "8",
+      "16",
+      "32"
+    ],
+    "risposta_corretta": "8",
+    "svg": ""
+  },
+  {
+    "id": 12,
+    "domanda": "Quale operazione logica restituisce 1 se almeno uno degli operandi è 1?",
+    "risposte": [
+      "OR",
+      "AND",
+      "NOT",
+      "XOR"
+    ],
+    "risposta_corretta": "OR",
+    "svg": ""
+  },
+  {
+    "id": 13,
+    "domanda": "Quale linguaggio di programmazione è noto per la sua semplicità e leggibilità?",
+    "risposte": [
+      "C++",
+      "Python",
+      "Java",
+      "Assembly"
+    ],
+    "risposta_corretta": "Python",
+    "svg": ""
+  },
+  {
+    "id": 14,
+    "domanda": "Quale algoritmo serve per cercare un elemento in un elenco ordinato dividendo a metà l'intervallo di ricerca?",
+    "risposte": [
+      "Quick Sort",
+      "Ricerca binaria",
+      "Bubble Sort",
+      "DFS"
+    ],
+    "risposta_corretta": "Ricerca binaria",
+    "svg": ""
+  },
+  {
+    "id": 15,
+    "domanda": "Cos'è il paging nella gestione della memoria?",
+    "risposte": [
+      "Un metodo per suddividere la memoria in blocchi di dimensione fissa",
+      "Un sistema per velocizzare il disco",
+      "Un algoritmo di ordinamento",
+      "Un formato di file"
+    ],
+    "risposta_corretta": "Un metodo per suddividere la memoria in blocchi di dimensione fissa",
+    "svg": ""
+  },
+  {
+    "id": 16,
+    "domanda": "Qual è la funzione principale del file system?",
+    "risposte": [
+      "Gestire la posizione e l'organizzazione dei file",
+      "Eseguire programmi",
+      "Connettere il computer a internet",
+      "Fornire energia al processore"
+    ],
+    "risposta_corretta": "Gestire la posizione e l'organizzazione dei file",
+    "svg": ""
+  },
+  {
+    "id": 17,
+    "domanda": "Quale comando CLI di Linux elenca i file in una directory?",
+    "risposte": [
+      "ls",
+      "dir",
+      "list",
+      "show"
+    ],
+    "risposta_corretta": "ls",
+    "svg": ""
+  },
+  {
+    "id": 18,
+    "domanda": "Come si chiama l'unità della CPU che esegue operazioni matematiche e logiche?",
+    "risposte": [
+      "GPU",
+      "RAM",
+      "ALU",
+      "BIOS"
+    ],
+    "risposta_corretta": "ALU",
+    "svg": ""
+  },
+  {
+    "id": 19,
+    "domanda": "Quale tipo di memoria è volatile?",
+    "risposte": [
+      "ROM",
+      "RAM",
+      "SSD",
+      "DVD"
+    ],
+    "risposta_corretta": "RAM",
+    "svg": ""
+  },
+  {
+    "id": 20,
+    "domanda": "In un circuito digitale, cosa fa una porta NOT?",
+    "risposte": [
+      "Inverte il valore logico in ingresso",
+      "Restituisce 1 se entrambi sono 1",
+      "Somma due bit",
+      "Moltiplica due bit"
+    ],
+    "risposta_corretta": "Inverte il valore logico in ingresso",
+    "svg": ""
+  },
+  {
+    "id": 21,
+    "domanda": "Qual è la differenza tra CLI e GUI?",
+    "risposte": [
+      "La CLI è testuale, la GUI è grafica",
+      "La CLI è più veloce",
+      "La GUI è solo per server",
+      "La CLI non serve per amministrare sistemi"
+    ],
+    "risposta_corretta": "La CLI è testuale, la GUI è grafica",
+    "svg": ""
+  },
+  {
+    "id": 22,
+    "domanda": "Cosa fa un compilatore?",
+    "risposte": [
+      "Traduce codice sorgente in linguaggio macchina",
+      "Esegue codice direttamente",
+      "Gestisce la memoria",
+      "Crea immagini"
+    ],
+    "risposta_corretta": "Traduce codice sorgente in linguaggio macchina",
+    "svg": ""
+  },
+  {
+    "id": 23,
+    "domanda": "Quale di questi è un algoritmo di ordinamento veloce?",
+    "risposte": [
+      "Quick Sort",
+      "Bubble Sort",
+      "Selection Sort",
+      "Insertion Sort"
+    ],
+    "risposta_corretta": "Quick Sort",
+    "svg": ""
+  },
+  {
+    "id": 24,
+    "domanda": "Cosa rappresenta un numero in esadecimale?",
+    "risposte": [
+      "Base 8",
+      "Base 16",
+      "Base 10",
+      "Base 2"
+    ],
+    "risposta_corretta": "Base 16",
+    "svg": ""
+  },
+  {
+    "id": 25,
+    "domanda": "Cosa fa l'operazione logica XOR?",
+    "risposte": [
+      "Restituisce 1 solo se uno dei due valori è 1",
+      "Restituisce 1 solo se entrambi sono 1",
+      "Inverte i bit",
+      "Somma due valori"
+    ],
+    "risposta_corretta": "Restituisce 1 solo se uno dei due valori è 1",
+    "svg": ""
+  },
+  {
+    "id": 26,
+    "domanda": "Come si chiama il processo di suddividere un problema complesso in problemi più semplici?",
+    "risposte": [
+      "Compilazione",
+      "Ricorsione",
+      "Modularizzazione",
+      "Debug"
+    ],
+    "risposta_corretta": "Modularizzazione",
+    "svg": ""
+  },
+  {
+    "id": 27,
+    "domanda": "Quale componente coordina tutte le attività del computer?",
+    "risposte": [
+      "RAM",
+      "Hard Disk",
+      "CPU",
+      "GPU"
+    ],
+    "risposta_corretta": "CPU",
+    "svg": ""
+  },
+  {
+    "id": 28,
+    "domanda": "Che cos'è un byte?",
+    "risposte": [
+      "4 bit",
+      "8 bit",
+      "16 bit",
+      "1 bit"
+    ],
+    "risposta_corretta": "8 bit",
+    "svg": ""
+  },
+  {
+    "id": 29,
+    "domanda": "Cosa indica l'acronimo GUI?",
+    "risposte": [
+      "Graphical User Interface",
+      "General Unit Information",
+      "Global User Interaction",
+      "Graph Unit Input"
+    ],
+    "risposta_corretta": "Graphical User Interface",
+    "svg": ""
+  },
+  {
+    "id": 30,
+    "domanda": "Quale operazione binaria corrisponde alla moltiplicazione logica?",
+    "risposte": [
+      "AND",
+      "OR",
+      "NOT",
+      "XOR"
+    ],
+    "risposta_corretta": "AND",
+    "svg": ""
+  },
+  {
+    "id": 31,
+    "domanda": "Qual è la base del sistema ottale?",
+    "risposte": [
+      "8",
+      "2",
+      "10",
+      "16"
+    ],
+    "risposta_corretta": "8",
+    "svg": ""
+  },
+  {
+    "id": 32,
+    "domanda": "Come si chiama la memoria più veloce e vicina alla CPU?",
+    "risposte": [
+      "Cache",
+      "RAM",
+      "ROM",
+      "SSD"
+    ],
+    "risposta_corretta": "Cache",
+    "svg": ""
+  },
+  {
+    "id": 33,
+    "domanda": "Quale strumento Linux mostra i processi in tempo reale?",
+    "risposte": [
+      "top",
+      "list",
+      "viewproc",
+      "jobs"
+    ],
+    "risposta_corretta": "top",
+    "svg": ""
+  },
+  {
+    "id": 34,
+    "domanda": "Che cos'è un algoritmo?",
+    "risposte": [
+      "Un insieme di passi per risolvere un problema",
+      "Un linguaggio di programmazione",
+      "Un tipo di CPU",
+      "Un sistema operativo"
+    ],
+    "risposta_corretta": "Un insieme di passi per risolvere un problema",
+    "svg": ""
+  },
+  {
+    "id": 35,
+    "domanda": "Cosa fa una porta logica AND?",
+    "risposte": [
+      "Restituisce 1 solo se entrambi sono 1",
+      "Inverte il valore",
+      "Restituisce 1 se almeno uno è 1",
+      "Somma due valori"
+    ],
+    "risposta_corretta": "Restituisce 1 solo se entrambi sono 1",
+    "svg": ""
+  },
+  {
+    "id": 36,
+    "domanda": "Quale comando in Linux mostra la directory corrente?",
+    "risposte": [
+      "pwd",
+      "dir",
+      "whereami",
+      "ls"
+    ],
+    "risposta_corretta": "pwd",
+    "svg": ""
+  },
+  {
+    "id": 37,
+    "domanda": "Che cos'è il bus di sistema?",
+    "risposte": [
+      "Un canale di comunicazione tra componenti del computer",
+      "Un tipo di software",
+      "Un file system",
+      "Un processo"
+    ],
+    "risposta_corretta": "Un canale di comunicazione tra componenti del computer",
+    "svg": ""
+  },
+  {
+    "id": 38,
+    "domanda": "Quale tecnologia permette di usare la memoria su disco come RAM?",
+    "risposte": [
+      "Memoria virtuale",
+      "Memoria flash",
+      "ROM",
+      "SSD"
+    ],
+    "risposta_corretta": "Memoria virtuale",
+    "svg": ""
+  },
+  {
+    "id": 39,
+    "domanda": "Come si rappresenta il numero decimale 5 in binario?",
+    "risposte": [
+      "101",
+      "110",
+      "111",
+      "100"
+    ],
+    "risposta_corretta": "101",
+    "svg": ""
+  },
+  {
+    "id": 40,
+    "domanda": "Che cos'è una CPU multicore?",
+    "risposte": [
+      "Una CPU con più unità di elaborazione",
+      "Una CPU con più schede video",
+      "Una CPU con più RAM",
+      "Una CPU con più hard disk"
+    ],
+    "risposta_corretta": "Una CPU con più unità di elaborazione",
+    "svg": ""
+  },
+  {
+    "id": 41,
+    "domanda": "Che cosa fa il comando 'cd' in CLI?",
+    "risposte": [
+      "Cambia directory",
+      "Copia file",
+      "Cancella dati",
+      "Compila codice"
+    ],
+    "risposta_corretta": "Cambia directory",
+    "svg": ""
+  },
+  {
+    "id": 42,
+    "domanda": "Che cos'è l'ALU?",
+    "risposte": [
+      "Arithmetic Logic Unit",
+      "Advanced Learning Unit",
+      "Automatic Link Utility",
+      "Address Lookup Unit"
+    ],
+    "risposta_corretta": "Arithmetic Logic Unit",
+    "svg": ""
+  },
+  {
+    "id": 43,
+    "domanda": "Quale tipo di dato rappresenta testo?",
+    "risposte": [
+      "Stringa",
+      "Intero",
+      "Booleano",
+      "Float"
+    ],
+    "risposta_corretta": "Stringa",
+    "svg": ""
+  },
+  {
+    "id": 44,
+    "domanda": "Qual è lo scopo del comando 'mkdir'?",
+    "risposte": [
+      "Creare una nuova directory",
+      "Copiare un file",
+      "Mostrare i permessi",
+      "Chiudere un processo"
+    ],
+    "risposta_corretta": "Creare una nuova directory",
+    "svg": ""
+  },
+  {
+    "id": 45,
+    "domanda": "Come si rappresenta il numero 15 in esadecimale?",
+    "risposte": [
+      "F",
+      "E",
+      "D",
+      "C"
+    ],
+    "risposta_corretta": "F",
+    "svg": ""
+  },
+  {
+    "id": 46,
+    "domanda": "Che cos'è il kernel di un sistema operativo?",
+    "risposte": [
+      "La parte centrale che gestisce risorse e comunicazioni",
+      "Il file manager",
+      "Un driver di rete",
+      "Un compilatore"
+    ],
+    "risposta_corretta": "La parte centrale che gestisce risorse e comunicazioni",
+    "svg": ""
+  },
+  {
+    "id": 47,
+    "domanda": "Che cosa fa il comando 'rm'?",
+    "risposte": [
+      "Rimuove file o directory",
+      "Rinomina un file",
+      "Esegue un programma",
+      "Riavvia il sistema"
+    ],
+    "risposta_corretta": "Rimuove file o directory",
+    "svg": ""
+  },
+  {
+    "id": 48,
+    "domanda": "Qual è la base del sistema decimale?",
+    "risposte": [
+      "10",
+      "2",
+      "8",
+      "16"
+    ],
+    "risposta_corretta": "10",
+    "svg": ""
+  },
+  {
+    "id": 49,
+    "domanda": "Quale porta logica restituisce sempre il valore opposto all'ingresso?",
+    "risposte": [
+      "NOT",
+      "OR",
+      "AND",
+      "XOR"
+    ],
+    "risposta_corretta": "NOT",
+    "svg": ""
+  },
+  {
+    "id": 50,
+    "domanda": "Come si chiama la memoria che conserva i dati temporaneamente durante l'esecuzione di un programma?",
+    "risposte": [
+      "RAM",
+      "ROM",
+      "SSD",
+      "Cache"
+    ],
+    "risposta_corretta": "RAM",
+    "svg": ""
+  },
+  {
+    "id": 51,
+    "domanda": "Cosa fa il comando 'cp'?",
+    "risposte": [
+      "Copia file o directory",
+      "Cancella file",
+      "Compila programmi",
+      "Chiude processi"
+    ],
+    "risposta_corretta": "Copia file o directory",
+    "svg": ""
+  },
+  {
+    "id": 52,
+    "domanda": "Qual è il significato di 'bit'?",
+    "risposte": [
+      "Binary digit",
+      "Basic integer",
+      "Binary integration",
+      "Base input"
+    ],
+    "risposta_corretta": "Binary digit",
+    "svg": ""
+  }
+]
