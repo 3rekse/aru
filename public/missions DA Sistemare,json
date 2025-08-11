@@ -1,0 +1,73 @@
+,
+    {
+        "posizione": 7, "livello": "R1", "missione": "RetiISO", "descrizione": "Reti ISO OSI"
+    },
+    {
+        "posizione": 8, "livello": "R1", "missione": "RetiISO2", "descrizione": "Reti ISO OSI 2"
+    },
+    {
+        "posizione": 9, "livello": "R1", "missione": "RetiISO3", "descrizione": "Reti ISO OSI 3"
+    },
+    {
+        "posizione": 10, "livello": "R1", "missione": "RetiISO4", "descrizione": "Reti ISO OSI 4"
+    },
+    {
+        "posizione": 11, "livello": "R2", "missione": "Rete2PC", "descrizione": "Rete semplice 2 PC"
+    },
+    {
+        "posizione": 12, "livello": "R3", "missione": "RetiLApp", "descrizione": "Reti L7 Applicazioni"
+    },
+    {
+        "posizione": 13, "livello": "R4", "missione": "DNS", "descrizione": "DNS"
+    },
+    {
+        "posizione": 14, "livello": "R5", "missione": "Email", "descrizione": "Posta Elettronica"
+    },
+    {
+        "posizione": 15, "livello": "R6", "missione": "RetiA2", "descrizione": "Reti A2"
+    },
+    {
+        "posizione": 16, "livello": "R7", "missione": "IPV6", "descrizione": "Reti: Protocollo IPV6"
+    },
+    {
+        "posizione": 17, "livello": "R7", "missione": "ReteNPC", "descrizione": "Rete con più dispositivi "
+    },
+    {
+        "posizione": 18, "livello": "R8", "missione": "ReteVLAN", "descrizione": "Rete LAN Virtuali"
+    },
+    {
+        "posizione": 19, "livello": "R9", "missione": "RetiSTP", "descrizione": "Spanning Tree Protocol (STP) e Varianti"
+    },
+    {
+        "posizione": 20, "livello": "Base", "missione": "RetiA3", "descrizione": "Reti A3"
+    },
+    {
+        "posizione": 21, "livello": "Base", "missione": "Sistemi1", "descrizione": "Sistemi Operativi 1"
+    },
+    {
+        "posizione": 22, "livello": "Base", "missione": "Sistemi2", "descrizione": "Sistemi Operativi 2"
+    },
+    {
+        "posizione": 23, "livello": "Base", "missione": "Sistemi3", "descrizione": "Sistemi Operativi 3"
+    },
+    {
+        "posizione": 24, "livello": "Base", "missione": "RetiC1", "descrizione": "Reti C1"
+    },
+    {
+        "posizione": 25, "livello": "Base", "missione": "RetiC2", "descrizione": "Reti C2"
+    },
+    {
+        "posizione": 26, "livello": "Base", "missione": "RetiC3", "descrizione": "Reti C3"
+    },
+    {
+        "posizione": 27, "livello": "Base", "missione": "RetiD1", "descrizione": "Reti D1"
+    },
+    {
+        "posizione": 28, "livello": "Base", "missione": "RetiD2", "descrizione": "Reti D2"
+    },
+    {
+        "posizione": 29, "livello": "Base", "missione": "RetiD3", "descrizione": "Reti D3"
+    },
+    {
+        "posizione": 30, "livello": "Base", "missione": "RetiD4", "descrizione": "Reti D4"
+    }
