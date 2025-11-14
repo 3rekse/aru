@@ -86,6 +86,8 @@ Queste frasi, anche se pronunciate con intento "affettuoso," generano **vergogna
 Nelle scuole, il *bodyshaming* è spesso una forma di bullismo.
 * *Esempio concreto:* Una ragazza con un seno più sviluppato della media per la sua età viene soprannominata con appellativi sessualizzanti e derisa in corridoio. Un ragazzo sovrappeso viene chiamato "palla" o "ciccio" dai compagni, causando il suo isolamento e il rifiuto di partecipare alle attività sportive per paura del giudizio.
 
+---
+
 ## 💔 Autocritica e Interiorizzazione
 
 ---
