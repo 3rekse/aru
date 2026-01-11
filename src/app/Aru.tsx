@@ -105,7 +105,7 @@ const Aru:React.FC<AruProps> = ({ mission, missionD, page }) =>{
     doc.setFont('times', 'normal');   
     doc.text('Omarillo Binary Arithmetic Certificate Levels of Completion', 15, 15);
     const pageWidth = doc.internal.pageSize.getWidth();
-    const text = `Name: ${name} ${last} \tClass: ${classe}`;
+    const text = `Name: ${email} \tClass: ${classe}`;
     const textWidth = doc.getTextWidth(text);
     const x = (pageWidth - textWidth) / 2;
     doc.text(text, x, 25);
@@ -123,7 +123,7 @@ const Aru:React.FC<AruProps> = ({ mission, missionD, page }) =>{
     });
          // Carica l'immagine SVG
   
-    doc.save(`BinaryArithmeticCertificate_${name}_${last}_${classe}.pdf`);
+    doc.save(`BinaryArithmeticCertificate_${(email.split('@')[0] || '').split('.')[0] || ''}_${classe}.pdf`);
 
     
   };
