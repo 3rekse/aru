@@ -1,4 +1,4 @@
-#   Guida all'Hardware del Computer
+# Guida all'Hardware del Computer
 
 Questa guida offre una panoramica dei principali componenti hardware di un computer, spiegandone le funzioni e le caratteristiche essenziali.
 
