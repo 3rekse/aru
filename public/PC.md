@@ -133,7 +133,3 @@ Per evitare danni dovuti alle alte temperature, il calore deve essere rimosso da
 * **Dissipatore:** Un componente (spesso in metallo) che assorbe e disperde il calore generato dalla CPU o dalla GPU.
 * **Ventole:** Creano un flusso d'aria nel case per espellere l'aria calda.
 * **Water-cooling:** Un sistema avanzato che utilizza un liquido refrigerante per trasportare il calore lontano dai componenti in modo più efficiente rispetto all'aria.
-
----
-
-Spero che questo riepilogo ti sia utile per studiare o approfondire i concetti hardware. Vorresti che approfondissi uno di questi componenti in particolare, magari spiegando come scegliere quello giusto per un PC da gaming o da ufficio?
