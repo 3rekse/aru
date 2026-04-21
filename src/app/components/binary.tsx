@@ -63,24 +63,24 @@ const BinaryArithmetic: React.FC<BinaryProps> = ({onSet, num1, num2, bit, prova}
     }
 
     const handleAddition = () => {
-         (add1===num1 && add2===num2 || add1===num2 && add2===num1) &&
+         (add1===num1 && add2===num2 || add1===num2 && add2===num1) && sum !== "" &&
         setResults(piu(add1, add2) === sum ? "✅ Correct/"+ (setPoint(1)=== undefined) : "❌ Wrong");
         
     };
 
     const handleSubtraction = () => {
-        (min===num1 && sub===num2 || min===num2 && sub===num1) &&
+        (min===num1 && sub===num2 || min===num2 && sub===num1) && dif !== "" &&
         setResultm(meno(min, sub)===dif?"✅ Correct/"+(setPoint(2)=== undefined) : "❌ Wrong");     
         
     };
     const handleMoltiply = () => {
-        (mul1===num1 && mul2===num2 || mul1===num2 && mul2===num1) &&
+        (mul1===num1 && mul2===num2 || mul1===num2 && mul2===num1) && prod !== "" &&
         setResultp(per(mul1, mul2)===prod?"✅ Correct/"+(setPoint(3)=== undefined) : "❌ Wrong");
       
     };
     
     const handleDivision = () => {
-        (div1===num1 && div2===num2 || div1===num2 && div2===num1) &&
+        (div1===num1 && div2===num2 || div1===num2 && div2===num1) && quot !== "" && ratio !== "" &&
         setResultd(diviso(div1, div2)===quot+"R"+ratio?reSet() : "❌ Wrong");
         
     };
