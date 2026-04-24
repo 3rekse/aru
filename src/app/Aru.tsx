@@ -45,7 +45,7 @@ const Aru:React.FC<AruProps> = ({ mission, missionD, page }) =>{
   //const missionD =(link !== " " ) ?  (link + missionDescriptions[mission] || " ")+"<\a>": missionDescriptions[mission] || " ";
    const handleBinarySet = () => {
     setIsBinarySet(true);
-    setNum1(randomBinary((bit>5?bit/2:bit)+1));
+    setNum1(randomBinary((bit>5?Math.floor(bit/2):bit)+1));
     setNum2(randomBinary(bit + 1));
     setBit(bit + 1);
     
