@@ -37,8 +37,13 @@ Quando i professori entrarono in aula, l'atmosfera cambiò all'istante.
 Mentre i colleghi addentavano la frutta rigenerante e sgranocchiavano i biscotti, stupiti da quell'accostamento insolito, Gino chiese un attimo di attenzione.
 
 > "Cari colleghi, so che questo piatto vi sembra insolito nella sua estrema semplicità, ma in realtà racchiude una delle più grandi storie del nostro Paese e della nostra terra: la nascita dell'**Autogrill** e il rito del viaggio degli italiani.
-> Nell'estate del 1947, il celebre imprenditore novarese **Mario Pavesi** — che nella sua storica fabbrica diede lavoro e futuro a moltissimi nostri ex omaristi — viaggiava spesso per affari su strade calde e polverose. Il suo rito preferito durante quei lunghi spostamenti? Fermarsi ai chioschi ambulanti lungo la strada per gustare una fetta d'anguria fresca, proprio come state facendo voi ora. Per lui quella sosta all'ombra era il vero ristoro del viaggiatore.
-> Guardando la gente accalcata attorno a quei chioschi di frutta, Pavesi ebbe l'illuminazione della vita: capì che l'italiano che si spostava aveva bisogno di un luogo accogliente dove fermarsi. Aprì così il primo spaccio di biscotti sulla Milano-Torino, che pochi anni dopo, insieme all'architetto Bianchetti, trasformò l'idea nei primi Autogrill a ponte, veri e propri templi del nostro miracolo economico.
+> Nell'estate del 1947, il celebre imprenditore novarese **Mario Pavesi** 
+> — che nella sua storica fabbrica diede lavoro e futuro a moltissimi nostri ex omaristi 
+> — viaggiava spesso per affari su strade calde e polverose. Il suo rito preferito durante quei lunghi spostamenti? 
+> Fermarsi ai chioschi ambulanti lungo la strada per gustare una fetta d'anguria fresca, proprio come state facendo voi ora. Per lui quella sosta all'ombra era il vero ristoro del viaggiatore.
+> Guardando la gente accalcata attorno a quei chioschi di frutta, Pavesi ebbe l'illuminazione della vita: capì che l'italiano che si spostava aveva bisogno di un luogo accogliente dove fermarsi. 
+> Aprì così il primo spaccio di biscotti sulla Milano-Torino a Novara, che pochi anni dopo, insieme all'architetto Bianchetti, trasformò l'idea nei primi Autogrill a ponte, veri e propri templi del nostro miracolo economico.
+> 
 > Questo piatto mette d'accordo tutti: è senza lattosio, è leggero, ma soprattutto è una macchina del tempo. Ci ricorda da dove veniamo e che siamo, da sempre, un popolo di viaggiatori."
 
 Gino sollevò il suo bicchiere per il brindisi finale, guardando i colleghi dell'Omar che finalmente, arrivati al traguardo di un lungo anno scolastico, sorridevano rilassati:
