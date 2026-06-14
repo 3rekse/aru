@@ -43,7 +43,6 @@ Mentre i colleghi addentavano la frutta rigenerante e sgranocchiavano i biscotti
 > Fermarsi ai chioschi ambulanti lungo la strada per gustare una fetta d'anguria fresca, proprio come state facendo voi ora. Per lui quella sosta all'ombra era il vero ristoro del viaggiatore.
 > Guardando la gente accalcata attorno a quei chioschi di frutta, Pavesi ebbe l'illuminazione della vita: capì che l'italiano che si spostava aveva bisogno di un luogo accogliente dove fermarsi. 
 > Aprì così il primo spaccio di biscotti sulla Milano-Torino a Novara, che pochi anni dopo, insieme all'architetto Bianchetti, trasformò l'idea nei primi Autogrill a ponte, veri e propri templi del nostro miracolo economico.
-> 
 > Questo piatto mette d'accordo tutti: è senza lattosio, è leggero, ma soprattutto è una macchina del tempo. Ci ricorda da dove veniamo e che siamo, da sempre, un popolo di viaggiatori."
 
 Gino sollevò il suo bicchiere per il brindisi finale, guardando i colleghi dell'Omar che finalmente, arrivati al traguardo di un lungo anno scolastico, sorridevano rilassati:
@@ -51,3 +50,5 @@ Gino sollevò il suo bicchiere per il brindisi finale, guardando i colleghi dell
 > "Tra pochi giorni questa scuola chiuderà e ognuno di noi si metterà in viaggio: chi tornerà dalle famiglie, chi andrà al mare, chi in montagna. Il mio augurio per tutti voi è che possiate trovare, in queste vacanze estive, la vostra 'sosta perfetta'. Che sia in un Autogrill a ponte guardando le auto sfrecciare, o all'ombra di un chiosco di angurie lungo una strada statale. Buone vacanze e buon viaggio a tutti!"
 
 La stanchezza dell'anno scolastico all'istituto Omar sembrava già svanita, sostituita dal sapore dolce delle vacanze che stavano per cominciare.
+
+ [Video versione](gino.mp4)
