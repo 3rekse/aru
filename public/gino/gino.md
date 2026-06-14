@@ -50,5 +50,3 @@ Gino sollevò il suo bicchiere per il brindisi finale, guardando i colleghi dell
 > "Tra pochi giorni questa scuola chiuderà e ognuno di noi si metterà in viaggio: chi tornerà dalle famiglie, chi andrà al mare, chi in montagna. Il mio augurio per tutti voi è che possiate trovare, in queste vacanze estive, la vostra 'sosta perfetta'. Che sia in un Autogrill a ponte guardando le auto sfrecciare, o all'ombra di un chiosco di angurie lungo una strada statale. Buone vacanze e buon viaggio a tutti!"
 
 La stanchezza dell'anno scolastico all'istituto Omar sembrava già svanita, sostituita dal sapore dolce delle vacanze che stavano per cominciare.
-
- [Video versione](gino.mp4)
